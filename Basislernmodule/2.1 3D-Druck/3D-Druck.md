@@ -8,8 +8,15 @@ Mit 3D-Druck bezeichnet man viele unterschiedliche Verfahren, bei denen ein Ger�
 
 Es gibt kleine, relativ günstige 3D-Drucker für zu Hause oder für Fab Labs, die meistens aus Kunststoff drucken, aber auch größere Drucker bis hin zu großen Anlagen, die ganze Gebäude (zumindest die Grundstruktur aus Wänden) aus Beton drucken können. Manche 3D-Drucker können auch Metall oder Lebensmittel wie Schokolade drucken – die Bandbreite an 3D-Druckverfahren ist sehr groß.
 
-       
-(Bild verschiedene 3D-Drucker)
+
+<p align="center">
+       <img height="400" src="https://user-images.githubusercontent.com/123781559/227555108-ebd86be8-9850-4ab8-94d8-15be34ee5be7.png">
+       <img height="400" src="https://user-images.githubusercontent.com/123781559/227562019-978eda65-88b7-49d7-b66e-72f8941ae146.png">
+</p>
+
+<p align="center"><i> (Bild verschiedene 3D-Drucker) </i></p>
+
+Quelle: [[1]](#s1)
 
 Am weitesten verbreitet und am beliebtesten sind 3D-Drucker, die nach dem sogenannten FDM-Verfahren arbeiten. In diesem Basislernmodul wird es daher zunächst nur um FDM-Drucker gehen.
 
@@ -276,3 +283,29 @@ Wenn die erste Schicht gut gelungen ist, kann man den 3D-Drucker problemlos unbe
 Sobald der 3D-Druck fertig ist, fährt der Extruder in eine Position, wo er nicht stört, sodass man das Objekt entnehmen kann. Viele 3D-Drucker haben eine entnehmbare Platte (z.B. aus Federstahlblech). Dies erleichtert die Entnahme der Objekte, da man erst die Platte als ganzes entnehmen, danach leicht biegen und die Objekte einfach von der Platte lösen kann.
 
 Abschließend muss man ggf. vorhandenes Stützmaterial entfernen, zudem kann man das Objekt auf verschiedene Arten nachbearbeiten, z.B. schleifen oder mit Epoxidharz behandeln, um die Oberflächenoptik zu verschönern.
+
+
+# Bildnachweise
+
+<a name="s1"></a>
+1 Text Bildnachweis 
+
+2
+
+(Platzhalter)
+
+(...)
+
+(...)
+
+(...)
+
+(...)
+
+(...)
+
+(...)
+
+(...)
+
+(Platzhalter)
