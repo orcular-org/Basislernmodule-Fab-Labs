@@ -44,6 +44,18 @@ Die zweithäufigste Art von 3D-Druckern in Fab Labs neben dem FDM-Verfahren sind
 FDM steht für "Fused Deposition Modeling". Das bedeutet, ein Stoff (meistens ein Kunststoff/Plastik) wird von dem 3D-Drucker erhitzt, dabei geschmolzen und anschließend Schichtweise aufgetragen. Die Schichten kühlen kurz darauf ab, womit sie sich zu einem festen, zusammengefügten Objekt vereinigen. Mit FDM gedruckte Objekte lassen sich gut an den typischen Schichten erkennen, die meist nur ein Bruchteil eines Millimeters dick sind.
   
 
+
+<p align="center">
+       <img height="400" src="https://user-images.githubusercontent.com/123781559/228348704-86426b52-4b1d-4f8c-a432-14c66ffa2119.png">
+       <img height="400" src="https://user-images.githubusercontent.com/123781559/228352600-c652c874-372b-4f5d-9970-316e3557aa9b.png">
+</p>
+
+<p align="center">
+       <a href="#s5">[5]</a> <i> 3D-Druck - </i>
+       <a href="#s6">[6]</a> <i> 3D-gedrucktes Objekt mit sichtbaren Schichten </i>
+</p>
+
+
 (Bild 3D-gedruckte Objekte, sichtbare Schichten)
 
 Daher zählt man 3D-Druck auch zu den sogenannten "additiven Verfahren", da Objekte entstehen, indem neues Material hinzugefügt ("addiert") wird. Im Gegensatz dazu gibt es auch "subtraktive Verfahren", d.h. Fertigungsverfahren, wo ein bestehendes Material getrennt wird bzw. etwas "weggenommen" wird, z.B. durch Lasercutting oder CNC-Fräsen. (verlinken)
@@ -308,7 +320,13 @@ Abschließend muss man ggf. vorhandenes Stützmaterial entfernen, zudem kann man
 **[3]** BigFDM 3D-Drucker [(Repository)](https://github.com/fab-machines/BigFDM) - **Image Source:** https://openlab-hamburg.de/
 
 <a name="s4"></a>
-**[4]** Eco-sustainable 3D printed house - **Image license:** [Attribution 2.5 Generic (CC BY 2.5)](https://creativecommons.org/licenses/by/2.5/deed.en) - **Source:** https://commons.wikimedia.org/wiki/File:Eco-sustainable_3D_printed_house_%22Tecla%22.jpg
+**[4]** Eco-sustainable 3D printed house - **Image license:** [CC BY 2.5](https://creativecommons.org/licenses/by/2.5/deed.en) - **Source:** https://commons.wikimedia.org/wiki/File:Eco-sustainable_3D_printed_house_%22Tecla%22.jpg
+
+<a name="s5"></a>
+**[5]** A photo of the printing head of a FELIX 3D Printer in action - **Image license:** [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/deed.en) - **Source:** https://commons.wikimedia.org/wiki/File:Felix_3D_Printer_-_Printing_Head_Cropped.JPG
+
+<a name="s6"></a>
+**[6]** 3DBenchy - **Image license:** [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/) - **Source:** https://flic.kr/p/rVrSsc
 
 
 (Platzhalter)
