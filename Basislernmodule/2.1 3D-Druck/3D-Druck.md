@@ -103,10 +103,13 @@ Gewöhnliche 3D-Drucker können nur mit einem Filament zur Zeit drucken, d.h. we
 
 Zunächst sollte man sich mit dem grundlegenden Aufbau eines FDM-3D-Druckers vertraut machen. Hier wird beispielhaft ein typischer FDM-3D-Drucker beschrieben. Die meisten FDM-Drucker sind auf diese oder ähnliche Weise aufgebaut. Je nach Hersteller und Modell kann dieser Aufbau auch abweichen, aber die Grundprinzipien bleiben die gleichen.
 
- 
+<p align="center">
+       <img height="500" src="https://user-images.githubusercontent.com/123781559/228371509-65427cdb-5a2f-43db-bab9-18c349bc308e.png">
+</p>
 
-(Beschriftetes Bild eines 3D-Druckers)
-(Skizze/Entwurf  überarbeiten und ergänzen)
+<p align="center">
+       <a href="#s5">[x]</a> <i> Die wichtigsten Komponenten eines 3D-Druckers - </i>
+</p>
 
 Die wichtigste Komponente ist der Extruder, den man sich ähnlich wie einen "Druckkopf" bei Tintenstrahldruckern vorstellen kann.
 
@@ -124,21 +127,33 @@ Nach dem Kühlteil des Extruders bewegt sich das Filament weiter nach unten durc
 Damit der Extruder Objekte im dreidimensionalen Raum erschaffen kann, muss er sich in alle Richtungen bewegen können. Dafür gibt es bei 3D-Druckern die drei motorgesteuerten Achsen: X-, Y- und Z-Achse.
 
 Die X- und Y-Achse beziehen in der Regel auf Bewegungen in der horizontalen bzw. waagerechten Grundfläche:
-X-Achse: "links und rechts"
-Y-Achse: "vorne und hinten"
+- X-Achse: "links und rechts"
+- Y-Achse: "vorne und hinten"
 
-  
- 
+<p align="center">
+       <img height="400" src="https://user-images.githubusercontent.com/123781559/228372124-5b5fd75e-29c4-4cda-bc98-a285a9d389b2.png">
+       <img height="400" src="https://user-images.githubusercontent.com/123781559/228372187-d8ed1539-0d39-43ea-b18e-60b2039fb0be.png">
+</p>
 
-(Bild eines 3D-Druckers mit beschrifteter X- und Y-Achse + XYZ-Koordinatensystem)
-(Skizze/Entwurf  überarbeiten und ergänzen)
+<p align="center">
+       <a href="#s5">[x]</a> <i> X-, Y- und Z-Achse eines 3D-Druckers - </i>
+       <a href="#s6">[x]</a> <i> Draufsicht eines 3D-Druckers mit X- und Y-Achse </i>
+</p>
+
+<br>
 
 Die Z-Achse hingegen bezieht sich auf die vertikale (senkrechte) Bewegung:
-Z-Achse: "oben und unten"
+- Z-Achse: "oben und unten"
 
- 
-(Bild eines 3D-Druckers mit beschrifteter Z-Achse)
-(Skizze/Entwurf  überarbeiten und ergänzen)
+<br>
+
+<p align="center">
+       <img height="400" src="https://user-images.githubusercontent.com/123781559/228372746-eb115280-5621-4a70-bccf-280dc9de1353.png">
+</p>
+
+<p align="center">
+       <a href="#s5">[x]</a> <i> Frontansicht eines 3D-Druckers mit X- und Z-Achse - </i>
+</p>
 
 Der Extruder sitzt oft auf einer Stange, auf der er sich nach links und rechts (also in X-Richtung) bewegen kann. Angesteuert wird dies über einen Motor und einen Riemen.
 
