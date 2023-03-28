@@ -1,7 +1,14 @@
-Entwurf - Stand 15.02.2023
+Entwurf - Stand 28.03.2023
 Oskar Lidtke
  
 # 3D-Druck
+## Inhalt
+
+1. [Einführung](#einführung)
+2. [Grundlagen](#grundlagen)
+   - [Filament](#filament)
+3. ...
+
 ### Einführung
 
 Mit 3D-Druck bezeichnet man viele unterschiedliche Verfahren, bei denen ein Gerät (3D-Drucker) materielle, dreidimensionale Objekte erschafft. Dabei werden die Objekte meistens zunächst in einer Software als 3D-Modell entworfen und anschließend an den 3D-Drucker gesendet.
@@ -62,7 +69,7 @@ Hier eine Kurzübersicht der gängigsten Materialien für FDM-3D-Drucker und die
 - Nylon: Besonders hohe mechanische und thermische Beständigkeit; schwierig zu drucken, eher für Fortgeschrittene; teurer als andere Filamentsorten; anfällig für Feuchte
 - TPU: Flexibles, „gummiartiges“ Material; lässt sich nach dem Druck leicht verformen; ideal für kleine Reifen, Stempel u.ä.; relativ schwierig zu drucken; teurer als andere Filamentsorten
 
-Da jedes Material eine andere Schmelztemperatur hat, ist es wichtig, diese korrekt einzustellen. Der 3D-Drucker erhitzt im sogenannten Extruder das Filament auf eine Temperatur, mit der es sich gut verflüssigen und drucken lässt, während das Heizbett auf eine Temperatur eingestellt wird, die sicherstellt, dass das Filament gut darauf haftet. So verwendet man z.B. für PLA üblicherweise eine Extrudertemperatur von 200-230 °C und eine Heizbetttemperatur von 60 °C. Diese Temperaturempfehlungen können aber je nach Hersteller auch abweichen. Am besten prüft man die Angaben auf der Filamentrolle bzw. in beigelegten Datenblättern und gleicht sie mit den Einstellungen in der Slicer-Software ab.
+Da jedes Material eine andere Schmelztemperatur hat, ist es wichtig, diese korrekt einzustellen. Der 3D-Drucker erhitzt im sogenannten Extruder das Filament auf eine Temperatur, mit der es sich gut verflüssigen und drucken lässt, während das Heizbett auf eine Temperatur eingestellt wird, die sicherstellt, dass das Filament gut darauf haftet. So verwendet man z.B. für PLA üblicherweise eine Extrudertemperatur von 200-230 °C und eine Heizbetttemperatur von 60 °C. Diese Temperaturempfehlungen können aber je nach Hersteller auch abweichen. Am besten prüft man die Angaben auf der Filamentrolle bzw. in beigelegten Datenblättern und gleicht sie mit den Einstellungen in der Slicer-Software ab (mehr [zum Thema Slicing später](#slicer-software)).
 
 Filamente werden meistens in den Durchmesser-Varianten 1,75 mm und 2,85 mm verkauft, wobei 1,75 mm die deutlich verbreitete Variante ist. Für größere 3D-Drucker bzw. für solche, wo die Düse entsprechend getauscht wurde, wird das dickere 2,85-mm-Filament verwendet.
 
@@ -148,7 +155,7 @@ Mit den Themen 3D-CAD-Modellierung (CAD = Computer Aided Design), 3D-Scanning un
 
 Für die meisten 3D-Drucker benötigt man Dateien im STL-Format (oder manchmal auch OBJ-Format) - also mit der Dateiendung „.stl“ oder „.obj“. STL ist aber das üblichere Dateiformat. Fast jede CAD-Software ist in der Lage, 3D-Modelle im STL-Format zu exportieren. Bei heruntergeladenen Dateien aus dem Internet sollte man zunächst prüfen, ob es im STL-Format vorliegt.
 
-Bevor man die STL-Datei drucken kann, muss man sie noch in einer sogenannten Slicer-Software bearbeiten.
+Bevor man die STL-Datei drucken kann, muss man sie noch in einer sogenannten Slicer-Software bearbeiten. Kurz gesagt, erzeugt die Slicer-Software auf Basis des 3D-Modells viele kleine, übereinanderliegende Schichten oder Scheiben und berechnet die Steuerbefehle für den 3D-Drucker, der das Modell dann Schicht für Schicht aufeinanderdruckt (eine genauere [Beschreibung des Slicings weiter unten](#slicing-prüfung-und-export)).
 
 ### Slicer-Software
 
@@ -183,8 +190,7 @@ Slicing (von englisch „slice“ = Scheibe) ist ein Ablauf in der Software, der
 Die Slicer-Software tut an der Stelle aber noch viel mehr als nur das eigentliche Slicing. Sie generiert auch den genauen Verlaufsweg des Extruders, also auch den Weg, den der Extruder in jeder Schicht in x- und y-Richtung und anschließend auch in Höhenrichtung (z) nimmt.
 Außerdem werden beim Slicing auch Stützmaterialien generiert, sofern man welche eingestellt hat (mehr dazu siehe unten, Abschnitt „Stützmaterial“).
 
-Nach ausgeführtem Slicing empfiehlt es sich, den Druckablauf zu prüfen. Die meisten Slicer bieten eine Vorschau- bzw. Simulationsfunktion an. Damit kann man sich die verschiedenen Schichten (von der ersten, untersten Schicht bis zur letzten ganz oben) einzeln ansehen und auch den Verfahrensweg des Extruders innerhalb einer jeden Schicht anzeigen lassen. Nur weil ein Slicing am PC auf den ersten Blick richtig aussieht, heißt dies nicht, dass der Druck auch in der Realität genauso klappen wird. Anhand der Simulation können Probleme auffallen, z.B. wenn man einen Überhang ohne Stützmaterial übersehen hat und entdeckt, dass der Extruder „in der Luft“ druckt (was nicht funktioniert). So kann man den Fehler noch beheben, bevor der Druck gestartet wird.
-
+Nach ausgeführtem Slicing empfiehlt es sich, den Druckablauf zu prüfen. Die meisten Slicer bieten eine Vorschau- bzw. Simulationsfunktion an. Damit kann man sich die verschiedenen Schichten (von der ersten, untersten Schicht bis zur letzten ganz oben) einzeln ansehen und auch den Verfahrensweg des Extruders innerhalb einer jeden Schicht anzeigen lassen.
   
 (Bilder von Simulationen)
 
@@ -194,14 +200,7 @@ Hat man das Slicing überprüft, kann man die Datei als sogenannte „G-Code“-
 
 G-Code ist ein standardisiertes Dateiformat, das nicht nur im 3D-Druck, sondern auch in anderen Fertigungsverfahren (z.B. CNC-Fräsen oder Lasercutting (verlinken)) verwendet wird. Grundsätzlich ist der G-Code dafür da, der Maschine „mitzuteilen“, was sie machen soll, und zwar ganz genau in vielen kleinen Einzelschritten und Werten. Z.B. steht im G-Code, dass das Hotend sowie das Heizbett auf eine bestimmte Temperatur aufheizen sollen, dass der Extruder des 3D-Druckers an eine bestimmte Position fahren soll (angegeben in X-, Y-, und Z-Koordinaten) und wann das Filament, angetrieben durch die Zahnräder, vorgeschoben und aus der Nozzle gedrückt werden soll.
 
-Somit enthält der G-Code alle Informationen, um das Objekt von Anfang bis Ende auszudrucken. Vereinfacht gesagt sind die Informationen z.B. in der Art „Fahre zur Koordinate X = 50, Y = 60, Z = 0,9 mit der Geschwindigkeit 45 mm/s“ gespeichert. Ein Chip im 3D-Drucker übersetzt diese Informationen in einem weiteren Schritt in konkrete Steuersignale für die Motoren, z.B. „Motor der X-Achse im Uhrzeigersinn drehen, mit der Drehzahl N“ usw. Das alles ist jedoch bereits Teil der Programmierung und Kalibrierung des 3D-Druckers und der Slicer-Software und läuft unbemerkt im Hintergrund ab. Als Nutzer:in braucht man dies in der Regel nicht zu beachten.
-
 Der von der Slicer-Software generierte G-Code muss an den 3D-Drucker übertragen werden, wobei es je nach 3D-Drucker-Modell verschiedene Möglichkeiten gibt. Viele 3D-Drucker verfügen über einen SD-Karten-Slot oder USB-Eingang. Der G-Code muss dann auf eine SD-Karte oder einen USB-Stick kopiert und anschließend in den 3D-Drucker gesteckt werden. Es gibt aber auch 3D-Drucker, die per Kabel direkt mit dem PC verbunden werden können. Der Druckvorgang wird dann direkt vom PC aus gestartet.
-
-Es gibt Programme, die eine Fernüberwachung von 3D-Druckern ermöglichen, z.B. Octoprint. Damit kann man sogar einen 3D-Druck über das Webinterface starten, d.h. der 3D-Drucker ist mit dem Internet verbunden und kann von jedem beliebigen Ort aus angesteuert werden. Optional kann man den 3D-Drucker mit einer Webcam beobachten.
-
-(Screenshot Octoprint)
-
 
 ### Stützmaterial und Brücken
 Da beim 3D-Druck stets Material aufeinandergeschichtet werden muss, kann es Probleme geben, wenn ein Objekt sogenannte Überhänge hat. Ein 3D-Drucker kann nicht „in der Luft“ drucken. Eine zu druckende Wand muss daher idealerweise im 90°-Winkel nach oben ragen, wobei je nach Material auch Schrägen möglich sind (meistens in Winkeln von max. 45°). Die Ränder der Schichten überlappen sich dann ein wenig.
