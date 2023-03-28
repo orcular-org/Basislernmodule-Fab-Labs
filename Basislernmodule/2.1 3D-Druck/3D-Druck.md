@@ -27,6 +27,15 @@ Es gibt kleine, relativ günstige 3D-Drucker für zu Hause oder für Fab Labs, d
 </p>
 
 
+<p align="center">
+       <img height="300" src="https://user-images.githubusercontent.com/123781559/228344847-ec0f3dfa-57fd-4b9f-8b2a-cdafccb589ca.png">
+       <img height="300" src="https://user-images.githubusercontent.com/123781559/228344985-73ceffa9-d48f-4804-a34a-712ae6ad6995.png">
+</p>
+
+<p align="center">
+       <a href="#s3">[3]</a> <i> BigFDM-3D-Drucker für große Modelle bis zu 80 x 80 x 90 cm - </i>
+       <a href="#s4">[4]</a> <i> 3D-Druck von Häusern </i>
+</p>
 
 Am weitesten verbreitet und am beliebtesten sind 3D-Drucker, die nach dem sogenannten FDM-Verfahren arbeiten. In diesem Basislernmodul wird es daher zunächst nur um FDM-Drucker gehen.
 
@@ -290,10 +299,16 @@ Abschließend muss man ggf. vorhandenes Stützmaterial entfernen, zudem kann man
 # Bildnachweise
 
 <a name="s1"></a>
-**[1]** DIY-3D-Drucker mit Open-Hardware-Lizenz [(Repository)](https://gitlab.fabcity.hamburg/hardware/interfacer-osh-build-workshops/3-d-printer-hypercuboid) - **Picture license:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) - **Created by:** Oskar Lidtke, [github.com/orcular-org](https://github.com/orcular-org)
+**[1]** DIY-3D-Drucker mit Open-Hardware-Lizenz [(Repository)](https://gitlab.fabcity.hamburg/hardware/interfacer-osh-build-workshops/3-d-printer-hypercuboid) - **Image license:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) - **Created by:** Oskar Lidtke, [github.com/orcular-org](https://github.com/orcular-org)
 
 <a name="s2"></a>
-**[2]** Prusa i3 metal frame - **Picture license:** GNU Free Documentation License, Version 1.2 - **Source:** https://commons.wikimedia.org/wiki/File:Prusa_i3_metal_frame.jpg
+**[2]** Prusa i3 metal frame - **Image license:** GNU Free Documentation License, Version 1.2 - **Source:** https://commons.wikimedia.org/wiki/File:Prusa_i3_metal_frame.jpg
+
+<a name="s3"></a>
+**[3]** BigFDM 3D-Drucker [(Repository)](https://github.com/fab-machines/BigFDM) - **Image Source:** https://openlab-hamburg.de/
+
+<a name="s4"></a>
+**[4]** Eco-sustainable 3D printed house - **Image license:** [Attribution 2.5 Generic (CC BY 2.5)](https://creativecommons.org/licenses/by/2.5/deed.en) - **Source:** https://commons.wikimedia.org/wiki/File:Eco-sustainable_3D_printed_house_%22Tecla%22.jpg
 
 
 (Platzhalter)
