@@ -14,9 +14,12 @@ Es gibt kleine, relativ günstige 3D-Drucker für zu Hause oder für Fab Labs, d
        <img height="400" src="https://user-images.githubusercontent.com/123781559/227562019-978eda65-88b7-49d7-b66e-72f8941ae146.png">
 </p>
 
-<p align="center"><i> (Bild verschiedene 3D-Drucker) </i></p>
+<p align="center">
+       <a href="#s1">[1]</a> <i> DIY-3D-Drucker mit Open-Hardware-Lizenz - </i>
+       <a href="#s2">[2]</a> <i> 3D-Drucker von Prusa </i>
+</p>
 
-Quelle: [[1]](#s1)
+
 
 Am weitesten verbreitet und am beliebtesten sind 3D-Drucker, die nach dem sogenannten FDM-Verfahren arbeiten. In diesem Basislernmodul wird es daher zunächst nur um FDM-Drucker gehen.
 
@@ -288,9 +291,11 @@ Abschließend muss man ggf. vorhandenes Stützmaterial entfernen, zudem kann man
 # Bildnachweise
 
 <a name="s1"></a>
-1 Text Bildnachweis 
+**[1]** DIY-3D-Drucker mit Open-Hardware-Lizenz [(Repository)](https://gitlab.fabcity.hamburg/hardware/interfacer-osh-build-workshops/3-d-printer-hypercuboid) - **Picture license:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) - **Created by:** Oskar Lidtke, [github.com/orcular-org](https://github.com/orcular-org)
 
-2
+<a name="s2"></a>
+**[2]** Prusa i3 metal frame - **Picture license:** GNU Free Documentation License, Version 1.2 - **Source:** https://commons.wikimedia.org/wiki/File:Prusa_i3_metal_frame.jpg
+
 
 (Platzhalter)
 
