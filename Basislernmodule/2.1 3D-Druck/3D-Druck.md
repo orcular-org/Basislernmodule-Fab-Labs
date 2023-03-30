@@ -166,7 +166,7 @@ Nach dem Kühlteil des Extruders bewegt sich das Filament weiter nach unten durc
 
 Damit der Extruder Objekte im dreidimensionalen Raum erschaffen kann, muss er sich in alle Richtungen bewegen können. Dafür gibt es bei 3D-Druckern die drei motorgesteuerten Achsen: X-, Y- und Z-Achse.
 
-Die X- und Y-Achse beziehen in der Regel auf Bewegungen in der horizontalen bzw. waagerechten Grundfläche:
+Die X- und Y-Achse beziehen sich in der Regel auf Bewegungen in der horizontalen bzw. waagerechten Grundfläche:
 - X-Achse: "links und rechts"
 - Y-Achse: "vorne und hinten"
 
