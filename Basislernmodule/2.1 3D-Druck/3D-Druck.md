@@ -100,9 +100,15 @@ Mit FDM-3D-Druckern können z.B. dekorative Objekte wie Figuren oder Vasen, klei
 
 Das Grundmaterial, das man für einen FDM-3D-Drucker benötigt, nennt sich Filament. Ein Filament ist ein dünner Kunststoffdraht, der auf eine Rolle gewickelt ist.
 
-  
+<p align="center">
+<img height="300" src="https://user-images.githubusercontent.com/123781559/228964087-d6a8c22b-640f-4da6-9847-7d67378b6798.png">
+<img height="300" src="https://user-images.githubusercontent.com/123781559/228964181-d73f73c3-8ba2-49a9-9cdd-4f701e3b1ab0.png">
+</p>
 
-(Bild Filamentrollen)
+<p align="center">
+<a href="#s14">[14]</a> <i> Verschiedene Filamentrollen - </i>
+<a href="#s15">[15]</a> <i> Filamentrolle</i>
+</p>
 
 Filamente gibt es in verschiedensten Farben und Materialien.
 Das gängigste 3D-Druck-Material ist PLA. Es ist günstig, einfach zu drucken, reicht für die allermeisten Anwendungen völlig aus und ist damit gut für Einsteiger:innen geeignet.
@@ -111,13 +117,13 @@ PLA ist eine Kunststoff- bzw. Plastiksorte und steht für "polylactic acid" (eng
 
 Hier eine Kurzübersicht der gängigsten Materialien für FDM-3D-Drucker und die wichtigsten Vor- und Nachteile:
 
-- PLA: Günstig, einfach zu drucken, gut für Einsteiger:innen, ideal für dekorative Objekte oder Bauteile mit niedrigen Belastungen; gut recyclebar
-- PETG / PET-G: Robuster als PLA, gut für Funktionsbauteile, die hohe Kräfte/Belastungen aushalten sollen; leichter zu drucken als ABS; etwas fester als ABS
-- PET: Eher selten als 3D-Druck-Filament zu finden, weniger geeignet als PET-G; sehr gut recyclebar; lässt sich z.B. aus PET-Flaschen herstellen
-- ABS: Ähnlich gut belastbar wie PETG, höhere Hitzebeständigkeit als PETG; dünstet beim Drucken ungesunde Dämpfe aus, gut belüfteter Raum notwendig; schwierig zu drucken, Gehäuse und hohe Heizbetttemperatur empfehlenswert
-- ASA: Gilt als „Nachfolger“ von ABS; verzieht weniger und dünstet weniger aus als ABS
-- Nylon: Besonders hohe mechanische und thermische Beständigkeit; schwierig zu drucken, eher für Fortgeschrittene; teurer als andere Filamentsorten; anfällig für Feuchte
-- TPU: Flexibles, „gummiartiges“ Material; lässt sich nach dem Druck leicht verformen; ideal für kleine Reifen, Stempel u.ä.; relativ schwierig zu drucken; teurer als andere Filamentsorten
+- **PLA:** Günstig, einfach zu drucken, gut für Einsteiger:innen, ideal für dekorative Objekte oder Bauteile mit niedrigen Belastungen; gut recyclebar
+- **PETG / PET-G:** Robuster als PLA, gut für Funktionsbauteile, die hohe Kräfte/Belastungen aushalten sollen; leichter zu drucken als ABS; etwas fester als ABS
+- **PET:** Eher selten als 3D-Druck-Filament zu finden, weniger geeignet als PET-G; sehr gut recyclebar; lässt sich z.B. aus PET-Flaschen herstellen
+- **ABS:** Ähnlich gut belastbar wie PETG, höhere Hitzebeständigkeit als PETG; dünstet beim Drucken ungesunde Dämpfe aus, gut belüfteter Raum notwendig; schwierig zu drucken, Gehäuse und hohe Heizbetttemperatur empfehlenswert
+- **ASA:** Gilt als „Nachfolger“ von ABS; verzieht weniger und dünstet weniger aus als ABS
+- **Nylon:** Besonders hohe mechanische und thermische Beständigkeit; schwierig zu drucken, eher für Fortgeschrittene; teurer als andere Filamentsorten; anfällig für Feuchte
+- **TPU:** Flexibles, „gummiartiges“ Material; lässt sich nach dem Druck leicht verformen; ideal für kleine Reifen, Stempel u.ä.; relativ schwierig zu drucken; teurer als andere Filamentsorten
 
 Da jedes Material eine andere Schmelztemperatur hat, ist es wichtig, diese korrekt einzustellen. Der 3D-Drucker erhitzt im sogenannten Extruder das Filament auf eine Temperatur, mit der es sich gut verflüssigen und drucken lässt, während das Heizbett auf eine Temperatur eingestellt wird, die sicherstellt, dass das Filament gut darauf haftet. So verwendet man z.B. für PLA üblicherweise eine Extrudertemperatur von 200-230 °C und eine Heizbetttemperatur von 60 °C. Diese Temperaturempfehlungen können aber je nach Hersteller auch abweichen. Am besten prüft man die Angaben auf der Filamentrolle bzw. in beigelegten Datenblättern und gleicht sie mit den Einstellungen in der Slicer-Software ab (mehr [zum Thema Slicing später](#slicer-software)).
 
@@ -125,8 +131,13 @@ Filamente werden meistens in den Durchmesser-Varianten 1,75 mm und 2,85 mm verka
 
 Gewöhnliche 3D-Drucker können nur mit einem Filament zur Zeit drucken, d.h. wenn man in einer anderen Farbe oder mit einem anderen Material drucken möchte, muss man die Filamentrolle wechseln. Es gibt aber auch 3D-Drucker, die mit zwei oder mehr Filamenten auf einmal drucken können. So können mehrfarbige Objekte oder auch Objekte aus verschiedenen Materialien gedruckt werden, z.B. indem das Stützmaterial aus einem leicht entfernbaren Material und das eigentliche Objekt aus einem stabilen Material gedruckt wird.
 
- 
-(Bild mehrfarbiger Druck)
+<p align="center">
+<img height="300" src="https://user-images.githubusercontent.com/123781559/228966443-6117228a-d488-49cc-9fb7-bca371345b53.png">
+</p>
+
+<p align="center">
+<a href="#s16">[16]</a> <i> Mehrfarbiger 3D-Druck</i>
+</p>
 
 ### Komponenten eines 3D-Druckers
 
@@ -358,7 +369,7 @@ Abschließend muss man ggf. vorhandenes Stützmaterial entfernen, zudem kann man
 **[1]** DIY-3D-Drucker mit Open-Hardware-Lizenz [(Repository)](https://gitlab.fabcity.hamburg/hardware/interfacer-osh-build-workshops/3-d-printer-hypercuboid) - **Image license:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) - **Created by:** Oskar Lidtke, [github.com/orcular-org](https://github.com/orcular-org)
 
 <a name="s2"></a>
-**[2]** Prusa i3 metal frame - **Image license:** GNU Free Documentation License, Version 1.2 - **Source:** https://commons.wikimedia.org/wiki/File:Prusa_i3_metal_frame.jpg
+**[2]** Prusa i3 metal frame - **Image license:** [GNU Free Documentation License, Version 1.2](https://en.wikipedia.org/wiki/GNU_Free_Documentation_License) - **Source:** https://commons.wikimedia.org/wiki/File:Prusa_i3_metal_frame.jpg
 
 <a name="s3"></a>
 **[3]** BigFDM 3D-Drucker [(Repository)](https://github.com/fab-machines/BigFDM) - **Image Source:** https://openlab-hamburg.de/
@@ -393,6 +404,14 @@ Abschließend muss man ggf. vorhandenes Stützmaterial entfernen, zudem kann man
 <a name="s13"></a>
 **[13]** 3D-gedrucktes Objekt - **Image license:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) - **Created by:** Oskar Lidtke, [github.com/orcular-org](https://github.com/orcular-org)
 
+<a name="s14"></a>
+**[14]** Makerbot Store, Manhattan (NY, USA) - **Image license:** [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/deed.en) - **Source:** https://commons.wikimedia.org/wiki/File:Makerbot_Store,_Manhattan_(NY,_USA)_(8764959982).jpg
+
+<a name="s15"></a>
+**[15]** ABS filament spool - **Image license:** [GNU Free Documentation License, Version 1.2](https://en.wikipedia.org/wiki/GNU_Free_Documentation_License) - **Source:** https://commons.wikimedia.org/wiki/File:ABS_filament_spool.jpg
+
+<a name="s16"></a>
+**[16]** 3DBenchy created using color mixing on an FDM printer - **Image license:** [GNU Free Documentation License, Version 1.2](https://en.wikipedia.org/wiki/GNU_Free_Documentation_License) - **Source:** https://commons.wikimedia.org/wiki/File:3DBenchy_created_using_color_mixing_on_an_FDM_printer.jpg
 
 
 (Platzhalter)
