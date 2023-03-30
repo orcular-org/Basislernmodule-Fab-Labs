@@ -80,6 +80,20 @@ Mit FDM-3D-Druckern können z.B. dekorative Objekte wie Figuren oder Vasen, klei
 <a href="#s10">[10]</a> <i> Verschiedene Objekte</i>
 </p>
 
+<p align="center">
+<img height="230" src="https://user-images.githubusercontent.com/123781559/228958699-f2e9ea4c-5c8e-4902-9ec7-268f865793ee.png">
+<img height="230" src="https://user-images.githubusercontent.com/123781559/228958805-1750d640-9f1c-4cec-bde2-bc2d8b1c51ff.png">
+<img height="230" src="https://user-images.githubusercontent.com/123781559/228958899-5732f5e3-24c7-4530-bb69-c3214c4cdb74.png">
+</p>
+
+<p align="center">
+<a href="#s11">[11]</a> <i>  - </i>
+<a href="#s12">[12]</a> <i>  - </i>
+<a href="#s13">[13]</a> <i> Verschiedene 3D-gedruckte Objekte</i>
+</p>
+
+
+
 
 ## Grundlagen
 ### Filament
@@ -370,6 +384,14 @@ Abschließend muss man ggf. vorhandenes Stützmaterial entfernen, zudem kann man
 <a name="s10"></a>
 **[10]** Verschiedene 3D-gedruckte Objekte - **Image license:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) - **Created by:** Oskar Lidtke, [github.com/orcular-org](https://github.com/orcular-org)
 
+<a name="s11"></a>
+**[11]** 3D-gedrucktes Objekt - **Image license:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) - **Created by:** Oskar Lidtke, [github.com/orcular-org](https://github.com/orcular-org)
+
+<a name="s12"></a>
+**[12]** 3D-gedrucktes Objekt - **Image license:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) - **Created by:** Oskar Lidtke, [github.com/orcular-org](https://github.com/orcular-org)
+
+<a name="s13"></a>
+**[13]** 3D-gedrucktes Objekt - **Image license:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) - **Created by:** Oskar Lidtke, [github.com/orcular-org](https://github.com/orcular-org)
 
 
 
