@@ -240,7 +240,7 @@ Es gibt viele verschiedene Slicer-Programme. Viele große und bekannte Herstelle
 - PrusaSlicer		https://www.prusa3d.com/de/page/prusaslicer_424/ 
 - UltiMaker Cura 	https://ultimaker.com/de/software/ultimaker-cura 
 
-Viele Slicer-Programme basieren auf Open Source Software, z.B. wurde der PrusaSlicer auf Basis des Open-Source-Software „Slic3r“ entwickelt und der PrusaSlicer selbst ist damit auch Open Source.
+Viele Slicer-Programme basieren auf Open Source Software, z.B. wurde der PrusaSlicer auf Basis der Open-Source-Software „Slic3r“ entwickelt und der PrusaSlicer selbst ist damit auch Open Source.
 
 Manche kleinere Hersteller von 3D-Druckern nutzen auch Slicer-Programme der größeren Hersteller und liefern dazu nur eine Konfigurationsdatei, die die Slicer-Software auf den 3D-Drucker anpasst.
 
