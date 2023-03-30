@@ -132,7 +132,7 @@ Filamente werden meistens in den Durchmesser-Varianten 1,75 mm und 2,85 mm verka
 Gewöhnliche 3D-Drucker können nur mit einem Filament zur Zeit drucken, d.h. wenn man in einer anderen Farbe oder mit einem anderen Material drucken möchte, muss man die Filamentrolle wechseln. Es gibt aber auch 3D-Drucker, die mit zwei oder mehr Filamenten auf einmal drucken können. So können mehrfarbige Objekte oder auch Objekte aus verschiedenen Materialien gedruckt werden, z.B. indem das Stützmaterial aus einem leicht entfernbaren Material und das eigentliche Objekt aus einem stabilen Material gedruckt wird.
 
 <p align="center">
-<img height="300" src="https://user-images.githubusercontent.com/123781559/228966443-6117228a-d488-49cc-9fb7-bca371345b53.png">
+<img height="400" src="https://user-images.githubusercontent.com/123781559/228966443-6117228a-d488-49cc-9fb7-bca371345b53.png">
 </p>
 
 <p align="center">
