@@ -56,16 +56,31 @@ FDM steht für "Fused Deposition Modeling". Das bedeutet, ein Stoff (meistens ei
 </p>
 
 
-(Bild 3D-gedruckte Objekte, sichtbare Schichten)
-
 Daher zählt man 3D-Druck auch zu den sogenannten "additiven Verfahren", da Objekte entstehen, indem neues Material hinzugefügt ("addiert") wird. Im Gegensatz dazu gibt es auch "subtraktive Verfahren", d.h. Fertigungsverfahren, wo ein bestehendes Material getrennt wird bzw. etwas "weggenommen" wird, z.B. durch Lasercutting oder CNC-Fräsen. (verlinken)
 
 Mit FDM-3D-Druckern können z.B. dekorative Objekte wie Figuren oder Vasen, kleine Spielzeuge, personalisierte Namensschilder und Schlüsselanhänger, Modelle für Demonstrationszwecke (z.B. von Maschinen oder Gebäuden), Ersatzteile für bestehende Produkte (z.B. Schubladengriffe oder drehbare Knöpfe für Musikanlagen), Alltagshelfer wie Handtuchhaken oder Funktionsteile wie Gehäuse für Elektronik-Geräte, Flaschenöffner oder sogar Bauteile für 3D-Drucker gedruckt werden.
 
-  
-  
-   
-(Bild Anregungen, verschiedene Objekte)
+<p align="center">
+<img height="300" src="https://user-images.githubusercontent.com/123781559/228950513-8ab76058-957e-4ce9-8508-2e45329b62c0.png">
+<img height="300" src="https://user-images.githubusercontent.com/123781559/228950645-b1502905-6c1c-4f3a-8d73-a67f2cd63270.png">
+</p>
+
+<p align="center">
+<a href="#s7">[7]</a> <i> 3D-gedruckter Lautsprecher - </i>
+<a href="#s8">[8]</a> <i> 3D-gedrucktes Modell einer Turbine</i>
+</p>
+
+<p align="center">
+<img height="300" src="https://user-images.githubusercontent.com/123781559/228954408-7558e95f-a85c-470c-960a-92e0bbfa1bd8.png">
+<img height="300" src="https://user-images.githubusercontent.com/123781559/228954649-96d65f57-c056-4b25-830b-e36800b428ae.png">
+</p>
+
+<p align="center">
+<a href="#s9">[9]</a> <i> 3D-gedruckte Schale - </i>
+<a href="#s10">[10]</a> <i> Verschiedene Objekte</i>
+</p>
+
+
 ## Grundlagen
 ### Filament
 
@@ -342,6 +357,20 @@ Abschließend muss man ggf. vorhandenes Stützmaterial entfernen, zudem kann man
 
 <a name="s6"></a>
 **[6]** 3DBenchy - **Image license:** [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/) - **Source:** https://flic.kr/p/rVrSsc
+
+<a name="s7"></a>
+**[7]** Lautsprecher aus 3D Drucker - **Image license:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) - **Source:** https://commons.wikimedia.org/wiki/File:Mg_4327-20171101-3d-lautsprecher.jpg
+
+<a name="s8"></a>
+**[8]** A Jet Engine turbine printed from the Howard Community College Makerbot - **Image license:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) - **Source:** https://commons.wikimedia.org/wiki/File:HCC_3D_printed_turbine_view_1.jpg
+
+<a name="s9"></a>
+**[9]** 3D printing a yarn bowl - **Image license:** [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/) - **Source:** https://www.flickr.com/photos/ruthanddave/49896309407
+
+<a name="s10"></a>
+**[10]** Verschiedene 3D-gedruckte Objekte - **Image license:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) - **Created by:** Oskar Lidtke, [github.com/orcular-org](https://github.com/orcular-org)
+
+
 
 
 (Platzhalter)
