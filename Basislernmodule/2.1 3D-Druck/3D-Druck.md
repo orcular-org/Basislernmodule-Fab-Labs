@@ -41,7 +41,7 @@ Am weitesten verbreitet und am beliebtesten sind 3D-Drucker, die nach dem sogena
 
 Die zweithäufigste Art von 3D-Druckern in Fab Labs neben dem FDM-Verfahren sind wohl die SLA-Drucker. Diese sind jedoch schwieriger in der Anwendung und damit weniger gut für Einsteiger:innen geeignet als FDM-Drucker, es empfiehlt sich also, zunächst mit FDM anzufangen.
 
-FDM steht für "Fused Deposition Modeling". Das bedeutet, ein Stoff (meistens ein Kunststoff/Plastik) wird von dem 3D-Drucker erhitzt, dabei geschmolzen und anschließend Schichtweise aufgetragen. Die Schichten kühlen kurz darauf ab, womit sie sich zu einem festen, zusammengefügten Objekt vereinigen. Mit FDM gedruckte Objekte lassen sich gut an den typischen Schichten erkennen, die meist nur ein Bruchteil eines Millimeters dick sind.
+FDM steht für "Fused Deposition Modeling". Das bedeutet, ein Stoff (meistens ein Kunststoff/Plastik) wird von dem 3D-Drucker erhitzt, dabei geschmolzen und anschließend schichtweise aufgetragen. Die Schichten kühlen kurz darauf ab, womit sie sich zu einem festen, zusammengefügten Objekt vereinigen. Mit FDM gedruckte Objekte lassen sich gut an den typischen Schichten erkennen, die meist nur ein Bruchteil eines Millimeters dick sind.
   
 
 
