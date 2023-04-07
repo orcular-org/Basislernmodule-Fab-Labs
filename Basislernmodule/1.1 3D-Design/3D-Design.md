@@ -9,6 +9,8 @@ Es gibt verschiedene Programme/Software, mit denen man digitale 3D-Modelle zeich
 
 Je nach Anwendungszweck gibt es Programme mit unterschiedlichen Schwerpunkten und Funktionen. Zum Modellieren von Bauteilen für technische Produkte wird in der Regel CAD-Software benutzt (CAD = Computer Aided Design; engl. für „Computergestütztes Entwerfen“). Andererseits gibt es auch 3D-Grafikprogramme, die einen eher künstlerischen Schwerpunkt haben, z.B. für komplex geformte Figuren, die für 3D-Druck, Produktdesign, aber auch z.B. für 3D-Animationsfilme verwendet werden können.
 
+> Bilder: Beispiel FreeCAD - Beispiel Blender
+
 Zudem gibt es eine Vielzahl an Webseiten, von denen man fertige Modelle beziehen oder auf die man seine eigenen Kreationen hochladen und teilen kann.
 
 Eine weitere Möglichkeit, ein 3D-Modell zu erstellen besteht im 3D-Scanning. Damit lassen sich Gegenstände, Ersatzteile oder auch Personen einscannen und als 3D-Modell am Rechner abbilden. Mit etwas Nachbearbeitung lassen sich diese Modelle auch 3D-drucken (mehr dazu im Basislernmodul zu 3D-Scanning).
@@ -23,9 +25,15 @@ Beim Erstellen eines 3D-Modells – bei CAD spricht man von „modellieren“ od
 
 Dabei startet man üblicherweise mit dem Zeichnen einer 2D-Skizze, die aus Punkten, Linien, Kurven und geometrischen Formen wie Kreisen oder Sechsecken besteht. Als nächster Schritt wird diese 2D-Skizze zu einem 3D-Objekt mit festgelegter Dicke „aufgepolstert“. Aufbauend auf diesem Objekt können weitere Elemente hinzugefügt werden, etwa durch weitere 2D-Skizzen und Aufpolsterung (engl. „Pad“), durch Rotation der 2D-Skizze zur Erstellung eines Drehteils, durch Abziehen von Teilen (z.B. für Löcher oder Bohrungen) oder durch Vervielfältigung von Elementen.
 
+> Bilder: FreeCAD Skizze zu Pad, Abzug/Bohrung, Rotation
+
 Viele CAD-Programme enthalten auch Funktionen zum Erstellen von technischen Maßzeichnungen. Dabei wird das Bauteil zunächst in 3D modelliert und anschließend aus verschiedenen Blickrichtungen auf eine 2D-Zeichnung projiziert. Diese Ansichten können auf einem Blatt angeordnet, mit Bemaßungen sowie weiteren Informationen versehen und ausgedruckt werden. Dies ist hilfreich für Teile, die man nicht mit digitalen Fertigungsmethoden herstellen möchte, sondern mit konventionellen Werkzeugen, z.B. Zuschneiden und Bohren von Holzbrettern oder Aluminiumprofilen.
 
+> Bild: FreeCAD Techdraw
+
 Einige CAD-Programme verfügen über Funktionen für „parametrisches Design“. Dabei werden Bauteile nicht mit exakten Zahlenwerten bemaßt (z.B. 10 mm), sondern mit Parametern (z.B. mit („Länge“ oder „Durchmesser“). Mit einem parametrischen Modell können dann viele unterschiedliche Varianten des Bauteils generiert werden, z.B. wird eine Schraube nicht in jeder beliebigen Variante neu modelliert, sondern nur einmal als parametrisches Modell, wobei z.B. die Parameter „Länge“ und „Durchmesser“ variiert und das jeweils erzeugte Schraubenmodell als Variante abgespeichert wird. Parameter können auch mithilfe von Formeln verknüpft werden (z.B. „Länge = 2 x Durchmesser + 10 mm“).
+
+> Bild: FreeCAD parametrisches Design
 
 Auf Videoportalen wie YouTube finden sich viele Video-Tutorials für das Erlernen von CAD-Modellierung. Grundlagen für einfache Modelle lassen sich relativ schnell erlernen, für komplexere CAD-Projekte und erweiterte Funktionen braucht es jedoch viel Einarbeitung und Übung.
 
@@ -56,6 +64,8 @@ FreeCAD enthält viele unterschiedliche Programm-Module (sogenannte „Workbench
 
 **FreeCAD-Wiki:** https://wiki.freecad.org/
 
+> Bilder
+
 #### Autodesk Fusion 360
 
 Fusion 360 ist eine von Autodesk entwickelte Software-Suite für CAD, CAM und weitere technische Anwendungen. Grundsätzlich ist Fusion 360 ein kostenpflichtiges Programm, es lässt sich jedoch unter bestimmten Bedingungen und mit eingeschränkter Funktionalität auch kostenlos nutzen. So muss man bei der Registrierung angeben, dass man Privatanwender:in ist („personal use“). Diese kostenlose „Hobby-Lizenz“ muss regelmäßig erneuert werden. Sobald man Projekte kommerziell nutzen möchte, ist man verpflichtet, eine Lizenz zu kaufen. Zudem stehen unter der kostenlosen Lizenz nicht alle Funktionen zur Verfügung. Die Bedingungen und Funktionen für kostenlose Nutzung können sich noch öfters ändern, die aktuellen Infos hierzu findet man auf der [Fusion-360-Webseite](https://www.autodesk.de/products/fusion-360/).
@@ -65,6 +75,8 @@ Fusion 360 ist cloud-basiert, d.h. man benötigt eine Verbindung zum Internet un
 Aufgrund seiner klaren und verständlichen Bedienbarkeit gilt Fusion 360 als vergleichsweise leicht erlernbare CAD-Software, was es zu einem viel genutzten und beliebten Programm in Maker-Communities macht.
 
 **Registrierung und Download für Privatanwender:innen:** https://www.autodesk.de/products/fusion-360/personal
+
+> Bilder
 
 ## 3D-Grafik- und Modellierungsprogramme
 
@@ -84,6 +96,8 @@ Blender ist eine 3D-Grafiksuite, die als „Free and open-source software“, al
 
 **Download:** https://www.blender.org/
 
+> Bilder
+
 #### Tinkercad
 
 Tinkercad ist eine kostenlose, im Browser ausgeführte Web-App, die man für 3D-Design, aber auch für Elektronik und Programmierung einsetzen kann. Sie ist relativ einfach in der Bedienung und richtet sich in erster Linie an Kinder, Jugendliche und den Einsatz im Schulunterricht. Aber auch für Erwachsene, die sich nicht die Mühe machen wollen, ein komplexes CAD- oder 3D-Grafikdesignprogramm zu erlernen, ist Tinkercad interessant.
@@ -93,6 +107,8 @@ Auch wenn scheinbar "CAD" im Namen "Tinkercad" steckt, wäre es etwas unpassend,
 Tinkercad gehört, so wie auch Fusion 360, zu dem Unternehmen Autodesk und setzt die Registrierung eines (kostenlosen) Benutzer:innen-Kontos voraus. Es muss jedoch keine Software heruntergeladen oder installiert werden, die Anwendung läuft direkt im Browser.
 
 **Registrierung und Anwendung:** https://www.tinkercad.com/
+
+> Bilder
 
 ## Download fertiger 3D-Modelle
 
