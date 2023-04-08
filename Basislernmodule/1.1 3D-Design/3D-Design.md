@@ -9,7 +9,15 @@ Es gibt verschiedene Programme/Software, mit denen man digitale 3D-Modelle zeich
 
 Je nach Anwendungszweck gibt es Programme mit unterschiedlichen Schwerpunkten und Funktionen. Zum Modellieren von Bauteilen für technische Produkte wird in der Regel CAD-Software benutzt (CAD = Computer Aided Design; engl. für „Computergestütztes Entwerfen“). Andererseits gibt es auch 3D-Grafikprogramme, die einen eher künstlerischen Schwerpunkt haben, z.B. für komplex geformte Figuren, die für 3D-Druck, Produktdesign, aber auch z.B. für 3D-Animationsfilme verwendet werden können.
 
-> Bilder: Beispiel FreeCAD - Beispiel Blender
+<p align="center">									
+<img height="300" src="https://user-images.githubusercontent.com/123781559/230741949-fb767a24-7d64-41e1-ac21-6c8ee098d404.png">									
+<img height="300" src="https://user-images.githubusercontent.com/123781559/230742006-6dc72ee1-34d6-4eee-affc-183329d7f9eb.png">																	
+</p>									
+									
+<p align="center">									
+<a href="#s1">[1]</a> <i> Baugruppe in FreeCAD - </i>									
+<a href="#s2">[2]</a> <i> 3D-Modell in Blender </i>																	
+</p>									
 
 Zudem gibt es eine Vielzahl an Webseiten, von denen man fertige Modelle beziehen oder auf die man seine eigenen Kreationen hochladen und teilen kann.
 
@@ -86,6 +94,8 @@ Dabei kommen oft sogenannte Sculpting-Werkzeuge zum Einsatz, womit sich 3D-Objek
 
 Weitere Funktionen von 3D-Grafikprogrammen sind z.B. die Texturierung, Animation (für Animationsfilme oder Videospiele) und Rendering (z.B. zur Inszenierung eines Objekts oder Produkts in einer bestimmten Umgebung und Belichtung in einer sogenannten Szene). Viele 3D-Grafikprogramme können die Modelle als STL-Datei exportieren, womit sie sich 3D-drucken lassen.
 
+> Bilder
+
 ### Beispiele für 3D-Grafik- und 3D-Modellierungsprogramme
 
 Hier eine Auswahl einiger beliebter und empfohlener 3D-Grafik- und 3D-Modellierungsprogramme, die kostenlos nutzbar sind:
@@ -113,3 +123,11 @@ Tinkercad gehört, so wie auch Fusion 360, zu dem Unternehmen Autodesk und setzt
 ## Download fertiger 3D-Modelle
 
 Statt eigene 3D-Modelle zu erstellen, kann man auch fertige Modelle aus dem Internet herunterladen, ggf. nachbearbeiten und anschließend z.B. für 3D-Druck benutzen. Mehr dazu im Basislernmodul „Verwendung von 3D Modellen aus dem Internet“.
+
+# Bildnachweise
+
+<a name="s1"></a>
+**[1]** Gsuter.png - **Image license:** [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/) - **Source:** https://wiki.freecad.org/File:Gsuter.png
+
+<a name="s2"></a>
+**[2]** 3D Viewport, a Blender 2.93.4.png - **Image license:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) - **Source:** https://commons.wikimedia.org/wiki/File:3D_Viewport,_a_Blender_2.93.4.png
