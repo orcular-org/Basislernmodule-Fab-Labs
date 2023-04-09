@@ -5,7 +5,7 @@
 
 ### Einführung
 
-Es gibt verschiedene Programme/Software, mit denen man digitale 3D-Modelle zeichnen bzw. modellieren kann. Diese 3D-Modelle können anschließend z.B. für 3D-Druck, Lasercutting oder CNC-Fräsen genutzt werden.
+Es gibt verschiedene Software, mit denen man digitale 3D-Modelle zeichnen bzw. modellieren kann. Diese 3D-Modelle können anschließend z.B. für 3D-Druck, Lasercutting oder CNC-Fräsen genutzt werden.
 
 Je nach Anwendungszweck gibt es Programme mit unterschiedlichen Schwerpunkten und Funktionen. Zum Modellieren von Bauteilen für technische Produkte wird in der Regel CAD-Software benutzt (CAD = Computer Aided Design; engl. für „Computergestütztes Entwerfen“). Andererseits gibt es auch 3D-Grafikprogramme, die einen eher künstlerischen Schwerpunkt haben, z.B. für komplex geformte Figuren, die für 3D-Druck, Produktdesign, aber auch z.B. für 3D-Animationsfilme verwendet werden können.
 
@@ -15,28 +15,28 @@ Je nach Anwendungszweck gibt es Programme mit unterschiedlichen Schwerpunkten un
 </p>									
 									
 <p align="center">									
-<a href="#s1">[1]</a> <i> Baugruppe in FreeCAD - </i>									
-<a href="#s2">[2]</a> <i> 3D-Modell in Blender </i>																	
+<a href="#s1">[1]</a> <i> Baugruppe in der Software FreeCAD - </i>									
+<a href="#s2">[2]</a> <i> 3D-Modell in der 3D-Modellierungssoftware Blender </i>																	
 </p>									
 
-Statt eigene 3D-Modelle zu erstellen, kann man auch fertige Modelle aus dem Internet herunterladen, ggf. nachbearbeiten und anschließend z.B. für 3D-Druck benutzen. Es gibt eine Vielzahl an Webseiten, von denen man 3D-Modelle beziehen oder auf die man seine eigenen Kreationen hochladen und teilen kann (mehr dazu im Basislernmodul zum Thema "Download von 3D-Modellen").
+Statt eigene 3D-Modelle zu erstellen, kann man auch fertige Modelle aus dem Internet herunterladen, ggf. nachbearbeiten und anschließend z.B. mit einem 3D-Drucker ausdrucken (mehr dazu im Basislernmodul 3D-Druck). Es gibt eine Vielzahl an Webseiten, von denen man 3D-Modelle beziehen oder auf die man seine eigenen Kreationen hochladen und sie mit anderen teilen kann (mehr dazu im Basislernmodul zum Thema "Download von 3D-Modellen").
 
-Eine weitere Möglichkeit, ein 3D-Modell zu erstellen besteht im 3D-Scanning. Damit lassen sich Gegenstände, Ersatzteile oder auch Personen einscannen und als 3D-Modell am Rechner abbilden. Mit etwas Nachbearbeitung lassen sich diese Modelle auch 3D-drucken (mehr dazu im Basislernmodul zu 3D-Scanning).
+Eine weitere Möglichkeit, ein 3D-Modell zu erstellen, besteht im 3D-Scanning. Damit lassen sich Gegenstände, Ersatzteile oder auch Personen einscannen und als 3D-Modell am Rechner abbilden. Mit etwas Nachbearbeitung lassen sich diese Modelle auch 3D-drucken (mehr dazu im Basislernmodul zu 3D-Scanning).
 
 ## CAD-Software
 
-CAD-Software wird in der Regel im technischen Bereich eingesetzt, z.B. im Maschinenbau, in der Architektur oder Elektrotechnik – bei Unternehmen für Produktentwicklung, technische Projektierung von Gebäuden und ähnlichen Bereichen. Aber auch für Hobby-Anwendungen, z.B. zum Designen von Objekten für 3D-Druck oder CNC-Fräsen haben sich CAD-Programme bewährt.
+CAD-Software wird in der Regel im technischen Bereich eingesetzt, z.B. im Maschinenbau, in der Architektur oder Elektrotechnik – bei Unternehmen für Produktentwicklung, Planung von Gebäuden und ähnlichen Bereichen. Aber auch für Hobby-Anwendungen, z.B. zum Designen von Objekten für 3D-Druck oder CNC-Fräsen, haben sich CAD-Programme bewährt.
 
-Soll ein in CAD entworfenes Modell mithilfe von CNC-Maschinen (fräsen oder drehen) gefertigt werden, muss es in einer CAM-Software (CAM = Computer Aided Manufacturing) bearbeitet werden, um z.B. Fräsdurchmesser, Drehzahlen, Arbeitsabläufe etc. zu definieren (mehr dazu im Basislernmodul zu CNC-Fräsen). Viele CAD-Programme haben ein integriertes CAM-Modul, man spricht dann von CAD/CAM-Software.
+Soll ein in CAD entworfenes Modell mithilfe von CNC-Maschinen (fräsen oder drehen) gefertigt werden, muss es in einer CAM-Software (CAM = Computer Aided Manufacturing) bearbeitet werden, um Fräsdurchmesser, Drehzahlen, Arbeitsabläufe etc. zu definieren (mehr dazu im Basislernmodul zu CNC-Fräsen). Viele CAD-Programme haben ein integriertes CAM-Modul, man spricht dann von CAD/CAM-Software.
 
 Beim Erstellen eines 3D-Modells – bei CAD spricht man von „modellieren“ oder „konstruieren“ – arbeitet man meistens mit sogenannter geometrischer und generativer Modellierung.
 
-Dabei startet man üblicherweise mit dem Zeichnen einer 2D-Skizze, die aus Punkten, Linien, Kurven und geometrischen Formen wie Kreisen oder Sechsecken besteht. Mit Bemaßungen kann man die Skizzenelemente exakt definieren, z.B. Länge von Linen oder Kreisdurchmesser millimetergenau festlegen. Durch sogenannte Abhängigkeiten kann man z.B. festlegen, dass zwei Linien parallel oder gleich lang sein sollen. Als nächster Schritt wird diese 2D-Skizze zu einem 3D-Objekt mit festgelegter Dicke „aufgepolstert“ (engl. "Pad") oder um eine Achse rotiert wird, um einen Drehkörper (engl. "Revolution") zu erstellen. Aufbauend auf diesem Objekt können weitere Elemente hinzugefügt werden, etwa durch weitere 2D-Skizzen und Aufpolsterung/Drehung, durch Abziehen von Teilen (z.B. für Löcher, Bohrungen oder Taschen (engl. "Pocket")), durch Vervielfältigung von Elementen oder Abrundung von Kanten.
+Dabei startet man üblicherweise mit dem Zeichnen einer 2D-Skizze, die aus Punkten, Linien, Kurven und geometrischen Formen wie Kreisen oder Sechsecken besteht. Mit Bemaßungen kann man die Skizzenelemente exakt definieren, z.B. Länge von Linen oder Kreisdurchmesser millimetergenau festlegen. Durch sogenannte Abhängigkeiten kann man beispielsweise festlegen, dass zwei Linien parallel oder gleich lang sein sollen. Als nächster Schritt wird diese 2D-Skizze zu einem 3D-Objekt mit festgelegter Dicke „aufgepolstert“ (engl. "Pad") oder um eine Achse rotiert wird, um einen Drehkörper (engl. "Revolution") zu erstellen. Aufbauend auf diesem Objekt können weitere Elemente hinzugefügt werden, etwa durch weitere 2D-Skizzen und Aufpolsterung/Drehung, durch Abziehen von Teilen (z.B. für Löcher, Bohrungen oder Taschen (engl. "Pocket")), durch Vervielfältigung von Elementen oder Abrundung von Kanten.
 
 <p align="center">
-<img height="130" src="https://user-images.githubusercontent.com/123781559/230787254-ebd619b0-d32e-4870-903f-1376d1a02625.png"> <br>
-<img height="130" src="https://user-images.githubusercontent.com/123781559/230787339-42671cf1-cdf9-4c2b-b961-447bfd418588.png"> <br>
-<img height="130" src="https://user-images.githubusercontent.com/123781559/230787386-b8406c93-b49e-456c-8611-8e90f8bf9391.png">
+[3] <img height="130" src="https://user-images.githubusercontent.com/123781559/230787254-ebd619b0-d32e-4870-903f-1376d1a02625.png"> <br>
+[4] <img height="130" src="https://user-images.githubusercontent.com/123781559/230787339-42671cf1-cdf9-4c2b-b961-447bfd418588.png"> <br>
+[5] <img height="130" src="https://user-images.githubusercontent.com/123781559/230787386-b8406c93-b49e-456c-8611-8e90f8bf9391.png">
 </p>
 
 <p align="center">
@@ -67,15 +67,15 @@ Viele CAD-Programme enthalten auch Funktionen zum Erstellen von technischen Maß
 <a href="#s8">[8]</a> <i> Technische (Maß)zeichnung in FreeCAD </i>
 </p>
 
-Einige CAD-Programme verfügen über Funktionen für „parametrisches Design“. Dabei werden Bauteile nicht mit exakten Zahlenwerten bemaßt (z.B. 10 mm), sondern mit Parametern (z.B. mit „Länge“ oder „Durchmesser“). Mit einem parametrischen Modell können dann viele unterschiedliche Varianten des Bauteils generiert werden, z.B. wird eine Schraube nicht in jeder beliebigen Variante neu modelliert, sondern nur einmal als parametrisches Modell, wobei z.B. die Parameter „Länge“ und „Durchmesser“ variiert und das jeweils erzeugte Schraubenmodell als Variante abgespeichert wird. Parameter können auch mithilfe von Formeln verknüpft werden (z.B. „Länge = 2 x Durchmesser + 10 mm“).
+Einige CAD-Programme verfügen über Funktionen für „parametrisches Design“. Dabei werden Bauteile nicht mit exakten Zahlenwerten bemaßt (z.B. 10 mm), sondern mit Parametern (z.B. mit „Länge“ oder „Durchmesser“). Mit einem parametrischen Modell können dann viele unterschiedliche Varianten des Bauteils generiert werden, so muss etwa eine Schraube nicht in jeder beliebigen Variante neu modelliert werden, sondern nur einmal als parametrisches Modell, wobei man z.B. die Parameter „Länge“ und „Durchmesser“ variiert und das jeweils erzeugte Schraubenmodell als Variante abspeichert. Parameter können auch mithilfe von Formeln verknüpft werden (z.B. „Länge = 2 x Durchmesser + 10 mm“).
 
-Auf Videoportalen wie YouTube finden sich viele Video-Tutorials für das Erlernen von CAD-Modellierung. Grundlagen für einfache Modelle lassen sich relativ schnell erlernen, für komplexere CAD-Projekte und erweiterte Funktionen braucht es jedoch viel Einarbeitung und Übung.
+Auf Videoportalen wie YouTube finden sich viele Video-Tutorials für das Erlernen von CAD-Modellierung. Manche Fab Labs bieten auch Workshops an. Grundlagen für einfache Modelle lassen sich relativ schnell erlernen, für komplexere CAD-Projekte und erweiterte Funktionen braucht es jedoch viel Einarbeitung und Übung.
 
 
 ### Dateiformate für CAD-Modelle
 
 Jede Software hat ihr eigenes Dateiformat für Projektdateien, z.B. haben Dateien in der Software "FreeCAD" die Dateiendung *.FCStd und Dateien in "Autodesk Fusion 360" die Endung *.f3d.
-Es gibt im CAD-Bereich aber zahlreiche unterschiedliche Dateiformate, die teilweise von unterschiedlichen CAD-Programmen erstellt und geöffnet werden können.
+Es gibt im CAD-Bereich aber zahlreiche unterschiedliche Dateiformate, die von unterschiedlichen CAD-Programmen erstellt und geöffnet werden können.
 
 Besonders hervorzuheben ist das STEP-Dateiformat (*.ste, *.step oder *.stp). STEP steht für „STandard for the Exchange of Product model data” und ist in einer weltweit anerkannten ISO-Norm standardisiert. STEP-Dateien eignen sich daher gut als Austauschformat zwischen unterschiedlichen CAD-Programmen. Möchte man seine CAD-Datei mit jemandem teilen, der eine andere CAD-Software benutzt, ist das Exportieren im STEP-Format also oft eine gute Lösung, auch wenn nicht alle Informationen und Editierfunktionen erhalten bleiben, aber zumindest kann die Datei in der anderen Software geöffnet, betrachtet und analysiert werden.
 
@@ -86,11 +86,11 @@ Ein weiteres wichtiges Dateiformat ist STL, vor allem für 3D-Druck. Praktisch j
 
 ### Beispiele für CAD-Software
 
-Hier eine Auswahl einiger beliebter und empfohlener CAD-Programme, die weitestgehend kostenlos nutzbar sind:
+Hier eine Auswahl einiger beliebter CAD-Programme, die weitestgehend kostenlos nutzbar sind:
 
 #### FreeCAD
 
-FreeCAD ist, wie der Name schon sagt, eine sogenannte „Free and open-source software“, d.h. die Software ist uneingeschränkt kostenlos, also auch für kommerzielle Anwendungen, und ihr Quellcode ist offen. Dies macht FreeCAD zu einer beliebten Softwarelösung in Open-Source-Communities, da garantiert ist, dass mit FreeCAD erstellte Projekte auch langfristig von jedem kostenlos geöffnet und bearbeitet werden können (als Open Source Hardware). Zudem kann FreeCAD von jedem modifiziert oder durch Erweiterungen ergänzt und verbessert werden (Open Source Software), wodurch schon zahlreiche, von der Nutzer:innen-Community programmierte Bugfixes, Zusatzfunktionen, Workbenches und Makros gibt.
+FreeCAD ist, wie der Name schon sagt, eine sogenannte „Free and open-source software“, d.h. die Software ist uneingeschränkt kostenlos, also auch für kommerzielle Anwendungen, und ihr Quellcode ist offen. Dies macht FreeCAD zu einer beliebten Softwarelösung in Open-Source-Communities, da garantiert ist, dass mit FreeCAD erstellte Projekte auch langfristig von jedem kostenlos geöffnet und bearbeitet werden können (als Open Source Hardware). Zudem kann FreeCAD von jedem modifiziert oder durch Erweiterungen ergänzt und verbessert werden (Open Source Software), wodurch es schon zahlreiche, von der Nutzer:innen-Community programmierte Bugfixes, Zusatzfunktionen, Workbenches und Makros gibt.
 
 FreeCAD enthält viele unterschiedliche Programm-Module (sogenannte „Workbenches“) und Funktionen für 3D-Modellierung, 3D-Druck, CAM und CNC-Fräsen, Lasercutting, Bewegungssimulationen, Architektur und vieles mehr. Eine besondere Stärke von FreeCAD ist auch das parametrische Designen, wobei mit der „Spreadsheet“-Workbench Kalkulationstabellen erstellt werden können, mit denen man Parameter des CAD-Modells steuern kann. FreeCAD ist nich cloud-basiert, sondern läuft rein lokal auf dem Rechner (Windows, Mac oder Linux).
 
@@ -125,7 +125,7 @@ Aufgrund seiner klaren und verständlichen Bedienbarkeit gilt Fusion 360 als ver
 </p>
 
 <p align="center">
-<a href="#s11">[11]</a> <i> Autodesk Fusion 360: Benutzeroberfläche - </i>
+<a href="#s11">[11]</a> <i> </i>
 <a href="#s12">[12]</a> <i> Autodesk Fusion 360: Benutzeroberfläche</i>
 </p>
 
@@ -133,17 +133,17 @@ Aufgrund seiner klaren und verständlichen Bedienbarkeit gilt Fusion 360 als ver
 
 ## 3D-Grafik- und Modellierungsprogramme
 
-Im Gegensatz zu CAD-Programmen, die eher für technische Produktentwicklung genutzt werden, richten sich 3D-Grafikprogramme eher an künstlerische oder Design-bezogene Anwendungen, z.B. zum Gestalten von Figuren, Vasen, Gefäßen oder sonstige, komplex gestaltete Formen.
+Im Gegensatz zu CAD-Programmen, die eher für technische Produktentwicklung genutzt werden, richten sich 3D-Grafikprogramme eher an künstlerische oder Design-bezogene Anwendungen, z.B. zum Gestalten von Figuren, Vasen, Gefäßen oder sonstigen, komplex gestalteten Formen.
 
 Dabei kommen oft sogenannte Sculpting-Werkzeuge zum Einsatz, womit sich 3D-Objekte präzise verformen lassen, ähnlich wie beim Töpfern mit Ton. Die millimetergenaue Bemaßung sowie Konstruktion von eher eckigen Teilen, wie bei technischen Bauteilen in CAD-Programmen, steht damit weniger im Vordergrund als die Freiheit in der Form- und Ausgestaltung des 3D-Objekts.
 
-Weitere Funktionen von 3D-Grafikprogrammen sind z.B. die Texturierung, Animation (für Animationsfilme oder Videospiele) und Rendering (z.B. zur Inszenierung eines Objekts oder Produkts in einer bestimmten Umgebung und Belichtung in einer sogenannten Szene). Viele 3D-Grafikprogramme können die Modelle als STL-Datei exportieren, womit sie sich 3D-drucken lassen.
+Weitere Funktionen von 3D-Grafikprogrammen sind z.B. die Texturierung, Animation (für Animationsfilme oder Videospiele) und Rendering, z.B. zur Inszenierung eines Objekts oder Produkts in einer bestimmten Umgebung und Belichtung in einer sogenannten Szene. Viele 3D-Grafikprogramme können die Modelle als STL-Datei exportieren, womit sie sich 3D-drucken lassen.
 
 > Bilder
 
 ### Beispiele für 3D-Grafik- und 3D-Modellierungsprogramme
 
-Hier eine Auswahl einiger beliebter und empfohlener 3D-Grafik- und 3D-Modellierungsprogramme, die kostenlos nutzbar sind:
+Hier eine Auswahl einiger beliebter 3D-Grafik- und 3D-Modellierungsprogramme, die kostenlos nutzbar sind:
 
 #### Blender
 
