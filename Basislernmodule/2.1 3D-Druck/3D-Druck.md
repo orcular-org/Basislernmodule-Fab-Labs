@@ -366,7 +366,7 @@ Abschließend muss man ggf. vorhandenes Stützmaterial entfernen, zudem kann man
 # Bildnachweise
 
 <a name="s1"></a>
-**[1]** DIY-3D-Drucker mit Open-Hardware-Lizenz [(Repository)](https://gitlab.fabcity.hamburg/hardware/interfacer-osh-build-workshops/3-d-printer-hypercuboid) - **Image license:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) - **Created by:** Oskar Lidtke, [github.com/orcular-org](https://github.com/orcular-org)
+**[1]** DIY-3D-Drucker mit Open-Hardware-Lizenz [(Repository)](https://gitlab.fabcity.hamburg/hardware/interfacer-osh-build-workshops/3-d-printer-hypercuboid) - **Image license:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) - **Author:** Oskar Lidtke, [github.com/orcular-org](https://github.com/orcular-org)
 
 <a name="s2"></a>
 **[2]** Prusa i3 metal frame - **Image license:** [GNU Free Documentation License, Version 1.2](https://en.wikipedia.org/wiki/GNU_Free_Documentation_License) - **Source:** https://commons.wikimedia.org/wiki/File:Prusa_i3_metal_frame.jpg
@@ -393,16 +393,16 @@ Abschließend muss man ggf. vorhandenes Stützmaterial entfernen, zudem kann man
 **[9]** 3D printing a yarn bowl - **Image license:** [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/) - **Source:** https://www.flickr.com/photos/ruthanddave/49896309407
 
 <a name="s10"></a>
-**[10]** Verschiedene 3D-gedruckte Objekte - **Image license:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) - **Created by:** Oskar Lidtke, [github.com/orcular-org](https://github.com/orcular-org)
+**[10]** Verschiedene 3D-gedruckte Objekte - **Image license:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) - **Author:** Oskar Lidtke, [github.com/orcular-org](https://github.com/orcular-org)
 
 <a name="s11"></a>
-**[11]** 3D-gedrucktes Objekt - **Image license:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) - **Created by:** Oskar Lidtke, [github.com/orcular-org](https://github.com/orcular-org)
+**[11]** 3D-gedrucktes Objekt - **Image license:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) - **Author:** Oskar Lidtke, [github.com/orcular-org](https://github.com/orcular-org)
 
 <a name="s12"></a>
-**[12]** 3D-gedrucktes Objekt - **Image license:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) - **Created by:** Oskar Lidtke, [github.com/orcular-org](https://github.com/orcular-org)
+**[12]** 3D-gedrucktes Objekt - **Image license:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) - **Author:** Oskar Lidtke, [github.com/orcular-org](https://github.com/orcular-org)
 
 <a name="s13"></a>
-**[13]** 3D-gedrucktes Objekt - **Image license:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) - **Created by:** Oskar Lidtke, [github.com/orcular-org](https://github.com/orcular-org)
+**[13]** 3D-gedrucktes Objekt - **Image license:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) - **Author:** Oskar Lidtke, [github.com/orcular-org](https://github.com/orcular-org)
 
 <a name="s14"></a>
 **[14]** Makerbot Store, Manhattan (NY, USA) - **Image license:** [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/deed.en) - **Source:** https://commons.wikimedia.org/wiki/File:Makerbot_Store,_Manhattan_(NY,_USA)_(8764959982).jpg
