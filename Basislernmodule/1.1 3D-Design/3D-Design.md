@@ -119,7 +119,17 @@ Aufgrund seiner klaren und verständlichen Bedienbarkeit gilt Fusion 360 als ver
 
 **Registrierung und Download für Privatanwender:innen:** https://www.autodesk.de/products/fusion-360/personal
 
-> Bilder
+<p align="center">
+<img height="300" src="https://user-images.githubusercontent.com/123781559/230791930-d1f61b09-237b-4588-8795-999f708b8deb.png">
+<img height="300" src="https://user-images.githubusercontent.com/123781559/230791949-6f1ebd53-2d95-4a97-b80d-a833959c66ae.png">
+</p>
+
+<p align="center">
+<a href="#s11">[11]</a> <i> Autodesk Fusion 360: Benutzeroberfläche - </i>
+<a href="#s12">[12]</a> <i> Autodesk Fusion 360: Benutzeroberfläche</i>
+</p>
+
+
 
 ## 3D-Grafik- und Modellierungsprogramme
 
@@ -190,3 +200,9 @@ Statt eigene 3D-Modelle zu erstellen, kann man auch fertige Modelle aus dem Inte
 
 <a name="s10"></a>
 **[10]** screenshot-07.jpg (cropped) - **Image license:** [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/) - **Source:** https://www.freecad.org/ (home page) [License info for freecad.org](https://wiki.freecad.org/Licence)
+
+<a name="s11"></a>
+**[11]** CAM Fusion 360 - **Image license:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) - **Source:** https://commons.wikimedia.org/wiki/File:CAM_Fusion_360.png
+
+<a name="s12"></a>
+**[12]** 3D Design by fusion 360 - **Image license:** [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/) - **Source:** https://www.flickr.com/photos/kenming_wang/32276624594
