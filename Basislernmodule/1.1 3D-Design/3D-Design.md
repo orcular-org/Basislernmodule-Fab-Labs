@@ -19,7 +19,7 @@ Je nach Anwendungszweck gibt es Programme mit unterschiedlichen Schwerpunkten un
 <a href="#s2">[2]</a> <i> 3D-Modell in Blender </i>																	
 </p>									
 
-Zudem gibt es eine Vielzahl an Webseiten, von denen man fertige Modelle beziehen oder auf die man seine eigenen Kreationen hochladen und teilen kann.
+Statt eigene 3D-Modelle zu erstellen, kann man auch fertige Modelle aus dem Internet herunterladen, ggf. nachbearbeiten und anschließend z.B. für 3D-Druck benutzen. Es gibt eine Vielzahl an Webseiten, von denen man 3D-Modelle beziehen oder auf die man seine eigenen Kreationen hochladen und teilen kann (mehr dazu im Basislernmodul zum Thema "Download von 3D-Modellen").
 
 Eine weitere Möglichkeit, ein 3D-Modell zu erstellen besteht im 3D-Scanning. Damit lassen sich Gegenstände, Ersatzteile oder auch Personen einscannen und als 3D-Modell am Rechner abbilden. Mit etwas Nachbearbeitung lassen sich diese Modelle auch 3D-drucken (mehr dazu im Basislernmodul zu 3D-Scanning).
 
@@ -31,7 +31,7 @@ Soll ein in CAD entworfenes Modell mithilfe von CNC-Maschinen (fräsen oder dreh
 
 Beim Erstellen eines 3D-Modells – bei CAD spricht man von „modellieren“ oder „konstruieren“ – arbeitet man meistens mit sogenannter geometrischer und generativer Modellierung.
 
-Dabei startet man üblicherweise mit dem Zeichnen einer 2D-Skizze, die aus Punkten, Linien, Kurven und geometrischen Formen wie Kreisen oder Sechsecken besteht. Als nächster Schritt wird diese 2D-Skizze zu einem 3D-Objekt mit festgelegter Dicke „aufgepolstert“. Aufbauend auf diesem Objekt können weitere Elemente hinzugefügt werden, etwa durch weitere 2D-Skizzen und Aufpolsterung (engl. „Pad“), durch Rotation der 2D-Skizze zur Erstellung eines Drehteils, durch Abziehen von Teilen (z.B. für Löcher oder Bohrungen) oder durch Vervielfältigung von Elementen.
+Dabei startet man üblicherweise mit dem Zeichnen einer 2D-Skizze, die aus Punkten, Linien, Kurven und geometrischen Formen wie Kreisen oder Sechsecken besteht. Mit Bemaßungen kann man die Skizzenelemente exakt definieren, z.B. Länge von Linen oder Kreisdurchmesser millimetergenau festlegen. Durch sogenannte Abhängigkeiten kann man z.B. festlegen, dass zwei Linien parallel oder gleich lang sein sollen. Als nächster Schritt wird diese 2D-Skizze zu einem 3D-Objekt mit festgelegter Dicke „aufgepolstert“ (engl. "Pad") oder um eine Achse rotiert wird, um einen Drehkörper (engl. "Revolution") zu erstellen. Aufbauend auf diesem Objekt können weitere Elemente hinzugefügt werden, etwa durch weitere 2D-Skizzen und Aufpolsterung/Drehung, durch Abziehen von Teilen (z.B. für Löcher, Bohrungen oder Taschen (engl. "Pocket")), durch Vervielfältigung von Elementen oder Abrundung von Kanten.
 
 <p align="center">
 <img height="130" src="https://user-images.githubusercontent.com/123781559/230787254-ebd619b0-d32e-4870-903f-1376d1a02625.png"> <br>
@@ -67,14 +67,14 @@ Viele CAD-Programme enthalten auch Funktionen zum Erstellen von technischen Maß
 <a href="#s8">[8]</a> <i> Technische (Maß)zeichnung in FreeCAD </i>
 </p>
 
-Einige CAD-Programme verfügen über Funktionen für „parametrisches Design“. Dabei werden Bauteile nicht mit exakten Zahlenwerten bemaßt (z.B. 10 mm), sondern mit Parametern (z.B. mit („Länge“ oder „Durchmesser“). Mit einem parametrischen Modell können dann viele unterschiedliche Varianten des Bauteils generiert werden, z.B. wird eine Schraube nicht in jeder beliebigen Variante neu modelliert, sondern nur einmal als parametrisches Modell, wobei z.B. die Parameter „Länge“ und „Durchmesser“ variiert und das jeweils erzeugte Schraubenmodell als Variante abgespeichert wird. Parameter können auch mithilfe von Formeln verknüpft werden (z.B. „Länge = 2 x Durchmesser + 10 mm“).
+Einige CAD-Programme verfügen über Funktionen für „parametrisches Design“. Dabei werden Bauteile nicht mit exakten Zahlenwerten bemaßt (z.B. 10 mm), sondern mit Parametern (z.B. mit „Länge“ oder „Durchmesser“). Mit einem parametrischen Modell können dann viele unterschiedliche Varianten des Bauteils generiert werden, z.B. wird eine Schraube nicht in jeder beliebigen Variante neu modelliert, sondern nur einmal als parametrisches Modell, wobei z.B. die Parameter „Länge“ und „Durchmesser“ variiert und das jeweils erzeugte Schraubenmodell als Variante abgespeichert wird. Parameter können auch mithilfe von Formeln verknüpft werden (z.B. „Länge = 2 x Durchmesser + 10 mm“).
 
 Auf Videoportalen wie YouTube finden sich viele Video-Tutorials für das Erlernen von CAD-Modellierung. Grundlagen für einfache Modelle lassen sich relativ schnell erlernen, für komplexere CAD-Projekte und erweiterte Funktionen braucht es jedoch viel Einarbeitung und Übung.
 
 
 ### Dateiformate für CAD-Modelle
 
-Jede Software hat ihr eigenes Dateiformat für Projektdateien, z.B. haben FreeCAD-Dateien die Dateiendung *.FCStd und Autodesk-Fusion-360-Dateien die Endung *.f3d.
+Jede Software hat ihr eigenes Dateiformat für Projektdateien, z.B. haben Dateien in der Software "FreeCAD" die Dateiendung *.FCStd und Dateien in "Autodesk Fusion 360" die Endung *.f3d.
 Es gibt im CAD-Bereich aber zahlreiche unterschiedliche Dateiformate, die teilweise von unterschiedlichen CAD-Programmen erstellt und geöffnet werden können.
 
 Besonders hervorzuheben ist das STEP-Dateiformat (*.ste, *.step oder *.stp). STEP steht für „STandard for the Exchange of Product model data” und ist in einer weltweit anerkannten ISO-Norm standardisiert. STEP-Dateien eignen sich daher gut als Austauschformat zwischen unterschiedlichen CAD-Programmen. Möchte man seine CAD-Datei mit jemandem teilen, der eine andere CAD-Software benutzt, ist das Exportieren im STEP-Format also oft eine gute Lösung, auch wenn nicht alle Informationen und Editierfunktionen erhalten bleiben, aber zumindest kann die Datei in der anderen Software geöffnet, betrachtet und analysiert werden.
@@ -90,13 +90,13 @@ Hier eine Auswahl einiger beliebter und empfohlener CAD-Programme, die weitestge
 
 #### FreeCAD
 
-FreeCAD ist, wie der Name schon sagt, eine sogenannte „Free and open-source software“, d.h. die Software ist uneingeschränkt kostenlos, also auch für kommerzielle Anwendungen, und ihr Quellcode ist offen. Dies macht FreeCAD zu einer beliebten Softwarelösung in Open-Source-Communities, da garantiert ist, dass mit FreeCAD erstellte Projekte auch langfristig von jedem kostenlos geöffnet und bearbeitet werden können (als Open Source Hardware). Zudem kann FreeCAD von jedem modifiziert oder durch Erweiterungen ergänzt und verbessert werden (Open Source Software), wodurch schon zahlreiche, von der Nutzer:innen-Community programmierte Zusatzfunktionen, Workbenches, Makros und Bugfixes gibt.
+FreeCAD ist, wie der Name schon sagt, eine sogenannte „Free and open-source software“, d.h. die Software ist uneingeschränkt kostenlos, also auch für kommerzielle Anwendungen, und ihr Quellcode ist offen. Dies macht FreeCAD zu einer beliebten Softwarelösung in Open-Source-Communities, da garantiert ist, dass mit FreeCAD erstellte Projekte auch langfristig von jedem kostenlos geöffnet und bearbeitet werden können (als Open Source Hardware). Zudem kann FreeCAD von jedem modifiziert oder durch Erweiterungen ergänzt und verbessert werden (Open Source Software), wodurch schon zahlreiche, von der Nutzer:innen-Community programmierte Bugfixes, Zusatzfunktionen, Workbenches und Makros gibt.
 
-FreeCAD enthält viele unterschiedliche Programm-Module (sogenannte „Workbenches“) und Funktionen für 3D-Modellierung, 3D-Druck, CAM und CNC-Fräsen, Lasercutting, Bewegungssimulationen, Architektur und vieles mehr. Eine besondere Stärke von FreeCAD ist auch das parametrische Designen, wobei mit der „Spreadsheet“-Workbench Kalkulationstabellen erstellt werden können, mit denen man Parameter des CAD-Modells steuern kann.
+FreeCAD enthält viele unterschiedliche Programm-Module (sogenannte „Workbenches“) und Funktionen für 3D-Modellierung, 3D-Druck, CAM und CNC-Fräsen, Lasercutting, Bewegungssimulationen, Architektur und vieles mehr. Eine besondere Stärke von FreeCAD ist auch das parametrische Designen, wobei mit der „Spreadsheet“-Workbench Kalkulationstabellen erstellt werden können, mit denen man Parameter des CAD-Modells steuern kann. FreeCAD ist nich cloud-basiert, sondern läuft rein lokal auf dem Rechner (Windows, Mac oder Linux).
 
 **Download:** https://www.freecad.org/
 
-**FreeCAD-Wiki:** https://wiki.freecad.org/
+**FreeCAD-Wiki:** https://wiki.freecad.org/ - In deutscher Sprache (teilweise unvollständig): https://wiki.freecad.org/Main_Page/de
 
 <p align="center">
 <img height="300" src="https://user-images.githubusercontent.com/123781559/230791448-53b14b55-1f3d-4dbe-b351-d9323aa8fb55.png">
@@ -115,7 +115,7 @@ Fusion 360 ist eine von Autodesk entwickelte Software-Suite für CAD, CAM und we
 
 Fusion 360 ist cloud-basiert, d.h. man benötigt eine Verbindung zum Internet und muss sich bei erster Benutzung mit seinen Kontodaten anmelden. Projektdateien werden online in einer Cloud von Autodesk gespeichert, können jedoch auch lokal heruntergeladen werden (z.B. als f3d-Datei). Falls keine Internetverbindung besteht, kann auch zeitweilig offline gearbeitet werden, die Dateien werden bei nächster Verbindung mit dem Internet synchronisiert. Die erstmalige Anmeldung muss jedoch online erfolgen.
 
-Aufgrund seiner klaren und verständlichen Bedienbarkeit gilt Fusion 360 als vergleichsweise leicht erlernbare CAD-Software, was es zu einem viel genutzten und beliebten Programm in Maker-Communities macht.
+Aufgrund seiner klaren und verständlichen Bedienbarkeit gilt Fusion 360 als vergleichsweise leicht erlernbare CAD-Software, was sie zu einem viel genutzten und beliebten Programm in Maker-Communities macht.
 
 **Registrierung und Download für Privatanwender:innen:** https://www.autodesk.de/products/fusion-360/personal
 
@@ -165,9 +165,6 @@ Tinkercad gehört, so wie auch Fusion 360, zu dem Unternehmen Autodesk und setzt
 
 > Bilder
 
-## Download fertiger 3D-Modelle
-
-Statt eigene 3D-Modelle zu erstellen, kann man auch fertige Modelle aus dem Internet herunterladen, ggf. nachbearbeiten und anschließend z.B. für 3D-Druck benutzen. Mehr dazu im Basislernmodul „Verwendung von 3D Modellen aus dem Internet“.
 
 # Bildnachweise
 
