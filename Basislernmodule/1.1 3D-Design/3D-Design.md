@@ -48,9 +48,15 @@ Dabei startet man üblicherweise mit dem Zeichnen einer 2D-Skizze, die aus Punkt
 </p>
 
 
+<p align="center">
+<img height="300" src="https://user-images.githubusercontent.com/123781559/230790441-ef7c1deb-014a-4441-9c7d-ffd4dde279f8.png">
+<img height="300" src="https://user-images.githubusercontent.com/123781559/230790464-0a6f5112-d468-457e-9855-ff1a709c298a.png">
+</p>
 
-
-
+<p align="center">
+<a href="#s6">[6]</a> <i> Konstruktionsskizze in FreeCAD - </i>
+<a href="#s7">[7]</a> <i> Ein mit geometrischer Modellierung erstelltes Bauteil in FreeCAD </i>
+</p>
 
 
 Viele CAD-Programme enthalten auch Funktionen zum Erstellen von technischen Maßzeichnungen. Dabei wird das Bauteil zunächst in 3D modelliert und anschließend aus verschiedenen Blickrichtungen auf eine 2D-Zeichnung projiziert. Diese Ansichten können auf einem Blatt angeordnet, mit Bemaßungen sowie weiteren Informationen versehen und ausgedruckt werden. Dies ist hilfreich für Teile, die man nicht mit digitalen Fertigungsmethoden herstellen möchte, sondern mit konventionellen Werkzeugen, z.B. Zuschneiden und Bohren von Holzbrettern oder Aluminiumprofilen.
@@ -145,10 +151,10 @@ Statt eigene 3D-Modelle zu erstellen, kann man auch fertige Modelle aus dem Inte
 # Bildnachweise
 
 <a name="s1"></a>
-**[1]** Gsuter.png - **Image license:** [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/) - **Source:** https://wiki.freecad.org/File:Gsuter.png
+**[1]** Gsuter.png (cropped) - **Image license:** [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/) - **Source:** https://wiki.freecad.org/File:Gsuter.png
 
 <a name="s2"></a>
-**[2]** 3D Viewport, a Blender 2.93.4.png - **Image license:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) - **Source:** https://commons.wikimedia.org/wiki/File:3D_Viewport,_a_Blender_2.93.4.png
+**[2]** 3D Viewport, a Blender 2.93.4.png (cropped) - **Image license:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) - **Source:** https://commons.wikimedia.org/wiki/File:3D_Viewport,_a_Blender_2.93.4.png
 
 <a name="s3"></a>
 **[3]** PartDesign Pad example (adapted) - **Image license:** [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/) - **Source:** https://wiki.freecad.org/File:PartDesign_Pad_example.svg
@@ -159,3 +165,8 @@ Statt eigene 3D-Modelle zu erstellen, kann man auch fertige Modelle aus dem Inte
 <a name="s5"></a>
 **[5]** PartDesign Pocket example (adapted) - **Image license:** [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/) - **Source:** https://wiki.freecad.org/File:PartDesign_Pocket_example.svg
 
+<a name="s6"></a>
+**[6]** GGTuto1 4 - **Image license:** [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/) - **Source:** https://wiki.freecad.org/File:GGTuto1_4.PNG
+
+<a name="s7"></a>
+**[7]** FreeCAD-20.1 (cropped) - **Image license:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) - **Source:** https://commons.wikimedia.org/wiki/File:FreeCAD-20.1.png
