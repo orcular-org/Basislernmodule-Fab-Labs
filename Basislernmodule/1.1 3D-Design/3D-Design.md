@@ -33,8 +33,6 @@ Beim Erstellen eines 3D-Modells – bei CAD spricht man von „modellieren“ od
 
 Dabei startet man üblicherweise mit dem Zeichnen einer 2D-Skizze, die aus Punkten, Linien, Kurven und geometrischen Formen wie Kreisen oder Sechsecken besteht. Als nächster Schritt wird diese 2D-Skizze zu einem 3D-Objekt mit festgelegter Dicke „aufgepolstert“. Aufbauend auf diesem Objekt können weitere Elemente hinzugefügt werden, etwa durch weitere 2D-Skizzen und Aufpolsterung (engl. „Pad“), durch Rotation der 2D-Skizze zur Erstellung eines Drehteils, durch Abziehen von Teilen (z.B. für Löcher oder Bohrungen) oder durch Vervielfältigung von Elementen.
 
-> Bilder: FreeCAD Skizze zu Pad, Abzug/Bohrung, Rotation
-
 <p align="center">
 <img height="130" src="https://user-images.githubusercontent.com/123781559/230787254-ebd619b0-d32e-4870-903f-1376d1a02625.png"> <br>
 <img height="130" src="https://user-images.githubusercontent.com/123781559/230787339-42671cf1-cdf9-4c2b-b961-447bfd418588.png"> <br>
@@ -61,11 +59,15 @@ Dabei startet man üblicherweise mit dem Zeichnen einer 2D-Skizze, die aus Punkt
 
 Viele CAD-Programme enthalten auch Funktionen zum Erstellen von technischen Maßzeichnungen. Dabei wird das Bauteil zunächst in 3D modelliert und anschließend aus verschiedenen Blickrichtungen auf eine 2D-Zeichnung projiziert. Diese Ansichten können auf einem Blatt angeordnet, mit Bemaßungen sowie weiteren Informationen versehen und ausgedruckt werden. Dies ist hilfreich für Teile, die man nicht mit digitalen Fertigungsmethoden herstellen möchte, sondern mit konventionellen Werkzeugen, z.B. Zuschneiden und Bohren von Holzbrettern oder Aluminiumprofilen.
 
-> Bild: FreeCAD Techdraw
+<p align="center">
+<img height="400" src="https://user-images.githubusercontent.com/123781559/230791093-6e675d05-3405-4e3e-82ef-5ad42a848693.png">
+</p>
+
+<p align="center">
+<a href="#s8">[8]</a> <i> Technische (Maß)zeichnung in FreeCAD </i>
+</p>
 
 Einige CAD-Programme verfügen über Funktionen für „parametrisches Design“. Dabei werden Bauteile nicht mit exakten Zahlenwerten bemaßt (z.B. 10 mm), sondern mit Parametern (z.B. mit („Länge“ oder „Durchmesser“). Mit einem parametrischen Modell können dann viele unterschiedliche Varianten des Bauteils generiert werden, z.B. wird eine Schraube nicht in jeder beliebigen Variante neu modelliert, sondern nur einmal als parametrisches Modell, wobei z.B. die Parameter „Länge“ und „Durchmesser“ variiert und das jeweils erzeugte Schraubenmodell als Variante abgespeichert wird. Parameter können auch mithilfe von Formeln verknüpft werden (z.B. „Länge = 2 x Durchmesser + 10 mm“).
-
-> Bild: FreeCAD parametrisches Design
 
 Auf Videoportalen wie YouTube finden sich viele Video-Tutorials für das Erlernen von CAD-Modellierung. Grundlagen für einfache Modelle lassen sich relativ schnell erlernen, für komplexere CAD-Projekte und erweiterte Funktionen braucht es jedoch viel Einarbeitung und Übung.
 
@@ -170,3 +172,7 @@ Statt eigene 3D-Modelle zu erstellen, kann man auch fertige Modelle aus dem Inte
 
 <a name="s7"></a>
 **[7]** FreeCAD-20.1 (cropped) - **Image license:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) - **Source:** https://commons.wikimedia.org/wiki/File:FreeCAD-20.1.png
+
+<a name="s8"></a>
+**[8]** TechDraw Workbench Example - **Image license:** [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/) - **Source:** https://wiki.freecad.org/File:TechDraw_Workbench_Example.png
+
