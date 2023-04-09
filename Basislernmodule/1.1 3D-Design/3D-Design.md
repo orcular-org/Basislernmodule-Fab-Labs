@@ -35,6 +35,24 @@ Dabei startet man üblicherweise mit dem Zeichnen einer 2D-Skizze, die aus Punkt
 
 > Bilder: FreeCAD Skizze zu Pad, Abzug/Bohrung, Rotation
 
+<p align="center">
+<img height="130" src="https://user-images.githubusercontent.com/123781559/230787254-ebd619b0-d32e-4870-903f-1376d1a02625.png"> <br>
+<img height="130" src="https://user-images.githubusercontent.com/123781559/230787339-42671cf1-cdf9-4c2b-b961-447bfd418588.png"> <br>
+<img height="130" src="https://user-images.githubusercontent.com/123781559/230787386-b8406c93-b49e-456c-8611-8e90f8bf9391.png">
+</p>
+
+<p align="center">
+<a href="#s3">[3]</a> <i> 3D-Aufpolsterung (Pad) aus einer 2D-Skizze - </i>
+<a href="#s4">[4]</a> <i> 3D-Drehkörper (Revolution) aus 2D-Skizze - </i>
+<a href="#s5">[5]</a> <i> Tasche (Pocket) aus 2D-Skizze </i>
+</p>
+
+
+
+
+
+
+
 Viele CAD-Programme enthalten auch Funktionen zum Erstellen von technischen Maßzeichnungen. Dabei wird das Bauteil zunächst in 3D modelliert und anschließend aus verschiedenen Blickrichtungen auf eine 2D-Zeichnung projiziert. Diese Ansichten können auf einem Blatt angeordnet, mit Bemaßungen sowie weiteren Informationen versehen und ausgedruckt werden. Dies ist hilfreich für Teile, die man nicht mit digitalen Fertigungsmethoden herstellen möchte, sondern mit konventionellen Werkzeugen, z.B. Zuschneiden und Bohren von Holzbrettern oder Aluminiumprofilen.
 
 > Bild: FreeCAD Techdraw
@@ -131,3 +149,13 @@ Statt eigene 3D-Modelle zu erstellen, kann man auch fertige Modelle aus dem Inte
 
 <a name="s2"></a>
 **[2]** 3D Viewport, a Blender 2.93.4.png - **Image license:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) - **Source:** https://commons.wikimedia.org/wiki/File:3D_Viewport,_a_Blender_2.93.4.png
+
+<a name="s3"></a>
+**[3]** PartDesign Pad example (adapted) - **Image license:** [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/) - **Source:** https://wiki.freecad.org/File:PartDesign_Pad_example.svg
+
+<a name="s4"></a>
+**[4]** PartDesign Revolution example (adapted) - **Image license:** [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/) - **Source:** https://wiki.freecad.org/File:PartDesign_Revolution_example.svg
+
+<a name="s5"></a>
+**[5]** PartDesign Pocket example (adapted) - **Image license:** [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/) - **Source:** https://wiki.freecad.org/File:PartDesign_Pocket_example.svg
+
