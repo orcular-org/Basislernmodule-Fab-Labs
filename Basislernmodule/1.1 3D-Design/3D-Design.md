@@ -98,7 +98,16 @@ FreeCAD enthält viele unterschiedliche Programm-Module (sogenannte „Workbench
 
 **FreeCAD-Wiki:** https://wiki.freecad.org/
 
-> Bilder
+<p align="center">
+<img height="300" src="https://user-images.githubusercontent.com/123781559/230791448-53b14b55-1f3d-4dbe-b351-d9323aa8fb55.png">
+<img height="300" src="https://user-images.githubusercontent.com/123781559/230791596-5868e09f-cb26-4cc5-9ead-c20ae9d21017.png">
+</p>
+
+<p align="center">
+<a href="#s9">[9]</a> <i> FreeCAD-Benutzeroberfläche - </i>
+<a href="#s10">[10]</a> <i> Baugruppe mit Skizzen in FreeCAD </i>
+</p>
+
 
 #### Autodesk Fusion 360
 
@@ -176,3 +185,8 @@ Statt eigene 3D-Modelle zu erstellen, kann man auch fertige Modelle aus dem Inte
 <a name="s8"></a>
 **[8]** TechDraw Workbench Example - **Image license:** [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/) - **Source:** https://wiki.freecad.org/File:TechDraw_Workbench_Example.png
 
+<a name="s9"></a>
+**[9]** Asm3 1 relnotes 0.20 - **Image license:** [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/) - **Source:** https://wiki.freecad.org/File:Asm3_1_relnotes_0.20.jpg
+
+<a name="s10"></a>
+**[10]** screenshot-07.jpg (cropped) - **Image license:** [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/) - **Source:** https://www.freecad.org/ (home page) [License info for freecad.org](https://wiki.freecad.org/Licence)
