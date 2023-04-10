@@ -2,15 +2,13 @@
 
 ## Inhalt
 
-1. [Download fertiger 3D-Modelle](https://github.com/orcular-org/Basislernmodule-Fab-Labs/blob/main/Basislernmodule/1.3%20Verwendung%20von%203D%20Modellen%20aus%20dem%20Internet/Verwendung%20von%203D%20Modellen%20aus%20dem%20Internet.md#download-fertiger-3d-modelle)
-   - [Vektorgrafiken für Lasercutting und bearbeitbare 3D-/CAD-Modelle](https://github.com/orcular-org/Basislernmodule-Fab-Labs/blob/main/Basislernmodule/1.3%20Verwendung%20von%203D%20Modellen%20aus%20dem%20Internet/Verwendung%20von%203D%20Modellen%20aus%20dem%20Internet.md#vektorgrafiken-f%C3%BCr-lasercutting-und-bearbeitbare-3d-cad-modelle)
-2. [Offene Lizenzen und Creative Commons](https://github.com/orcular-org/Basislernmodule-Fab-Labs/blob/main/Basislernmodule/1.3%20Verwendung%20von%203D%20Modellen%20aus%20dem%20Internet/Verwendung%20von%203D%20Modellen%20aus%20dem%20Internet.md#offene-lizenzen-und-creative-commons)
-   - [Verschiedene Typen von CC-Lizenzen](https://github.com/orcular-org/Basislernmodule-Fab-Labs/blob/main/Basislernmodule/1.3%20Verwendung%20von%203D%20Modellen%20aus%20dem%20Internet/Verwendung%20von%203D%20Modellen%20aus%20dem%20Internet.md#verschiedene-typen-von-cc-lizenzen)
-   - [Warum die Erlaubnis für kommerzielle Nutzung wichtig ist](https://github.com/orcular-org/Basislernmodule-Fab-Labs/blob/main/Basislernmodule/1.3%20Verwendung%20von%203D%20Modellen%20aus%20dem%20Internet/Verwendung%20von%203D%20Modellen%20aus%20dem%20Internet.md#warum-die-erlaubnis-f%C3%BCr-kommerzielle-nutzung-wichtig-ist)
+1. [Download fertiger 3D-Modelle](#download-fertiger-3d-modelle)
+   - [Vektorgrafiken für Lasercutting und bearbeitbare 3D-/CAD-Modelle](#vektorgrafiken-f%C3%BCr-lasercutting-und-bearbeitbare-3d-cad-modelle)
+2. [Offene Lizenzen und Creative Commons](#offene-lizenzen-und-creative-commons)
+   - [Verschiedene Typen von CC-Lizenzen](#verschiedene-typen-von-cc-lizenzen)
+   - [Warum die Erlaubnis für kommerzielle Nutzung wichtig ist](#warum-die-erlaubnis-f%C3%BCr-kommerzielle-nutzung-wichtig-ist)
 
-[Lizenzinformationen](https://github.com/orcular-org/Basislernmodule-Fab-Labs/blob/main/Basislernmodule/1.3%20Verwendung%20von%203D%20Modellen%20aus%20dem%20Internet/Verwendung%20von%203D%20Modellen%20aus%20dem%20Internet.md#lizenzinformationen)
-
-[Test](#lizenzinformationen)
+[Lizenzinformationen](#lizenzinformationen)
 
 ## Download fertiger 3D-Modelle
 
