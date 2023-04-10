@@ -12,6 +12,11 @@
      - [Blender](https://github.com/orcular-org/Basislernmodule-Fab-Labs/edit/main/Basislernmodule/1.1%203D-Design/3D-Design.md#blender)
      - [Tinkercad](https://github.com/orcular-org/Basislernmodule-Fab-Labs/edit/main/Basislernmodule/1.1%203D-Design/3D-Design.md#tinkercad) 
 
+[Lizenzinformationen](https://github.com/orcular-org/Basislernmodule-Fab-Labs/edit/main/Basislernmodule/1.1%203D-Design/3D-Design.md#lizenzinformationen)
+
+[Bildnachweise](https://github.com/orcular-org/Basislernmodule-Fab-Labs/edit/main/Basislernmodule/1.1%203D-Design/3D-Design.md#bildnachweise)
+
+
 ## Einführung
 
 Es gibt verschiedene Software, mit denen man digitale 3D-Modelle zeichnen bzw. modellieren kann. Diese 3D-Modelle können anschließend z.B. für 3D-Druck, Lasercutting oder CNC-Fräsen genutzt werden.
@@ -202,7 +207,15 @@ Tinkercad gehört, so wie auch Fusion 360, zu dem Unternehmen Autodesk und setzt
 <a href="#s18">[18]</a> <i> 3D-Design eines Messschiebers in Tinkercad </i>
 </p>
 
+# Lizenzinformationen
 
+**Author:** Oskar Lidtke, https://github.com/orcular-org/
+
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />Except where otherwise noted, this work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0)</a>.
+
+See best practices for [attribution](https://wiki.creativecommons.org/wiki/Best_practices_for_attribution) and [marking your own work](https://wiki.creativecommons.org/wiki/Marking_your_work_with_a_CC_license) with a CC license.
+
+For attribution and licenses of the images used, see the section below.
 
 
 # Bildnachweise
