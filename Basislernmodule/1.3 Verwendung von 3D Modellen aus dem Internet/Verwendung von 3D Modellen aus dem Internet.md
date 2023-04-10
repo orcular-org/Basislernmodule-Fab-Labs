@@ -60,3 +60,11 @@ Die vollständige Broschüre findet sich [hier](https://upload.wikimedia.org/wik
 Die wichtigsten Probleme in Kürze: Vielen Menschen ist nicht bewusst, dass die Verwendung von NC-Lizenzen auch eine Veröffentlichung auf z.B. Wikipedia oder privat betriebenen Webseiten einschließt, auch wenn man im ersten Moment keine kommerzielle Nutzung vermuten würde. Wikipedia ist zwar grundsätzlich gemeinnützig und nicht-kommerziell, da Wikipedia jedoch z.B. in Suchmaschinen integriert wird, die wiederum zu kommerziellen Unternehmen gehören, kann es Schwierigkeiten geben. Auch eine privat oder von einem gemeinnützigen Verein betriebene Webseite, die Werbebanner einsetzt, gilt als kommerziell und darf keine NC-Werke verwenden.
 
 NC-Lizenzen sorgen im Bereich Mediennutzung mit Creative-Commons-Lizenzen sowie bei Open-Source-Software und -Hardware oft für ärgerliche und unerwünschte Einschränkungen, während die Sorgen vor kommerzieller Ausnutzung durch Unternehmen oft unbegründet sind. Bevor man also eine NC-Lizenz in Betracht zieht, lohnt sich die Lektüre der Broschüre.
+
+# Lizenzinformationen
+
+**Author:** Oskar Lidtke, https://github.com/orcular-org/
+
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />Except where otherwise noted, this work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0)</a>.
+
+See best practices for [attribution](https://wiki.creativecommons.org/wiki/Best_practices_for_attribution) and [marking your own work](https://wiki.creativecommons.org/wiki/Marking_your_work_with_a_CC_license) with a CC license.
