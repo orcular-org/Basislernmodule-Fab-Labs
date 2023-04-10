@@ -183,7 +183,17 @@ Tinkercad gehört, so wie auch Fusion 360, zu dem Unternehmen Autodesk und setzt
 
 **Registrierung und Anwendung:** https://www.tinkercad.com/
 
-> Bilder
+<p align="center">
+<img height="250" src="https://user-images.githubusercontent.com/123781559/231008608-c820e2b9-f7bf-4537-8ea6-02873cda1bb3.png">
+<img height="250" src="https://user-images.githubusercontent.com/123781559/231008650-cef97389-a24c-4b71-ac55-2ee98d7ae5d4.png">
+</p>
+
+<p align="center">
+<a href="#s17">[17]</a> <i> Tinkercad-Benutzeroberfläche (im Browser) - </i>
+<a href="#s18">[18]</a> <i> 3D-Design eines Messschiebers in Tinkercad </i>
+</p>
+
+
 
 
 # Bildnachweise
@@ -235,3 +245,9 @@ Tinkercad gehört, so wie auch Fusion 360, zu dem Unternehmen Autodesk und setzt
 
 <a name="s16"></a>
 **[16]** sculpt-paint_sculpt_multires_example.png (cropped) - **Image license:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) - **Source:** https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/introduction/adaptive.html#multiresolution
+
+<a name="s17"></a>
+**[17]** Practice 3 D printing - **Image license:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) - **Source:** https://commons.wikimedia.org/wiki/File:Windmill_3_D_printing.png
+
+<a name="s18"></a>
+**[18]** Caliper, drawn with Tinkercad - **Image license:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) - **Source:** https://en.wikipedia.org/wiki/File:Schuifmaat_bottom_mechaniek.png
