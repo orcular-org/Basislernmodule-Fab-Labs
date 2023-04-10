@@ -10,6 +10,8 @@
 
 [Lizenzinformationen](https://github.com/orcular-org/Basislernmodule-Fab-Labs/blob/main/Basislernmodule/1.3%20Verwendung%20von%203D%20Modellen%20aus%20dem%20Internet/Verwendung%20von%203D%20Modellen%20aus%20dem%20Internet.md#lizenzinformationen)
 
+[Test](#lizenzinformationen)
+
 ## Download fertiger 3D-Modelle
 
 Statt eigene 3D-Modelle zu erstellen, kann man auch fertige Modelle aus dem Internet herunterladen, ggf. nachbearbeiten und anschließend z.B. für 3D-Druck benutzen. Verschiedene Webseiten bieten eine riesige Auswahl von einfachen Objekten bis hin zu komplexen mehrteiligen Produkten.
