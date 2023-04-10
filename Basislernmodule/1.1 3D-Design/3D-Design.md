@@ -1,20 +1,20 @@
 # 3D-Design
 ## Inhalt
 
-1. [Einführung](https://github.com/orcular-org/Basislernmodule-Fab-Labs/edit/main/Basislernmodule/1.1%203D-Design/3D-Design.md#einf%C3%BChrung)
-2. [CAD-Software](https://github.com/orcular-org/Basislernmodule-Fab-Labs/edit/main/Basislernmodule/1.1%203D-Design/3D-Design.md#cad-software)
-   - [Dateiformate für CAD-Modelle](https://github.com/orcular-org/Basislernmodule-Fab-Labs/edit/main/Basislernmodule/1.1%203D-Design/3D-Design.md#dateiformate-f%C3%BCr-cad-modelle)
-   - [Beispiele für CAD-Software](https://github.com/orcular-org/Basislernmodule-Fab-Labs/edit/main/Basislernmodule/1.1%203D-Design/3D-Design.md#beispiele-f%C3%BCr-cad-software)
-     - [FreeCAD](https://github.com/orcular-org/Basislernmodule-Fab-Labs/edit/main/Basislernmodule/1.1%203D-Design/3D-Design.md#freecad)
-     - [Autodesk Fusion 360](https://github.com/orcular-org/Basislernmodule-Fab-Labs/edit/main/Basislernmodule/1.1%203D-Design/3D-Design.md#autodesk-fusion-360)
-3. [3D-Grafik- und Modellierungsprogramme](https://github.com/orcular-org/Basislernmodule-Fab-Labs/edit/main/Basislernmodule/1.1%203D-Design/3D-Design.md#3d-grafik--und-modellierungsprogramme)
-   - [Beispiele für 3D-Grafik- und 3D-Modellierungsprogramme](https://github.com/orcular-org/Basislernmodule-Fab-Labs/edit/main/Basislernmodule/1.1%203D-Design/3D-Design.md#beispiele-f%C3%BCr-3d-grafik--und-3d-modellierungsprogramme)
-     - [Blender](https://github.com/orcular-org/Basislernmodule-Fab-Labs/edit/main/Basislernmodule/1.1%203D-Design/3D-Design.md#blender)
-     - [Tinkercad](https://github.com/orcular-org/Basislernmodule-Fab-Labs/edit/main/Basislernmodule/1.1%203D-Design/3D-Design.md#tinkercad) 
+1. [Einführung](https://github.com/orcular-org/Basislernmodule-Fab-Labs/blob/main/Basislernmodule/1.1%203D-Design/3D-Design.md#einf%C3%BChrung)
+2. [CAD-Software](https://github.com/orcular-org/Basislernmodule-Fab-Labs/blob/main/Basislernmodule/1.1%203D-Design/3D-Design.md#cad-software)
+   - [Dateiformate für CAD-Modelle](https://github.com/orcular-org/Basislernmodule-Fab-Labs/blob/main/Basislernmodule/1.1%203D-Design/3D-Design.md#dateiformate-f%C3%BCr-cad-modelle)
+   - [Beispiele für CAD-Software](https://github.com/orcular-org/Basislernmodule-Fab-Labs/blob/main/Basislernmodule/1.1%203D-Design/3D-Design.md#beispiele-f%C3%BCr-cad-software)
+     - [FreeCAD](https://github.com/orcular-org/Basislernmodule-Fab-Labs/blob/main/Basislernmodule/1.1%203D-Design/3D-Design.md#freecad)
+     - [Autodesk Fusion 360](https://github.com/orcular-org/Basislernmodule-Fab-Labs/blob/main/Basislernmodule/1.1%203D-Design/3D-Design.md#autodesk-fusion-360)
+3. [3D-Grafik- und Modellierungsprogramme](https://github.com/orcular-org/Basislernmodule-Fab-Labs/blob/main/Basislernmodule/1.1%203D-Design/3D-Design.md#3d-grafik--und-modellierungsprogramme)
+   - [Beispiele für 3D-Grafik- und 3D-Modellierungsprogramme](https://github.com/orcular-org/Basislernmodule-Fab-Labs/blob/main/Basislernmodule/1.1%203D-Design/3D-Design.md#beispiele-f%C3%BCr-3d-grafik--und-3d-modellierungsprogramme)
+     - [Blender](https://github.com/orcular-org/Basislernmodule-Fab-Labs/blob/main/Basislernmodule/1.1%203D-Design/3D-Design.md#blender)
+     - [Tinkercad](https://github.com/orcular-org/Basislernmodule-Fab-Labs/blob/main/Basislernmodule/1.1%203D-Design/3D-Design.md#tinkercad) 
 
-[Lizenzinformationen](https://github.com/orcular-org/Basislernmodule-Fab-Labs/edit/main/Basislernmodule/1.1%203D-Design/3D-Design.md#lizenzinformationen)
+[Lizenzinformationen](https://github.com/orcular-org/Basislernmodule-Fab-Labs/blob/main/Basislernmodule/1.1%203D-Design/3D-Design.md#lizenzinformationen)
 
-[Bildnachweise](https://github.com/orcular-org/Basislernmodule-Fab-Labs/edit/main/Basislernmodule/1.1%203D-Design/3D-Design.md#bildnachweise)
+[Bildnachweise](https://github.com/orcular-org/Basislernmodule-Fab-Labs/blob/main/Basislernmodule/1.1%203D-Design/3D-Design.md#bildnachweise)
 
 
 ## Einführung
