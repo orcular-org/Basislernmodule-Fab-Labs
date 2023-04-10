@@ -139,7 +139,17 @@ Dabei kommen oft sogenannte Sculpting-Werkzeuge zum Einsatz, womit sich 3D-Objek
 
 Weitere Funktionen von 3D-Grafikprogrammen sind z.B. die Texturierung, Animation (für Animationsfilme oder Videospiele) und Rendering, z.B. zur Inszenierung eines Objekts oder Produkts in einer bestimmten Umgebung und Belichtung in einer sogenannten Szene. Viele 3D-Grafikprogramme können die Modelle als STL-Datei exportieren, womit sie sich 3D-drucken lassen.
 
-> Bilder
+<p align="center">
+<img height="250" src="https://user-images.githubusercontent.com/123781559/231005150-ca68ab7e-513b-40cb-82b2-33b35e3654b9.png">
+<img height="250" src="https://user-images.githubusercontent.com/123781559/231005186-7ccdc655-0b44-4dec-8165-c06afcf1d2dd.png">
+</p>
+
+<p align="center">
+<a href="#s13">[13]</a> <i> Scultping in der Software Blender - </i>
+<a href="#s14">[14]</a> <i> Rendering von Kochtöpfen in Blender </i>
+</p>
+
+
 
 ### Beispiele für 3D-Grafik- und 3D-Modellierungsprogramme
 
@@ -203,3 +213,9 @@ Tinkercad gehört, so wie auch Fusion 360, zu dem Unternehmen Autodesk und setzt
 
 <a name="s12"></a>
 **[12]** 3D Design by fusion 360 - **Image license:** [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/) - **Source:** https://www.flickr.com/photos/kenming_wang/32276624594
+
+<a name="s13"></a>
+**[13]** sculpt01.jpg - **Image license:** [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) - **Source:** https://www.blender.org/features/sculpting/ (Attribution: Blender Foundation – www.blender.org - [License info for blender.org](https://www.blender.org/about/website/) )
+
+<a name="s14"></a>
+**[14]** Kochtöpfe erstellt und gerendert in Blender-Cycles - **Image license:** [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/deed.de) - **Source:** https://de.wikipedia.org/wiki/Datei:Kocht%C3%B6pfe_in_Blender-Cycles_gerendert.png
