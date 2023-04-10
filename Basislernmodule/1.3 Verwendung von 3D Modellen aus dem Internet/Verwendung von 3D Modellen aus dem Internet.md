@@ -39,7 +39,7 @@ Je nachdem, welche Rechte man einräumen möchte, gibt es verschiedene CC-Rechte
 | ![grafik](https://user-images.githubusercontent.com/123781559/230212738-d262c0dd-6128-42a6-ba9b-cb8b340e49e8.png) | ND | Keine Bearbeitung (No Derivatives) | Das Werk darf nicht verändert werden. |
 | ![grafik](https://user-images.githubusercontent.com/123781559/230212948-7e388c5f-6524-4d21-89db-a1a8bc15f52c.png) | SA | Weitergabe unter gleichen Bedingungen (Share Alike) | Das Werk muss nach Veränderungen unter der gleichen Lizenz weitergegeben werden. |
 
-<p align="center"> <i> Rechtemodule bei Creative Commons - Quelle: https://de.wikipedia.org/wiki/Creative_Commons#Die_Rechtemodule </i> </p>
+<p align="center"> <i> Rechtemodule bei Creative Commons - Tabelle von: https://de.wikipedia.org/wiki/Creative_Commons#Die_Rechtemodule - <a href="https://creativecommons.org/licenses/by-sa/3.0/">(CC BY-SA 3.0)</a> </i> </p>
 
 
 Durch die Zusammenstellung mehrerer Module ergeben sich verschiedene Lizenzen, z.B. bedeutet die Lizenz „CC BY-SA 4.0“, dass das Werk geteilt und auch verändert werden darf, solange der/die Urheber:in genannt wird (BY), inklusive einem Link zur Quelle und zur Lizenz, und das erneut veröffentlichte (oder ggf. veränderte) Werk unter der gleichen Lizenz veröffentlicht wird (also in diesem Fall ebenfalls unter CC BY-SA). Da kein "NC"-Modul enthalten ist, ist auch die kommerzielle Verwendung gestattet. Die „4.0“ zeigt dabei die Version der Lizenz an. Eine vollständige Beschreibung dieser Lizenz findet sich unter https://creativecommons.org/licenses/by-sa/4.0/deed.de
@@ -51,11 +51,11 @@ Mit diesem Tool kann man die gewünschten Lizenzeigenschaften auswählen und bek
 
 An dieser Stelle soll noch auf ein weit verbreitetes Problem im Zusammenhang mit Creative-Commons-Lizenzen hingewiesen werden. Viele Urheber:innen veröffentlichen ihre Werke mit einer „Non-commercial“-Lizenz (NC), die die kommerzielle Nutzung des Werkes ausschließt.
 
-In einer [Broschüre](https://upload.wikimedia.org/wikipedia/commons/5/51/Freies_Wissen_dank_Creative-Commons-Lizenzen_Folgen%2C_Risiken_und_Nebenwirkungen_der_Bedingung_nicht-kommerziell_%E2%80%93_NC.pdf) von Wikimedia Deutschland, Creative Commons Deutschland und iRights.info heißt es dazu:
+In einer [Broschüre](https://upload.wikimedia.org/wikipedia/commons/5/51/Freies_Wissen_dank_Creative-Commons-Lizenzen_Folgen%2C_Risiken_und_Nebenwirkungen_der_Bedingung_nicht-kommerziell_%E2%80%93_NC.pdf) [(CC BY-SA 3.0 DE)](https://creativecommons.org/licenses/by-sa/3.0/de/) von Wikimedia Deutschland, Creative Commons Deutschland und iRights.info heißt es dazu:
 
 > „Die populärsten Lizenzen (...) tragen das Kürzel NC für "noncommercial – keine kommerzielle Nutzung" (...). Viele, die intuitiv zu den eingeschränkten Lizenzen greifen, tun dies aus dem durchaus nachvollziehbaren Wunsch heraus, der ungewollten und unkontrollierbaren kommerziellen Ausbeutung ihres Schaffens vorzubeugen. Die zahlreichen, ebenfalls ungewollten Nebenwirkungen aber, die das mit sich bringt, kennen nur wenige.“
 
-Die vollständige Broschüre findet sich [hier](https://upload.wikimedia.org/wikipedia/commons/5/51/Freies_Wissen_dank_Creative-Commons-Lizenzen_Folgen%2C_Risiken_und_Nebenwirkungen_der_Bedingung_nicht-kommerziell_%E2%80%93_NC.pdf). 
+Die vollständige Broschüre findet sich [hier](https://upload.wikimedia.org/wikipedia/commons/5/51/Freies_Wissen_dank_Creative-Commons-Lizenzen_Folgen%2C_Risiken_und_Nebenwirkungen_der_Bedingung_nicht-kommerziell_%E2%80%93_NC.pdf). [(CC BY-SA 3.0 DE)](https://creativecommons.org/licenses/by-sa/3.0/de/)
 
 Die wichtigsten Probleme in Kürze: Vielen Menschen ist nicht bewusst, dass die Verwendung von NC-Lizenzen auch eine Veröffentlichung auf z.B. Wikipedia oder privat betriebenen Webseiten einschließt, auch wenn man im ersten Moment keine kommerzielle Nutzung vermuten würde. Wikipedia ist zwar grundsätzlich gemeinnützig und nicht-kommerziell, da Wikipedia jedoch z.B. in Suchmaschinen integriert wird, die wiederum zu kommerziellen Unternehmen gehören, kann es Schwierigkeiten geben. Auch eine privat oder von einem gemeinnützigen Verein betriebene Webseite, die Werbebanner einsetzt, gilt als kommerziell und darf keine NC-Werke verwenden.
 
