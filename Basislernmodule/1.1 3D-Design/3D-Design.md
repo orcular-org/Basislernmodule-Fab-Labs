@@ -161,7 +161,17 @@ Blender ist eine 3D-Grafiksuite, die als „Free and open-source software“, al
 
 **Download:** https://www.blender.org/
 
-> Bilder
+<p align="center">
+<img height="300" src="https://user-images.githubusercontent.com/123781559/231006876-84ec1b88-3213-4acb-aa66-78d41b9b0e7c.png">
+<img height="300" src="https://user-images.githubusercontent.com/123781559/231006928-30bffb9e-e718-43ac-859c-dd5a61bf99b8.png">
+</p>
+
+<p align="center">
+<a href="#s15">[15]</a> <i> Blender-Benutzeroberfläche - </i>
+<a href="#s16">[16]</a> <i> Sculpting in Blender </i>
+</p>
+
+
 
 #### Tinkercad
 
@@ -219,3 +229,9 @@ Tinkercad gehört, so wie auch Fusion 360, zu dem Unternehmen Autodesk und setzt
 
 <a name="s14"></a>
 **[14]** Kochtöpfe erstellt und gerendert in Blender-Cycles - **Image license:** [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/deed.de) - **Source:** https://de.wikipedia.org/wiki/Datei:Kocht%C3%B6pfe_in_Blender-Cycles_gerendert.png
+
+<a name="s15"></a>
+**[15]** Sculpting Mode Example - **Image license:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) - **Source:** https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/introduction/general.html#id
+
+<a name="s16"></a>
+**[16]** sculpt-paint_sculpt_multires_example.png - **Image license:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) - **Source:** https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/introduction/adaptive.html#multiresolution
