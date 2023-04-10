@@ -155,8 +155,7 @@ Die wichtigste Komponente ist der Extruder, den man sich ähnlich wie einen "Dru
 
   
 
-(Beschriftete Bilder eines Extruders inkl. Schnittansicht)
-(Skizze/Entwurf  überarbeiten und ergänzen)
+> Beschriftete Bilder eines Extruders inkl. Schnittansicht
 
 Oben am Extruder befindet sich eine Öffnung, in die der Filamentdraht eingeführt wird. Im Inneren des Extuders wird das Filament von zwei Zahnrädern, die den "Vorschub" des Filaments steuern, eingezogen bzw. nach unten weitergeschoben.
 
@@ -197,18 +196,9 @@ Die Z-Achse hingegen bezieht sich auf die vertikale (senkrechte) Bewegung:
 
 Der Extruder sitzt oft auf einer Stange, auf der er sich nach links und rechts (also in X-Richtung) bewegen kann. Angesteuert wird dies über einen Motor und einen Riemen.
 
-[Abbildung]
-(Bild der Stange, des Motors und des Riemens)
-
 Für Bewegungen in der Y-Achse wird oft gar nicht der Extruder bewegt, sondern das Heizbett – auch hier durch einen Motor und ein Riemen.
 
-[Abbildung]
-(Bild Y-Achse Riemen)
-
 Für die Z-Achse wiederum gibt es meist motorgesteuerte Spindeln, die die gesamte X-Achsen-Stange nach oben und unten verschiebt. Bei manchen 3D-Druckern wird nicht der Extruder (bzw. die x-Achse), sondern das Heizbett nach oben bzw. unten bewegt.
-
-[Abbildung]
-(Bild Spindeln und bewegliche x-Achse + Bild bewegliches Heizbett)
 
 Den  Druckablauf kann man sich nun so vorstellen, dass ein 3D-Drucker zunächst wie ein „2D-Drucker“ funktioniert. Geschmolzenes Filament wird durch die Düse/Nozzle des Extruders gedrückt, während sich gleichzeitig die X- und Y-Achsen bewegen. Somit „zeichnet“ der Drucker die erste, unterste Schicht auf das Heizbett, sozusagen „in 2D“. Sobald die erste Schicht fertig ist, fährt der Extruder ein kleines Stück weit (oft nur ein Bruchteil eines Millimeters) in z-Richtung hoch und „zeichnet“ darauf dann die zweite Schicht. So wird fortgefahren, bis die oberste Schicht und damit das ganze dreidimensionale Objekt fertig ist.
 
@@ -225,7 +215,7 @@ Manchmal kann es notwendig sein, einen 3D-Drucker erneut zu kalibrieren, z.B. na
 Zunächst braucht man ein digitales 3D-Modell des Objekts, das man drucken möchte. Solche 3D-Modelle kann man entweder selbst modellieren/designen (z.B. mit einer CAD-Software) oder man lädt sich ein fertiges Modell aus dem Internet. Die meisten Modelldateien sind auch klein genug, um z.B. per E-Mail verschickt zu werden. Eine weitere Möglichkeit, ein 3D-Modell zu erstellen, besteht im 3D-Scannen eines realen Objekts oder einer Person.
 
   
-(Bilder CAD-Modell und 3D-gescanntes und -gedrucktes Personenmodell)
+> Bilder CAD-Modell und 3D-gescanntes und -gedrucktes Personenmodell
 
 Mit den Themen 3D-CAD-Modellierung (CAD = Computer Aided Design), 3D-Scanning und Modell-Download von Webseiten befasst sich ein anderes Basislernmodul. (verlinken)
 
@@ -247,7 +237,7 @@ Manche kleinere Hersteller von 3D-Druckern nutzen auch Slicer-Programme der grö
 In der Slicer-Software sieht man eine Vorschau des Heizbetts sowie der importierten 3D-Objekte. Mit der Software lassen sich die zu druckenden 3D-Objekte vervielfältigen (um ein Objekt gleich mehrmals zu drucken), virtuell im Raum bewegen, drehen, skalieren (vergrößern/verkleinern), und in gewünschte Positionen auf dem Heizbett platzieren.
 
  
-(Bild Slicer mit mehreren Objekten)
+> Bild Slicer mit mehreren Objekten
 
 
 ### Slicing, Prüfung und Export
@@ -261,14 +251,14 @@ Nachdem man die STL-Datei(en) im Slicer importiert, korrekt gedreht, ausgerichte
 Slicing (von englisch „slice“ = Scheibe) ist ein Ablauf in der Software, der das 3D-Objekt in viele dünne Scheiben (slices) unterteilt, die übereinander geschichtet sind. Die Scheiben haben dabei genau die Höhe bzw. Dicke, die man eingestellt hat, z.B. 0,15 mm (dieser Parameter wird meistens als „Schichthöhe“ oder englisch „layer height“ bezeichnet). Eine Schicht ist also quasi nur „2D“, während die aufeinandergestapelten Schichten zusammen ein 3D-Objekt ergeben.
   
 
-(Bild von Slices in 2D und 3D, mit Beschriftung der Schichthöhe)
+> Bild von Slices in 2D und 3D, mit Beschriftung der Schichthöhe
 
 Die Slicer-Software tut an der Stelle aber noch viel mehr als nur das eigentliche Slicing. Sie generiert auch den genauen Verlaufsweg des Extruders, also auch den Weg, den der Extruder in jeder Schicht in x- und y-Richtung und anschließend auch in Höhenrichtung (z) nimmt.
 Außerdem werden beim Slicing auch Stützmaterialien generiert, sofern man welche eingestellt hat (mehr dazu siehe unten, Abschnitt „Stützmaterial“).
 
 Nach ausgeführtem Slicing empfiehlt es sich, den Druckablauf zu prüfen. Die meisten Slicer bieten eine Vorschau- bzw. Simulationsfunktion an. Damit kann man sich die verschiedenen Schichten (von der ersten, untersten Schicht bis zur letzten ganz oben) einzeln ansehen und auch den Verfahrensweg des Extruders innerhalb einer jeden Schicht anzeigen lassen.
   
-(Bilder von Simulationen)
+> Bilder von Simulationen
 
 Hat man das Slicing überprüft, kann man die Datei als sogenannte „G-Code“-Datei exportieren.
 
@@ -283,8 +273,7 @@ Da beim 3D-Druck stets Material aufeinandergeschichtet werden muss, kann es Prob
 
  
   
-(Bilder Schichtwinkel)
-(Skizze/Entwurf  überarbeiten und ergänzen)
+> Bilder Schichtwinkel
 
 Größere Überhänge sind jedoch nicht möglich. Oft lässt sich dieses Problem lösen, indem man das Objekt in der Slicer-Software in eine günstigere Position dreht. Viele Slicer verfügen über eine Funktion, bei der man nur eine Oberfläche des Objekts anklicken muss, auf die es „gelegt“ werden soll.
 
@@ -292,20 +281,19 @@ Größere Überhänge sind jedoch nicht möglich. Oft lässt sich dieses Problem
 
    
 
-(Bild mit Beispiel Tisch)
-(Skizze/Entwurf  überarbeiten und ergänzen)
+> Bild mit Beispiel Tisch
 
 Bei komplexer geformten Objekten kann es sein, dass es keine überhangfreie Drehposition gibt. In dem Fall kann man in der Slicer-Software automatisch sogenanntes Stützmaterial generieren lassen. Dieses Stützmaterial ist größtenteils hohl und lässt sich nach dem 3D-Druck meistens relativ leicht entfernen, z.B. mit den Fingern oder mit einer Zange.
 
  
 
-(Bild Stützmaterial)
+> Bild Stützmaterial
 
 Zudem können manche 3D-Drucker und Slicer auch sogenannte Brücken drucken, wenn die Voraussetzungen stimmen. Bei einer Brücke spannt der Extruder Fäden von einer Seite eines Sockels zur anderen. Ein einseitig frei hängender Überhang ist nicht möglich. Zudem darf eine Brücke nicht zu lang bzw. der Abstand zwischen den Sockeln nicht zu groß sein, da der Faden beim Drucken sonst zu wenig Spannung hat und herunterhängt. Für kurze Distanzen sind Brücken aber eine sehr gute Möglichkeit, um ohne Stützmaterial „in der Luft“ zu drucken.
 
  
 
-(Bild Brücke)
+> Bild Brücke
 
 ### Infill
 Meistens ist es gar nicht notwendig, ein komplett massives Kunststoffteil zu drucken. Nur die äußere Hülle des 3D-gedruckten Objekts ist massiv, innen drin ist das Objekt jedoch zum Teil hohl und zum Teil mit einer Art Gitterstruktur gefüllt. Wie viel Prozent des Inneren eines Objekts mit Material gefüllt ist, lässt sich in Slicern über den Parameter „Infill“ einstellen.
@@ -314,7 +302,7 @@ Ein Infill von z.B. 15 % (üblicher Standard-Wert) bedeutet, dass das Objekt zu 
 
     
 
-(Bild Infill im Slicer + im realen Objekt)
+> Bild Infill im Slicer + im realen Objekt
 
 ## Ablauf eines 3D-Drucks
 ### Vor dem Drucken
@@ -330,13 +318,13 @@ Beim Start eines 3D-Druck-Auftrags wird der 3D-Drucker üblicherweise zunächst 
 Danach wird eine paar Zentimeter lange Linie am Rand des Heizbetts gedruckt, die sogenannte „intro line“ oder „purge line“ (engl. purge = reinigen). Dieser Vorgang dient der „Spülung“ der Düse und stellt sicher, dass die Düse voll mit zähflüssigem Filament gefüllt, gut durchflutet und bereit zum Drucken ist. Würde der 3D-Drucker die purge line weglassen und direkt mit dem Druck des Objekts beginnen, könnte es sein, dass zu Beginn noch kein Filament herauskommt oder dass es nur sehr ungleichmäßig heraustritt.
 
  
-(Bild purge line)
+> Bild purge line
 
 Anschließend wird meist (falls so eingestellt) eine Außenlinie um die Fläche herum gedruckt, wo die Objekte entstehen sollen. Diese sogenannte „Schürze“ (engl. „skirt“) vermittelt gleich zu Beginn des Drucks einen Eindruck von der Größe der zu druckenden Objekte. Zudem kann man an der Schürze bereits früh erkennen, ob das Material gut haftet und ob keine Probleme in der Qualität erkennbar sind, um den Druck an der Stelle im Zweifel noch abbrechen zu können.
 
  
 
-(Bild Schürze)
+> Bild Schürze
 
 Bei manchen Materialien kann es hilfreich sein, zusätzlich einen Rand (engl. „brim“) zu drucken, um das Objekt während des Drucks zu stabilisieren. Die Rand-Funktion kann bei Bedarf in den Einstellungen des Slicers aktiviert und eingestellt werden.
 
@@ -346,7 +334,7 @@ Nach dem Drucken von Schürze und Rand wird die erste Schicht des Objekts gedruc
 
 
   
-(Bild erste Schicht)
+> Bild erste Schicht
 
 Eine misslungene erste Schicht kann sonst dazu führen, dass das gesamte Objekt im späteren Verlauf unsauber wird oder gänzlich misslingt. Da ein 3D-Druck mehrere Minuten oder oft sogar Stunden dauern kann, lohnt es sich, eine gute erste Schicht sicherzustellen, bevor man viel Zeit und Material verschwendet.
 
