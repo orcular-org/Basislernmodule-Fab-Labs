@@ -234,4 +234,4 @@ Tinkercad gehört, so wie auch Fusion 360, zu dem Unternehmen Autodesk und setzt
 **[15]** Sculpting Mode Example - **Image license:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) - **Source:** https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/introduction/general.html#id
 
 <a name="s16"></a>
-**[16]** sculpt-paint_sculpt_multires_example.png - **Image license:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) - **Source:** https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/introduction/adaptive.html#multiresolution
+**[16]** sculpt-paint_sculpt_multires_example.png (cropped) - **Image license:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) - **Source:** https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/introduction/adaptive.html#multiresolution
