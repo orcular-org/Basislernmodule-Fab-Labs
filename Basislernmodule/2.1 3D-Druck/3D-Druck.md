@@ -248,8 +248,14 @@ Manche kleinere Hersteller von 3D-Druckern nutzen auch Slicer-Programme der grö
 
 In der Slicer-Software sieht man eine Vorschau des Heizbetts sowie der importierten 3D-Objekte. Mit der Software lassen sich die zu druckenden 3D-Objekte vervielfältigen (um ein Objekt gleich mehrmals zu drucken), virtuell im Raum bewegen, drehen, skalieren (vergrößern/verkleinern), und in gewünschte Positionen auf dem Heizbett platzieren.
 
- 
-> Bild Slicer mit mehreren Objekten
+<p align="center">
+<img height="400" src="https://user-images.githubusercontent.com/123781559/231225892-91ae9e6e-60d9-4985-a746-0d75631386c3.png">
+</p>
+
+<p align="center">
+<a href="#s24">[24]</a> <i> Vorbereitung mehrerer Objekte für den 3D-Druck in einer Slicer-Software (PrusaSlicer) </i>
+</p>
+
 
 
 ### Slicing, Prüfung und Export
@@ -433,6 +439,9 @@ Abschließend muss man ggf. vorhandenes Stützmaterial entfernen, zudem kann man
 
 <a name="s23"></a>
 **[23]** 3D-Modell eines Bauteils, erstellt in FreeCAD - **Image license:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) - **Author:** Oskar Lidtke, [github.com/orcular-org](https://github.com/orcular-org)
+
+<a name="s24"></a>
+**[24]** Vorbereitung mehrerer Objekte für den 3D-Druck in einer Slicer-Software (PrusaSlicer) - **Image license:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) - **Author:** Oskar Lidtke, [github.com/orcular-org](https://github.com/orcular-org)
 
 
 (Platzhalter)
