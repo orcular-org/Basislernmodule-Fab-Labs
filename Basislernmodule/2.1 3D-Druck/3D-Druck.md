@@ -180,8 +180,8 @@ Die X- und Y-Achse beziehen sich in der Regel auf Bewegungen in der horizontalen
 </p>
 
 <p align="center">
-       <a href="#s5">[x]</a> <i> X-, Y- und Z-Achse eines 3D-Druckers - </i>
-       <a href="#s6">[x]</a> <i> Draufsicht eines 3D-Druckers mit X- und Y-Achse </i>
+       <a href="#s20">[20]</a> <i> X-, Y- und Z-Achse eines 3D-Druckers - </i>
+       <a href="#s21">[21]</a> <i> Draufsicht eines 3D-Druckers mit X- und Y-Achse </i>
 </p>
 
 <br>
@@ -196,7 +196,7 @@ Die Z-Achse hingegen bezieht sich auf die vertikale (senkrechte) Bewegung:
 </p>
 
 <p align="center">
-       <a href="#s5">[x]</a> <i> Frontansicht eines 3D-Druckers mit X- und Z-Achse - </i>
+       <a href="#s22">[22]</a> <i> Frontansicht eines 3D-Druckers mit X- und Z-Achse - </i>
 </p>
 
 Der Extruder sitzt oft auf einer Stange, auf der er sich nach links und rechts (also in X-Richtung) bewegen kann. Angesteuert wird dies über einen Motor und einen Riemen.
@@ -414,6 +414,15 @@ Abschließend muss man ggf. vorhandenes Stützmaterial entfernen, zudem kann man
 
 <a name="s19"></a>
 **[19]** Taz 5 3D Printer (16721682637).jpg - https://www.sparkfun.com/products/retired/13300 - **Image license:** [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/deed.en) - **Source:** https://commons.wikimedia.org/wiki/File:Taz_5_3D_Printer_%2816721682637%29.jpg
+
+<a name="s20"></a>
+**[20]** X-, Y- und Z-Achse eines 3D-Druckers - [3DBenchy attribution](https://www.3dbenchy.com/license/) - **Image license:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) - **Author:** Oskar Lidtke, [github.com/orcular-org](https://github.com/orcular-org)
+
+<a name="s21"></a>
+**[21]** Draufsicht eines 3D-Druckers mit X- und Y-Achse - [3DBenchy attribution](https://www.3dbenchy.com/license/) - **Image license:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) - **Author:** Oskar Lidtke, [github.com/orcular-org](https://github.com/orcular-org)
+
+<a name="s22"></a>
+**[22]** Frontansicht eines 3D-Druckers mit X- und Z-Achse - [3DBenchy attribution](https://www.3dbenchy.com/license/) - **Image license:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) - **Author:** Oskar Lidtke, [github.com/orcular-org](https://github.com/orcular-org)
 
 
 (Platzhalter)
