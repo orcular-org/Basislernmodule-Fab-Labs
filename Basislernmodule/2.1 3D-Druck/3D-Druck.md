@@ -362,7 +362,7 @@ Bei komplexer geformten Objekten kann es sein, dass es keine überhangfreie Dreh
 </p>
 
 <p align="center">
-<a href="#s33">[33]</a> <i> 3D-gedrucktes Objekt mit (entfernbarem) Stützmaterial - <br> Diese Dino-Figur ist ein gutes Beispiel für ein Modell, das sich nicht überhangfrei drucken lässt, egal wie man es dreht. </i>
+<a href="#s33">[33]</a> <i> 3D-gedrucktes Objekt mit (entfernbarem) Stützmaterial - <br> Diese Dino-Figur ist ein gutes Beispiel für ein Modell, das sich nicht überhangfrei drucken lässt, egal wie man es dreht - daher ist Stüttzmaterial notwendig. </i>
 </p>
 
 
