@@ -389,8 +389,15 @@ Beim Start eines 3D-Druck-Auftrags wird der 3D-Drucker üblicherweise zunächst 
 
 Danach wird eine paar Zentimeter lange Linie am Rand des Heizbetts gedruckt, die sogenannte „intro line“ oder „purge line“ (engl. purge = reinigen). Dieser Vorgang dient der „Spülung“ der Düse und stellt sicher, dass die Düse voll mit zähflüssigem Filament gefüllt, gut durchflutet und bereit zum Drucken ist. Würde der 3D-Drucker die purge line weglassen und direkt mit dem Druck des Objekts beginnen, könnte es sein, dass zu Beginn noch kein Filament herauskommt oder dass es nur sehr ungleichmäßig heraustritt.
 
- 
-> Bild purge line
+<p align="center">
+<img height="400" src="https://user-images.githubusercontent.com/123781559/231279149-0d816436-0c5a-4ce7-841a-6cb67fe9a45a.png">
+</p>
+
+<p align="center">
+<a href="#s37">[37]</a> <i> Purge line am Rand des Heizbetts - Diese Linie wird vor Beginn des eigentlichen 3D-Drucks gezogen, um die Düse zu spülen für einen gleichmäßgen Filamentfluss zu sorgen </i>
+</p>
+
+
 
 Anschließend wird meist (falls so eingestellt) eine Außenlinie um die Fläche herum gedruckt, wo die Objekte entstehen sollen. Diese sogenannte „Schürze“ (engl. „skirt“) vermittelt gleich zu Beginn des Drucks einen Eindruck von der Größe der zu druckenden Objekte. Zudem kann man an der Schürze bereits früh erkennen, ob das Material gut haftet und ob keine Probleme in der Qualität erkennbar sind, um den Druck an der Stelle im Zweifel noch abbrechen zu können.
 
@@ -533,6 +540,8 @@ Abschließend muss man ggf. vorhandenes Stützmaterial entfernen, zudem kann man
 <a name="s36"></a>
 **[36]** 3D printed HULK (40% only power) (cropped) - **Image license:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) - **Source:** https://commons.wikimedia.org/wiki/File:HULK_(40%25).jpg
 
+<a name="s37"></a>
+**[37]** Purge line 3D-Druck - **Image license:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) - **Author:** Oskar Lidtke, [github.com/orcular-org](https://github.com/orcular-org)
 
 
 
