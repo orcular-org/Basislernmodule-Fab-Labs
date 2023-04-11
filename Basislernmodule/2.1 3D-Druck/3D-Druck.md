@@ -417,9 +417,15 @@ Bei manchen Materialien kann es hilfreich sein, zusätzlich einen Rand (engl. �
 
 Nach dem Drucken von Schürze und Rand wird die erste Schicht des Objekts gedruckt. Diese sollte man genau beobachten. Stellt man fest, dass die erste Schicht unsauber ausgeführt ist, z.B. wenn das Filament an einigen Stellen nicht richtig haftet (zu erkennen an kleinen Erhebungen in der Schicht, siehe Bild), sollte man den Druck an dieser Stelle abbrechen, das bereits gedruckte Material entfernen, das Heizbett reinigen bzw. die Z-Achse neu kalibrieren und den Druck neu starten.
 
+<p align="center">
+<img height="300" src="https://user-images.githubusercontent.com/123781559/231281848-0418b2c1-a7d3-4319-855d-fcf984df0e4c.png">
+<img height="300" src="https://user-images.githubusercontent.com/123781559/231281880-e13b9e86-3d65-4556-96aa-e4b1b79bf8a1.png">
+</p>
 
-  
-> Bild erste Schicht
+<p align="center">
+<a href="#s39">[39]</a> <i>  - </i>
+<a href="#s40">[40]</a> <i> Gelungene erste Schicht eines 3D-Drucks - der Druck der ersten Schicht sollte stets genau beobachtet und bei Qualitätsmängeln ggf. neu gestartet werden. </i>
+</p>
 
 Eine misslungene erste Schicht kann sonst dazu führen, dass das gesamte Objekt im späteren Verlauf unsauber wird oder gänzlich misslingt. Da ein 3D-Druck mehrere Minuten oder oft sogar Stunden dauern kann, lohnt es sich, eine gute erste Schicht sicherzustellen, bevor man viel Zeit und Material verschwendet.
 
@@ -551,6 +557,13 @@ Abschließend muss man ggf. vorhandenes Stützmaterial entfernen, zudem kann man
 
 <a name="s38"></a>
 **[38]** Schürze (skirt) im 3D-Druck - **Image license:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) - **Author:** Oskar Lidtke, [github.com/orcular-org](https://github.com/orcular-org)
+
+<a name="s39"></a>
+**[39]** Erste Schicht 3D-Druck - **Image license:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) - **Author:** Oskar Lidtke, [github.com/orcular-org](https://github.com/orcular-org)
+
+<a name="s40"></a>
+**[40]** Erste Schicht 3D-Druck - **Image license:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) - **Author:** Oskar Lidtke, [github.com/orcular-org](https://github.com/orcular-org)
+
 
 
 
