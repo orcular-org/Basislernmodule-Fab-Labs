@@ -401,9 +401,15 @@ Danach wird eine paar Zentimeter lange Linie am Rand des Heizbetts gedruckt, die
 
 Anschließend wird meist (falls so eingestellt) eine Außenlinie um die Fläche herum gedruckt, wo die Objekte entstehen sollen. Diese sogenannte „Schürze“ (engl. „skirt“) vermittelt gleich zu Beginn des Drucks einen Eindruck von der Größe der zu druckenden Objekte. Zudem kann man an der Schürze bereits früh erkennen, ob das Material gut haftet und ob keine Probleme in der Qualität erkennbar sind, um den Druck an der Stelle im Zweifel noch abbrechen zu können.
 
- 
+<p align="center">
+<img height="400" src="https://user-images.githubusercontent.com/123781559/231280914-673540b8-6d43-4d43-ac21-7403f314c2bd.png">
+</p>
 
-> Bild Schürze
+<p align="center">
+<a href="#s38">[38]</a> <i> Schürze (skirt) am Rand eines 3D-gedruckten Objekts - die Schürze dient dazu, vor Beginn des eigentlichen Drucks den Umriss zu erkennen, zudem wird der Durchfluss in der Düse stabilisiert. </i>
+</p>
+
+
 
 Bei manchen Materialien kann es hilfreich sein, zusätzlich einen Rand (engl. „brim“) zu drucken, um das Objekt während des Drucks zu stabilisieren. Die Rand-Funktion kann bei Bedarf in den Einstellungen des Slicers aktiviert und eingestellt werden.
 
@@ -542,6 +548,9 @@ Abschließend muss man ggf. vorhandenes Stützmaterial entfernen, zudem kann man
 
 <a name="s37"></a>
 **[37]** Purge line 3D-Druck - **Image license:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) - **Author:** Oskar Lidtke, [github.com/orcular-org](https://github.com/orcular-org)
+
+<a name="s38"></a>
+**[38]** Schürze (skirt) im 3D-Druck - **Image license:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) - **Author:** Oskar Lidtke, [github.com/orcular-org](https://github.com/orcular-org)
 
 
 
