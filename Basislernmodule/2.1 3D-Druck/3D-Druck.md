@@ -328,11 +328,14 @@ Da beim 3D-Druck stets Material aufeinandergeschichtet werden muss, kann es Prob
 
 Größere Überhänge sind jedoch nicht möglich. Oft lässt sich dieses Problem lösen, indem man das Objekt in der Slicer-Software in eine günstigere Position dreht. Viele Slicer verfügen über eine Funktion, bei der man nur eine Oberfläche des Objekts anklicken muss, auf die es „gelegt“ werden soll.
 
-   
+<p align="center">
+<img height="400" src="https://user-images.githubusercontent.com/123781559/231267207-d3abbc50-cd72-4855-b2fa-4f09f9d2fde3.png">
+</p>
 
-   
+<p align="center">
+<a href="#s32">[32]</a> <i> Oben: Nur die Beine des Tisches lassen sich drucken, die Tischplatte hingegen müsste "in der Luft gedruckt" werden (funktioniert nicht). <br> Unten: Einfache Lösung: den Tisch so umdrehen, dass er frei von Überhängen ist und sich gut drucken lässt. </i>
+</p>
 
-> Bild mit Beispiel Tisch
 
 Bei komplexer geformten Objekten kann es sein, dass es keine überhangfreie Drehposition gibt. In dem Fall kann man in der Slicer-Software automatisch sogenanntes Stützmaterial generieren lassen. Dieses Stützmaterial ist größtenteils hohl und lässt sich nach dem 3D-Druck meistens relativ leicht entfernen, z.B. mit den Fingern oder mit einer Zange.
 
@@ -496,6 +499,10 @@ Abschließend muss man ggf. vorhandenes Stützmaterial entfernen, zudem kann man
 
 <a name="s31"></a>
 **[31]** Objekt mit 45°-Schräge im PrusaSlicer - **Image license:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) - **Author:** Oskar Lidtke, [github.com/orcular-org](https://github.com/orcular-org)
+
+<a name="s32"></a>
+**[32]** Objekt nicht 3D-druckbar, gedrehtes Objekt druckbar - **Image license:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) - **Author:** Oskar Lidtke, [github.com/orcular-org](https://github.com/orcular-org)
+
 
 
 
