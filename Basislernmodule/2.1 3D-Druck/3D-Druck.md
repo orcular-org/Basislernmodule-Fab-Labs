@@ -1,6 +1,3 @@
-Entwurf - Stand 28.03.2023
-Oskar Lidtke
- 
 # 3D-Druck
 ## Inhalt
 
@@ -148,7 +145,7 @@ Zunächst sollte man sich mit dem grundlegenden Aufbau eines FDM-3D-Druckers ver
 </p>
 
 <p align="center">
-       <a href="#s5">[x]</a> <i> Die wichtigsten Komponenten eines 3D-Druckers - </i>
+       <a href="#s17">[17]</a> <i> Die wichtigsten Komponenten eines 3D-Druckers </i>
 </p>
 
 Die wichtigste Komponente ist der Extruder, den man sich ähnlich wie einen "Druckkopf" bei Tintenstrahldruckern vorstellen kann.
@@ -400,6 +397,9 @@ Abschließend muss man ggf. vorhandenes Stützmaterial entfernen, zudem kann man
 
 <a name="s16"></a>
 **[16]** 3DBenchy created using color mixing on an FDM printer - **Image license:** [GNU Free Documentation License, Version 1.2](https://en.wikipedia.org/wiki/GNU_Free_Documentation_License) - **Source:** https://commons.wikimedia.org/wiki/File:3DBenchy_created_using_color_mixing_on_an_FDM_printer.jpg
+
+<a name="s17"></a>
+**[17]** Die wichtigsten Komponenten eines 3D-Druckers (3D-Modell erstellt in FreeCAD) - **Image license:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) - **Author:** Oskar Lidtke, [github.com/orcular-org](https://github.com/orcular-org)
 
 
 (Platzhalter)
