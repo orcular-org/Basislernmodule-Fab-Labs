@@ -287,15 +287,14 @@ Nachdem man die STL-Datei(en) im Slicer importiert, korrekt gedreht, ausgerichte
 Slicing (von englisch „slice“ = Scheibe) ist ein Ablauf in der Software, der das 3D-Objekt in viele dünne Scheiben (slices) unterteilt, die übereinander geschichtet sind. Die Scheiben haben dabei genau die Höhe bzw. Dicke, die man eingestellt hat, z.B. 0,15 mm (dieser Parameter wird meistens als „Schichthöhe“ oder englisch „layer height“ bezeichnet). Eine Schicht ist also quasi nur „2D“, während die aufeinandergestapelten Schichten zusammen ein 3D-Objekt ergeben.
   
 <p align="center">
-<img height="350" src="https://user-images.githubusercontent.com/123781559/231227942-4bb87320-4f36-48cf-aa75-5c0dbb9d02df.png">
-<img height="350" src="https://user-images.githubusercontent.com/123781559/231227964-e6d9f173-5828-4e47-8245-025ed0141fdc.png">
+<img height="340" src="https://user-images.githubusercontent.com/123781559/231289616-610e09a9-8198-4fc3-82aa-3d009fdc7b99.png">
+<img height="340" src="https://user-images.githubusercontent.com/123781559/231227964-e6d9f173-5828-4e47-8245-025ed0141fdc.png">
 </p>
 
 <p align="center">
 <a href="#s25">[25]</a> <i> Slicing eines 3D-Objekts für den 3D-Druck (Software: PrusaSlicer) - </i>
 <a href="#s26">[26]</a> <i> Schichten (slices) in Seitenansicht </i>
 </p>
-
 
 Die Slicer-Software tut an der Stelle aber noch viel mehr als nur das eigentliche Slicing. Sie generiert auch den genauen Verlaufsweg des Extruders, also auch den Weg, den der Extruder in jeder Schicht in x- und y-Richtung und anschließend auch in Höhenrichtung (z) nimmt.
 Außerdem werden beim Slicing auch Stützmaterialien generiert, sofern man welche eingestellt hat (mehr dazu siehe unten, Abschnitt „Stützmaterial“).
