@@ -196,7 +196,7 @@ Die Z-Achse hingegen bezieht sich auf die vertikale (senkrechte) Bewegung:
 </p>
 
 <p align="center">
-       <a href="#s22">[22]</a> <i> Frontansicht eines 3D-Druckers mit X- und Z-Achse - </i>
+       <a href="#s22">[22]</a> <i> Frontansicht eines 3D-Druckers mit X- und Z-Achse </i>
 </p>
 
 Der Extruder sitzt oft auf einer Stange, auf der er sich nach links und rechts (also in X-Richtung) bewegen kann. Angesteuert wird dies über einen Motor und einen Riemen.
@@ -219,8 +219,15 @@ Manchmal kann es notwendig sein, einen 3D-Drucker erneut zu kalibrieren, z.B. na
 
 Zunächst braucht man ein digitales 3D-Modell des Objekts, das man drucken möchte. Solche 3D-Modelle kann man entweder selbst modellieren/designen (z.B. mit einer CAD-Software) oder man lädt sich ein fertiges Modell aus dem Internet. Die meisten Modelldateien sind auch klein genug, um z.B. per E-Mail verschickt zu werden. Eine weitere Möglichkeit, ein 3D-Modell zu erstellen, besteht im 3D-Scannen eines realen Objekts oder einer Person.
 
-  
-> Bilder CAD-Modell und 3D-gescanntes und -gedrucktes Personenmodell
+<p align="center">
+<img height="400" src="https://user-images.githubusercontent.com/123781559/231223723-82e3d49e-2547-459c-ad68-068bcb5e983a.png">
+</p>
+
+<p align="center">
+<a href="#s23">[23]</a> <i> 3D-Modell eines Bauteils, erstellt in FreeCAD </i>
+</p>
+
+
 
 Mit den Themen 3D-CAD-Modellierung (CAD = Computer Aided Design), 3D-Scanning und Modell-Download von Webseiten befasst sich ein anderes Basislernmodul. (verlinken)
 
@@ -423,6 +430,9 @@ Abschließend muss man ggf. vorhandenes Stützmaterial entfernen, zudem kann man
 
 <a name="s22"></a>
 **[22]** Frontansicht eines 3D-Druckers mit X- und Z-Achse - [3DBenchy attribution](https://www.3dbenchy.com/license/) - **Image license:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) - **Author:** Oskar Lidtke, [github.com/orcular-org](https://github.com/orcular-org)
+
+<a name="s23"></a>
+**[23]** 3D-Modell eines Bauteils, erstellt in FreeCAD - **Image license:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) - **Author:** Oskar Lidtke, [github.com/orcular-org](https://github.com/orcular-org)
 
 
 (Platzhalter)
