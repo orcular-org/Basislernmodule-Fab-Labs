@@ -366,8 +366,8 @@ Meistens ist es gar nicht notwendig, ein komplett massives Kunststoffteil zu dru
 Ein Infill von z.B. 15 % (üblicher Standard-Wert) bedeutet, dass das Objekt zu 15% mit Material gefüllt ist, während die restlichen 85 % hohl bzw. mit Luft gefüllt sind. Für die meisten 3D-Druck-Vorhaben reicht das vollkommen aus. Somit wiegt das Objekt weniger, es wird in kürzerer Zeit gedruckt und es wird weniger Material verbraucht als bei einem massiven Objekt (Infill 100%). Je nach Bedarf kann ein niedriger oder auch ein höherer Infill-Wert eingestellt werden, z.B. wenn das Objekt starke Belastungen aushalten soll.
 
 <p align="center">
-<img height="300" src="https://user-images.githubusercontent.com/123781559/231274669-ce1fc5f2-1b33-4dd6-a743-5b1384c512b8.png">
-<img height="300" src="https://user-images.githubusercontent.com/123781559/231274846-3f1a59d6-1904-4776-84f2-ac12ee6be783.png">
+<img height="350" src="https://user-images.githubusercontent.com/123781559/231274669-ce1fc5f2-1b33-4dd6-a743-5b1384c512b8.png">
+<img height="350" src="https://user-images.githubusercontent.com/123781559/231274846-3f1a59d6-1904-4776-84f2-ac12ee6be783.png">
 </p>
 
 <p align="center">
