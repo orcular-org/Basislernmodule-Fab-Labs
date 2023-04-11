@@ -397,9 +397,9 @@ Ein Infill von z.B. 15 % (üblicher Standard-Wert) bedeutet, dass das Objekt zu 
 ## Ablauf eines 3D-Drucks
 ### Vor dem Drucken
 
-Vor Beginn eines 3D-Drucks sollte man überprüfen, ob das richtige Filament eingesetzt ist und ob genügend Filament auf der Rolle vorhanden ist. Zudem empfiehlt es sich, das Heizbett zu reinigen, z.B. mit Isopropanol oder Glasreiniger. Damit werden unsichtbare Fettreste entfernt (die z.B. durch berühren des Druckbetts mit den Fingern entstehen können). Fettreste können dazu führen, dass das Filament nicht richtig auf dem Druckbett haftet.
+Vor Beginn eines 3D-Drucks sollte man überprüfen, ob das richtige Filament eingesetzt und ob genügend Filament auf der Rolle vorhanden ist. Zudem empfiehlt es sich, das Heizbett zu reinigen, z.B. mit Isopropanol oder Glasreiniger. Damit werden unsichtbare Fettreste entfernt (die z.B. durch Berühren des Druckbetts mit den Fingern entstehen können). Fettreste können dazu führen, dass das Filament nicht richtig auf dem Druckbett haftet.
 
-Hat man den fertigen G-Code an den 3D-Drucker übertragen und den 3D-Druck gestartet, sollte man den Beginn des Drucks eine Weile beobachten und bei Problemen eingreifen oder den 3D-Druck pausieren oder abbrechen. 
+Hat man den fertigen G-Code an den 3D-Drucker übertragen und den 3D-Druck gestartet, sollte man den Beginn des Drucks eine Weile beobachten und bei Problemen den 3D-Druck pausieren oder abbrechen. 
 
 
 ### Leveling, Schürze und Rand
@@ -412,7 +412,7 @@ Danach wird eine paar Zentimeter lange Linie am Rand des Heizbetts gedruckt, die
 </p>
 
 <p align="center">
-<a href="#s37">[37]</a> <i> Purge line am Rand des Heizbetts - Diese Linie wird vor Beginn des eigentlichen 3D-Drucks gezogen, um die Düse zu spülen für einen gleichmäßgen Filamentfluss zu sorgen </i>
+<a href="#s37">[37]</a> <i> Purge line am Rand des Heizbetts - Diese Linie wird vor Beginn des eigentlichen 3D-Drucks gezogen, um die Düse zu spülen und für einen gleichmäßgen Filamentfluss zu sorgen </i>
 </p>
 
 
@@ -433,7 +433,7 @@ Bei manchen Materialien kann es hilfreich sein, zusätzlich einen Rand (engl. �
 
 ### Die erste Schicht
 
-Nach dem Drucken von Schürze und Rand wird die erste Schicht des Objekts gedruckt. Diese sollte man genau beobachten. Stellt man fest, dass die erste Schicht unsauber ausgeführt ist, z.B. wenn das Filament an einigen Stellen nicht richtig haftet (zu erkennen an kleinen Erhebungen in der Schicht, siehe Bild), sollte man den Druck an dieser Stelle abbrechen, das bereits gedruckte Material entfernen, das Heizbett reinigen bzw. die Z-Achse neu kalibrieren und den Druck neu starten.
+Nach dem Drucken von Schürze und Rand wird die erste Schicht des Objekts gedruckt. Diese sollte man genau beobachten. Stellt man fest, dass die erste Schicht unsauber ausgeführt ist, z.B. wenn das Filament an einigen Stellen nicht richtig haftet (zu erkennen an kleinen Erhebungen in der Schicht), sollte man den Druck an dieser Stelle abbrechen, das bereits gedruckte Material entfernen, das Heizbett reinigen bzw. die Z-Achse neu kalibrieren und den Druck neu starten.
 
 <p align="center">
 <img height="300" src="https://user-images.githubusercontent.com/123781559/231281848-0418b2c1-a7d3-4319-855d-fcf984df0e4c.png">
