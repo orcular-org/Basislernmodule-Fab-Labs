@@ -283,8 +283,17 @@ Die Slicer-Software tut an der Stelle aber noch viel mehr als nur das eigentlich
 Außerdem werden beim Slicing auch Stützmaterialien generiert, sofern man welche eingestellt hat (mehr dazu siehe unten, Abschnitt „Stützmaterial“).
 
 Nach ausgeführtem Slicing empfiehlt es sich, den Druckablauf zu prüfen. Die meisten Slicer bieten eine Vorschau- bzw. Simulationsfunktion an. Damit kann man sich die verschiedenen Schichten (von der ersten, untersten Schicht bis zur letzten ganz oben) einzeln ansehen und auch den Verfahrensweg des Extruders innerhalb einer jeden Schicht anzeigen lassen.
-  
-> Bilder von Simulationen
+
+<p align="center">
+<img height="350" src="https://user-images.githubusercontent.com/123781559/231230669-11a2e5bb-27ca-406f-80df-aaeadde64d8b.png">
+<img height="350" src="https://user-images.githubusercontent.com/123781559/231230687-ba466471-1fb5-4a9d-9184-15513a43e678.png">
+</p>
+
+<p align="center">
+<a href="#s27">[27]</a> <i>  - </i>
+<a href="#s28">[28]</a> <i> Simulation des 3D-Druckablaufs mit sichtbarer Infill-Struktur (Software: PrusaSlicer) </i>
+</p>
+
 
 Hat man das Slicing überprüft, kann man die Datei als sogenannte „G-Code“-Datei exportieren.
 
@@ -456,6 +465,12 @@ Abschließend muss man ggf. vorhandenes Stützmaterial entfernen, zudem kann man
 
 <a name="s26"></a>
 **[26]** Schichten (slices) in Seitenansicht (Software: PrusaSlicer) - **Image license:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) - **Author:** Oskar Lidtke, [github.com/orcular-org](https://github.com/orcular-org)
+
+<a name="s27"></a>
+**[27]** Simulation des 3D-Druckablaufs mit sichtbarer Infill-Struktur (Software: PrusaSlicer) - **Image license:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) - **Author:** Oskar Lidtke, [github.com/orcular-org](https://github.com/orcular-org)
+
+<a name="s28"></a>
+**[28]** Simulation des 3D-Druckablaufs mit sichtbarer Infill-Struktur (Software: PrusaSlicer) - **Image license:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) - **Author:** Oskar Lidtke, [github.com/orcular-org](https://github.com/orcular-org)
 
 
 (Platzhalter)
