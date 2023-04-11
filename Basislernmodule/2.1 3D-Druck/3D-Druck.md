@@ -4,7 +4,25 @@
 1. [Einführung](#einführung)
 2. [Grundlagen](#grundlagen)
    - [Filament](#filament)
-3. ...
+   - [Komponenten eines 3D-Druckers](#komponenten-eines-3d-druckers)
+   - [Kalibrierung](#kalibrierung)
+3. [Vorbereitung eines 3D-Drucks](#vorbereitung-eines-3d-drucks)
+   - [Digitales 3D-Modell](#digitales-3d-modell)
+   - [Slicer-Software](#slicer-software)
+   - [Slicing, Prüfung und Export](#slicing-prüfung-und-export)
+   - [G-Code](#g-code)
+   - [Stützmaterial und Brücken](#stützmaterial-und-brücken)
+   - [Infill](#infill)
+4. [Ablauf eines 3D-Drucks](#ablauf-eines-3d-drucks)
+   - [Vor dem Drucken](#vor-dem-drucken)
+   - [Leveling, Schürze und Rand](#leveling-schürze-und-rand)
+   - [Die erste Schicht](#die-erste-schicht)
+   - [Weitere Schichten](#weitere-schichten)
+   - [Nach dem Druck](#nach-dem-druck)
+
+[Lizenzinformationen](#lizenzinformationen)
+
+[Bildnachweise](#bildnachweise)
 
 ## Einführung
 
@@ -573,24 +591,3 @@ For attribution and licenses of the images used, see the section below.
 
 <a name="s40"></a>
 **[40]** Erste Schicht 3D-Druck - **Image license:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) - **Author:** Oskar Lidtke, [github.com/orcular-org](https://github.com/orcular-org)
-
-
-
-
-(Platzhalter)
-
-(...)
-
-(...)
-
-(...)
-
-(...)
-
-(...)
-
-(...)
-
-(...)
-
-(Platzhalter)
