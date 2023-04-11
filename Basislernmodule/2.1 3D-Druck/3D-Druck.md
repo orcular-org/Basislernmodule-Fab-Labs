@@ -306,9 +306,14 @@ Der von der Slicer-Software generierte G-Code muss an den 3D-Drucker übertragen
 ### Stützmaterial und Brücken
 Da beim 3D-Druck stets Material aufeinandergeschichtet werden muss, kann es Probleme geben, wenn ein Objekt sogenannte Überhänge hat. Ein 3D-Drucker kann nicht „in der Luft“ drucken. Eine zu druckende Wand muss daher idealerweise im 90°-Winkel nach oben ragen, wobei je nach Material auch Schrägen möglich sind (meistens in Winkeln von max. 45°). Die Ränder der Schichten überlappen sich dann ein wenig.
 
- 
-  
-> Bilder Schichtwinkel
+<p align="center">
+<img height="400" src="https://user-images.githubusercontent.com/123781559/231237520-44af31e4-83dc-4b5d-8b13-a84a15cea35e.png">
+</p>
+
+<p align="center">
+<a href="#s29">[29]</a> <i> Der Schichtwinkel sollte mindestens 45° betragen </i>
+</p>
+
 
 Größere Überhänge sind jedoch nicht möglich. Oft lässt sich dieses Problem lösen, indem man das Objekt in der Slicer-Software in eine günstigere Position dreht. Viele Slicer verfügen über eine Funktion, bei der man nur eine Oberfläche des Objekts anklicken muss, auf die es „gelegt“ werden soll.
 
@@ -471,6 +476,9 @@ Abschließend muss man ggf. vorhandenes Stützmaterial entfernen, zudem kann man
 
 <a name="s28"></a>
 **[28]** Simulation des 3D-Druckablaufs mit sichtbarer Infill-Struktur (Software: PrusaSlicer) - **Image license:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) - **Author:** Oskar Lidtke, [github.com/orcular-org](https://github.com/orcular-org)
+
+<a name="s29"></a>
+**[29]** Schichtwinkel beim 3D-Druck mindestens 45° - **Image license:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) - **Author:** Oskar Lidtke, [github.com/orcular-org](https://github.com/orcular-org) - **Adapted from:** An illustration demonstrating the effect of using a part-cooling fan 3D printing on a filament-based 3D printer. - **Image license:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) - **Source:** https://commons.wikimedia.org/wiki/File:3D_printing_calibration_part-cooling_fan_airflow.svg
 
 
 (Platzhalter)
