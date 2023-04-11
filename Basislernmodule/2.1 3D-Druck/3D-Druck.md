@@ -294,6 +294,7 @@ Slicing (von englisch „slice“ = Scheibe) ist ein Ablauf in der Software, der
 <p align="center">
 <a href="#s25">[25]</a> <i> Slicing eines 3D-Objekts für den 3D-Druck (Software: PrusaSlicer) - </i>
 <a href="#s26">[26]</a> <i> Schichten (slices) in Seitenansicht </i>
+   <br> <i> (Bilder anklicken zum Vergrößern) </i>
 </p>
 
 Die Slicer-Software tut an der Stelle aber noch viel mehr als nur das eigentliche Slicing. Sie generiert auch den genauen Verlaufsweg des Extruders, also auch den Weg, den der Extruder in jeder Schicht in x- und y-Richtung und anschließend auch in Höhenrichtung (z) nimmt.
