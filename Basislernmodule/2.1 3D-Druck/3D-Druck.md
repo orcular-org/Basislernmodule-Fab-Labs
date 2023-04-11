@@ -150,9 +150,17 @@ Zunächst sollte man sich mit dem grundlegenden Aufbau eines FDM-3D-Druckers ver
 
 Die wichtigste Komponente ist der Extruder, den man sich ähnlich wie einen "Druckkopf" bei Tintenstrahldruckern vorstellen kann.
 
-  
+<p align="center">
+<img height="300" src="https://user-images.githubusercontent.com/123781559/231214463-7300d3b7-f7c8-4ef1-835b-832cdd675ac4.png">
+<img height="300" src="https://user-images.githubusercontent.com/123781559/231214586-2137f3f7-d4fa-4cc6-8046-e9be2a258ec0.png">
+</p>
 
-> Beschriftete Bilder eines Extruders inkl. Schnittansicht
+<p align="center">
+<a href="#s18">[18]</a> <i> Vereinfachte Schnittdarstellung eines Extruders mit: (1) Filament - (2) Extruder mit Zahnrädern für den Filamentvorschub - (3) Beheizte Düse (Nozzle) - </i>
+<a href="#s19">[19]</a> <i> Foto eines Extruders </i>
+</p>
+
+
 
 Oben am Extruder befindet sich eine Öffnung, in die der Filamentdraht eingeführt wird. Im Inneren des Extuders wird das Filament von zwei Zahnrädern, die den "Vorschub" des Filaments steuern, eingezogen bzw. nach unten weitergeschoben.
 
@@ -400,6 +408,12 @@ Abschließend muss man ggf. vorhandenes Stützmaterial entfernen, zudem kann man
 
 <a name="s17"></a>
 **[17]** Die wichtigsten Komponenten eines 3D-Druckers (3D-Modell erstellt in FreeCAD) - [3DBenchy attribution](https://www.3dbenchy.com/license/) - **Image license:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) - **Author:** Oskar Lidtke, [github.com/orcular-org](https://github.com/orcular-org)
+
+<a name="s18"></a>
+**[18]** Filament Driver diagram of a 3D printer (FDM). 1 Filament. 2 Filament Driver (Extruder). 3 Heated Nozzle. 4 Print. 5 Build Platform. (cropped) - **Image license:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) - **Source:** https://en.wikibooks.org/wiki/File:Filament_Driver_diagram.svg
+
+<a name="s19"></a>
+**[19]** Taz 5 3D Printer (16721682637).jpg - https://www.sparkfun.com/products/retired/13300 - **Image license:** [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/deed.en) - **Source:** https://commons.wikimedia.org/wiki/File:Taz_5_3D_Printer_%2816721682637%29.jpg
 
 
 (Platzhalter)
