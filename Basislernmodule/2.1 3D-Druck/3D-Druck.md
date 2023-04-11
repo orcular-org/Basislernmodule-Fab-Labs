@@ -350,9 +350,15 @@ Bei komplexer geformten Objekten kann es sein, dass es keine überhangfreie Dreh
 
 Zudem können manche 3D-Drucker und Slicer auch sogenannte Brücken drucken, wenn die Voraussetzungen stimmen. Bei einer Brücke spannt der Extruder Fäden von einer Seite eines Sockels zur anderen. Ein einseitig frei hängender Überhang ist nicht möglich. Zudem darf eine Brücke nicht zu lang bzw. der Abstand zwischen den Sockeln nicht zu groß sein, da der Faden beim Drucken sonst zu wenig Spannung hat und herunterhängt. Für kurze Distanzen sind Brücken aber eine sehr gute Möglichkeit, um ohne Stützmaterial „in der Luft“ zu drucken.
 
- 
+<p align="center">
+<img height="400" src="https://user-images.githubusercontent.com/123781559/231270536-47aa3b98-7e93-41ae-9f14-c63984b7f1ac.png">
+</p>
 
-> Bild Brücke
+<p align="center">
+<a href="#s34">[34]</a> <i> Brücke in einer Slicer-Software (PrusaSlicer) </i>
+</p>
+
+
 
 ### Infill
 Meistens ist es gar nicht notwendig, ein komplett massives Kunststoffteil zu drucken. Nur die äußere Hülle des 3D-gedruckten Objekts ist massiv, innen drin ist das Objekt jedoch zum Teil hohl und zum Teil mit einer Art Gitterstruktur gefüllt. Wie viel Prozent des Inneren eines Objekts mit Material gefüllt ist, lässt sich in Slicern über den Parameter „Infill“ einstellen.
@@ -510,6 +516,9 @@ Abschließend muss man ggf. vorhandenes Stützmaterial entfernen, zudem kann man
 
 <a name="s33"></a>
 **[33]** Kunststoffdino mit Stützstruktur Rapid Prototyping /Kunststoff schichtweise aufgetragen - **Image license:** [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/deed.en) - **Source:** https://commons.wikimedia.org/wiki/File:Rapid-dino.jpg
+
+<a name="s34"></a>
+**[34]** Brücke in einer Slicer-Software (PrusaSlicer) - **Image license:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) - **Author:** Oskar Lidtke, [github.com/orcular-org](https://github.com/orcular-org)
 
 
 
