@@ -339,9 +339,14 @@ Größere Überhänge sind jedoch nicht möglich. Oft lässt sich dieses Problem
 
 Bei komplexer geformten Objekten kann es sein, dass es keine überhangfreie Drehposition gibt. In dem Fall kann man in der Slicer-Software automatisch sogenanntes Stützmaterial generieren lassen. Dieses Stützmaterial ist größtenteils hohl und lässt sich nach dem 3D-Druck meistens relativ leicht entfernen, z.B. mit den Fingern oder mit einer Zange.
 
- 
+<p align="center">
+<img height="400" src="https://user-images.githubusercontent.com/123781559/231269120-b3aa2e5a-f668-4734-a817-5a4bc9b2ce56.png">
+</p>
 
-> Bild Stützmaterial
+<p align="center">
+<a href="#s33">[33]</a> <i> 3D-gedrucktes Objekt mit (entfernbarem) Stützmaterial - <br> Diese Dino-Figur ist ein gutes Beispiel für ein Modell, das sich nicht überhangfrei drucken lässt, egal wie man es dreht. </i>
+</p>
+
 
 Zudem können manche 3D-Drucker und Slicer auch sogenannte Brücken drucken, wenn die Voraussetzungen stimmen. Bei einer Brücke spannt der Extruder Fäden von einer Seite eines Sockels zur anderen. Ein einseitig frei hängender Überhang ist nicht möglich. Zudem darf eine Brücke nicht zu lang bzw. der Abstand zwischen den Sockeln nicht zu groß sein, da der Faden beim Drucken sonst zu wenig Spannung hat und herunterhängt. Für kurze Distanzen sind Brücken aber eine sehr gute Möglichkeit, um ohne Stützmaterial „in der Luft“ zu drucken.
 
@@ -502,6 +507,10 @@ Abschließend muss man ggf. vorhandenes Stützmaterial entfernen, zudem kann man
 
 <a name="s32"></a>
 **[32]** Objekt nicht 3D-druckbar, gedrehtes Objekt druckbar - **Image license:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) - **Author:** Oskar Lidtke, [github.com/orcular-org](https://github.com/orcular-org)
+
+<a name="s33"></a>
+**[33]** Kunststoffdino mit Stützstruktur Rapid Prototyping /Kunststoff schichtweise aufgetragen - **Image license:** [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/deed.en) - **Source:** https://commons.wikimedia.org/wiki/File:Rapid-dino.jpg
+
 
 
 
