@@ -314,6 +314,17 @@ Da beim 3D-Druck stets Material aufeinandergeschichtet werden muss, kann es Prob
 <a href="#s29">[29]</a> <i> Der Schichtwinkel sollte mindestens 45° betragen </i>
 </p>
 
+<p align="center">
+<img height="350" src="https://user-images.githubusercontent.com/123781559/231262464-72dd29d8-2bf0-4287-aeb1-8fb7f66ad6d3.png">
+<img height="350" src="https://user-images.githubusercontent.com/123781559/231262498-2cadc795-e7a6-4308-b73d-f9e4768bcd7c.png">
+</p>
+
+<p align="center">
+<a href="#s30">[30]</a> <i>  - </i>
+<a href="#s31">[31]</a> <i> Objekt mit 45°-Schräge im PrusaSlicer </i>
+</p>
+
+
 
 Größere Überhänge sind jedoch nicht möglich. Oft lässt sich dieses Problem lösen, indem man das Objekt in der Slicer-Software in eine günstigere Position dreht. Viele Slicer verfügen über eine Funktion, bei der man nur eine Oberfläche des Objekts anklicken muss, auf die es „gelegt“ werden soll.
 
@@ -479,6 +490,13 @@ Abschließend muss man ggf. vorhandenes Stützmaterial entfernen, zudem kann man
 
 <a name="s29"></a>
 **[29]** Schichtwinkel beim 3D-Druck mindestens 45° - **Image license:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) - **Author:** Oskar Lidtke, [github.com/orcular-org](https://github.com/orcular-org) - **Adapted from:** An illustration demonstrating the effect of using a part-cooling fan 3D printing on a filament-based 3D printer. - **Image license:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) - **Source:** https://commons.wikimedia.org/wiki/File:3D_printing_calibration_part-cooling_fan_airflow.svg
+
+<a name="s30"></a>
+**[30]** Objekt mit 45°-Schräge im PrusaSlicer - **Image license:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) - **Author:** Oskar Lidtke, [github.com/orcular-org](https://github.com/orcular-org)
+
+<a name="s31"></a>
+**[31]** Objekt mit 45°-Schräge im PrusaSlicer - **Image license:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) - **Author:** Oskar Lidtke, [github.com/orcular-org](https://github.com/orcular-org)
+
 
 
 (Platzhalter)
