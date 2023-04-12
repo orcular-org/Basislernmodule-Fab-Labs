@@ -35,7 +35,7 @@ Grundsätzlich ist es sehr wichtig, vor dem Lasercutting zu klären, ob das Mate
 
 Hier eine Übersicht einiger beliebter und gut geeigneter Materialien für Lasercutting und -gravur:
 
-- **Sperrholzplatte:** Sperrholz ist ein günstiges und sehr einfach zu laserschneidendes Material und gut für Einsteiger:innen geeignet. Gut verwendbar sind Platten mit Stärken um die 4 Millimeter. Beim Gravieren wird die innere Struktur des Holzes sichtbar, was oft zu interessanter Optik führt. Bastelsperrholz wird auch gern zum Sägen verwendet und kann in vielen Baumärkten oder auch online gekauft werden. Nachteile sind: es ist sehr leicht und damit wenig stabil und bricht schnell. Zudem sind die Platten oft etwas uneben. Bei Projekten, wo es auf Präzision ankommt (z.B. Stecksysteme), kann dies zu Problemen führen - in dem Fall emfpiehlt es sich, auf MDF umzusteigen.
+- **Sperrholzplatte:** Sperrholz ist ein günstiges und sehr einfach zu laserschneidendes Material und gut für Einsteiger:innen geeignet. Gut verwendbar sind Platten mit Stärken um die 4 Millimeter. Beim Gravieren wird die innere Struktur des Holzes sichtbar, was oft zu interessanter Optik führt. Bastelsperrholz wird auch gern zum Sägen verwendet und kann in vielen Baumärkten oder auch online gekauft werden. Nachteile sind: es ist sehr leicht und damit wenig stabil und bricht schnell. Zudem sind die Platten oft etwas uneben. Bei Projekten, wo es auf Präzision ankommt (z.B. [Stecksysteme](#stecksysteme)), kann dies zu Problemen führen - in dem Fall emfpiehlt es sich, auf MDF umzusteigen.
 - **MDF:** MDF steht für "Mitteldichte Holzfaserplatte". MDF-Platten bestehen aus feinen Holzfasern (meist ca. 80%), zudem werden Leim, Wasser und Zusatzstoffe beigemischt und zu Platten verpresst. Durch diese Herstellungsmethode sind MDF-Platten schwerer und stabiler als Sperrholzplatten, zudem sind sie sehr eben und haben eine gleichmäßige Dicke. MDF-Platten mit 3 bis 5 Millimeter Stärke lassen sich sehr gut laserschneiden und -gravieren. MDF ist z.B. in Onlineshops erhältlich und etwas teurer als Sperrholz.
 - **Acrylglas:** Acrylglas, auch bekannt als "Plexiglas", ist ein durchsichtiger Kunststoff, der sich sehr gut laserschneiden lässt. Es gibt sowohl farbloses (volltransparentes) als auch farbiges (halbtransparentes) Acrylglas. Damit ist es sehr gut für Sichtfenster, Dekoration, Lampen u.ä. geeignet. Im Hinblick auf Nachhaltigkeit lässt sich anmerken, dass Acrylglas nicht gut recyclebar ist - im Gegensatz zu einigen anderen Kunststoffen.
 - **Pappe:** Nicht jede Pappe lässt sich gleich gut mit dem Lasercutter bearbeiten, daher sollte man beim Kauf auf gut für Lasercutting geeignetes Material achten. Da Pappe sehr leicht und instabil ist, eigent sie sich eher für dekorative Produkte. Zudem ist Pappe leicht entflammbar, weswegen man auf ein gutes Lüftungssystem achten, den Lasercut-Prozess besonders gut beaufsichtigen und bei Flammenbildung stoppen sollte.
@@ -83,9 +83,13 @@ Im Internet finden sich auch Testkarten, die für solche Materialtests entwickel
 
 ### Schnittbreite (kerf)
 
-(Platzhalter)
+Beim Trennen mittels Lasercutting wird entlang der Schnittlinie eine kleine Menge Material verbrannt, verdampft oder geschmolzen. Dies führt dazu, dass Trennlinien nicht "unendlich dünn" sind, sondern eine gewisse Breite haben - die sogenannte Schnittbreite. In vielen Programmen findet man auch den englischen Begriff für Schnittbreite, "kerf". Eine Schnittlinie kann man sich also eher wie einen Schnittkanal vorstellen - zwischen den beiden Teilen klafft eine winzig kleine Lücke.
 
-(Text ergänzen)
+Auch wenn die Schnittbreite mit bloßen Auge kaum erkennbar ist - sie ist oft nur einen Bruchteil eines Millimeters breit - ist es bei einigen Anwendungen wichtig, sie im Hinterkopf zu behalten. Dies gilt z.B. für Stecksysteme (mehr dazu unten im Abschnitt [Stecksysteme](#stecksysteme)), bei denen es auf einen guten Sitz ankommt. 
+
+Um eine Vorstellung von der Schnittbreite zu bekommen, kann man ein lasergeschnittenes Teil oder Loch mit einem Messschieber ausmessen und den Messwert mit dem Wert in der Vektorgrafik vergleichen - man wird feststellen, dass es leichte Abweichungen gibt. Anhand der Differenz zwischen gezeichneter und gemessener Länge kann man die Schnittbreite ermitteln.
+
+> Bild kerf
 
 ### Vektorgrafik
 Für Lasercutting ist es wichtig, sich mit dem Konzept von Vektorgrafiken vertraut zu machen.
