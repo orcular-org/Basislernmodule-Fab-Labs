@@ -137,6 +137,8 @@ Viele Lasercutter nutzen die kostenlose Open-Source-Software Visicut (https://vi
 ### Unterschiede zu anderen digitalen Fertigungsmethoden
 Der wichtigste Unterschied zwischen **Lasercutting und 3D-Druck** ist, dass Lasercutting in der Regel deutlich schneller abläuft als 3D-Druck. 3D-Drucke können oft mehrere Stunden dauern, während Lasercut-Teile oft in wenigen Minuten fertig sind. Je nach Form und Komplexität kann sich dies im Einzelfall aber natürlich auch ganz anders verhalten. Bevor man also ein Teil 3D-druckt, lohnt es sich, zu überlegen, ob man es auch mit Lasercutting realisieren kann, sofern Form und Material dies zulassen (mehr zum Thema im Basislernmodul 3D-Druck).
 
+> Bild Vergleich der Dauer Lasercut vs. 3D-Druck
+
 Auch zwischen **Lasercutting und CNC-Fräsen** gibt es typische Unterschiede. Während beim Lasercutten nur flache Teile in gleichmäßiger Dicke herstellbar sind (sozusagen "2D-Teile"), können mit CNC-Fräsen auch dreidimensionale Formen gefertigt werden. Zudem können viele CNC-Fräsen auch Aluminium oder ähnlich harte Materialien bearbeiten, was mit Lasercuttern oft nicht möglicht ist (mehr zum Thema im Basislernmodul CNC-Fräsen).
 
 ## Designtipps
@@ -146,35 +148,44 @@ Eine beliebte Anwendung von Lasercutting besteht in Stecksystemen - vor allem f�
 
 Dabei muss sichergestellt werden, dass die Zapfen nicht zu locker stecken, sondern einen festen Sitz haben. Andererseits darf die Lücke auch nicht zu eng sein, da man den Zapfen sonst nicht hineingedrückt bekommt. Hierbei muss auch die Schnittbreite (kerf) berücksichtigt werden.
 
-Eine oft gut funktionierende Daumenregel lautet, dass Lücke und Zapfen in gleichen Dimensionen gezeichnet werden (also gleich breit und gleich hoch). Bedingt durch die Schnittbreite (kerf) des Lasers werden Lücken ohnehin etwas weiter und Zapfen etwas schmaler ausfallen als in der Zeichnung, womit der Sitz oft relativ gut ist, manchmal aber etwas zu locker. Man kann die Verbindung auch etwas enger gestalten und die Steckverbindungen vorsichtig mit einem Gummihammer einschlagen.
+Eine oft gut funktionierende Daumenregel lautet, dass Lücke und Zapfen in gleichen Dimensionen gezeichnet werden (also gleich breit und gleich hoch). Bedingt durch die Schnittbreite (kerf) des Lasers werden Lücken ohnehin etwas weiter und Zapfen etwas schmaler ausfallen als in der Zeichnung, womit der Sitz oft relativ gut ist, manchmal aber etwas zu locker. Man kann die Verbindung auch etwas enger gestalten und die Steckverbindungen vorsichtig mit einem Gummihammer einschlagen. Steckverbindungen können in der Regel auch mehrmals gelöst und wieder zusammengesteckt werden, dabei nutzt sich das Material jedoch jedesmal etwas ab, sodass die Verbindung evtl. nicht mehr fest sitzt. Auch die Verwendung von Klebstoff oder Leim ist möglich.
 
 Bevor man sich die Mühe macht und eine steckbare Box aufwendig selbst zeichnet, empfiehlt es sich auf bestehende Software-Tools zurückzugreifen.
 
 Für Inkscape gibt es ein kostenlose Erweiterung: [Lasercut tabbed box](https://inkscape.org/de/~Neon22/%E2%98%85lasercut-tabbed-box). Damit lassen sich Länge, Breite und Höhe sowie Zapfenlänge und Schnittbreiten-Versatz (kerf) für verschiedene boxartige Produkte als Vektorgrafik generieren. Diese Vektorgrafik kann auch nachträglich in Inkscape bearbeitet werden.
 
-boxes.py
-
-3dcad
+Ein weiteres Tool heißt "Boxes.py" (https://www.festi.info/boxes.py/). Hierfür ist keine Softwareinstallation notwendig, die Anwendung läuft im Browser. Dieses Open-Source-Projekt bietet eine Vielzahl von verschiedenen steckbaren Lasercut-Bausätzen, z.B. Kisten, Schubladen, Fächer oder Truhen mit Deckeln. Es können Parameter wie Länge, Breite, Höhe und Schnittbreitenversatz eingegeben werden, abschließend wird eine downloadbare SVG-Vektorgrafik erzeugt, die man direkt für Lasercutting verwenden oder vorher noch bearbeiten kann. Einige Bausätze enthalten auch "living hinges", mehr dazu [unten](#living-hinge).
 
 ### 3D-CAD und Projektion
+Statt Lasercut-Projekte in 2D zu zeichnen, kann man auch eine 3D-CAD-Software verwenden (mehr dazu im Basislernmodul 3D-Design). Auf diese Weise kann man ein aus mehreren Lasercut-Teilen bestehendes Produkt entwerfen und in 3D darstellen. Vorteil an dieser Methode ist, dass man direkt sehen kann, wie das fertige, zusammengesteckte Produkt aussehen wird - beim Design in 2D sieht man die einzelnen Teile nur nebeneinander und benötigt etwas Vorstellungskraft, um sich ein Bild vom fertigen 3D-Produkt zu machen.
 
-(lochmaß gleich zapfenmaß)
+Zudem lassen sich auf diese Weise Produkte entwerfen, die nicht nur Lasercut-Teile, sondern beispielsweise auch 3D-gedruckte oder CNC-gefräste Teile, Schrauben oder andere Elemente enthalten.
+
+Viele CAD-Programme (z.B. FreeCAD) verfügen über Tools, mit denen man die 3D-modellierten Teile für das Lasercutting auf eine 2D-Ebene projizieren und als Vektorgrafik exportieren kann, die man dann für Lasercutting verwenden kann.
+
+> Bild 3D-CAD + Projektion + Kombination mit 3D-Druck
 
 ### Living hinge
-(Platzhalter)
+Eine beliebte Technik im Lasercut-Design nennt sich "living hinge" (engl. für "Biegescharnier"). Gewöhnliche Scharniere bestehen aus mehreren Bauteilen, Biegescharniere hingegen aus nur einem einzigen Teil, welches an einer oder an mehreren Stellen dünn oder eng geschnitten ist. Biegescharniere finden sich z.B. bei Eierpappkartons oder bei Brotdosen aus Kunststoff.
+
+Ein Living hinge lässt sich mit Lasercutting herstellen, indem viele, sehr eng aneinander liegende und leicht versetzte Schnittlinien in die Platte geschnitten werden. Die Platte wird dadurch sehr flexibel und lässt sich an der Stelle leicht biegen. Dies geht vor allem mit dünnen Holzplatten gut. Man kann es für Scharnierfunktionen, z.B. für Deckel von Truhen, verwenden oder man nutzt es, um abgerundete Kanten zu erzeugen.
+
+> Bilder living hinge
 
 ### Download von Vorlagen
-(Platzhalter)
+Statt eigene Lasercut-Zeichnungen zu entwerfen, kann man auch fertige Vorlagen aus dem Internet verwenden. Viele Portale, die eigentlich eher für 3D-Druck-Dateien gedacht sind, enthalten auch Projekte für Lasercutting. Man findet sie, indem man einfach "laser cut" oder "lasercutting" in die Suchleiste eingibt. Mehr zu dem Thema im Basislernmodul Verwendung von 3D-Modellen aus dem Internet.
 
 ### Häufige Fehler
-(Platzhalter)
+Ein häufiger Anfängerfehler beim Erstellen von Lasercut-Vektorgrafiken ist, die Schnittlinien nicht richtig zu formatieren, sodass die Linien graviert und nicht geschnitten werden. Je nach Lasercutter und Software gibt es bestimmte Dinge, die beachtet werden müssen, damit die Software eine Linie als Schnittline erkennt und sie nicht graviert. Es lohnt sich also, vor Start des Lasercuttings die Einstellungen nochmals genau zu prüfen. 
 
+Eine weiterer Fehler äußert sich darin, dass der Lasercutter jede Linie zweimal schneidet. Dies liegt meistens daran, dass man doppelte Linien in der Vektorgrafik hat. Da sie jedoch übereinanderliegen, erkennt man es am Bildschirm nicht. Hier sollte man die Tools der Software nutzen, um zu prüfen, ob doppelte Linien vorhanden sind (z.B. Ebenen nacheinander ausblenden oder Linien probeweise löschen, anschließend ggf. Rückgängig machen).
+
+Schließlich passiert es auch oft, dass ein fertig geschnittenes Bauteil nicht die gewünschte Größe hat, z.B. nur halb so groß ist wie gewünscht. Man sollte also die Maße der Vektorgrafik genau prüfen und auch nachschauen, ob die richtigen Einheiten eingestellt sind (z.B. Millimeter und nicht Zoll).
 
 ## Vorbereitung und Ablauf eines Lasercuttings
-(Platzhalter)
 
 ### Sicherheit
-(Platzhalter)
+Als erstes sollte man wissen, dass ein Lasercutter eine potenziell gefährliche Maschine darstellt und niemals ohne Einweisung oder ohne Freigabe ...
 
 ### Digitales 3D-Modell oder 2D-Grafik
 (Platzhalter)
