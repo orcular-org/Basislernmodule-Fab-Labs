@@ -81,6 +81,12 @@ Im Internet finden sich auch Testkarten, die für solche Materialtests entwickel
 
 > Bilder Testkarte
 
+### Schnittbreite (kerf)
+
+(Platzhalter)
+
+(Text ergänzen)
+
 ### Vektorgrafik
 Für Lasercutting ist es wichtig, sich mit dem Konzept von Vektorgrafiken vertraut zu machen.
 
