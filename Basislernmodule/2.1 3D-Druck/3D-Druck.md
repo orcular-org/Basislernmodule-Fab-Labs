@@ -28,7 +28,7 @@
 
 Mit 3D-Druck bezeichnet man viele unterschiedliche Verfahren, bei denen ein Gerät (3D-Drucker) materielle, dreidimensionale Objekte erschafft. Dabei werden die Objekte meistens zunächst in einer Software als 3D-Modell entworfen und anschließend an den 3D-Drucker gesendet.
 
-Es gibt kleine, relativ günstige 3D-Drucker für zu Hause oder für Fab Labs, die meistens aus Kunststoff drucken, aber auch größere Drucker bis hin zu großen Anlagen, die ganze Gebäude (zumindest die Grundstruktur aus Wänden) aus Beton drucken können. Manche 3D-Drucker können auch Metall oder Lebensmittel wie Schokolade drucken – die Bandbreite an 3D-Druckverfahren ist sehr groß.
+Es gibt kleine, relativ günstige 3D-Drucker für zu Hause oder für Fab Labs, die meistens aus Kunststoff drucken, aber auch größere Drucker bis hin zu großen Anlagen, die ganze Gebäude, zumindest die Grundstruktur aus Wänden, aus Beton drucken können. Manche 3D-Drucker können auch Metall oder Lebensmittel wie Schokolade drucken – die Bandbreite an 3D-Druckverfahren ist sehr groß.
 
 
 <p align="center">
@@ -56,7 +56,7 @@ Am weitesten verbreitet und am beliebtesten sind 3D-Drucker, die nach dem sogena
 
 Die zweithäufigste Art von 3D-Druckern in Fab Labs neben dem FDM-Verfahren sind wohl die SLA-Drucker. Diese sind jedoch schwieriger in der Anwendung und damit weniger gut für Einsteiger:innen geeignet als FDM-Drucker, es empfiehlt sich also, zunächst mit FDM anzufangen.
 
-FDM steht für "Fused Deposition Modeling". Das bedeutet, ein Stoff (meistens ein Kunststoff/Plastik) wird von dem 3D-Drucker erhitzt, dabei geschmolzen und anschließend schichtweise aufgetragen. Die Schichten kühlen kurz darauf ab, womit sie sich zu einem festen, zusammengefügten Objekt vereinigen. Mit FDM gedruckte Objekte lassen sich gut an den typischen Schichten erkennen, die meist nur ein Bruchteil eines Millimeters dick sind.
+FDM steht für "Fused Deposition Modeling". Das bedeutet, ein Stoff, meistens ein Kunststoff/Plastik, wird von dem 3D-Drucker erhitzt, dabei geschmolzen und anschließend schichtweise aufgetragen. Die Schichten kühlen kurz darauf ab, wodurch sie sich zu einem festen Objekt zusammenfügen. Mit FDM gedruckte Objekte lassen sich gut an den typischen Schichten erkennen, die meist nur einen Bruchteil eines Millimeters dick sind.
   
 
 
@@ -71,9 +71,9 @@ FDM steht für "Fused Deposition Modeling". Das bedeutet, ein Stoff (meistens ei
 </p>
 
 
-Daher zählt man 3D-Druck auch zu den sogenannten "additiven Verfahren", da Objekte entstehen, indem neues Material hinzugefügt ("addiert") wird. Im Gegensatz dazu gibt es auch "subtraktive Verfahren", d.h. Fertigungsverfahren, wo ein bestehendes Material getrennt wird bzw. etwas "weggenommen" wird, z.B. durch Lasercutting oder CNC-Fräsen. (verlinken)
+Daher zählt man 3D-Druck auch zu den sogenannten "additiven Verfahren", da Objekte entstehen, indem neues Material hinzugefügt ("addiert") wird. Im Gegensatz dazu gibt es auch "subtraktive Verfahren", d.h. Fertigungsverfahren, bei denen ein bestehendes Material getrennt wird bzw. etwas "weggenommen" wird, z.B. durch Lasercutting oder CNC-Fräsen. (verlinken)
 
-Mit FDM-3D-Druckern können z.B. dekorative Objekte wie Figuren oder Vasen, kleine Spielzeuge, personalisierte Namensschilder und Schlüsselanhänger, Modelle für Demonstrationszwecke (z.B. von Maschinen oder Gebäuden), Ersatzteile für bestehende Produkte (z.B. Schubladengriffe oder drehbare Knöpfe für Musikanlagen), Alltagshelfer wie Handtuchhaken oder Funktionsteile wie Gehäuse für Elektronik-Geräte, Flaschenöffner oder sogar Bauteile für 3D-Drucker gedruckt werden.
+Mit FDM-3D-Druckern können z.B. dekorative Objekte wie Figuren oder Vasen, kleine Spielzeuge, personalisierte Namensschilder und Schlüsselanhänger, Modelle für Demonstrationszwecke (z.B. von Maschinen oder Gebäuden), Ersatzteile für bestehende Produkte (z.B. Schubladengriffe oder drehbare Knöpfe für Musikanlagen), Alltagshelfer wie Handtuchhaken oder Funktionsteile wie Gehäuse für Elektronikgeräte, Flaschenöffner oder sogar Bauteile für 3D-Drucker gedruckt werden.
 
 <p align="center">
 <img height="300" src="https://user-images.githubusercontent.com/123781559/228950513-8ab76058-957e-4ce9-8508-2e45329b62c0.png">
@@ -126,7 +126,7 @@ Das Grundmaterial, das man für einen FDM-3D-Drucker benötigt, nennt sich Filam
 </p>
 
 Filamente gibt es in verschiedensten Farben und Materialien.
-Das gängigste 3D-Druck-Material ist PLA. Es ist günstig, einfach zu drucken, reicht für die allermeisten Anwendungen völlig aus und ist damit gut für Einsteiger:innen geeignet.
+Das gängigste 3D-Druck-Material ist PLA. Es ist günstig, einfach zu drucken, ist für die allermeisten Anwendungen und damit auch für Einsteiger:innen gut geeignet.
 
 PLA ist eine Kunststoff- bzw. Plastiksorte und steht für "polylactic acid" (englisch für "Polylactide").
 
@@ -140,11 +140,11 @@ Hier eine Kurzübersicht der gängigsten Materialien für FDM-3D-Drucker und die
 - **Nylon:** Besonders hohe mechanische und thermische Beständigkeit; schwierig zu drucken, eher für Fortgeschrittene; teurer als andere Filamentsorten; anfällig für Feuchte
 - **TPU:** Flexibles, „gummiartiges“ Material; lässt sich nach dem Druck leicht verformen; ideal für kleine Reifen, Stempel u.ä.; relativ schwierig zu drucken; teurer als andere Filamentsorten
 
-Da jedes Material eine andere Schmelztemperatur hat, ist es wichtig, diese korrekt einzustellen. Der 3D-Drucker erhitzt im sogenannten Extruder das Filament auf eine Temperatur, mit der es sich gut verflüssigen und drucken lässt, während das Heizbett auf eine Temperatur eingestellt wird, die sicherstellt, dass das Filament gut darauf haftet. So verwendet man z.B. für PLA üblicherweise eine Extrudertemperatur von 200-230 °C und eine Heizbetttemperatur von 60 °C. Diese Temperaturempfehlungen können aber je nach Hersteller auch abweichen. Am besten prüft man die Angaben auf der Filamentrolle bzw. in beigelegten Datenblättern und gleicht sie mit den Einstellungen in der Slicer-Software ab (mehr [zum Thema Slicing später](#slicer-software)).
+Da jedes Material eine andere Schmelztemperatur hat, ist es wichtig, diese im Druckprozess korrekt einzustellen. Der 3D-Drucker erhitzt im sogenannten Extruder das Filament auf eine Temperatur, mit der es sich gut verflüssigen und drucken lässt, während das Heizbett auf eine Temperatur eingestellt wird, die sicherstellt, dass das Filament gut darauf haftet. So verwendet man z.B. für PLA üblicherweise eine Extrudertemperatur von 200-230 °C und eine Heizbetttemperatur von 60 °C. Diese Temperaturempfehlungen können aber je nach Hersteller auch abweichen. Am besten prüft man die Angaben auf der Filamentrolle bzw. in beigelegten Datenblättern und gleicht sie mit den Einstellungen in der Slicer-Software ab (mehr [zum Thema Slicing später](#slicer-software)).
 
-Filamente werden meistens in den Durchmesser-Varianten 1,75 mm und 2,85 mm verkauft, wobei 1,75 mm die deutlich verbreitete Variante ist. Für größere 3D-Drucker bzw. für solche, wo die Düse entsprechend getauscht wurde, wird das dickere 2,85-mm-Filament verwendet.
+Filamente werden meistens in den Durchmesser-Varianten 1,75 mm und 2,85 mm verkauft, wobei 1,75 mm die deutlich verbreitete Variante ist. Für größere 3D-Drucker bzw. für solche, bei denen die Düse entsprechend getauscht wurde, wird das dickere 2,85-mm-Filament verwendet.
 
-Gewöhnliche 3D-Drucker können nur mit einem Filament zur Zeit drucken, d.h. wenn man in einer anderen Farbe oder mit einem anderen Material drucken möchte, muss man die Filamentrolle wechseln. Es gibt aber auch 3D-Drucker, die mit zwei oder mehr Filamenten auf einmal drucken können. So können mehrfarbige Objekte oder auch Objekte aus verschiedenen Materialien gedruckt werden, z.B. indem das Stützmaterial aus einem leicht entfernbaren Material und das eigentliche Objekt aus einem stabilen Material gedruckt wird.
+Gewöhnliche 3D-Drucker können nur mit einem Filament zur Zeit drucken, d.h. wenn man in einer anderen Farbe oder mit einem anderen Material drucken möchte, muss man die Filamentrolle wechseln. Es gibt aber auch 3D-Drucker, die mit zwei oder mehr Filamenten auf einmal drucken können. So können mehrfarbige Objekte oder auch Objekte aus verschiedenen Materialien gedruckt werden, z.B. indem das Stützmaterial (mehr dazu siehe unten, Abschnitt [Stützmaterial](#stützmaterial-und-brücken)) aus einem leicht entfernbaren Material und das eigentliche Objekt aus einem stabilen Material gedruckt wird.
 
 <p align="center">
 <img height="400" src="https://user-images.githubusercontent.com/123781559/228966443-6117228a-d488-49cc-9fb7-bca371345b53.png">
