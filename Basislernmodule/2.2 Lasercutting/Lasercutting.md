@@ -185,7 +185,19 @@ Schließlich passiert es auch oft, dass ein fertig geschnittenes Bauteil nicht d
 ## Vorbereitung und Ablauf eines Lasercuttings
 
 ### Sicherheit
-Als erstes sollte man wissen, dass ein Lasercutter eine potenziell gefährliche Maschine darstellt und niemals ohne Einweisung oder ohne Freigabe ...
+Ein Lasercutter ist eine potenziell gefährliche Maschine und sollte niemals ohne Einweisung oder Befugnis benutzt werden. Fab Labs bieten in der Regel Einweisungen in die Sicherheit und Benutzung an, die man absolviert haben muss, bevor man das Gerät benutzen darf.
+
+Bei ordnungsgemäßem Betrieb entsteht keine unmittelbare Gefahr für den Menschen. Falls der Betrieb jedoch nicht ordnungsgemäß verläuft, z.B. wegen Beschädigung des Gehäuses, bei Umbau und Umgehung der Sicherheitstechnik oder durch unübliche Reflexion und Streuung des Laserslichts, kann die Laserstrahlung vor allem für die Augen, aber auch für die Haut sehr gefährlich werden. Die Laserstrahlung eines Lasercutters ist unsichtbar, was die Gefahr noch vergrößert. Bei Unsicherheiten ist besondere Vorsicht geboten. Bei Defekten oder unüblichen Verhalten sollte eine Maschine nicht benutzt und das Fab-Lab-Personal verständigt werden.
+
+Während des Lasercuttings entsteht oft ein hell leuchtender Punkt auf der bearbeiteten Platte. Man sollte es möglichst vermeiden, direkt in dieses helle Licht zu blicken, da es die Augen schädigen kann.
+
+Neben der Gefahr durch Laserstrahlung selbst besteht auch eine Brandgefahr. Es ist wichtig, darauf zu achten, dass während des Laserns die Belüftung eingeschaltet ist und der Filter regelmäßig gewechselt wird, vor allem bei unüblicher Geruchs- oder Rauchbildung.
+
+Ein Lasercutter sollte während des Betriebs nie unbeaufsichtigt gelassen werden. Man sollte stets in der Nähe bleiben und im Blick behalten, ob sich unübliche Flammen bilden. Im Zweifel sollte der Betrieb gestoppt werden. Man sollte wissen, wo sich der Notausschalter befindet. Viele Lasercutter sind auch so konstruiert, dass sie beim Öffnen der oberen Abdeckung automatisch den Betrieb stoppen.
+
+Für den unwahrscheinlichen Fall dafür, dass ein Brand entsteht, sollte stets ein CO2-Feuerlöscher verwendet werden. Man sollte sich mit der Position und Bedienung des CO2-Feuerlöschers vertraut machen.
+
+Schließlich ist es wichtig zu wissen, welche Materialien man lasern darf und welche nicht. Dies ist stets mit dem Personal zu klären. Einige Kunststoffe, z.B. PVC, dürfen auf keinen Fall gelasert werden, da sie dabei gesundheitsgefährdende bis lebensgefährliche Dämpfe erzeugen.
 
 ### Digitales 3D-Modell oder 2D-Grafik
 (Platzhalter)
