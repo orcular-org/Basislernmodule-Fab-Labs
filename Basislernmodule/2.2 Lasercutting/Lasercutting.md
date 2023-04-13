@@ -7,13 +7,13 @@
 
 ### Einführung
 
-Lasercutting (engl. für Laserschneiden) ist ein Prozess, bei dem ein Laserstrahl ein Material erhitzt, dabei ggf. schmilzt oder verbrennt und somit trennt. Die entsprechenden Maschinen nennt man Lasercutter. Zusätzlich zum Schneiden sind Lasercutter auch in der Lage zu gravieren, d.h. das Material wird nicht vollständig durchtrennt, sondern nur an der Oberfläche bearbeitet, womit sich z.B. Schriftzüge oder Abbildungen in das Werkstück einbringen lassen.
+Lasercutting (engl. für Laserschneiden) ist ein Prozess, bei dem ein Laserstrahl ein Material erhitzt, dieses dabei schmilzt oder verbrennt und somit trennt. Die entsprechenden Maschinen nennt man Lasercutter. Zusätzlich zum Schneiden sind Lasercutter auch in der Lage zu gravieren, d.h. das Material wird nicht vollständig durchtrennt, sondern nur an der Oberfläche bearbeitet, womit sich z.B. Schriftzüge oder Abbildungen in das Werkstück einbringen lassen.
 
 Zu schneidende Werkstücke dürfen nicht zu dick sein, in der Regel verwendet man einige Millimeter dicke Platten. Gravuren können auch auf dickere Objekte gelasert werden, solange sie in die Höhenbegrenzung der Maschine passen. So lassen sich z.B. auch Möbel, Küchenbretter oder Stifte mit Holzgriff gravieren.
 
 > Bilder: Lasercut, Gravur
 
-Es gibt eine große Vielzahl an unterschiedlichen Lasercuttern, die sich vor allem in ihrer Größe und Laserleistung unterscheiden.
+Es gibt eine Vielzahl an unterschiedlichen Lasercuttern, die sich vor allem in ihrer Größe und Laserleistung unterscheiden.
 
 Lasercutter, die man typischerweise in einem Fab Lab vorfindet, haben meistens einen Bearbeitungsraum von ca. 30 x 20 cm bis 70 x 40 cm. Zum Vergleich: ein DIN-A3-Format (typische Größe einer Holzplatte für Lasercutting) misst ca. 42 x 30 cm, passt also gut in die meisten Lasercutter. Die Leistung des Lasers liegt meistens zwischen 30 und 60 Watt. Mit derartigen Lasercuttern kann man z.B. dünne Platten aus Holz, Kunststoff, transparentem Acrylglas, Textil, Leder oder Pappe schneiden und gravieren. Zum Schneiden von Metallen (z.B. Aluminium oder Stahl) reicht die Leistung dieser Mittelklasse-Geräte in der Regel nicht aus, aber Gravuren auf Metall lassen sich damit durchaus realisieren.
 
@@ -21,9 +21,9 @@ Lasercutter, die man typischerweise in einem Fab Lab vorfindet, haben meistens e
 
 Es gibt auch leistungsstarke Industriegeräte, die in der Lage sind, Metalle zu schneiden. Da diese Maschinen sehr teuer sind, wird man sie jedoch kaum in Fab Labs vorfinden, sondern eher in größeren Unternehmen.
 
-Ein Lasercutter benötigt in der Regel eine digitale Grafikdatei als Eingabe, die alle Schnittlinien und zu gravierende Abbildungen enthält. Schnittlinien müssen dabei als Vektorgrafik vorliegen (mehr dazu unten).
+Ein Lasercutter benötigt in der Regel eine digitale Grafikdatei als Eingabe, die alle Schnittlinien und zu gravierenden Abbildungen enthält. Schnittlinien müssen dabei als Vektorgrafik vorliegen (mehr dazu unten).
 
-Mit Lasercutting lassen sich z.B. Namensschilder, Bilder zum Aufstellen oder Aufhängen, Deko-Artikel oder Schmuck herstellen. Auch mehrteilige Produkte wie Aufbewahrungsboxen, kleine Schubladen, Spar- oder Spendendosen, Spielzeuge, Brettspiele, Puzzles oder Gehäuse für Elektronikprodukte lassen sich mit Lasercutting realisieren. Die besondere Stärke von Lasergravur liegt in der Herstellung von personalisierten oder individuellen Produkten, z.B. mit Namen, Portraits oder Logos.
+Mit Lasercutting lassen sich z.B. Namensschilder, Bilder, Aufsteller, Deko-Artikel oder Schmuck herstellen. Auch mehrteilige Produkte wie Aufbewahrungsboxen, kleine Schubladen, Spar- oder Spendendosen, Spielzeuge, Brettspiele, Puzzles oder Gehäuse für Elektronikprodukte lassen sich mit Lasercutting realisieren. Die besondere Stärke von Lasergravur liegt in der Herstellung von personalisierten oder individuellen Produkten, z.B. mit Namen, Portraits oder Logos.
 
 > Bilder: Anregungen für Lasercutting
 
@@ -35,8 +35,8 @@ Grundsätzlich ist es sehr wichtig, vor dem Lasercutting zu klären, ob das Mate
 
 Hier eine Übersicht einiger beliebter und gut geeigneter Materialien für Lasercutting und -gravur:
 
-- **Sperrholzplatte:** Sperrholz ist ein günstiges und sehr einfach zu laserschneidendes Material und gut für Einsteiger:innen geeignet. Gut verwendbar sind Platten mit Stärken um die 4 Millimeter. Beim Gravieren wird die innere Struktur des Holzes sichtbar, was oft zu interessanter Optik führt. Bastelsperrholz wird auch gern zum Sägen verwendet und kann in vielen Baumärkten oder auch online gekauft werden. Nachteile sind: es ist sehr leicht und damit wenig stabil und bricht schnell. Zudem sind die Platten oft etwas uneben. Bei Projekten, wo es auf Präzision ankommt (z.B. [Stecksysteme](#stecksysteme)), kann dies zu Problemen führen - in dem Fall emfpiehlt es sich, auf MDF umzusteigen.
-- **MDF:** MDF steht für "Mitteldichte Holzfaserplatte". MDF besteht aus feinen Holzfasern (meist ca. 80%) sowie begemischtem Leim, Wasser und weiteren Zusatzstoffen und wird zu dichten Platten verpresst. Durch diese Herstellungsmethode sind MDF-Platten schwerer und stabiler als Sperrholzplatten, zudem sind sie sehr eben und haben eine gleichmäßige Dicke. MDF-Platten mit 2 bis 5 Millimeter Stärke lassen sich sehr gut laserschneiden und -gravieren. MDF ist z.B. in Onlineshops erhältlich und etwas teurer als Sperrholz.
+- **Sperrholzplatte:** Sperrholz ist ein günstiges und sehr einfach zu laserschneidendes Material und gut für Einsteiger:innen geeignet. Gut verwendbar sind Platten mit Stärken um die 4 Millimeter. Beim Gravieren wird die innere Struktur des Holzes sichtbar, was oft zu einer interessanten Optik führt. Bastelsperrholz wird auch gern zum Sägen verwendet und kann in vielen Baumärkten oder auch online gekauft werden. Nachteile sind: Es ist sehr leicht und damit wenig stabil und bricht schnell. Zudem sind die Platten oft etwas uneben. Bei Projekten, bei denen es auf Präzision ankommt (z.B. [Stecksysteme](#stecksysteme)), kann dies zu Problemen führen - in dem Fall emfpiehlt es sich, auf MDF umzusteigen.
+- **MDF:** MDF steht für "Mitteldichte Holzfaserplatte". MDF besteht aus feinen Holzfasern (meist zu ca. 80%) sowie Leim, Wasser und weiteren Zusatzstoffen; dieses Gemisch wird zu dichten Platten verpresst. Durch diese Herstellungsmethode sind MDF-Platten schwerer und stabiler als Sperrholzplatten, zudem sind sie sehr eben und haben eine gleichmäßige Dicke. MDF-Platten mit 2 bis 5 Millimeter Stärke lassen sich sehr gut laserschneiden und -gravieren. MDF ist z.B. in Onlineshops erhältlich und etwas teurer als Sperrholz.
 - **Acrylglas:** Acrylglas, auch bekannt als "Plexiglas", ist ein durchsichtiger Kunststoff, der sich sehr gut laserschneiden lässt. Es gibt sowohl farbloses (volltransparentes) als auch farbiges (halbtransparentes) Acrylglas. Damit ist es sehr gut für Sichtfenster, Dekoration, Lampen, mit LED beleuchtete Aufsteller u.ä. geeignet. Im Hinblick auf Nachhaltigkeit lässt sich anmerken, dass Acrylglas nicht gut recyclebar ist - im Gegensatz zu einigen anderen Kunststoffen.
 - **Pappe:** Nicht jede Pappe lässt sich gleich gut mit dem Lasercutter bearbeiten, daher sollte man beim Kauf auf gut für Lasercutting geeignetes Material achten. Da Pappe sehr leicht und instabil ist, eigent sie sich eher für dekorative Produkte. Zudem ist Pappe leicht entflammbar, weswegen man auf ein gutes Lüftungssystem im Lasercutter achten, den Lasercut-Prozess besonders gut beaufsichtigen und bei Flammenbildung stoppen sollte.
 - **Textilien** 
@@ -50,7 +50,7 @@ Hier eine Übersicht einiger beliebter und gut geeigneter Materialien für Laser
 ### Komponenten eines Lasercutters
 Gute Lasercutter verfügen über ein geschlossenes Gehäuse und ein Abluftsystem. Es gibt auch günstige Lasercutter bzw. Lasergravierer mit offenem Aufbau. Bei diesen ist jedoch besondere Vorsicht geboten, da es leicht zu Unfällen kommen kann. In Fab Labs finden sich üblicherweise geschlossene Lasercutter mit Abluftsystem.
 
-Die obere, aufklappbare Abdeckung ist in der Regel durchsichtig, sodass man den Lasercutprozess beobachten kann. Im Inneren befindet sich die gitterförmige Arbeitsfläche, auf die man die zu schneidende Platte legt. Die Arbeitsfläche lässt sich in der Höhe verstellen, was für die sogenannte Fokussierung des Lasers (Einstellung des Brennpunktes) sehr wichtig ist. Der Laser ist so kalibiert, dass er einen ganz bestimmten Abstand zum Werkstück haben muss, um ideal schneiden zu können. Jedesmal, wenn man eine Platte einlegt, die eine andere Dicke als die vorherige Platte hat, sollte man den Lasercutter neu fokussieren. Manche Lasercutter können dies über eine Autofokus-Funktion automatisch durchführen, bei anderen muss man eine mitgelieferte oder eingebaute Fokussierhilfe als Abstandsmesser verwenden, um den Lasercutter manuell einzustellen.
+Die obere, aufklappbare Abdeckung ist in der Regel durchsichtig, sodass man den Lasercutprozess beobachten kann. Im Inneren befindet sich die gitterförmige Arbeitsfläche, auf die man die zu schneidende Platte legt. Die Arbeitsfläche lässt sich in der Höhe verstellen, was für die sogenannte Fokussierung des Lasers (Einstellung des Brennpunktes) sehr wichtig ist. Der Laser ist so kalibiert, dass er einen ganz bestimmten Abstand zum Werkstück haben muss, um ideal schneiden zu können. Jedes Mal, wenn man eine Platte einlegt, die eine andere Dicke als die vorherige Platte hat, sollte man den Lasercutter neu fokussieren. Manche Lasercutter können dies über eine Autofokus-Funktion automatisch durchführen, bei anderen muss man eine mitgelieferte oder eingebaute Fokussierhilfe als Abstandsmesser verwenden, um den Lasercutter manuell einzustellen.
 
 Der Laserstrahl selbst wird oft im Inneren des Geräts erzeugt, über mehrere Spiegel umgeleitet und über Linsen fokussiert, sozusagen "scharf gestellt", ähnlich wie bei einer Brille. Der Laseraustritt ist so verbaut, dass er sich in zwei Achsen bewegen kann: in X-Richtung (nach links und rechts) und in Y-Richtung (nach vorne und hinten).
 
@@ -63,7 +63,7 @@ Eine Lüftungsanlage saugt während des Lasercuttings Luft aus dem Arbeitsraum d
 ### Parameter: Leistung und Geschwindigkeit
 Beim Lasercutten gibt es vor allem zwei Parameter, die für den Prozess maßgeblich sind und vor jedem Betrieb richtig eingestellt werden müssen:
 
-- **Leistung (in Watt oder %):** Vereinfacht gesagt, gibt die Leistung an, wie hoch die Energie des Laserstrahls ist, also wie "stark" der Laser strahlt
+- **Leistung (in Watt oder %):** Die Leistung steht, vereinfacht gesagt, für die Energie oder Stärke des Laserstrahls.
 - **Geschwindigkeit (in Millimeter pro Sekunde):** Gibt an, wie schnell sich der Laser über das Werkstück bewegt.
 
 Bewegt sich der Laser langsam, hat er mehr Zeit, in das Material einzuwirken - er schneidet somit tiefer in die Platte. Bewegt er sich schnell, brennt er womöglich nur die Oberfläche des Werkstücks ab. Gleichzeitig hängt dies natürlich auch von der Leistung des Lasers ab. Durch das Zusammenspiel von Leistung und Geschwindigkeit lassen sich also unterschiedliche Ergebnisse erzeugen.
@@ -109,7 +109,7 @@ Raster- und Vektorgrafiken lassen sich vor allem über zwei Methoden leicht unte
 
 > Bilder: Raster- vs. Vektorgrafik, Beispiel Vektorgrafik für Lasercutting
 
-Um eine Grafikdatei für Lasercutting verwenden zu können, muss diese in einem Vektorformat vorliegen. Hintergrund ist, dass die Linien und Kurven einer Vektorgrafik über eine Software in Steuersignale für den Lasercutter umgewandelt werden, wobei der Laser jede Linie und Kurve abfährt und laserschneidet. Der Laser "kennt" damit Anfangs- und Endpunkt einer jeden Linie und Kurve und fährt sie in einem Durchlauf ab. Mit pixelbasierten Rastergrafiken wäre dies nicht möglich, da die Software nicht "entscheiden" kann, welche Pixel zu einer Linie gehören.
+Um eine Grafikdatei für Lasercutting verwenden zu können, muss diese in einem Vektorformat vorliegen. Hintergrund ist, dass die Linien und Kurven einer Vektorgrafik über eine Software in Steuersignale für den Lasercutter umgewandelt werden, wobei der Laser jede Linie und Kurve abfährt und laserschneidet. Der Laser "kennt" damit Anfangs- und Endpunkt einer jeden Linie und Kurve und fährt sie in einem Durchlauf ab. Mit pixelbasierten Rastergrafiken wäre dies nicht möglich, da die Software nicht erkennen kann, welche Pixel zu einer Linie gehören.
 
 Für Gravuren hingegen können auch Rastergrafiken verwendet werden. Der Laser fährt dann die Grafik - sozusagen zeilenweise - von oben nach unten ab; jede Zeile von links nach rechts. Dunklere Pixel werden tiefer eingraviert, helle Pixel weniger tief und leere bzw. weiße Pixel werden ausgelassen, also nicht graviert. Es können auch farbige Grafiken verwendet werden, wobei sie von der Software automatisch in Graustufen umgewandelt werden.
 
@@ -122,7 +122,7 @@ In manchen Programmen ist es auch möglich, die Reihenfolge der Laserschnitte fe
 > Bilder: farbige Vektorgrafik, Laserschnitt der Grafik - in Bildunterschrift: Reihenfolge der farbigen Linien beschreiben
 
 ### Software
-Zum Zeichnen von Vektorgrafiken gibt es viele unterschiedliche Programme. Meistens wird derartige Software im professionellen Bereich eingesetzt, was die Softwarelizenzen relativ teuer macht. Es gibt aber auch gute kostenlose Alternativen
+Zum Zeichnen von Vektorgrafiken gibt es viele unterschiedliche Programme. Meistens wird derartige Software im professionellen Bereich eingesetzt, was die Softwarelizenzen relativ teuer macht. Es gibt aber auch gute kostenlose Alternativen:
 
 Eine beliebte und kostenlose Open-Source-Software für **Vektorgrafikbearbeitung** ist **Inkscape**.
 
@@ -131,7 +131,7 @@ Eine beliebte und kostenlose Open-Source-Software für **Vektorgrafikbearbeitung
 > Bild: Inkscape
 
 Für das Zeichnen und Erstellen von **Rastergrafiken** gibt es ebenfalls viele, teilweise teure Programme.
-Als kostenlose und open-source-basierte Alternativen gibt es:
+Als kostenlose und Open-Source-basierte Alternativen gibt es:
 
 - **Krita:** https://krita.org
 - **GIMP:** https://www.gimp.org
@@ -162,7 +162,7 @@ Eine oft gut funktionierende Daumenregel lautet, dass Lücke und Zapfen in gleic
 
 Bevor man sich die Mühe macht und eine steckbare Box aufwendig selbst zeichnet, empfiehlt es sich, auf bestehende **Software-Hilfsmittel** zurückzugreifen:
 
-- Für Inkscape gibt es die kostenlose Erweiterung: [Lasercut tabbed box](https://inkscape.org/de/~Neon22/%E2%98%85lasercut-tabbed-box). Damit lassen sich Länge, Breite und Höhe sowie Zapfenlänge und Schnittbreiten-Versatz (kerf) für verschiedene boxartige Produkte als Vektorgrafik generieren. Diese Vektorgrafik kann auch nachträglich in Inkscape bearbeitet werden.
+- Für Inkscape gibt es die kostenlose Erweiterung [Lasercut tabbed box](https://inkscape.org/de/~Neon22/%E2%98%85lasercut-tabbed-box). Damit lassen sich Länge, Breite und Höhe sowie Zapfenlänge und Schnittbreiten-Versatz (kerf) für verschiedene boxartige Produkte als Vektorgrafik generieren. Diese Vektorgrafik kann auch nachträglich in Inkscape bearbeitet werden.
 - Ein weiteres Tool heißt "Boxes.py" (https://www.festi.info/boxes.py/). Hierfür ist keine Softwareinstallation notwendig, die Anwendung läuft im Browser. Dieses Open-Source-Projekt bietet eine Vielzahl von verschiedenen steckbaren Lasercut-Bausätzen, z.B. Kisten, Schubladen, Fächer oder Truhen mit Deckeln. Es können Parameter wie Länge, Breite, Höhe und Schnittbreitenversatz eingegeben werden, abschließend wird eine downloadbare SVG-Vektorgrafik erzeugt, die man direkt für Lasercutting verwenden oder vorher noch bearbeiten kann. Einige Bausätze enthalten auch "living hinges", mehr dazu [unten](#living-hinge).
 
 > Bild tabbed box als Vektorgrafik
@@ -179,7 +179,7 @@ Viele CAD-Programme (z.B. FreeCAD) verfügen über Tools, mit denen man die 3D-m
 ### Living hinge
 Eine beliebte Technik im Lasercut-Design nennt sich "living hinge" (engl. für "Biegescharnier"). Gewöhnliche Scharniere bestehen aus mehreren Bauteilen, Biegescharniere hingegen aus nur einem einzigen Teil, welches an einer oder an mehreren Stellen dünnwandig ausgestaltet oder eng geschnitten ist. Biegescharniere finden sich z.B. bei Eierpappkartons oder bei Brotdosen aus Kunststoff.
 
-Ein Living hinge lässt sich mit Lasercutting herstellen, indem viele, sehr eng aneinander liegende und leicht versetzte Schnittlinien in die Platte geschnitten werden. Die Platte wird dadurch sehr flexibel und lässt sich an der Stelle leicht biegen. Dies geht vor allem mit dünnen Holzplatten gut. Man kann es für Scharnierfunktionen, z.B. für Deckel von Truhen, verwenden oder man nutzt es, um abgerundete Kanten zu erzeugen.
+Ein living hinge lässt sich mit Lasercutting herstellen, indem viele, sehr eng aneinander liegende und leicht versetzte Schnittlinien in die Platte geschnitten werden. Die Platte wird dadurch sehr flexibel und lässt sich an der Stelle leicht biegen. Dies geht vor allem mit dünnen Holzplatten gut. Man kann es für Scharnierfunktionen, z.B. für Deckel von Truhen, verwenden oder man nutzt es, um abgerundete Kanten zu erzeugen.
 
 > Bilder living hinge (Vektorgrafik, Foto)
 
@@ -206,7 +206,7 @@ Neben der Gefahr durch Laserstrahlung selbst besteht auch eine Brandgefahr. Es i
 
 Ein Lasercutter sollte während des Betriebs nie unbeaufsichtigt gelassen werden. Man sollte stets in der Nähe bleiben und im Blick behalten, ob sich unübliche Flammen bilden. Im Zweifel sollte der Betrieb gestoppt werden. Man sollte wissen, wo sich der Notausschalter des Geräts befindet. Viele Lasercutter sind auch so konstruiert, dass sie beim Öffnen der oberen Abdeckung automatisch den Betrieb stoppen.
 
-Für den unwahrscheinlichen Fall dafür, dass ein Brand entsteht, sollte stets ein CO2-Feuerlöscher verwendet werden. Man sollte den Aufenthaltsort des CO2-Feuerlöschers kennen und sich mit seiner Bedienung vertraut machen.
+Für den unwahrscheinlichen Fall, dass ein Brand entsteht, sollte stets ein CO2-Feuerlöscher verwendet werden. Man sollte den Aufenthaltsort des CO2-Feuerlöschers kennen und sich mit seiner Bedienung vertraut machen.
 
 Schließlich ist es wichtig zu wissen, welche Materialien man lasern darf und welche nicht. Dies ist stets mit dem Personal zu klären. Einige Kunststoffe, z.B. PVC, dürfen auf keinen Fall gelasert werden, da sie dabei gesundheitsgefährdende bis lebensgefährliche Dämpfe erzeugen.
 
@@ -214,7 +214,7 @@ Schließlich ist es wichtig zu wissen, welche Materialien man lasern darf und we
 Wie in den oberen Abschnitten beschrieben, benötigt man für das Lasercutting eine Grafikdatei - Schnittlinien als Vektorgrafik, Gravuren als Rastergrafik. Wie die Daten an den Lasercutter übertragen werden, ist bei jedem Lasercutter anders. Oft wird eine spezielle Software benötigt. Viele Programme bieten eine Funktion an, die eine Schätzung der Betriebsdauer - aufgeschlüsselt nach Schneiden und Gravieren - berechnet. Bevor man den Betrieb startet, empfiehlt es sich, anhand der Werte zu prüfen, ob der Auftrag wie gewünscht durchgeführt wird. Ist etwa die berechnete Zeitdauer für Gravur unüblich hoch und die Dauer für das Schneiden gleich null, so wurde die Vektorgrafik evtl. nicht erkannt.  
 
 ### Vorbereitung
-Die wichtigsten Schritte, an die man beim Start eines Lasercuttingauftrags denken sollte, sind:
+Die wichtigsten Schritte, an die man beim Start eines Lasercutting-Auftrags denken sollte, sind:
 - Platte in den Lasercutter legen
 - Ggf. Höhe verstellen und fokussieren (oder, falls vorhanden, Autofokus einschalten)
 - Laser an die richtige Position fahren
