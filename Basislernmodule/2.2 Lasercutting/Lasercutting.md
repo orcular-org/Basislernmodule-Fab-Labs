@@ -45,7 +45,7 @@ Hier eine Übersicht einiger beliebter und gut geeigneter Materialien für Laser
 - **Kunststoffe (Plastik):** Bei Kunststoffen ist besondere Vorsicht geboten, da es viele Kunststoffsorten gibt, die beim Laserschneiden gesundheits- und lebensgefährliche Dämpfe erzeugen können, z.B. PVC. Es gibt jedoch auch Kunststoffe, die man relativ sicher schneiden und gravieren kann, z.B. Polypropylen (PP). Doch auch hier sollte man vorsichtig vorgehen und das Vorhaben mit dem Fab Lab bzw. den Inhaber:innen der Maschine absprechen. Manche Kunststoffe, z.B. HDPE, neigen dazu, nach dem Schneiden schnell wieder zusammenzuschmelzen - Laserschneiden von Kunststoff ist also herausfordernd, aber nicht unmöglich.
 - **Metalle:** In Industrie- und Handwerksbetrieben gibt es Maschinen, die Metallbleche laserschneiden können. Da Lasercutter dieser Art sehr teuer sind, findet man sie eher selten in Fab Labs. Ein typischer Fab-Lab-Lasercutter kann jedoch durchaus Gravuren in Metall (z.B. Aluminium oder Stahl) einbringen.
 
-> Bild Sperrholz-Gravur
+> Bilder: Sperrholz-Gravur, weitere Materialien, evtl. LED-beleuchtete Acrylplatte
 
 ### Komponenten eines Lasercutters
 Gute Lasercutter verfügen über ein geschlossenes Gehäuse und ein Abluftsystem. Es gibt auch günstige Lasercutter bzw. Lasergravierer mit offenem Aufbau. Bei diesen ist jedoch besondere Vorsicht geboten, da es leicht zu Unfällen kommen kann. In Fab Labs finden sich üblicherweise geschlossene Lasercutter mit Abluftsystem.
@@ -107,6 +107,8 @@ Raster- und Vektorgrafiken lassen sich vor allem über zwei Methoden leicht unte
   - **Rastergrafiken** haben Dateiformate wie JPG/JPEG, PNG, GIF oder TIFF.
   - **Vektorgrafiken** haben Dateiformate wie SVG, DXF, AI oder unter gewissen Bedingungen auch PDF.
 
+> Bilder: Raster- vs. Vektorgrafik, Beispiel Vektorgrafik für Lasercutting
+
 Um eine Grafikdatei für Lasercutting verwenden zu können, muss diese in einem Vektorformat vorliegen. Hintergrund ist, dass die Linien und Kurven einer Vektorgrafik über eine Software in Steuersignale für den Lasercutter umgewandelt werden, wobei der Laser jede Linie und Kurve abfährt und laserschneidet. Der Laser "kennt" damit Anfangs- und Endpunkt einer jeden Linie und Kurve und fährt sie in einem Durchlauf ab. Mit pixelbasierten Rastergrafiken wäre dies nicht möglich, da die Software nicht "entscheiden" kann, welche Pixel zu einer Linie gehören.
 
 Für Gravuren hingegen können auch Rastergrafiken verwendet werden. Der Laser fährt dann die Grafik - sozusagen zeilenweise - von oben nach unten ab; jede Zeile von links nach rechts. Dunklere Pixel werden tiefer eingraviert, helle Pixel weniger tief und leere bzw. weiße Pixel werden ausgelassen, also nicht graviert. Es können auch farbige Grafiken verwendet werden, wobei sie von der Software automatisch in Graustufen umgewandelt werden.
@@ -126,11 +128,15 @@ Eine beliebte und kostenlose Open-Source-Software für **Vektorgrafikbearbeitung
 
 - **Inkscape:** https://inkscape.org
 
+> Bild: Inkscape
+
 Für das Zeichnen und Erstellen von **Rastergrafiken** gibt es ebenfalls viele, teilweise teure Programme.
 Als kostenlose und open-source-basierte Alternativen gibt es:
 
 - **Krita:** https://krita.org
 - **GIMP:** https://www.gimp.org
+
+> Bilder: Krita, GIMP
 
 Je nach Lasercutter-Hersteller und -Modell benötigt man oft noch eine spezielle Software, die die Vektor- und Rastergrafiken in Steuersignale umwandelt und an den Lasercutter sendet. Diese Software wird üblicherweise mit dem Lasercutter mitgeliefert.
 
@@ -148,6 +154,8 @@ Auch zwischen **Lasercutting und CNC-Fräsen** gibt es typische Unterschiede. W�
 ### Stecksysteme
 Eine beliebte Anwendung von Lasercutting besteht in Stecksystemen - vor allem für Holzplatten. Dabei werden mehrere Teile so geformt, dass sie rechtwinkling zueinander gesteckt werden können. Eine Möglichkeit besteht darin, einen Zapfen in ein eckiges Loch zu stecken. Eine andere Methode ist der Einsatz von zinnenartigen Rändern, womit sich ganze Boxen oder ähnliche Strukturen zusammenstecken lassen.
 
+> Bilder Stecksysteme (einmal mit Zapfen in Loch, einmal mit Zinnen / Tabbed box)
+
 Dabei muss sichergestellt werden, dass die Zapfen nicht zu locker stecken, sondern einen festen Sitz haben. Andererseits darf die Lücke auch nicht zu eng sein, da man den Zapfen sonst nicht hineingedrückt bekommt. Hierbei muss auch die Schnittbreite (kerf) berücksichtigt werden.
 
 Eine oft gut funktionierende Daumenregel lautet, dass Lücke und Zapfen in gleichen Dimensionen gezeichnet werden (also gleich breit und gleich hoch). Bedingt durch die Schnittbreite (kerf) des Lasers werden Lücken ohnehin etwas weiter und Zapfen etwas schmaler ausfallen als in der Zeichnung, womit der Sitz oft relativ gut ist, manchmal aber etwas zu locker. Man kann die Verbindung auch etwas enger gestalten und die Steckverbindungen vorsichtig mit einem Gummihammer einschlagen. Steckverbindungen können in der Regel auch mehrmals gelöst und wieder zusammengesteckt werden, dabei nutzt sich das Material jedoch jedesmal etwas ab, sodass die Verbindung evtl. nicht mehr fest sitzt. Auch die Verwendung von Klebstoff oder Leim ist möglich.
@@ -156,6 +164,8 @@ Bevor man sich die Mühe macht und eine steckbare Box aufwendig selbst zeichnet,
 
 - Für Inkscape gibt es die kostenlose Erweiterung: [Lasercut tabbed box](https://inkscape.org/de/~Neon22/%E2%98%85lasercut-tabbed-box). Damit lassen sich Länge, Breite und Höhe sowie Zapfenlänge und Schnittbreiten-Versatz (kerf) für verschiedene boxartige Produkte als Vektorgrafik generieren. Diese Vektorgrafik kann auch nachträglich in Inkscape bearbeitet werden.
 - Ein weiteres Tool heißt "Boxes.py" (https://www.festi.info/boxes.py/). Hierfür ist keine Softwareinstallation notwendig, die Anwendung läuft im Browser. Dieses Open-Source-Projekt bietet eine Vielzahl von verschiedenen steckbaren Lasercut-Bausätzen, z.B. Kisten, Schubladen, Fächer oder Truhen mit Deckeln. Es können Parameter wie Länge, Breite, Höhe und Schnittbreitenversatz eingegeben werden, abschließend wird eine downloadbare SVG-Vektorgrafik erzeugt, die man direkt für Lasercutting verwenden oder vorher noch bearbeiten kann. Einige Bausätze enthalten auch "living hinges", mehr dazu [unten](#living-hinge).
+
+> Bild tabbed box als Vektorgrafik
 
 ### 3D-CAD und Projektion
 Statt Lasercut-Projekte in 2D zu zeichnen, kann man auch eine 3D-CAD-Software verwenden (mehr dazu im Basislernmodul 3D-Design und CAD). Auf diese Weise kann man ein aus mehreren Lasercut-Teilen bestehendes Produkt entwerfen und in 3D darstellen. Vorteil an dieser Methode ist, dass man direkt sehen kann, wie das fertige, zusammengesteckte Produkt aussehen wird - beim Design in 2D sieht man die einzelnen Teile nur nebeneinander und benötigt etwas Vorstellungskraft, um sich ein Bild vom fertigen 3D-Produkt zu machen.
@@ -171,7 +181,7 @@ Eine beliebte Technik im Lasercut-Design nennt sich "living hinge" (engl. für "
 
 Ein Living hinge lässt sich mit Lasercutting herstellen, indem viele, sehr eng aneinander liegende und leicht versetzte Schnittlinien in die Platte geschnitten werden. Die Platte wird dadurch sehr flexibel und lässt sich an der Stelle leicht biegen. Dies geht vor allem mit dünnen Holzplatten gut. Man kann es für Scharnierfunktionen, z.B. für Deckel von Truhen, verwenden oder man nutzt es, um abgerundete Kanten zu erzeugen.
 
-> Bilder living hinge
+> Bilder living hinge (Vektorgrafik, Foto)
 
 ### Download von Vorlagen
 Statt eigene Lasercut-Zeichnungen zu entwerfen, kann man auch fertige Vorlagen aus dem Internet verwenden. Viele Portale, die eigentlich eher für 3D-Druck-Dateien gedacht sind, enthalten auch Projekte für Lasercutting. Man findet sie, indem man einfach "laser cut" oder "lasercutting" in die Suchleiste eingibt. Mehr zu dem Thema im Basislernmodul Verwendung von 3D-Modellen aus dem Internet.
