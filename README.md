@@ -4,7 +4,7 @@ Basislernmodule f√ºr verschiedene Themen rund um die Nutzung von Fab Labs - ver√
 ## Themenfeld 1: 3D-Modelle
 
 1. [3D-Design](https://github.com/orcular-org/Basislernmodule-Fab-Labs/blob/main/Basislernmodule/1.1%203D-Design/3D-Design.md)
-2. 3D-Scanning
+2. [3D-Scanning](https://github.com/orcular-org/Basislernmodule-Fab-Labs/blob/main/Basislernmodule/1.2%203D-Scanning/3D-Scanning.md)
 3. [Verwendung von 3D-Modellen aus dem Internet](https://github.com/orcular-org/Basislernmodule-Fab-Labs/blob/main/Basislernmodule/1.3%20Verwendung%20von%203D%20Modellen%20aus%20dem%20Internet/Verwendung%20von%203D%20Modellen%20aus%20dem%20Internet.md)
 
 ## Themenfeld 2: Digitale Produktion
