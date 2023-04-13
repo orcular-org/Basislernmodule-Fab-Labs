@@ -199,11 +199,25 @@ Für den unwahrscheinlichen Fall dafür, dass ein Brand entsteht, sollte stets e
 
 Schließlich ist es wichtig zu wissen, welche Materialien man lasern darf und welche nicht. Dies ist stets mit dem Personal zu klären. Einige Kunststoffe, z.B. PVC, dürfen auf keinen Fall gelasert werden, da sie dabei gesundheitsgefährdende bis lebensgefährliche Dämpfe erzeugen.
 
-### Digitales 3D-Modell oder 2D-Grafik
-(Platzhalter)
+### Lasercut-Datei
+Wie in den oberen Abschnitten beschrieben, benötigt man für das Lasercutting eine Grafikdatei - Schnittlinien als Vektorgrafik, Gravuren als Rastergrafik. Wie die Daten an den Lasercutter übertragen werden, ist bei jedem Lasercutter anders. Oft wird eine spezielle Software benötigt. Viele Programme bieten eine Funktion an, die eine Schätzung der Betriebsdauer - aufgeschlüsselt nach Schneiden und Gravieren - berechnet. Bevor man den Betrieb startet, empfiehlt es sich, anhand der Werte zu prüfen, ob der Auftrag wie gewünscht durchgeführt wird. Ist etwa die berechnete Zeitdauer für Gravur unüblich hoch und die Dauer für das Schneiden gleich null, so wurde die Vektorgrafik evtl. nicht erkannt.  
 
-### Steuersoftware
-(Notizen: Visicut, Lightburn; Kurzhinweis zu G-Code)
+### Vorbereitung
+Die wichtigsten Schritte, an die man beim Start eines Lasercuttingauftrags denken sollte, sind (je nach Lasercutter-Modell können manche Schritte abweichen):
+- Platte in den Lasercutter legen
+- Ggf. Höhe verstellen und fokussieren (oder, falls vorhanden, Autofokus einschalten)
+- Laser an die richtige Position fahren
+- Richtiges Profil einstellen (Material und Plattendicke - daraus abgeleitet die Leistung und Geschwindigkeit)
+- Grafikdatei übertragen
+- Zeit berechnen lassen und auf Plausibilität prüfen
+- Ggf. prüfen, ob Belüftung eingeschaltet ist
+- Laserbetrieb starten
+- Aufmerksam sein und in der Nähe bleiben, gelegentlich den Prozess beobachten
 
 ### Ablauf eines Lasercuttings
-(Platzhalter)
+Üblicherweise beginnt ein Lasercutter zunächst mit den Gravuren. Der Grund liegt darin, dass ein einmal ausgeschnittenes Teil unter Umständen leicht kippen kann - nachträgliche Gravuren würden somit auf eine schräge Oberfläche treffen und nicht korrekt ausgeführt werden.
+
+Anschließend werden die Schnittlinien ausgeführt. Das Schneiden geht für gewöhnlich deutlich schneller als das Gravieren.
+
+Nach abgeschlossenem Lasercutting empfiehlt es sich, noch kurz zu warten, damit die Belüftungsanlage Rauch und Dämpfe absaugen kann. Danach kann die Klappe geöffnet und die Teile können entnommen werden.
+Falls ein Schnitt nicht richtig durchgegangen ist, liegt dies entweder an einem falsch eingestelltem Profil (falsche Parametereinstellungen), an einer Unebenheit der Platte oder an anderen Ursachen. Oft kann es helfen, einen Lasercut-Auftrag einfach ein zweites mal auszuführen, sodass die halbfertigen Schnitte beim erneuten Durchgang ganz durchgeschnitten werden. Dabei muss die Platte exakt an die gleiche Position gelegt werden (möglichst mit Hilfe des Anschlags am Rand) oder gleich liegen gelassen werden. Es ist auch möglich, direkt am Computer einzustellen, dass der Laser zwei Durchgänge schneiden soll.
