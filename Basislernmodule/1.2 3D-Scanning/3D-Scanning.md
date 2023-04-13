@@ -1,6 +1,6 @@
 # 3D-Scanning
 
-3D-Scanning bezeichnet verschiedene Verfahren, bei denen die Oberflächen von real vorhandenen Objekte, Personen oder Umgebungen mit speziellen Geräten derart erfasst werden, dass ein digitales 3D-Modell davon entsteht. 3D-Scanning wird in vielen Bereichen eingesetzt, z.B. ......
+3D-Scanning bezeichnet verschiedene Verfahren, bei denen die Oberflächen von real vorhandenen Objekten, Personen oder Umgebungen mit speziellen Geräten derart erfasst werden, dass ein digitales 3D-Modell davon entsteht. 3D-Scanning wird in vielen Bereichen eingesetzt, z.B. in der Filmindustrie, in der Gelände- und Gebäudevermessung oder in Form von Reverse Engineering, d.h. Reproduktion von vorhandenen technischen Bauteilen.
 
 Im Kontext von Fab Labs und Maker-Communities werden 3D-Scanning-Methoden vor allem zum Erstellen von dreidimensionalen Personenmodellen (sogenannte "3D-Selfies"), zum Nachbilden von Figuren, Spielzeugen u.ä. sowie zur Reproduktion von Ersatzteilen eingesetzt. Aus den 3D-gescannten Modellen lassen sich in Fab Labs wieder reale Objekte fertigen, beispielsweise mit 3D-Druckern.
 
@@ -26,7 +26,7 @@ Beim Laserscanning werden die zu erfassenden Oberflächen zeilen- oder rasterart
 
 Bei der Photogrammetrie wird das zu erfassende Objekt zunächst aus vielen verschiedenen Winkeln fotografiert, entweder mit einer einzelnen Kamera oder mit vielen Kameras gleichzeitig.
 
-Wird nur eine einzelne Kamera verwendet, muss man sie um das Objekt herumführen - von Hand oder maschinell mit einem Roboterarm - und möglichst viele Fotos aus vielen verschiedenen Perspektiven aufnehmen. Dabei sollte sich das Objekt bzw. die Person möglichst nicht bewegen. Möglich ist auch die Verwendung eines Drehtellers, auf dem das Objekt platziert und gedreht wird, sodass die Kamera nur noch in vertikeler Position verschoben werden muss.
+Wird nur eine einzelne Kamera verwendet, muss man sie um das Objekt herumführen - von Hand oder maschinell mit einem Roboterarm - und möglichst viele Fotos aus vielen verschiedenen Perspektiven aufnehmen. Dabei sollte sich das Objekt bzw. die Person möglichst nicht bewegen. Möglich ist auch die Verwendung eines Drehtellers, auf dem das Objekt platziert und gedreht wird, sodass die Kamera nur noch in vertikaler Position verschoben werden muss.
 
 Beim Einsatz mehrerer Kameras können diese in verschiedenen Winkeln um das Objekt bzw. die Person herum platziert werden. Die Kameras werden dann alle gleichzeitig ausgelöst.
 
@@ -38,7 +38,7 @@ Eine Software erkennt Unterschiede und Gemeinsamkeiten in den Bildern, findet di
 
 Geräte für 3D-Scanning gibt es in unterschiedlichen Ausführungen, z.B. als handgeführte Geräte, die man um das Objekt herumträgt, um es aus verschiedenen Winkeln zu erfassen. Es gibt auch Smartphone-Apps, mit denen man die Handykamera für Photogrammetrie-3D-Scanning nutzen kann. Die meisten guten Apps sind in der Regel kostenpflichtig oder nur im eingeschränkten Umfang kostenlos nutzbar.
 
-Vor allem für 3D-Selfies von Personen oder Menschengruppen gibt es Kabinen, die mit einer großen Anzahl an Kameras ausgestattet sind, die die Personen aus allen Richtungen erfassen.
+Vor allem für 3D-Selfies von Personen oder Menschengruppen gibt es Kabinen, die mit einer großen Anzahl an Kameras ausgestattet sind, die die Personen aus allen Richtungen erfassen. Da alle Kameras gleichzeitig ausgelöst werden, geht diese Methode sehr schnell und die abgelichteten Personen müssen nur sehr kurz still halten. 
 
 > Bilder Handheld-3D-Scanner, Kabine (Foto), Kabine (Schema/Skizze)
 
@@ -47,13 +47,15 @@ Vor allem für 3D-Selfies von Personen oder Menschengruppen gibt es Kabinen, die
 
 ### Nachbearbeitung
 
-Bei vielen 3D-Scanning-Methoden muss das 3D-Modell noch in einer Software beartbeitet werden, bevor es z.B. für 3D-Druck verwendet werden kann.
+Bei vielen 3D-Scanning-Methoden muss das 3D-Modell noch in einer Software nachbeartbeitet werden, bevor es z.B. für 3D-Druck verwendet werden kann.
 
 Je nach Verfahren liegt das Modell zunächst entweder als Polygonnetz oder als Punktwolke vor und muss mit Software zu einem sauberen Modell zusammengefügt, bereinigt und geglättet werden.
 
+> Bilder Polygonnetz und Punktwolke
+
 ### Software und Hardware
 
-Im Bereich gibt es u.a. folgende Software:
+Im Bereich 3D-Scanning gibt es u.a. folgende Software:
 
 - [MeshLab](https://www.meshlab.net/): Open-Source-Software zum Bearbeiten, Bereinigen, Rendering, Texturieren und Konvertieren von 3D-gescannten Polygonnetz-3D-Modellen
 - [3DF Zephyr](https://www.3dflow.net): Ein Programm mit einer [kostenlosen](https://www.3dflow.net/3df-zephyr-free/) und mehreren kostenpflichtigen Versionen für Photogrammetrie, also für die Generierung von 3D-Modellen aus mehreren 2D-Einzelbildern
@@ -63,12 +65,13 @@ Für Fab Labs und Maker gibt es u.a. folgende Geräte und Projekte (teilweise Op
 - [FabScan](https://fabscan.org)
 - [MakerScanner](http://www.makerscanner.com/)
 
+Zudem gibt es auch professionelle Geräte, die jedoch sehr teuer sind und in der Regel nur von Unternehmen genutzt werden, doch auch manche Fab Labs verfügen über solche Geräte.
 
 ### 3D-Druck von 3D-gescannten Modellen
 
 Hat man ein 3D-gescanntes Modell bereinigt und in ein 3D-druckbares-Format überführt, z.B. STL (mehr dazu im Basislernmodul 3D-Druck), kann man es einfach mit einem FDM-3D-Drucker als einfarbiges Objekt ausdrucken. Bei Verwendung eines Mehrfarben-3D-Druckers kann auch eine mehrfarbige Figur gedruckt werden - mit einigen wenigen Farben und beschränkter Genauigkeit.
 
-Möchte man eine sehr detaillierte 3D-Druck-Figur mit vielen Farben und hoher Genauigkeit der Oberflächenoptik erhalten, reicht ein einfacher FDM-3D-Drucker (verlinken) nicht aus. Kommerzielle Anbieter von 3D-Selfies nutzen meist eine andere 3D-Druck-Technologie: Binder Jetting, auch als Freistrahl-Bindemittelauftrag bezeichnet. Bei diesem 3D-Druck-Verfahren wird ein Pulver mit flüssigen Bindemittel aufgetragen und verbunden. Die entstehenden Figuren haben oft eine an Sandstein erinnernde Optik.
+Möchte man eine sehr detaillierte 3D-Druck-Figur mit vielen Farben und hoher Genauigkeit der Oberflächenoptik erhalten, reicht ein einfacher FDM-3D-Drucker (verlinken) nicht aus. Kommerzielle Anbieter von 3D-Selfies nutzen meist eine andere 3D-Druck-Technologie: Binder Jetting, auch als Freistrahl-Bindemittelauftrag bezeichnet. Bei diesem 3D-Druck-Verfahren wird ein Pulver mit flüssigen Bindemittel aufgetragen und verbunden. Die entstehenden Figuren haben oft eine an Sandstein erinnernde Optik, zudem eine große Farbenvielfalt und Detailtreue.
 
 > Bilder-Serie Binder Jetting Figur
 
