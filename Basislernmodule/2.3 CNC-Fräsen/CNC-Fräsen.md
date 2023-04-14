@@ -1,8 +1,35 @@
 # CNC-Fräsen
 
 ## Inhalt
-1. ...
-2. ...
+
+1. [Einführung](#einführung)
+
+2. [Grundlagen](#grundlagen)
+   - [Materialien](#materialien)
+   - [Arten von CNC-Fräsmaschinen](#arten-von-cnc-fräsmaschinen)
+   - [Komponenten einer CNC-Fräsmaschine](#komponenten-einer-cnc-fräsmaschine)
+   - [CAM](#cam)
+
+3. [Kenngrößen und Einstellungen](#kenngrößen-und-einstellungen)
+   - [Fräswerkzeug-Formen](#fräswerkzeug-formen)
+   - [Wichtigste Kenngrößen](#wichtigste-kenngrößen)
+   - [Fräsdurchmesser](#fräsdurchmesser)
+   - [Ermittlung von Drehzahl, Vorschub und Schnitttiefe](#ermittlung-von-drehzahl-vorschub-und-schnitttiefe)
+   - [Sicherheitshöhe](#sicherheitshöhe)
+   - [Bearbeitungsarten](#bearbeitungsarten)
+   - [Haltestege](#haltestege)
+
+4. [Vorbereitung und Ablauf eines CNC-Fräs-Auftrags](#vorbereitung-und-ablauf-eines-cnc-fräs-auftrags)
+   - [Sicherheit](#sicherheit)
+   - [CAM, Simulation, G-Code-Datei](#cam-simulation-g-code-datei)
+   - [Werkstück](#werkstück)
+   - [Nullpunkt setzen](#nullpunkt-setzen)
+   - [Ablauf des CNC-Fräsens](#ablauf-des-cnc-fräsens)
+   - [Nachbearbeitung](#nachbearbeitung)
+
+[Lizenzinformationen](#lizenzinformationen)
+
+[Bildnachweise](#bildnachweise)
 
 ## Einführung
 
@@ -176,3 +203,11 @@ Ist der Nullpunkt gesetzt, muss zu Beginn eines CNC-Auftrags die G-Code-Datei ü
 ### Nachbearbeitung
 
 Nach abgeschlossener Fertigung kann das Werkstück bzw. das gefertigte Teil entnommen werden. Vor allem bei Metallteilen sollte man vorsichtig sein, da wegen der scharfen Kanten Verletzungsgefahr besteht. Die Kanten sollten entgratet und gefeilt werden, zudem können Oberflächen geschliffen werden.
+
+# Lizenzinformationen
+
+(Platzhalter)
+
+# Bildnachweise
+
+(Platzhalter)
