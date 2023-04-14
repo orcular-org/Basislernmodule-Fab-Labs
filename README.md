@@ -11,4 +11,4 @@ Basislernmodule für verschiedene Themen rund um die Nutzung von Fab Labs - ver�
 
 1. [3D-Druck](https://github.com/orcular-org/Basislernmodule-Fab-Labs/blob/main/Basislernmodule/2.1%203D-Druck/3D-Druck.md)
 2. [Lasercutting](https://github.com/orcular-org/Basislernmodule-Fab-Labs/blob/main/Basislernmodule/2.2%20Lasercutting/Lasercutting.md)
-3. CNC-Fräsen
+3. [CNC-Fräsen](https://github.com/orcular-org/Basislernmodule-Fab-Labs/blob/main/Basislernmodule/2.3%20CNC-Fr%C3%A4sen/CNC-Fr%C3%A4sen.md)
