@@ -1,11 +1,36 @@
 # Lasercutting
 ## Inhalt
 
-1. ...
-2. ...
+1. [Einführung](#einführung)
+
+2. [Grundlagen](#grundlagen)
+   - [Materialien](#materialien)
+   - [Komponenten eines Lasercutters](#komponenten-eines-lasercutters)
+   - [Parameter: Leistung und Geschwindigkeit](#parameter-leistung-und-geschwindigkeit)
+   - [Schnittbreite (kerf)](#schnittbreite-kerf)
+   - [Vektorgrafik](#vektorgrafik)
+   - [Software](#software)
+   - [Unterschiede zu anderen digitalen Fertigungsmethoden](#unterschiede-zu-anderen-digitalen-fertigungsmethoden)
+
+3. [Designtipps](#designtipps)
+   - [Stecksysteme](#stecksysteme)
+   - [3D-CAD und Projektion](#3d-cad-und-projektion)
+   - [Living hinge](#living-hinge)
+   - [Download von Vorlagen](#download-von-vorlagen)
+   - [Häufige Fehler](#häufige-fehler)
+
+4. [Vorbereitung und Ablauf eines Lasercuttings](#vorbereitung-und-ablauf-eines-lasercuttings)
+   - [Sicherheit](#sicherheit)
+   - [Lasercut-Datei](#lasercut-datei)
+   - [Vorbereitung](#vorbereitung)
+   - [Ablauf eines Lasercuttings](#ablauf-eines-lasercuttings)
+
+[Lizenzinformationen](#lizenzinformationen)
+
+[Bildnachweise](#bildnachweise)
 
 
-### Einführung
+## Einführung
 
 Lasercutting (engl. für Laserschneiden) ist ein Prozess, bei dem ein Laserstrahl ein Material erhitzt, dieses dabei schmilzt oder verbrennt und somit trennt. Die entsprechenden Maschinen nennt man Lasercutter. Zusätzlich zum Schneiden sind Lasercutter auch in der Lage zu gravieren, d.h. das Material wird nicht vollständig durchtrennt, sondern nur an der Oberfläche bearbeitet, womit sich z.B. Schriftzüge oder Abbildungen in das Werkstück einbringen lassen.
 
@@ -234,3 +259,11 @@ Anschließend werden die Schnittlinien ausgeführt. Das Schneiden geht für gew�
 
 Nach abgeschlossenem Lasercutting empfiehlt es sich, noch kurz zu warten, damit die Belüftungsanlage Rauch und Dämpfe absaugen kann. Danach kann die Klappe geöffnet und die Teile können entnommen werden.
 Falls ein Schnitt nicht richtig durchgegangen ist, liegt dies entweder an einem falsch eingestelltem Profil (falsche Parametereinstellungen), an einer Unebenheit der Platte oder an anderen Ursachen. Oft kann es helfen, einen Lasercut-Auftrag einfach ein zweites mal auszuführen, sodass die halbfertigen Schnitte beim erneuten Durchgang ganz durchgeschnitten werden. Dabei muss die Platte exakt an die gleiche Position gelegt werden (möglichst mit Hilfe des Anschlags am Rand) oder gleich liegen gelassen werden. Es ist auch möglich, direkt am Computer einzustellen, dass der Laser zwei Durchgänge schneiden soll.
+
+# Lizenzinformationen
+
+(Platzhalter)
+
+# Bildnachweise
+
+(Platzhalter)
