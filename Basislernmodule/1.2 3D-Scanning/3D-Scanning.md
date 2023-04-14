@@ -1,5 +1,26 @@
 # 3D-Scanning
 
+## Inhalt
+
+1. [Einführung](#einführung)
+
+2. [Verfahren und Technologien](#verfahren-und-technologien)
+   - [Laserscanning](#laserscanning)
+   - [Photogrammetrie](#photogrammetrie)
+   - [Gerätetypen](#gerätetypen)
+
+
+3. [Verarbeitung eines gescannten 3D-Modells](#verarbeitung-eines-gescannten-3d-modells)
+   - [Nachbearbeitung](#nachbearbeitung)
+   - [Software und Hardware](#software-und-hardware)
+   - [3D-Druck von 3D-gescannten Modellen](#3d-druck-von-3d-gescannten-modellen)
+
+[Lizenzinformationen](#lizenzinformationen)
+
+[Bildnachweise](#bildnachweise)
+
+## Einführung
+
 3D-Scanning bezeichnet verschiedene Verfahren, bei denen die Oberflächen von real vorhandenen Objekten, Personen oder Umgebungen mit speziellen Geräten derart erfasst werden, dass ein digitales 3D-Modell davon entsteht. 3D-Scanning wird in vielen Bereichen eingesetzt, z.B. in der Filmindustrie, in der Gelände- und Gebäudevermessung oder in Form von Reverse Engineering, d.h. Reproduktion von vorhandenen technischen Bauteilen.
 
 Im Kontext von Fab Labs und Maker-Communities werden 3D-Scanning-Methoden vor allem zum Erstellen von dreidimensionalen Personenmodellen (sogenannte "3D-Selfies"), zum Nachbilden von Figuren, Spielzeugen u.ä. sowie zur Reproduktion von Ersatzteilen eingesetzt. Aus den 3D-gescannten Modellen lassen sich in Fab Labs wieder reale Objekte fertigen, beispielsweise mit 3D-Druckern.
@@ -76,3 +97,11 @@ Möchte man eine sehr detaillierte 3D-Druck-Figur mit vielen Farben und hoher Ge
 > Bilder-Serie Binder Jetting Figur
 
 Schließlich gibt es auch die Möglichkeit, eine einfarbig (möglichst weiß) gedruckte Figur aus dem FDM-3D-Drucker nachträglich zu bearbeiten und zu bemalen.
+
+# Lizenzinformationen
+
+(Platzhalter)
+
+# Bildnachweise
+
+(Platzhalter)
