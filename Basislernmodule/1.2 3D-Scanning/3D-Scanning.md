@@ -100,7 +100,13 @@ Schließlich gibt es auch die Möglichkeit, eine einfarbig (möglichst weiß) ge
 
 # Lizenzinformationen
 
-(Platzhalter)
+**Author:** Oskar Lidtke, https://github.com/orcular-org/
+
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />Except where otherwise noted, this work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0)</a>.
+
+See best practices for [attribution](https://wiki.creativecommons.org/wiki/Best_practices_for_attribution) and [marking your own work](https://wiki.creativecommons.org/wiki/Marking_your_work_with_a_CC_license) with a CC license.
+
+For attribution and licenses of the images used, see the section below.
 
 # Bildnachweise
 
