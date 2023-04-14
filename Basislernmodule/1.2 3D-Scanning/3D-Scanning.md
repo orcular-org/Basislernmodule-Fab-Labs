@@ -76,12 +76,13 @@ Je nach Verfahren liegt das Modell zunächst entweder als Polygonnetz oder als P
 
 ### Software und Hardware
 
-Im Bereich 3D-Scanning gibt es u.a. folgende Software:
+Im Bereich 3D-Scanning gibt es u.a. folgende **Software**:
 
-- [MeshLab](https://www.meshlab.net/): Open-Source-Software zum Bearbeiten, Bereinigen, Rendering, Texturieren und Konvertieren von 3D-gescannten Polygonnetz-3D-Modellen
-- [3DF Zephyr](https://www.3dflow.net): Ein Programm mit einer [kostenlosen](https://www.3dflow.net/3df-zephyr-free/) und mehreren kostenpflichtigen Versionen für Photogrammetrie, also für die Generierung von 3D-Modellen aus mehreren 2D-Einzelbildern
+- [MeshLab](https://www.meshlab.net/): Open-Source-Software zum Bearbeiten, Bereinigen, Rendering, Texturieren und Konvertieren von 3D-gescannten Polygonnetz-3D-Modellen.
+- [3DF Zephyr](https://www.3dflow.net): Ein Programm mit einer [kostenlosen](https://www.3dflow.net/3df-zephyr-free/) und mehreren kostenpflichtigen Versionen für Photogrammetrie, also für die Generierung von 3D-Modellen aus mehreren 2D-Einzelbildern.
+- [ReconstructMe](https://www.reconstructme.net): Software zum Erstellen von 3D-Selfies mit eigener Kamera - verfügbar sind sowohl eine kostenlose als auch eine kostenpflichtige Version.
 
-Für Fab Labs und Maker gibt es u.a. folgende Geräte und Projekte (teilweise Open-Source-Hardware):
+Für Fab Labs und Maker gibt es u.a. folgende **Geräte und Hardware-Projekte** (teilweise Open-Source-Hardware):
 - [OpenScan](https://www.openscan.eu/) - ([GitHub-Seite](https://openscan-org.github.io/OpenScan-Doc/))
 - [FabScan](https://fabscan.org)
 - [MakerScanner](http://www.makerscanner.com/)
