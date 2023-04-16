@@ -476,7 +476,7 @@ For attribution and licenses of the images used, see the section below.
 **[1]** DIY-3D-Drucker mit Open-Hardware-Lizenz [(Repository)](https://gitlab.fabcity.hamburg/hardware/interfacer-osh-build-workshops/3-d-printer-hypercuboid) - **Image license:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) - **Author:** Oskar Lidtke, [github.com/orcular-org](https://github.com/orcular-org)
 
 <a name="s2"></a>
-**[2]** Prusa i3 metal frame - **Image license:** [GNU Free Documentation License, Version 1.2](https://en.wikipedia.org/wiki/GNU_Free_Documentation_License) - **Source:** https://commons.wikimedia.org/wiki/File:Prusa_i3_metal_frame.jpg
+**[2]** Prusa i3 metal frame - **Image license:** [GNU Free Documentation License, Version 1.2](https://commons.wikimedia.org/wiki/Commons:GNU_Free_Documentation_License,_version_1.2) - **Source:** https://commons.wikimedia.org/wiki/File:Prusa_i3_metal_frame.jpg
 
 <a name="s3"></a>
 **[3]** BigFDM 3D-Drucker [(Repository)](https://github.com/fab-machines/BigFDM) - **Image Source:** https://openlab-hamburg.de/
@@ -515,10 +515,10 @@ For attribution and licenses of the images used, see the section below.
 **[14]** Makerbot Store, Manhattan (NY, USA) - **Image license:** [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/deed.en) - **Source:** https://commons.wikimedia.org/wiki/File:Makerbot_Store,_Manhattan_(NY,_USA)_(8764959982).jpg
 
 <a name="s15"></a>
-**[15]** ABS filament spool - **Image license:** [GNU Free Documentation License, Version 1.2](https://en.wikipedia.org/wiki/GNU_Free_Documentation_License) - **Source:** https://commons.wikimedia.org/wiki/File:ABS_filament_spool.jpg
+**[15]** ABS filament spool - **Image license:** [GNU Free Documentation License, Version 1.2](https://commons.wikimedia.org/wiki/Commons:GNU_Free_Documentation_License,_version_1.2) - **Source:** https://commons.wikimedia.org/wiki/File:ABS_filament_spool.jpg
 
 <a name="s16"></a>
-**[16]** 3DBenchy created using color mixing on an FDM printer - **Image license:** [GNU Free Documentation License, Version 1.2](https://en.wikipedia.org/wiki/GNU_Free_Documentation_License) - **Source:** https://commons.wikimedia.org/wiki/File:3DBenchy_created_using_color_mixing_on_an_FDM_printer.jpg
+**[16]** 3DBenchy created using color mixing on an FDM printer - **Image license:** [GNU Free Documentation License, Version 1.2](https://commons.wikimedia.org/wiki/Commons:GNU_Free_Documentation_License,_version_1.2) - **Source:** https://commons.wikimedia.org/wiki/File:3DBenchy_created_using_color_mixing_on_an_FDM_printer.jpg
 
 <a name="s17"></a>
 **[17]** Die wichtigsten Komponenten eines 3D-Druckers (3D-Modell erstellt in FreeCAD) - [3DBenchy attribution](https://www.3dbenchy.com/license/) - **Image license:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) - **Author:** Oskar Lidtke, [github.com/orcular-org](https://github.com/orcular-org)
