@@ -2,7 +2,6 @@
 ## Inhalt
 
 1. [Einführung](#einführung)
-
 2. [Grundlagen](#grundlagen)
    - [Materialien](#materialien)
    - [Komponenten eines Lasercutters](#komponenten-eines-lasercutters)
@@ -11,14 +10,12 @@
    - [Vektorgrafik](#vektorgrafik)
    - [Software](#software)
    - [Unterschiede zu anderen digitalen Fertigungsmethoden](#unterschiede-zu-anderen-digitalen-fertigungsmethoden)
-
 3. [Designtipps](#designtipps)
    - [Stecksysteme](#stecksysteme)
    - [3D-CAD und Projektion](#3d-cad-und-projektion)
    - [Living hinge](#living-hinge)
    - [Download von Vorlagen](#download-von-vorlagen)
    - [Häufige Fehler](#häufige-fehler)
-
 4. [Vorbereitung und Ablauf eines Lasercuttings](#vorbereitung-und-ablauf-eines-lasercuttings)
    - [Sicherheit](#sicherheit)
    - [Lasercut-Datei](#lasercut-datei)
