@@ -25,7 +25,26 @@ Im Kontext von Fab Labs und Maker-Communities werden 3D-Scanning-Methoden vor al
 
 Je nach eingesetztem 3D-Scanning-Verfahren entstehen entweder farblose bzw. einfarbige 3D-Modelle - d.h. es wird nur die Oberfläche des Objekts erfasst - oder farbige Modelle, die die Farben und Struktur des Objekts bzw. der Person miterfassen und als Textur über das 3D-Modell legen, womit ein relativ realistisches Abbild des realen Objekts entsteht.
 
-> Bilder
+<p align="center">
+<img height="300" src="https://user-images.githubusercontent.com/123781559/232573839-2a60efcd-1d19-43b5-934a-9644e1083767.png">
+<img height="300" src="https://user-images.githubusercontent.com/123781559/232574065-b30cc3ab-1199-429a-abef-8f90b29614d7.png">
+</p>
+
+<p align="center">
+<a href="#s1">[1]</a> <i> 3D-Selfie: Personenmodell, erstellt über 3D-Scanning und 3D-Druck - </i>
+<a href="#s2">[2]</a> <i> 3D-gescanntes Modell einer Statue, dargestellt in der Software MeshLab </i>
+</p>
+
+<p align="center">
+<img height="300" src="https://user-images.githubusercontent.com/123781559/232574355-a680ec69-fe0d-4a2a-b58b-52b01cec991d.png">
+</p>
+
+<p align="center">
+<a href="#s3">[3]</a> <i> Photogrammetrie: Eine 3D-Scanning-Methode unter Verwendung einer Fotokamera </i>
+</p>
+
+
+
 
 ## Verfahren und Technologien
 
@@ -39,8 +58,6 @@ Zudem gibt es auch Geräte, die eine Kombination aus Laserscanning und Photogram
 
 Beim Laserscanning werden die zu erfassenden Oberflächen zeilen- oder rasterartig mit einem Laserstrahl abgefahren. Die von der Oberfläche reflektierte Laserstrahlung trifft auf Sensoren, woraufhin aus den so gewonnenen Messdaten die jeweilige Entfernung und Position der gescannten Punkte berechnet wird. Aus diesen Daten erzeugt eine Software ein dreidimensionales Modell der Oberfläche.
 
-> Bild Laserscan
-
 ### Photogrammetrie
 
 Bei der Photogrammetrie wird das zu erfassende Objekt zunächst aus vielen verschiedenen Winkeln fotografiert, entweder mit einer einzelnen Kamera oder mit vielen Kameras gleichzeitig.
@@ -51,7 +68,16 @@ Beim Einsatz mehrerer Kameras können diese in verschiedenen Winkeln um das Obje
 
 Eine Software erkennt Unterschiede und Gemeinsamkeiten in den Bildern, findet die gleichen Punkte auf verschiedenen Bildern wieder und berechnet die jeweilige Position eines jeden Punktes im dreidimensionalen Raum. Aus diesen Positionsdaten wird ein 3D-Modell der Oberfläche generiert, zudem können die Farbpunkte (Pixel) der einzelnen Fotografien als Textur über das 3D-Modell gelegt werden.
 
-> Bilder Photogrammetrie
+<p align="center">
+<img height="300" src="https://user-images.githubusercontent.com/123781559/232574726-eefc93d9-9240-421c-abd6-4f93a5e2630e.png">
+<img height="300" src="https://user-images.githubusercontent.com/123781559/232574911-d9acbe8a-1010-412c-8ddd-97494dc96e26.png">
+</p>
+
+<p align="center">
+<a href="#s4">[4]</a> <i> Photogrammetrie mit der Software Meshroom - </i>
+<a href="#s5">[5]</a> <i> Meshroom2Blender - eine Erweiterung für die 3D-Grafiksoftware Blender </i>
+</p>
+
 
 ### Gerätetypen
 
@@ -59,7 +85,16 @@ Geräte für 3D-Scanning gibt es in unterschiedlichen Ausführungen, z.B. als ha
 
 Vor allem für 3D-Selfies von Personen oder Menschengruppen gibt es Kabinen, die mit einer großen Anzahl an Kameras ausgestattet sind, die die Personen aus allen Richtungen erfassen. Da alle Kameras gleichzeitig ausgelöst werden, geht diese Methode sehr schnell und die abgelichteten Personen müssen nur sehr kurz still halten. 
 
-> Bilder Handheld-3D-Scanner, Kabine (Foto), Kabine (Schema/Skizze)
+<p align="center">
+<img height="400" src="https://user-images.githubusercontent.com/123781559/232575098-8473ed19-b6c8-4e8e-af00-245dc7894233.png">
+<img height="400" src="https://user-images.githubusercontent.com/123781559/232575197-5f7dff6e-8a42-46e3-b097-15342a86c488.png">
+</p>
+
+<p align="center">
+<a href="#s6">[6]</a> <i> Handgeführter 3D-Scanner mit Laserscanner und integrierter Kamera für Texturierung - </i>
+<a href="#s7">[7]</a> <i> 3D-Selfie-Kabine: In der Wand befinden sich viele Kameras, die alle gleichzeitig die Person in der Mitte aus verschiedenen Winkeln fotografieren. </i>
+</p>
+
 
 
 ## Verarbeitung eines gescannten 3D-Modells
@@ -70,7 +105,16 @@ Bei vielen 3D-Scanning-Methoden muss das 3D-Modell noch in einer Software nachbe
 
 Je nach Verfahren liegt das Modell zunächst entweder als Polygonnetz oder als Punktwolke vor und muss mit Software zu einem sauberen Modell zusammengefügt, bereinigt und geglättet werden.
 
-> Bilder Polygonnetz und Punktwolke
+<p align="center">
+<img height="250" src="https://user-images.githubusercontent.com/123781559/232575391-389fbc70-ea43-47b8-b610-0d5352c50ab8.png">
+<img height="250" src="https://user-images.githubusercontent.com/123781559/232575680-9bba06e9-f6f0-4622-aa7c-1532a2931c89.png">
+</p>
+
+<p align="center">
+<a href="#s8">[8]</a> <i> Beispiel für ein Polygonnetz - </i>
+<a href="#s9">[9]</a> <i> Beispiel für eine Punktwolke (erstellt per Photogrammetrie) </i>
+</p>
+
 
 ### Software
 
@@ -96,7 +140,14 @@ Hat man ein 3D-gescanntes Modell bereinigt und in ein 3D-druckbares Format über
 
 Möchte man eine sehr detaillierte 3D-Druck-Figur mit vielen Farben und hoher Genauigkeit der Oberflächenoptik erhalten, reicht ein einfacher FDM-3D-Drucker (verlinken) nicht aus. Kommerzielle Anbieter von 3D-Selfies nutzen meist eine andere 3D-Druck-Technologie: Binder Jetting, auch als Freistrahl-Bindemittelauftrag bezeichnet. Bei diesem 3D-Druck-Verfahren wird ein Pulver mit flüssigem Bindemittel aufgetragen und verbunden. Die entstehenden Figuren haben oft eine an Sandstein erinnernde Optik, zudem eine große Farbenvielfalt und Detailtreue.
 
-> Bilder-Serie Binder Jetting Figur
+<p align="center">
+<img height="300" src="https://user-images.githubusercontent.com/123781559/232575862-4d60903d-628e-4b3d-9325-f3003ae366ce.png">
+</p>
+
+<p align="center">
+<a href="#s10">[10]</a> <i> 3D-gedrucktes Modell eines 3D-Selfies </i>
+</p>
+
 
 Schließlich gibt es auch die Möglichkeit, eine einfarbig (möglichst weiß) gedruckte Figur aus dem FDM-3D-Drucker nachträglich zu bearbeiten und zu bemalen.
 
@@ -112,4 +163,33 @@ For attribution and licenses of the images used, see the section below.
 
 # Bildnachweise
 
-(Platzhalter)
+<a name="s1"></a>
+**[1]** 3D selfie in 1-20 scale as received from Shapeways, the printer company for Madurodam's Fantasitron IMG 4557 FRD.jpg - **Image license:** [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/deed.en) - **Source:** https://commons.wikimedia.org/wiki/File:3D_selfie_in_1-20_scale_as_received_from_Shapeways,_the_printer_company_for_Madurodam%27s_Fantasitron_IMG_4557_FRD.jpg
+
+<a name="s2"></a>
+**[2]** MeshLabv121 david.png - **Image license:** [GNU General Public License](https://www.gnu.org/licenses/gpl-3.0.html.en) - **Source:** https://commons.wikimedia.org/wiki/File:MeshLabv121_david.png
+
+<a name="s3"></a>
+**[3]** Balkan Heritage Field School (photogrammetry course) at Stobi, Republic of Macedonia (cropped) - **Image license:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) - **Source:** https://commons.wikimedia.org/wiki/File:Balkan_Heritage_Field_School-5.jpg
+
+<a name="s4"></a>
+**[4]** buddha_dataset.png - **Image license:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) - **Source:** https://alicevision.org (home page)
+
+<a name="s5"></a>
+**[5]** meshroom2blender.jpg - **Image license:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) - **Source:** https://alicevision.org (home page)
+
+<a name="s6"></a>
+**[6]** VIUscan handheld 3D scanner in use.jpg - **Image license:** [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/deed.en) - **Source:** https://commons.wikimedia.org/wiki/File:VIUscan_handheld_3D_scanner_in_use.jpg
+
+<a name="s7"></a>
+**[7]** 3D-scanning photo booth for 3D selfies at the Doob NY SOHO store. - **Image license:** [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/deed.en) - **Source:** https://commons.wikimedia.org/wiki/File:Doob_NY_SOHO_3D_selfie_photo_booth_IMG_4939_FRD.jpg
+
+<a name="s8"></a>
+**[8]** An example of a polygon mesh. - **Image license:** [Public domain](https://en.wikipedia.org/wiki/Public_domain) - **Source:** https://commons.wikimedia.org/wiki/File:Dolphin_triangle_mesh.svg
+
+<a name="s9"></a>
+**[9]** TuxaufRasen-Photogrammetriepunktwolke.png - **Image license:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) - **Source:** https://commons.wikimedia.org/wiki/File:TuxaufRasen-Photogrammetriepunktwolke.png
+
+<a name="s10"></a>
+**[10]** Madurodam Shapeways 3D selfie in 1 20 scale after a second spray of varnish FRD.jpg - **Image license:** [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/deed.en) - **Source:** https://commons.wikimedia.org/wiki/File:Madurodam_Shapeways_3D_selfie_in_1_20_scale_after_a_second_spray_of_varnish_FRD.jpg
+
