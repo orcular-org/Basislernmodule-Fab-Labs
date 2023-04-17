@@ -3,13 +3,10 @@
 ## Inhalt
 
 1. [Einführung](#einführung)
-
 2. [Verfahren und Technologien](#verfahren-und-technologien)
    - [Laserscanning](#laserscanning)
    - [Photogrammetrie](#photogrammetrie)
    - [Gerätetypen](#gerätetypen)
-
-
 3. [Verarbeitung eines gescannten 3D-Modells](#verarbeitung-eines-gescannten-3d-modells)
    - [Nachbearbeitung](#nachbearbeitung)
    - [Software](#software)
