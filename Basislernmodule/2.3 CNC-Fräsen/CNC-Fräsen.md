@@ -3,13 +3,11 @@
 ## Inhalt
 
 1. [Einführung](#einführung)
-
 2. [Grundlagen](#grundlagen)
    - [Materialien](#materialien)
    - [Arten von CNC-Fräsmaschinen](#arten-von-cnc-fräsmaschinen)
    - [Komponenten einer CNC-Fräsmaschine](#komponenten-einer-cnc-fräsmaschine)
    - [CAM](#cam)
-
 3. [Kenngrößen und Einstellungen](#kenngrößen-und-einstellungen)
    - [Fräswerkzeug-Formen](#fräswerkzeug-formen)
    - [Wichtigste Kenngrößen](#wichtigste-kenngrößen)
@@ -18,7 +16,6 @@
    - [Sicherheitshöhe](#sicherheitshöhe)
    - [Bearbeitungsarten](#bearbeitungsarten)
    - [Haltestege](#haltestege)
-
 4. [Vorbereitung und Ablauf eines CNC-Fräs-Auftrags](#vorbereitung-und-ablauf-eines-cnc-fräs-auftrags)
    - [Sicherheit](#sicherheit)
    - [CAM, Simulation, G-Code-Datei](#cam-simulation-g-code-datei)
