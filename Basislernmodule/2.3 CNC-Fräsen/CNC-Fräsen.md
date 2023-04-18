@@ -177,7 +177,7 @@ CNC-Maschinen sind potenziell gefährliche Maschinen und sollten nie ohne Einwei
 
 ### CAM, Simulation, G-Code-Datei
 
-Ein relativ großer Aufwand beim CNC-Fräsen steckt in der Vorbereitung in der CAM-Software. Hat man alle Bearbeitungsschritte und CAM-Pfade definiert, sollte eine Simulation durchgeführt werden. Die meisten CAM-Programme verfügen über eine Simulationsfunktion, bei der der vollständige Fräsvorgang dargestellt wird, ähnlich wie bei einem Video, wobei man während der Simulation die 3D-Ansicht frei drehen kann.
+Ein relativ großer Aufwand beim CNC-Fräsen steckt in der Vorbereitung mit der CAM-Software. Hat man alle Bearbeitungsschritte und CAM-Pfade definiert, sollte eine Simulation durchgeführt werden. Die meisten CAM-Programme verfügen über eine Simulationsfunktion, bei der der vollständige Fräsvorgang dargestellt wird, ähnlich wie bei einem Video, wobei man während der Simulation die 3D-Ansicht frei drehen kann.
 
 Die Simulation kann auch in erhöhter Geschwindigkeit abgespielt werden. Während der Simulation wird sichtbar, wann an welcher Stelle Material abgetragen wird und wie das fertige Teil am Ende aussieht. Fallen noch Fehler auf, kann das CAM-Programm noch nachbearbeitet werden und man spart sich teure Fehler in der Fertigung.
 
