@@ -133,7 +133,7 @@ Bewegt sich der Laser langsam, hat er mehr Zeit, in das Material einzuwirken - e
 
 Je nachdem, was und wie man lasern möchte, muss man diese beiden Parameter unterschiedlich einstellen. Es gilt also, zunächst die Bedingungen zu klären:
 - **Material:** Materialien wie z.B. Pappe benötigen eine geringere Laserleistung als z.B. Holz oder Kunststoffe.
-- **Plattendicke:** Dicke Platten benötigen mehr Laserleistung, dünne Platten weniger Leistung.
+- **Plattendicke:** Dickere Platten benötigen mehr Laserleistung, um geschnitten zu werden, bei dünneren Platten reicht weniger Leistung.
 - **Schneiden vs. Gravieren und Gravurtiefe**: Bei hoher Leistung bzw. geringer Geschwindigkeit geht der Laserstrahl durch das gesamte Material, d.h. es wird geschnitten. Bei geringer Leistung und hoher Geschwindigkeit wird nur die Oberfläche bearbeitet, es entsteht eine Gravur. Die Tiefe (und somit auch Sichtbarkeit bzw. Deutlichkeit) der Gravur lässt sich ebenfalls über die Parametereinstellung variieren. Durch tiefere und flachere Gravurflächen lässt sich eine Art Graustufeneffekt erzielen.
 
 Oft finden sich in der Lasercutter-Software voreingestellte Profile, in denen man nur auswählen muss, welches Material und welche Plattenstärke man verwendet und ob man schneiden oder gravieren möchte - die idealen Werte für Leistung und Geschwindigkeit sind in den Profilen abgespeichert und werden bei Auswahl richtig eingestellt. In manchen Werkstätten oder Betriebsanleitungen finden sich auch Tabellen mit empfohlenen Werten für Leistung und Geschwindigkeit.
