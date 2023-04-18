@@ -1,4 +1,4 @@
-# Verwendung von 3D Modellen aus dem Internet
+# Verwendung von 3D-Modellen aus dem Internet
 
 ## Inhalt
 
