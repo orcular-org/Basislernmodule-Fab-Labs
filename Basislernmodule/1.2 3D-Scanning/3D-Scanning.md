@@ -92,7 +92,8 @@ Vor allem für 3D-Selfies von Personen oder Menschengruppen gibt es Kabinen, die
 
 <p align="center">
 <a href="#s6">[6]</a> <i> Handgeführter 3D-Scanner mit Laserscanner und integrierter Kamera für Texturierung - </i>
-<a href="#s7">[7]</a> <i> 3D-Selfie-Kabine: In der Wand befinden sich viele Kameras, die alle gleichzeitig die Person in der Mitte aus verschiedenen Winkeln fotografieren. </i>
+<a href="#s7">[7]</a> <i> 3D-Selfie-Kabine: In der Wand befinden sich viele Kameras, die alle gleichzeitig ausgelöst werden und damit die Person in der Mitte aus verschiedenen Winkeln fotografieren. 
+ </i>
 </p>
 
 
