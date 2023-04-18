@@ -1,4 +1,5 @@
 # Lasercutting
+
 ## Inhalt
 
 1. [Einführung](#einführung)
@@ -33,13 +34,31 @@ Lasercutting (engl. für Laserschneiden) ist ein Prozess, bei dem ein Laserstrah
 
 Zu schneidende Werkstücke dürfen nicht zu dick sein, in der Regel verwendet man einige Millimeter dicke Platten. Gravuren können auch auf dickere Objekte gelasert werden, solange sie in die Höhenbegrenzung der Maschine passen. So lassen sich z.B. auch Möbel, Küchenbretter oder Stifte mit Holzgriff gravieren.
 
-> Bilder: Lasercut, Gravur
+<p align="center">
+<img height="350" src="https://user-images.githubusercontent.com/123781559/232886906-2b0516b5-e2f8-43c1-b33a-f38e4ceff766.png">
+<img height="350" src="https://user-images.githubusercontent.com/123781559/232887094-2e0b53a2-2a1c-4bab-8f83-27e4b55df318.png">
+</p>
+
+<p align="center">
+<a href="#s1">[1]</a> <i> Ein Lasercutter schneidet Formen aus einer Holzplatte (MDF) - </i>
+<a href="#s2">[2]</a> <i> Lasergravur in einer Holzplatte </i>
+</p>
+
 
 Es gibt eine Vielzahl an unterschiedlichen Lasercuttern, die sich vor allem in ihrer Größe und Laserleistung unterscheiden.
 
 Lasercutter, die man typischerweise in einem Fab Lab vorfindet, haben meistens einen Bearbeitungsraum von ca. 30 x 20 cm bis 70 x 40 cm. Zum Vergleich: ein DIN-A3-Format (typische Größe einer Holzplatte für Lasercutting) misst ca. 42 x 30 cm, passt also gut in die meisten Lasercutter. Die Leistung des Lasers liegt meistens zwischen 30 und 60 Watt. Mit derartigen Lasercuttern kann man z.B. dünne Platten aus Holz, Kunststoff, transparentem Acrylglas, Textil, Leder oder Pappe schneiden und gravieren. Zum Schneiden von Metallen (z.B. Aluminium oder Stahl) reicht die Leistung dieser Mittelklasse-Geräte in der Regel nicht aus, aber Gravuren auf Metall lassen sich damit durchaus realisieren.
 
-> Bild: Lasercutter
+<p align="center">
+<img height="350" src="https://user-images.githubusercontent.com/123781559/232887249-917c1e14-d710-45a9-81b2-607d06f83f0a.png">
+<img height="350" src="https://user-images.githubusercontent.com/123781559/232887523-0d2947a3-46b6-44ef-9324-a4bdf81aac06.png">
+</p>
+
+<p align="center">
+<a href="#s3">[3]</a> <i> Fabulaser Mini - ein Open-Source-Hardware-Lasercutter - </i>
+<a href="#s4">[4]</a> <i> Lasercutter in einem Fab Lab </i>
+</p>
+
 
 Es gibt auch leistungsstarke Industriegeräte, die in der Lage sind, Metalle zu schneiden. Da diese Maschinen sehr teuer sind, wird man sie jedoch kaum in Fab Labs vorfinden, sondern eher in größeren Unternehmen.
 
@@ -47,7 +66,14 @@ Ein Lasercutter benötigt in der Regel eine digitale Grafikdatei als Eingabe, di
 
 Mit Lasercutting lassen sich z.B. Namensschilder, Bilder, Aufsteller, Deko-Artikel oder Schmuck herstellen. Auch mehrteilige Produkte wie Aufbewahrungsboxen, kleine Schubladen, Spar- oder Spendendosen, Spielzeuge, Brettspiele, Puzzles oder Gehäuse für Elektronikprodukte lassen sich mit Lasercutting realisieren. Die besondere Stärke von Lasergravur liegt in der Herstellung von personalisierten oder individuellen Produkten, z.B. mit Namen, Portraits oder Logos.
 
-> Bilder: Anregungen für Lasercutting
+<p align="center">
+<img height="400" src="https://user-images.githubusercontent.com/123781559/232887683-79bac157-2e5f-4063-bbb9-62c9aebea5c8.png">
+</p>
+
+<p align="center">
+<a href="#s5">[5]</a> <i> Verschiedene lasergeschnittene und -gravierte Objekte </i>
+</p>
+
 
 ## Grundlagen
 
@@ -67,7 +93,24 @@ Hier eine Übersicht einiger beliebter und gut geeigneter Materialien für Laser
 - **Kunststoffe (Plastik):** Bei Kunststoffen ist besondere Vorsicht geboten, da es viele Kunststoffsorten gibt, die beim Laserschneiden gesundheits- und lebensgefährliche Dämpfe erzeugen können, z.B. PVC. Es gibt jedoch auch Kunststoffe, die man relativ sicher schneiden und gravieren kann, z.B. Polypropylen (PP). Doch auch hier sollte man vorsichtig vorgehen und das Vorhaben mit dem Fab Lab bzw. den Inhaber:innen der Maschine absprechen. Manche Kunststoffe, z.B. HDPE, neigen dazu, nach dem Schneiden schnell wieder zusammenzuschmelzen - Laserschneiden von Kunststoff ist also herausfordernd, aber nicht unmöglich.
 - **Metalle:** In Industrie- und Handwerksbetrieben gibt es Maschinen, die Metallbleche laserschneiden können. Da Lasercutter dieser Art sehr teuer sind, findet man sie eher selten in Fab Labs. Ein typischer Fab-Lab-Lasercutter kann jedoch durchaus Gravuren in Metall (z.B. Aluminium oder Stahl) einbringen.
 
-> Bilder: Sperrholz-Gravur, weitere Materialien, evtl. LED-beleuchtete Acrylplatte
+<p align="center">
+<img height="350" src="https://user-images.githubusercontent.com/123781559/232887903-f8a80480-672f-4ae3-8b55-b0ae406a2f40.png">
+<img height="350" src="https://user-images.githubusercontent.com/123781559/232888119-774131f4-e9b3-4698-9fab-9205365e5df1.png">
+</p>
+
+<p align="center">
+<a href="#s6">[6]</a> <i> Lasercutting und -gravur von Acrylglas und MDF-Holzplatte - </i>
+<a href="#s7">[7]</a> <i> Lasergravur in Sperrholzplatte; durch verschiedene Gravurtiefen wird die innere Holzstruktur sichtbar </i>
+</p>
+
+<p align="center">
+<img height="400" src="https://user-images.githubusercontent.com/123781559/232888267-0c2b1192-9469-42c2-a812-e164b03b9ec6.png">
+</p>
+
+<p align="center">
+<a href="#s8">[8]</a> <i> Lasercutting und -gravur von Metallblech - typische Mittelklasse-Lasercutter in Fab Labs können Metalle oft nur gravieren, zum Schneiden von Metallen braucht es hingegen teure Industrie-Lasercutter. </i>
+</p>
+
 
 ### Komponenten eines Lasercutters
 Gute Lasercutter verfügen über ein geschlossenes Gehäuse und ein Abluftsystem. Es gibt auch günstige Lasercutter bzw. Lasergravierer mit offenem Aufbau. Bei diesen ist jedoch besondere Vorsicht geboten, da es leicht zu Unfällen kommen kann. In Fab Labs finden sich üblicherweise geschlossene Lasercutter mit Abluftsystem.
@@ -79,8 +122,6 @@ Der Laserstrahl selbst wird oft im Inneren des Geräts erzeugt, über mehrere Sp
 Einige Lasercutter verfügen über ein kompressorbetriebenes System, das Luft auf den Laserschneidepunkt bläst. Damit wird die Gefahr von Flammenbildung reduziert.
 
 Eine Lüftungsanlage saugt während des Lasercuttings Luft aus dem Arbeitsraum des Gerätes ab und führt die Abluft über ein Filtersystem und einen Schlauch nach draußen. Damit werden unangenehme Gerüche verhindert und gesundheitsschädliche Dämpfe gefiltert und abgeführt.
-
-> Bild Lasercutter mit Abluftsystem
 
 ### Parameter: Leistung und Geschwindigkeit
 Beim Lasercutten gibt es vor allem zwei Parameter, die für den Prozess maßgeblich sind und vor jedem Betrieb richtig eingestellt werden müssen:
@@ -99,11 +140,18 @@ Oft finden sich in der Lasercutter-Software voreingestellte Profile, in denen ma
 
 Möchte man jedoch davon abweichen oder ein bisher unerprobtes Material (für das noch kein Profil angelegt wurde) ausprobieren, muss man in der Regel mehrere Versuche durchführen, dabei die Werte Leistung und Geschwindigkeit variieren und sich so an das ideale Ergebnis herantasten.
 
-> Bild: Screenshot Parameter-Einstellungen (z.B. Visicut)
-
 Im Internet finden sich auch Testkarten, die für solche Materialtests entwickelt wurden. Dabei testet der Lasercutter in einem Durchlauf unterschiedliche Einstellungen aus. Anhand der fertig gelaserten Testkarte kann man dann das Ergebnis begutachten und die idealen Werte ablesen.
 
-> Bilder Testkarte
+<p align="center">
+<img height="350" src="https://user-images.githubusercontent.com/123781559/232888601-b3d153c7-662e-42b4-b776-b1aa0019e08f.png">
+<img height="350" src="https://user-images.githubusercontent.com/123781559/232888742-ab3c51c5-2cb4-4273-bf27-508a721bb4eb.png">
+</p>
+
+<p align="center">
+<a href="#s9">[9]</a> <i>  - </i>
+<a href="#s10">[10]</a> <i> Testkarten zum Ermitteln der richtigen Parameterwerte für Leistung und Geschwindigkeit - für Laserschnitt und -gravur </i>
+</p>
+
 
 ### Schnittbreite (kerf)
 
@@ -113,7 +161,14 @@ Auch wenn die Schnittbreite mit bloßen Auge kaum erkennbar ist - sie ist oft nu
 
 Um eine Vorstellung von der Schnittbreite zu bekommen, kann man ein lasergeschnittenes Teil oder Loch mit einem Messschieber ausmessen und den Messwert mit dem Wert in der Vektorgrafik vergleichen - man wird feststellen, dass es leichte Abweichungen gibt. Anhand der Differenz zwischen gezeichneter und gemessener Länge kann man die Schnittbreite ermitteln. Diesen Wert kann man dann beim Zeichnen der Vektorgrafik als Schnittlinienversatz berücksichtigen.
 
-> Bild kerf - in der Bildunterschrift: kleine Beispielrechnung
+<p align="center">
+<img height="300" src="https://user-images.githubusercontent.com/123781559/232889054-b2d2e741-0d6c-40d8-a18a-d612963b078c.png">
+</p>
+
+<p align="center">
+<a href="#s11">[11]</a> <i> Ein lasergeschnittenes Teil, das 40 mm breit gezeichnet wurde, misst in diesem Beispiel lediglich 39,75 mm - die Differenz von 0,25 mm ergibt sich durch die Schnittbreite. Pro Schnittkante beträgt sie hier also 0,25 mm : 2 = 0,125 mm </i>
+</p>
+
 
 ### Vektorgrafik
 Für Lasercutting ist es wichtig, sich mit dem Konzept von Vektorgrafiken vertraut zu machen.
@@ -129,7 +184,14 @@ Raster- und Vektorgrafiken lassen sich vor allem über zwei Methoden leicht unte
   - **Rastergrafiken** haben Dateiformate wie JPG/JPEG, PNG, GIF oder TIFF.
   - **Vektorgrafiken** haben Dateiformate wie SVG, DXF, AI oder unter gewissen Bedingungen auch PDF.
 
-> Bilder: Raster- vs. Vektorgrafik, Beispiel Vektorgrafik für Lasercutting
+<p align="center">
+<img height="300" src="https://user-images.githubusercontent.com/123781559/232889275-3816b17f-51b8-4cb2-b40a-68ef523d48e0.png">
+</p>
+
+<p align="center">
+<a href="#s12">[12]</a> <i> Vektorgrafiken lassen sich ohne Qualitätsverlust beliebig skalieren - Rastergrafiken hingegen werden beim Skalieren undeutlich und verpixelt. </i>
+</p>
+
 
 Um eine Grafikdatei für Lasercutting verwenden zu können, muss diese in einem Vektorformat vorliegen. Hintergrund ist, dass die Linien und Kurven einer Vektorgrafik über eine Software in Steuersignale für den Lasercutter umgewandelt werden, wobei der Laser jede Linie und Kurve abfährt und laserschneidet. Der Laser "kennt" damit Anfangs- und Endpunkt einer jeden Linie und Kurve und fährt sie in einem Durchlauf ab. Mit pixelbasierten Rastergrafiken wäre dies nicht möglich, da die Software nicht erkennen kann, welche Pixel zu einer Linie gehören.
 
@@ -137,11 +199,27 @@ Für Gravuren hingegen können auch Rastergrafiken verwendet werden. Der Laser f
 
 Dateiformate wie SVG können auch eine Kombination aus Vektorgrafik und Rastergrafik enthalten, wobei Vektorlinien geschnitten und Rastergrafiken graviert werden - sofern man nicht etwas anderes einstellt.
 
-> Bilder: Vektorgrafik, kombinierte Vektor- und Rastergrafik
+<p align="center">
+<img height="350" src="https://user-images.githubusercontent.com/123781559/232889543-af48bce3-4681-4354-bf58-ad318124a6e8.png">
+<img height="350" src="https://user-images.githubusercontent.com/123781559/232889651-64524d0c-464b-42c1-a9f5-965b5e5d2b23.png">
+</p>
+
+<p align="center">
+<a href="#s13">[13]</a> <i> Beispiel für eine SVG-Grafikdatei - die schwarzen Konturlinien sind Vektorlinien und werden vom Laser geschnitten, das Katzenbild ist eine PNG-Rastergrafik und wird graviert - </i>
+<a href="#s14">[14]</a> <i> Fertiges Ergebnis - erstellt mit Lasercutting und -gravur aus 4 mm dicken Sperrholzplatten </i>
+</p>
+
 
 In manchen Programmen ist es auch möglich, die Reihenfolge der Laserschnitte festzulegen, indem man den Vektorlinien unterschiedliche Farben gibt oder sie auf verschiedene Ebenen legt. Dies kann sinnvoll sein, wenn man z.B. erreichen möchte, dass zuerst die Inneren und zum Schluss die äußersten Linien geschnitten werden. Würde man mit dem äußersten Umriss anfangen, könnte die Platte nach dem Ausschneiden leicht kippen. Die später geschnittenen inneren Linien und Formen könnten dann verzerrt geschnitten werden oder der Laser schneidet gar nicht erst durch die gesamte Platte. Daher empfiehlt es sich, Schnittlinien stets in der Reihenfolge von innen nach außen zu schneiden.
 
-> Bilder: farbige Vektorgrafik, Laserschnitt der Grafik - in Bildunterschrift: Reihenfolge der farbigen Linien beschreiben
+<p align="center">
+<img height="400" src="https://user-images.githubusercontent.com/123781559/232889919-69bfe4ad-a968-4bf7-ab65-e2895b727d72.png">
+</p>
+
+<p align="center">
+<a href="#s15">[15]</a> <i> In dieser SVG-Vektorgrafik wurden die Schnittlinien in unterschiedlichen Farben erstellt, damit die Schnitte in einer bestimmten Reihenfolge - von innen nach außen - ausgeführt werden können. Die hier vorgesehene Reihenfolge ist: zuerst rote Linien schneiden, dann blaue, schwarze und zuletzt grüne. </i>
+</p>
+
 
 ### Software
 Zum Zeichnen von Vektorgrafiken gibt es viele unterschiedliche Programme. Meistens wird derartige Software im professionellen Bereich eingesetzt, was die Softwarelizenzen relativ teuer macht. Es gibt aber auch gute kostenlose Alternativen:
@@ -150,15 +228,11 @@ Eine beliebte und kostenlose Open-Source-Software für **Vektorgrafikbearbeitung
 
 - **Inkscape:** https://inkscape.org
 
-> Bild: Inkscape
-
 Für das Zeichnen und Erstellen von **Rastergrafiken** gibt es ebenfalls viele, teilweise teure Programme.
 Als kostenlose und Open-Source-basierte Alternativen gibt es:
 
 - **Krita:** https://krita.org
 - **GIMP:** https://www.gimp.org
-
-> Bilder: Krita, GIMP
 
 Je nach Lasercutter-Hersteller und -Modell benötigt man oft noch eine spezielle Software, die die Vektor- und Rastergrafiken in Steuersignale umwandelt und an den Lasercutter sendet. Diese Software wird üblicherweise mit dem Lasercutter mitgeliefert.
 
@@ -167,7 +241,14 @@ Viele Lasercutter nutzen die kostenlose Open-Source-Software Visicut (https://vi
 ### Unterschiede zu anderen digitalen Fertigungsmethoden
 Der wichtigste Unterschied zwischen **Lasercutting und 3D-Druck** ist, dass Lasercutting in der Regel deutlich schneller abläuft als 3D-Druck. 3D-Drucke können oft mehrere Stunden dauern, während Lasercut-Teile oft in wenigen Minuten fertig sind. Je nach Form und Komplexität kann sich dies im Einzelfall aber natürlich auch ganz anders verhalten. Bevor man also ein Teil 3D-druckt, lohnt es sich, zu überlegen, ob man es auch mit Lasercutting realisieren kann, sofern Form und Material dies zulassen (mehr zum Thema im Basislernmodul 3D-Druck).
 
-> Bild Vergleich der Dauer Lasercut vs. 3D-Druck
+<p align="center">
+<img height="400" src="https://user-images.githubusercontent.com/123781559/232890083-9332c566-ed05-4482-950a-a7bc693cfeb9.png">
+</p>
+
+<p align="center">
+<a href="#s16">[16]</a> <i> Beispiel für Unterschiede in der Geschwindigkeit bei 3D-Druck vs. Lasercutting: Das 3D-Drucken der Teile (obere beide Bilder) hat insgesamt ca. 2,5 Stunden gedauert - das Lasercutting (Bild unten links) nur ca. 12 Minuten. </i>
+</p>
+
 
 Auch zwischen **Lasercutting und CNC-Fräsen** gibt es typische Unterschiede. Während beim Lasercutten nur flache Teile in gleichmäßiger Dicke herstellbar sind (sozusagen "2D-Teile"), können mit CNC-Fräsen auch dreidimensionale Formen gefertigt werden. Zudem können Lasercutter nur begrenzt dicke Platten schneiden - je nach Material nur einige Millimeter bis ca. 1-2 Zentimeter Dicke - während mit CNC-Fräsen deutlich dickere Platten durchtrennt werden können. Außerdem können viele CNC-Fräsen auch Aluminium oder ähnlich harte Materialien bearbeiten, was mit Lasercuttern oft nicht möglicht ist (mehr zum Thema im Basislernmodul CNC-Fräsen).
 
@@ -176,7 +257,16 @@ Auch zwischen **Lasercutting und CNC-Fräsen** gibt es typische Unterschiede. W�
 ### Stecksysteme
 Eine beliebte Anwendung von Lasercutting besteht in Stecksystemen - vor allem für Holzplatten. Dabei werden mehrere Teile so geformt, dass sie rechtwinkling zueinander gesteckt werden können. Eine Möglichkeit besteht darin, einen Zapfen in ein eckiges Loch zu stecken. Eine andere Methode ist der Einsatz von zinnenartigen Rändern, womit sich ganze Boxen oder ähnliche Strukturen zusammenstecken lassen.
 
-> Bilder Stecksysteme (einmal mit Zapfen in Loch, einmal mit Zinnen / Tabbed box)
+<p align="center">
+<img height="300" src="https://user-images.githubusercontent.com/123781559/232890336-3351a5b7-50a6-4386-98dc-8461c93a388c.png">
+<img height="300" src="https://user-images.githubusercontent.com/123781559/232890424-ff274293-e489-4056-9edf-c291aaab14c1.png">
+</p>
+
+<p align="center">
+<a href="#s17">[17]</a> <i> Beispiel für eine Box mit Schubladen als Stecksystem aus 3 mm dicken, lasergeschnittenen Holzplatten - </i>
+<a href="#s18">[18]</a> <i> Eine dazugehörige Vektorgrafik </i>
+</p>
+
 
 Dabei muss sichergestellt werden, dass die Zapfen nicht zu locker stecken, sondern einen festen Sitz haben. Andererseits darf die Lücke auch nicht zu eng sein, da man den Zapfen sonst nicht hineingedrückt bekommt. Hierbei muss auch die Schnittbreite (kerf) berücksichtigt werden.
 
@@ -187,8 +277,6 @@ Bevor man sich die Mühe macht und eine steckbare Box aufwendig selbst zeichnet,
 - Für Inkscape gibt es die kostenlose Erweiterung [Lasercut tabbed box](https://inkscape.org/de/~Neon22/%E2%98%85lasercut-tabbed-box). Damit lassen sich Länge, Breite und Höhe sowie Zapfenlänge und Schnittbreiten-Versatz (kerf) für verschiedene boxartige Produkte als Vektorgrafik generieren. Diese Vektorgrafik kann auch nachträglich in Inkscape bearbeitet werden.
 - Ein weiteres Tool heißt "Boxes.py" (https://www.festi.info/boxes.py/). Hierfür ist keine Softwareinstallation notwendig, die Anwendung läuft im Browser. Dieses Open-Source-Projekt bietet eine Vielzahl von verschiedenen steckbaren Lasercut-Bausätzen, z.B. Kisten, Schubladen, Fächer oder Truhen mit Deckeln. Es können Parameter wie Länge, Breite, Höhe und Schnittbreitenversatz eingegeben werden, abschließend wird eine downloadbare SVG-Vektorgrafik erzeugt, die man direkt für Lasercutting verwenden oder vorher noch bearbeiten kann. Einige Bausätze enthalten auch "living hinges", mehr dazu [unten](#living-hinge).
 
-> Bild tabbed box als Vektorgrafik
-
 ### 3D-CAD und Projektion
 Statt Lasercut-Projekte in 2D zu zeichnen, kann man auch eine 3D-CAD-Software verwenden (mehr dazu im Basislernmodul 3D-Design und CAD). Auf diese Weise kann man ein aus mehreren Lasercut-Teilen bestehendes Produkt entwerfen und in 3D darstellen. Vorteil an dieser Methode ist, dass man direkt sehen kann, wie das fertige, zusammengesteckte Produkt aussehen wird - beim Design in 2D sieht man die einzelnen Teile nur nebeneinander und benötigt etwas Vorstellungskraft, um sich ein Bild vom fertigen 3D-Produkt zu machen.
 
@@ -196,14 +284,30 @@ Zudem lassen sich auf diese Weise Produkte entwerfen, die nicht nur Lasercut-Tei
 
 Viele CAD-Programme (z.B. FreeCAD) verfügen über Tools, mit denen man die 3D-modellierten Teile für das Lasercutting auf eine 2D-Ebene projizieren und als Vektorgrafik exportieren kann, die man dann für Lasercutting verwenden kann.
 
-> Bild 3D-CAD + Projektion + Kombination mit 3D-Druck
+<p align="center">
+<img height="400" src="https://user-images.githubusercontent.com/123781559/232898338-72487889-f694-4bbf-8754-6ebd9ca7c126.png">
+</p>
+
+<p align="center">
+<a href="#s19">[19]</a> <i> In einer 3D-CAD-Software (FreeCAD) modelliertes Spielzeugauto mit 3D-Druck- und Lasercut-Teilen. Letztere können in eine 2D-Vektorgrafik projiziert werden (siehe Abbildung 15 oben). </i>
+</p>
+
 
 ### Living hinge
 Eine beliebte Technik im Lasercut-Design nennt sich "living hinge" (engl. für "Biegescharnier"). Gewöhnliche Scharniere bestehen aus mehreren Bauteilen, Biegescharniere hingegen aus nur einem einzigen Teil, welches an einer oder an mehreren Stellen dünnwandig ausgestaltet oder eng geschnitten ist. Biegescharniere finden sich z.B. bei Eierpappkartons oder bei Brotdosen aus Kunststoff.
 
 Ein living hinge lässt sich mit Lasercutting herstellen, indem viele, sehr eng aneinander liegende und leicht versetzte Schnittlinien in die Platte geschnitten werden. Die Platte wird dadurch sehr flexibel und lässt sich an der Stelle leicht biegen. Dies geht vor allem mit dünnen Holzplatten gut. Man kann es für Scharnierfunktionen, z.B. für Deckel von Truhen, verwenden oder man nutzt es, um abgerundete Kanten zu erzeugen.
 
-> Bilder living hinge (Vektorgrafik, Foto)
+<p align="center">
+<img height="350" src="https://user-images.githubusercontent.com/123781559/232891365-84b83858-738b-4ca2-b872-fe60662b681f.png">
+<img height="350" src="https://user-images.githubusercontent.com/123781559/232891483-17aed9f6-99eb-4e24-a110-5a0bf6ed408d.png">
+</p>
+
+<p align="center">
+<a href="#s20">[20]</a> <i> Eine zusammengesteckte Box aus lasergeschnittenen Holzteilen mit living hinge. - </i>
+<a href="#s21">[21]</a> <i> Durch bestimmte Schnittmuster entsteht ein flexibles living hinge. </i>
+</p>
+
 
 ### Download von Vorlagen
 Statt eigene Lasercut-Zeichnungen zu entwerfen, kann man auch fertige Vorlagen aus dem Internet verwenden. Viele Portale, die eigentlich eher für 3D-Druck-Dateien gedacht sind, enthalten auch Projekte für Lasercutting. Man findet sie, indem man einfach "laser cut" oder "lasercutting" in die Suchleiste eingibt. Mehr zu dem Thema im Basislernmodul Verwendung von 3D-Modellen aus dem Internet.
@@ -269,4 +373,66 @@ For attribution and licenses of the images used, see the section below.
 
 # Bildnachweise
 
-(Platzhalter)
+<a name="s1"></a>
+**[1]** CC BY-SA 3.0Laser cutting: Epilog Legend 36EXT cutting 2.5mm wood fibreboard - **Image license:** [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/deed.en) - **Source:** https://commons.wikimedia.org/wiki/File:Laser_cutting_snowflakes.jpg
+
+<a name="s2"></a>
+**[2]** (no title) - **Image license:** [Unsplash Lizenz](https://unsplash.com/de/lizenz) - **Source:** https://unsplash.com/de/fotos/k3CN3UUrCxE
+
+<a name="s3"></a>
+**[3]** mini_banner.jpg (cropped) - **Image license:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) - **Source:** https://github.com/fab-machines/Fabulaser-Mini
+
+<a name="s4"></a>
+**[4]** Lasercutter in einem Fab Lab - **Image license:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) - **Author:** Oskar Lidtke, [github.com/orcular-org](https://github.com/orcular-org)
+
+<a name="s5"></a>
+**[5]** Verschiedene lasergeschnittene und -gravierte Objekte - **Image license:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) - **Author:** Oskar Lidtke, [github.com/orcular-org](https://github.com/orcular-org)
+
+<a name="s6"></a>
+**[6]** Laser cut letter - Acrylic and MDF (cropped) - **Image license:** [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/) - **Source:** https://www.flickr.com/photos/creative_tools/6981296223
+
+<a name="s7"></a>
+**[7]** Lasergravur in Sperrholzplatte - **Image license:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) - **Author:** Oskar Lidtke, [github.com/orcular-org](https://github.com/orcular-org)
+
+<a name="s8"></a>
+**[8]** "Optimum TT" laser cutting machine during the "Armiya 2021" exhibition. - **Image license:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) - **Source:** https://commons.wikimedia.org/wiki/File:%22Optimum_TT%22_laser_cutting_machine_during_the_%22Armiya_2021%22_exhibition.jpg
+
+<a name="s9"></a>
+**[9]** CO2 Laser Test Cut and Engraving Template (cropped) - **Image license:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) - **Source:** https://www.thingiverse.com/thing:4575909
+
+<a name="s10"></a>
+**[10]** CO2 Laser Test Cut and Engraving Template (cropped) - **Image license:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) - **Source:** https://www.thingiverse.com/thing:4575909
+
+<a name="s11"></a>
+**[11]** (no title) - **Image license:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) - [License info for fabacademy.org](https://fabacademy.org/terms-of-service.html)  - **Source:** https://fabacademy.org/2018/labs/fablabamsterdam/lasercut/group3.html
+
+<a name="s12"></a>
+**[12]** Vektorgrafik vs. Rastergrafik - **Image license:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) - **Author:** Oskar Lidtke, [github.com/orcular-org](https://github.com/orcular-org) **Adapted/Remixed from:** 1.) https://de.wikipedia.org/wiki/Vektorgrafik 2.) https://de.wikipedia.org/wiki/Datei:Zeichen_224_-_Haltestelle,_StVO_2017.svg , 3.) https://de.wikipedia.org/wiki/Datei:Zeichen_224_20px.png **Licenses:** 1.) [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) , 2.) [Public domain](https://creativecommons.org/publicdomain/zero/1.0/) , 3.) [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/deed.en)
+
+<a name="s13"></a>
+**[13]** Cats Lasercutting SVG-Datei - Tipu & Dr. Scott - **Image license:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) - **Author:** Oskar Lidtke, [github.com/orcular-org](https://github.com/orcular-org)
+
+<a name="s14"></a>
+**[14]** Cats Lasercutting SVG Aufsteller - Tipu & Dr. Scott - **Image license:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) - **Author:** Oskar Lidtke, [github.com/orcular-org](https://github.com/orcular-org)
+
+<a name="s15"></a>
+**[15]** orcuCar Lasercut SVG file - **Image license:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) - **Author:** Oskar Lidtke, [github.com/orcular-org](https://github.com/orcular-org)
+
+<a name="s16"></a>
+**[16]** orcuCar - 3D-Druck vs. Lasercutting - **Image license:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) - **Author:** Oskar Lidtke, [github.com/orcular-org](https://github.com/orcular-org)
+
+<a name="s17"></a>
+**[17]** PartBox 3mm wood - **Image license:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) - **Source:** https://www.thingiverse.com/thing:1279926
+
+<a name="s18"></a>
+**[18]** PartBox 3mm wood - **Image license:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) - **Source:** https://www.thingiverse.com/thing:1279926
+
+<a name="s19"></a>
+**[19]** orcuCar CAD (FreeCAD) + 3D printing + laser cutting - **Image license:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) - **Author:** Oskar Lidtke, [github.com/orcular-org](https://github.com/orcular-org)
+
+<a name="s20"></a>
+**[20]** KERF PURSE - **Image license:** [CC BY-NC-ND 2.0](https://creativecommons.org/licenses/by-nc-nd/2.0/) - **Source:** https://www.flickr.com/photos/augustlang/27519342320/
+
+<a name="s21"></a>
+**[21]** Parametric Flexible Wood Cut (cropped) - **Image license:** [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) - **Source:** https://www.thingiverse.com/thing:461749
+
