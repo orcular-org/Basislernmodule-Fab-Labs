@@ -410,10 +410,10 @@ For attribution and licenses of the images used, see the section below.
 **[12]** Vektorgrafik vs. Rastergrafik - **Image license:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) - **Author:** Oskar Lidtke, [github.com/orcular-org](https://github.com/orcular-org) **Adapted/Remixed from:** 1.) https://de.wikipedia.org/wiki/Vektorgrafik 2.) https://de.wikipedia.org/wiki/Datei:Zeichen_224_-_Haltestelle,_StVO_2017.svg , 3.) https://de.wikipedia.org/wiki/Datei:Zeichen_224_20px.png **Licenses:** 1.) [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) , 2.) [Public domain](https://creativecommons.org/publicdomain/zero/1.0/) , 3.) [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/deed.en)
 
 <a name="s13"></a>
-**[13]** Cats Lasercutting SVG-Datei - Tipu & Dr. Scott - **Image license:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) - **Author:** Oskar Lidtke, [github.com/orcular-org](https://github.com/orcular-org)
+**[13]** Cats (Tipu & Dr. Scott) Lasercutting SVG-Datei - **Image license:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) - **Author:** Oskar Lidtke, [github.com/orcular-org](https://github.com/orcular-org)
 
 <a name="s14"></a>
-**[14]** Cats Lasercutting SVG Aufsteller - Tipu & Dr. Scott - **Image license:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) - **Author:** Oskar Lidtke, [github.com/orcular-org](https://github.com/orcular-org)
+**[14]** Cats (Tipu & Dr. Scott) Lasercutting Aufsteller - **Image license:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) - **Author:** Oskar Lidtke, [github.com/orcular-org](https://github.com/orcular-org)
 
 <a name="s15"></a>
 **[15]** orcuCar Lasercut SVG file - **Image license:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) - **Author:** Oskar Lidtke, [github.com/orcular-org](https://github.com/orcular-org)
