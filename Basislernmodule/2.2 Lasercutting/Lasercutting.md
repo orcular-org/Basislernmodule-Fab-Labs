@@ -212,6 +212,8 @@ Dateiformate wie SVG können auch eine Kombination aus Vektorgrafik und Rastergr
 
 In manchen Programmen ist es auch möglich, die Reihenfolge der Laserschnitte festzulegen, indem man den Vektorlinien unterschiedliche Farben gibt oder sie auf verschiedene Ebenen legt. Dies kann sinnvoll sein, wenn man z.B. erreichen möchte, dass zuerst die Inneren und zum Schluss die äußersten Linien geschnitten werden. Würde man mit dem äußersten Umriss anfangen, könnte die Platte nach dem Ausschneiden leicht kippen. Die später geschnittenen inneren Linien und Formen könnten dann verzerrt geschnitten werden oder der Laser schneidet gar nicht erst durch die gesamte Platte. Daher empfiehlt es sich, Schnittlinien stets in der Reihenfolge von innen nach außen zu schneiden.
 
+<a name="abb15"></a>
+
 <p align="center">
 <img height="400" src="https://user-images.githubusercontent.com/123781559/232889919-69bfe4ad-a968-4bf7-ab65-e2895b727d72.png">
 </p>
@@ -289,7 +291,7 @@ Viele CAD-Programme (z.B. FreeCAD) verfügen über Tools, mit denen man die 3D-m
 </p>
 
 <p align="center">
-<a href="#s19">[19]</a> <i> In einer 3D-CAD-Software (FreeCAD) modelliertes Spielzeugauto mit 3D-Druck- und Lasercut-Teilen. Letztere können in eine 2D-Vektorgrafik projiziert werden (siehe Abbildung 15 oben). </i>
+<a href="#s19">[19]</a> <i> In einer 3D-CAD-Software (FreeCAD) modelliertes Spielzeugauto mit 3D-Druck- und Lasercut-Teilen. Letztere können in eine 2D-Vektorgrafik projiziert werden (siehe <a href="#abb15">Abbildung 15</a> oben). </i>
 </p>
 
 
