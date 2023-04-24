@@ -1,3 +1,5 @@
+> Zurück zur [Übersicht Basislernmodule](../../README.md)
+
 # Verwendung von 3D-Modellen aus dem Internet
 
 ## Inhalt
@@ -22,11 +24,11 @@ Beim Download von 3D-Modellen von derartigen Plattformen sollte man darauf achte
 
 ### Vektorgrafiken für Lasercutting und bearbeitbare 3D-/CAD-Modelle
 
-Die oben gennanten Plattformen sind üblicherweise für das Teilen von 3D-Modellen für den 3D-Druck gedacht, d.h. in der Regel findet man STL-Dateien. Der Nachteil von STL-Dateien ist, dass sie nicht einfach bearbeitbar und veränderbar sind. Manche Designer:innen veröffentlichen auch bearbeitbare Dateien, die sich in der entsprechenden CAD- oder 3D-Modellierungssoftware öffnen und bearbeiten lassen (mehr zum Thema im Basislernmodul CAD- und 3D-Designsoftware).
+Die oben gennanten Plattformen sind üblicherweise für das Teilen von 3D-Modellen für den 3D-Druck gedacht, d.h. in der Regel findet man STL-Dateien. Der Nachteil von STL-Dateien ist, dass sie nicht einfach bearbeitbar und veränderbar sind. Manche Designer:innen veröffentlichen auch bearbeitbare Dateien, die sich in der entsprechenden CAD- oder 3D-Modellierungssoftware öffnen und bearbeiten lassen (mehr zum Thema im [Basislernmodul CAD- und 3D-Designsoftware](../1.1%203D-Design/3D-Design.md)).
 
 Sucht man gezielt nach solchen Projekten, empfiehlt es sich, einfach den Namen der Software in die Suchleiste der Plattform einzugeben, z.B. "FreeCAD", "Blender", "Fusion 360" o.ä. - auf diese Weise findet man oft Projekte, die gleich die Ursprungsdatei mitliefern.
 
-Auch wenn die Plattformen eigentlich auf 3D-Druck ausgerichtet sind, finden sich dort auch Lasercut-Dateien oder Projekte, die aus Lasercutting und 3D-Druck kombiniert bestehen. Gibt man "lasercut" oder "lasercutting" in die Suchleiste ein, findet man viele solcher Projekte, also auch Vektorgrafik-Dateien (mehr zum Thema im Basislernmodul Lasercutting).
+Auch wenn die Plattformen eigentlich auf 3D-Druck ausgerichtet sind, finden sich dort auch Lasercut-Dateien oder Projekte, die aus Lasercutting und 3D-Druck kombiniert bestehen. Gibt man "lasercut" oder "lasercutting" in die Suchleiste ein, findet man viele solcher Projekte, also auch Vektorgrafik-Dateien (mehr zum Thema im [Basislernmodul Lasercutting](../2.2%20Lasercutting/Lasercutting.md)).
 
 ## Offene Lizenzen und Creative Commons
 
