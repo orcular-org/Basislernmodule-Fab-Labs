@@ -1,3 +1,5 @@
+> Zurück zur [Übersicht Basislernmodule](../../README.md)
+
 # CNC-Fräsen
 
 ## Inhalt
@@ -164,13 +166,13 @@ Professionellere CNC-Fräsmaschinen verfügen über eine Vorrichtung, die Schmie
 ### CAM
 
 Vor dem eigentlichen CNC-Fräsen muss zunächst ein digitaler Steuercode erstellt werden, der der Maschine "mitteilt", was sie tun soll.
-Der Beginn hierfür findet in einer CAD/CAM-Software statt. CAD steht für "Computer Aided Design" (engl. für „Computergestütztes Entwerfen“). Mit CAD-Software können also 3D-Modelle von Bauteilen oder Objekten konstruiert bzw. modelliert werden (mehr dazu im Basislernmodul 3D-Design und CAD).
+Der Beginn hierfür findet in einer CAD/CAM-Software statt. CAD steht für "Computer Aided Design" (engl. für „Computergestütztes Entwerfen“). Mit CAD-Software können also 3D-Modelle von Bauteilen oder Objekten konstruiert bzw. modelliert werden (mehr dazu im [Basislernmodul 3D-Design und CAD](../1.1%203D-Design/3D-Design.md)).
 
 Auf Basis eines 3D-CAD-Modells wird als nächstes das CAM durchgeführt. CAM steht für "Computer Aided Manufacturing" (engl. für "Computergestützte Fertigung"). Es gibt CAM-Software als eigenständige Programme, oft sind sie jedoch als Modul in ein CAD-Programm integriert - man spricht dann von CAD/CAM-Software.
 
 Im CAM werden auf Basis eines CAD-Modells verschiedene CNC-Arbeitsschritte definiert, z.B. Taschen, Profile oder Bohrungen. Zudem werden wichtige Parameter wie Drehzahl und Vorschub eingegeben. Details zu all diesen Begriffen finden sich in den nächsten Abschnitten.
 
-Im Basislernmodul 3D-Design und CAD (verlinken) werden die beiden Softwarelösungen FreeCAD und Autodesk Fusion 360 vorgestellt - beide Programme sind CAD/CAM-Software, können also sowohl zum Modellieren von Bauteilen als auch zum Vorbereiten des CNC-Fräsens dieser Bauteile genutzt werden.
+Im Basislernmodul [3D-Design und CAD](../1.1%203D-Design/3D-Design.md) werden die beiden Softwarelösungen FreeCAD und Autodesk Fusion 360 vorgestellt - beide Programme sind CAD/CAM-Software, können also sowohl zum Modellieren von Bauteilen als auch zum Vorbereiten des CNC-Fräsens dieser Bauteile genutzt werden.
 
 <p align="center">
 <img height="400" src="https://user-images.githubusercontent.com/123781559/233690608-3465bd63-b85d-4fbf-ba00-8c5efbc7f838.png">
@@ -205,7 +207,7 @@ Fräswerkzeuge gibt es in vielen verschiedenen Formen, für verschiedene Anwendu
 Die wichtigsten Kenngrößen und Parameter beim CNC-Fräsen sind:
 
 - **Fräsdurchmesser (in Millimeter, mm):** der Durchmesser des Fräswerkzeugs.
-- **Drehzahl (in Umdrehungen pro Minute, U/min):** Ddie Geschwindigkeit, mit der sich das Fräswerkzeug dreht.
+- **Drehzahl (in Umdrehungen pro Minute, U/min):** die Geschwindigkeit, mit der sich das Fräswerkzeug dreht.
 - **Vorschubgeschwindigkeit (in Millimeter pro Minute, mm/min):** die Geschwindigkeit, mit der sich das Fräswerkzeug in horizontaler Richtung bewegt.
 - **Schnitttiefe (auch Zustelltiefe oder Eintauchtiefe genannt) (in Millimeter, mm):** In der Regel beschreibt dies die Tiefe, die das Fräswerkzeug pro Durchgang in das Material eintaucht.
 
@@ -358,7 +360,7 @@ Ein relativ großer Aufwand beim CNC-Fräsen steckt in der Vorbereitung mit der 
 
 Die Simulation kann auch in erhöhter Geschwindigkeit abgespielt werden. Während der Simulation wird sichtbar, wann an welcher Stelle Material abgetragen wird und wie das fertige Teil am Ende aussieht. Fallen noch Fehler auf, kann das CAM-Programm noch nachbearbeitet werden und man spart sich teure Fehler in der Fertigung.
 
-Abschließend muss das CAM-Programm mithilfe eines Post-Prozessors (üblicherweise in der Software eingebaut) als eine G-Code-Datei exportiert werden. G-Codes beim CNC-Fräsen basieren auf dem gleichen Prinzip wie G-Codes beim 3D-Druck - mehr dazu in dem Basislernmodul zu 3D-Druck.
+Abschließend muss das CAM-Programm mithilfe eines Post-Prozessors (üblicherweise in der Software eingebaut) als eine G-Code-Datei exportiert werden. G-Codes beim CNC-Fräsen basieren auf dem gleichen Prinzip wie G-Codes beim 3D-Druck - mehr dazu in dem [Basislernmodul zu 3D-Druck](../2.1%203D-Druck/3D-Druck.md), im Abschnitt [G-Code](../2.1%203D-Druck/3D-Druck.md#g-code).
 
 ### Werkstück
 
