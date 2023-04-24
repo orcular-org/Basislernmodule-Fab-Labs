@@ -172,7 +172,7 @@ Auf Basis eines 3D-CAD-Modells wird als nächstes das CAM durchgeführt. CAM ste
 
 Im CAM werden auf Basis eines CAD-Modells verschiedene CNC-Arbeitsschritte definiert, z.B. Taschen, Profile oder Bohrungen. Zudem werden wichtige Parameter wie Drehzahl und Vorschub eingegeben. Details zu all diesen Begriffen finden sich in den nächsten Abschnitten.
 
-Im Basislernmodul [3D-Design und CAD](../1.1%203D-Design/3D-Design.md) werden die beiden Softwarelösungen FreeCAD und Autodesk Fusion 360 vorgestellt - beide Programme sind CAD/CAM-Software, können also sowohl zum Modellieren von Bauteilen als auch zum Vorbereiten des CNC-Fräsens dieser Bauteile genutzt werden.
+Im [Basislernmodul 3D-Design und CAD](../1.1%203D-Design/3D-Design.md) werden die beiden Softwarelösungen FreeCAD und Autodesk Fusion 360 vorgestellt - beide Programme sind CAD/CAM-Software, können also sowohl zum Modellieren von Bauteilen als auch zum Vorbereiten des CNC-Fräsens dieser Bauteile genutzt werden.
 
 <p align="center">
 <img height="400" src="https://user-images.githubusercontent.com/123781559/233690608-3465bd63-b85d-4fbf-ba00-8c5efbc7f838.png">
