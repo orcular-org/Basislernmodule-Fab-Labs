@@ -147,7 +147,7 @@ Da jedes Material eine andere Schmelztemperatur hat, ist es wichtig, diese im Dr
 
 Filamente werden meistens in den Durchmesser-Varianten 1,75 mm und 2,85 mm verkauft, wobei 1,75 mm die deutlich verbreitete Variante ist. Für größere 3D-Drucker bzw. für solche, bei denen die Düse entsprechend getauscht wurde, wird das dickere 2,85-mm-Filament verwendet.
 
-Gewöhnliche 3D-Drucker können nur mit einem Filament zur Zeit drucken, d.h. wenn man in einer anderen Farbe oder mit einem anderen Material drucken möchte, muss man die Filamentrolle wechseln. Es gibt aber auch 3D-Drucker, die mit zwei oder mehr Filamenten auf einmal drucken können. So können mehrfarbige Objekte oder auch Objekte aus verschiedenen Materialien gedruckt werden, z.B. indem das Stützmaterial (mehr dazu siehe unten, Abschnitt [Stützmaterial](#stützmaterial-und-brücken)) aus einem leicht entfernbaren Material und das eigentliche Objekt aus einem stabilen Material gedruckt wird.
+Gewöhnliche 3D-Drucker können nur mit einem Filament zurzeit drucken, d.h. wenn man in einer anderen Farbe oder mit einem anderen Material drucken möchte, muss man die Filamentrolle wechseln. Es gibt aber auch 3D-Drucker, die mit zwei oder mehr Filamenten auf einmal drucken können. So können mehrfarbige Objekte oder auch Objekte aus verschiedenen Materialien gedruckt werden, z.B. indem das Stützmaterial (mehr dazu siehe unten, Abschnitt [Stützmaterial](#stützmaterial-und-brücken)) aus einem leicht entfernbaren Material und das eigentliche Objekt aus einem stabilen Material gedruckt wird.
 
 <p align="center">
 <img height="400" src="https://user-images.githubusercontent.com/123781559/228966443-6117228a-d488-49cc-9fb7-bca371345b53.png">
@@ -254,7 +254,7 @@ Mit den Themen [3D-CAD-Modellierung](../1.1%203D-Design/3D-Design.md) (CAD = Com
 
 Für die meisten 3D-Drucker benötigt man Dateien im STL-Format (oder manchmal auch OBJ-Format) - also mit der Dateiendung „.stl“ oder „.obj“. STL ist aber das üblichere Dateiformat. Fast jede CAD-Software ist in der Lage, 3D-Modelle im STL-Format zu exportieren. Bei heruntergeladenen Dateien aus dem Internet sollte man zunächst prüfen, ob es im STL-Format vorliegt.
 
-Bevor man die STL-Datei drucken kann, muss man sie noch in einer sogenannten Slicer-Software bearbeiten. Kurz gesagt, erzeugt die Slicer-Software auf Basis des 3D-Modells viele kleine, übereinanderliegende Schichten oder Scheiben und berechnet die Steuerbefehle für den 3D-Drucker, der das Modell dann Schicht für Schicht aufeinanderdruckt (eine genauere [Beschreibung des Slicings weiter unten](#slicing-prüfung-und-export)).
+Bevor man die STL-Datei drucken kann, muss man sie noch in einer sogenannten Slicer-Software bearbeiten. Kurz gesagt, erzeugt die Slicer-Software auf Basis des 3D-Modells viele kleine, übereinanderliegende Schichten oder Scheiben und berechnet die Steuerbefehle für den 3D-Drucker, der das Modell dann Schicht für Schicht aufeinander druckt (eine genauere [Beschreibung des Slicings weiter unten](#slicing-prüfung-und-export)).
 
 ### Slicer-Software
 
@@ -415,7 +415,7 @@ Danach wird eine wenige Zentimeter lange Linie am Rand des Heizbetts gedruckt, d
 </p>
 
 <p align="center">
-<a href="#s37">[37]</a> <i> Purge line am Rand des Heizbetts: Diese Linie wird vor Beginn des eigentlichen 3D-Drucks gezogen, um die Düse zu spülen und für einen gleichmäßgen Filamentfluss zu sorgen. </i>
+<a href="#s37">[37]</a> <i> Purge line am Rand des Heizbetts: Diese Linie wird vor Beginn des eigentlichen 3D-Drucks gezogen, um die Düse zu spülen und für einen gleichmäßigen Filamentfluss zu sorgen. </i>
 </p>
 
 
