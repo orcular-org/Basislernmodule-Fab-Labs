@@ -1,4 +1,7 @@
+> Zurück zur [Übersicht Basislernmodule](../../README.md)
+
 # 3D-Druck
+
 ## Inhalt
 
 1. [Einführung](#einführung)
@@ -71,7 +74,7 @@ FDM steht für "Fused Deposition Modeling". Das bedeutet, ein Stoff, meistens ei
 </p>
 
 
-Daher zählt man 3D-Druck auch zu den sogenannten "additiven Verfahren", da Objekte entstehen, indem neues Material hinzugefügt ("addiert") wird. Im Gegensatz dazu gibt es auch "subtraktive Verfahren", d.h. Fertigungsverfahren, bei denen ein bestehendes Material getrennt wird bzw. etwas "weggenommen" wird, z.B. durch Lasercutting oder CNC-Fräsen. (verlinken)
+Daher zählt man 3D-Druck auch zu den sogenannten "additiven Verfahren", da Objekte entstehen, indem neues Material hinzugefügt ("addiert") wird. Im Gegensatz dazu gibt es auch "subtraktive Verfahren", d.h. Fertigungsverfahren, bei denen ein bestehendes Material getrennt wird bzw. etwas "weggenommen" wird, z.B. durch [Lasercutting](../2.2%20Lasercutting/Lasercutting.md) oder [CNC-Fräsen](../2.3%20CNC-Fr%C3%A4sen/CNC-Fr%C3%A4sen.md).
 
 Mit FDM-3D-Druckern können z.B. dekorative Objekte wie Figuren oder Vasen, kleine Spielzeuge, personalisierte Namensschilder und Schlüsselanhänger, Modelle für Demonstrationszwecke (z.B. von Maschinen oder Gebäuden), Ersatzteile für bestehende Produkte (z.B. Schubladengriffe oder drehbare Knöpfe für Musikanlagen), Alltagshelfer wie Handtuchhaken oder Funktionsteile wie Gehäuse für Elektronikgeräte, Flaschenöffner oder sogar Bauteile für 3D-Drucker gedruckt werden.
 
@@ -247,7 +250,7 @@ Zunächst braucht man ein digitales 3D-Modell des Objekts, das man drucken möch
 
 
 
-Mit den Themen 3D-CAD-Modellierung (CAD = Computer Aided Design), 3D-Scanning und Modell-Download von Webseiten befasst sich ein anderes Basislernmodul. (verlinken)
+Mit den Themen [3D-CAD-Modellierung](../1.1%203D-Design/3D-Design.md) (CAD = Computer Aided Design), [3D-Scanning](../1.2%203D-Scanning/3D-Scanning.md) und [Modell-Download von Webseiten](../1.3%20Verwendung%20von%203D%20Modellen%20aus%20dem%20Internet/Verwendung%20von%203D%20Modellen%20aus%20dem%20Internet.md) befassen sich andere Basislernmodule.
 
 Für die meisten 3D-Drucker benötigt man Dateien im STL-Format (oder manchmal auch OBJ-Format) - also mit der Dateiendung „.stl“ oder „.obj“. STL ist aber das üblichere Dateiformat. Fast jede CAD-Software ist in der Lage, 3D-Modelle im STL-Format zu exportieren. Bei heruntergeladenen Dateien aus dem Internet sollte man zunächst prüfen, ob es im STL-Format vorliegt.
 
@@ -317,7 +320,7 @@ Hat man das Slicing überprüft, kann man die Datei als sogenannte „G-Code“-
 
 ### G-Code
 
-G-Code ist ein standardisiertes Dateiformat, das nicht nur im 3D-Druck, sondern auch in anderen Fertigungsverfahren (z.B. CNC-Fräsen oder Lasercutting (verlinken)) verwendet wird. Grundsätzlich ist der G-Code dafür da, der Maschine „mitzuteilen“, was sie machen soll, und zwar ganz genau in vielen kleinen Einzelschritten und Werten. Beispielsweise steht im G-Code, dass das Hotend sowie das Heizbett auf eine bestimmte Temperatur aufheizen sollen, dass der Extruder des 3D-Druckers an eine bestimmte Position fahren soll (angegeben in X-, Y-, und Z-Koordinaten) und wann das Filament, angetrieben durch die Zahnräder, vorgeschoben und aus der Nozzle gedrückt werden soll.
+G-Code ist ein standardisiertes Dateiformat, das nicht nur im 3D-Druck, sondern auch in anderen Fertigungsverfahren (z.B. [CNC-Fräsen](../2.3%20CNC-Fr%C3%A4sen/CNC-Fr%C3%A4sen.md) oder [Lasercutting](../2.2%20Lasercutting/Lasercutting.md)) verwendet wird. Grundsätzlich ist der G-Code dafür da, der Maschine „mitzuteilen“, was sie machen soll, und zwar ganz genau in vielen kleinen Einzelschritten und Werten. Beispielsweise steht im G-Code, dass das Hotend sowie das Heizbett auf eine bestimmte Temperatur aufheizen sollen, dass der Extruder des 3D-Druckers an eine bestimmte Position fahren soll (angegeben in X-, Y-, und Z-Koordinaten) und wann das Filament, angetrieben durch die Zahnräder, vorgeschoben und aus der Nozzle gedrückt werden soll.
 
 Der von der Slicer-Software generierte G-Code muss an den 3D-Drucker übertragen werden, wobei es je nach 3D-Drucker-Modell verschiedene Möglichkeiten gibt. Viele 3D-Drucker verfügen über einen SD-Karten-Slot oder USB-Eingang. Der G-Code muss dann auf eine SD-Karte oder einen USB-Stick kopiert werden, anschließend wird das Speichermedium in den 3D-Drucker gesteckt. Es gibt aber auch 3D-Drucker, die per Kabel direkt mit dem PC verbunden werden können. Der Druckvorgang wird dann direkt vom PC aus gestartet.
 
