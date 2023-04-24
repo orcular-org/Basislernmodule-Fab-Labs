@@ -1,20 +1,20 @@
 # 3D-Design
 ## Inhalt
 
-1. [Einführung](https://github.com/orcular-org/Basislernmodule-Fab-Labs/blob/main/Basislernmodule/1.1%203D-Design/3D-Design.md#einf%C3%BChrung)
-2. [CAD-Software](https://github.com/orcular-org/Basislernmodule-Fab-Labs/blob/main/Basislernmodule/1.1%203D-Design/3D-Design.md#cad-software)
-   - [Dateiformate für CAD-Modelle](https://github.com/orcular-org/Basislernmodule-Fab-Labs/blob/main/Basislernmodule/1.1%203D-Design/3D-Design.md#dateiformate-f%C3%BCr-cad-modelle)
-   - [Beispiele für CAD-Software](https://github.com/orcular-org/Basislernmodule-Fab-Labs/blob/main/Basislernmodule/1.1%203D-Design/3D-Design.md#beispiele-f%C3%BCr-cad-software)
-     - [FreeCAD](https://github.com/orcular-org/Basislernmodule-Fab-Labs/blob/main/Basislernmodule/1.1%203D-Design/3D-Design.md#freecad)
-     - [Autodesk Fusion 360](https://github.com/orcular-org/Basislernmodule-Fab-Labs/blob/main/Basislernmodule/1.1%203D-Design/3D-Design.md#autodesk-fusion-360)
-3. [3D-Grafik- und Modellierungsprogramme](https://github.com/orcular-org/Basislernmodule-Fab-Labs/blob/main/Basislernmodule/1.1%203D-Design/3D-Design.md#3d-grafik--und-modellierungsprogramme)
-   - [Beispiele für 3D-Grafik- und 3D-Modellierungsprogramme](https://github.com/orcular-org/Basislernmodule-Fab-Labs/blob/main/Basislernmodule/1.1%203D-Design/3D-Design.md#beispiele-f%C3%BCr-3d-grafik--und-3d-modellierungsprogramme)
-     - [Blender](https://github.com/orcular-org/Basislernmodule-Fab-Labs/blob/main/Basislernmodule/1.1%203D-Design/3D-Design.md#blender)
-     - [Tinkercad](https://github.com/orcular-org/Basislernmodule-Fab-Labs/blob/main/Basislernmodule/1.1%203D-Design/3D-Design.md#tinkercad) 
+1. [Einführung](#einf%C3%BChrung)
+2. [CAD-Software](#cad-software)
+   - [Dateiformate für CAD-Modelle](#dateiformate-f%C3%BCr-cad-modelle)
+   - [Beispiele für CAD-Software](#beispiele-f%C3%BCr-cad-software)
+     - [FreeCAD](#freecad)
+     - [Autodesk Fusion 360](#autodesk-fusion-360)
+3. [3D-Grafik- und Modellierungsprogramme](#3d-grafik--und-modellierungsprogramme)
+   - [Beispiele für 3D-Grafik- und 3D-Modellierungsprogramme](#beispiele-f%C3%BCr-3d-grafik--und-3d-modellierungsprogramme)
+     - [Blender](#blender)
+     - [Tinkercad](#tinkercad) 
 
-[Lizenzinformationen](https://github.com/orcular-org/Basislernmodule-Fab-Labs/blob/main/Basislernmodule/1.1%203D-Design/3D-Design.md#lizenzinformationen)
+[Lizenzinformationen](#lizenzinformationen)
 
-[Bildnachweise](https://github.com/orcular-org/Basislernmodule-Fab-Labs/blob/main/Basislernmodule/1.1%203D-Design/3D-Design.md#bildnachweise)
+[Bildnachweise](#bildnachweise)
 
 
 ## Einführung
@@ -33,15 +33,15 @@ Je nach Anwendungszweck gibt es Programme mit unterschiedlichen Schwerpunkten un
 <a href="#s2">[2]</a> <i> 3D-Modell in der 3D-Modellierungssoftware Blender </i>																	
 </p>									
 
-Statt eigene 3D-Modelle zu erstellen, kann man auch fertige Modelle aus dem Internet herunterladen, ggf. nachbearbeiten und anschließend z.B. mit einem 3D-Drucker ausdrucken (mehr dazu im Basislernmodul 3D-Druck). Es gibt eine Vielzahl an Webseiten, von denen man 3D-Modelle beziehen oder auf die man seine eigenen Kreationen hochladen und sie mit anderen teilen kann (mehr dazu im Basislernmodul zum Thema "Download von 3D-Modellen").
+Statt eigene 3D-Modelle zu erstellen, kann man auch fertige Modelle aus dem Internet herunterladen, ggf. nachbearbeiten und anschließend z.B. mit einem 3D-Drucker ausdrucken (mehr dazu im [Basislernmodul 3D-Druck](../2.1%203D-Druck/3D-Druck.md)). Es gibt eine Vielzahl an Webseiten, von denen man 3D-Modelle beziehen oder auf die man seine eigenen Kreationen hochladen und sie mit anderen teilen kann (mehr dazu im [Basislernmodul zum Thema Download von 3D-Modellen](../1.3%20Verwendung%20von%203D%20Modellen%20aus%20dem%20Internet/Verwendung%20von%203D%20Modellen%20aus%20dem%20Internet.md)).
 
-Eine weitere Möglichkeit, ein 3D-Modell zu erstellen, besteht im 3D-Scanning. Damit lassen sich Gegenstände, Ersatzteile oder auch Personen einscannen und als 3D-Modell am Rechner abbilden. Mit etwas Nachbearbeitung lassen sich diese Modelle auch 3D-drucken (mehr dazu im Basislernmodul zu 3D-Scanning).
+Eine weitere Möglichkeit, ein 3D-Modell zu erstellen, besteht im 3D-Scanning. Damit lassen sich Gegenstände, Ersatzteile oder auch Personen einscannen und als 3D-Modell am Rechner abbilden. Mit etwas Nachbearbeitung lassen sich diese Modelle auch 3D-drucken (mehr dazu im [Basislernmodul zu 3D-Scanning](../1.2%203D-Scanning/3D-Scanning.md)).
 
 ## CAD-Software
 
 CAD-Software wird in der Regel im technischen Bereich eingesetzt, z.B. im Maschinenbau, in der Architektur oder Elektrotechnik – bei Unternehmen für Produktentwicklung, Planung von Gebäuden und ähnlichen Bereichen. Aber auch für Hobby-Anwendungen, z.B. zum Designen von Objekten für 3D-Druck oder CNC-Fräsen, haben sich CAD-Programme bewährt.
 
-Soll ein in CAD entworfenes Modell mithilfe von CNC-Maschinen (fräsen oder drehen) gefertigt werden, muss es in einer CAM-Software (CAM = Computer Aided Manufacturing) bearbeitet werden, um Fräsdurchmesser, Drehzahlen, Arbeitsabläufe etc. zu definieren (mehr dazu im Basislernmodul zu CNC-Fräsen). Viele CAD-Programme haben ein integriertes CAM-Modul, man spricht dann von CAD/CAM-Software.
+Soll ein in CAD entworfenes Modell mithilfe von CNC-Maschinen (fräsen oder drehen) gefertigt werden, muss es in einer CAM-Software (CAM = Computer Aided Manufacturing) bearbeitet werden, um Fräsdurchmesser, Drehzahlen, Arbeitsabläufe etc. zu definieren (mehr dazu im [Basislernmodul zu CNC-Fräsen](../2.3%20CNC-Fr%C3%A4sen/CNC-Fr%C3%A4sen.md)). Viele CAD-Programme haben ein integriertes CAM-Modul, man spricht dann von CAD/CAM-Software.
 
 Beim Erstellen eines 3D-Modells – bei CAD spricht man von „modellieren“ oder „konstruieren“ – arbeitet man meistens mit sogenannter geometrischer und generativer Modellierung.
 
@@ -95,7 +95,7 @@ Besonders hervorzuheben ist das STEP-Dateiformat (*.ste, *.step oder *.stp). STE
 
 Plant man sein Produkt als Open Source Hardware zu veröffentlichen, ist es empfehlenswert, eine CAD-Software zu verwenden, die kostenfrei ist und auf Open Source Software basiert (z.B. FreeCAD oder Blender, mehr dazu siehe unten), damit möglichst viele Menschen die Dateien öffnen, bearbeiten und als verbesserte Variante zum Projekt beitragen können.
 
-Ein weiteres wichtiges Dateiformat ist STL, vor allem für 3D-Druck. Praktisch jede bekannte CAD- oder 3D-Grafiksoftware kann 3D-Modelle im STL-Format exportieren, sodass man sie anschließend 3D-drucken kann (mehr dazu im Basislernmodul 3D-Druck).
+Ein weiteres wichtiges Dateiformat ist STL, vor allem für 3D-Druck. Praktisch jede bekannte CAD- oder 3D-Grafiksoftware kann 3D-Modelle im STL-Format exportieren, sodass man sie anschließend 3D-drucken kann (mehr dazu im [Basislernmodul 3D-Druck](../2.1%203D-Druck/3D-Druck.md)).
 
 
 ### Beispiele für CAD-Software
