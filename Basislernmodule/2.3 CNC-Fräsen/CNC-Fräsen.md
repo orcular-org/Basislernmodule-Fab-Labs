@@ -69,7 +69,7 @@ Kombiniert man eine Fräsmaschine mit einer CNC-Steuerung (CNC = Computerized Nu
 <p align="center">
 <a href="#s4">[4]</a> <i> CNC-Fräsmaschine (Open Source Hardware) - </i>
 <a href="#s5">[5]</a> <i> Kleine Tisch-CNC-Fräse (Open Source Hardware) - </i>
-<a href="#s6">[6]</a> <i> CNC-Fräsmaschine in einem Fab Lab </i>
+<a href="#s6">[6]</a> <i> CNC-Fräsmaschine in einem Fab Lab (Bilder anklicken zum Vergrößern)</i>
 </p>
 
 
@@ -295,7 +295,7 @@ Operationen werden in der CAD/CAM-Software als Pfade (engl. "Path") angelegt und
 
 <p align="center">
 <a href="#s23">[23]</a> <i> Bauteil in der Software FreeCAD mit mehreren CAM-Operationen (grüne und rote Pfade): Außenkontur und innere Kreiskontur als "Profil" mit Haltestegen, die vier kleinen Bohrungen als "Taschen". - </i>
-<a href="#s24">[24]</a> <i> Nahansicht einer Bohrung des Bauteils: Die Bohrung wird hier nicht als Bohr-Operation, sondern als gefräste Tasche ausgeführt. Der Pfad hat eine Helixform, um das Material langsam und damit schonend für das Fräswerkzeug zu bearbeiten. </i>
+<a href="#s24">[24]</a> <i> Nahansicht einer Bohrung des Bauteils: Die Bohrung wird hier nicht als Bohr-Operation, sondern als gefräste Tasche ausgeführt. Der Pfad hat eine Helixform, um das Material langsam und damit schonend für das Fräswerkzeug zu bearbeiten. (Bilder anklicken zum Vergrößern) </i>
 </p>
 
 
@@ -325,7 +325,7 @@ Haltestege lassen sich im CAM-System einstellen. Im Endergebnis befinden sich di
 
 <p align="center">
 <a href="#s27">[27]</a> <i> Haltestege in einem CNC-gefrästen Aluminium-Teil. Im linken Bereich ist ein Haltesteg gut sichtbar; rechts sind einige Spanreste, da der Fräser im letzten Schritt nicht tief genug gegangen ist. - </i>
-<a href="#s28">[28]</a> <i> Haltestege in einem Holzbrett, gefräst mit einer Maslow-CNC. </i>
+<a href="#s28">[28]</a> <i> Haltestege in einem Holzbrett, gefräst mit einer Maslow-CNC. (Bilder anklicken zum Vergrößern)</i>
 </p>
 
 
