@@ -43,5 +43,3 @@ Autor der Texte ist Oskar Lidtke, ebenfalls Gründungsmitglied des Fab City Hamb
 
 See best practices for [attribution](https://wiki.creativecommons.org/wiki/Best_practices_for_attribution) and [marking your own work](https://wiki.creativecommons.org/wiki/Marking_your_work_with_a_CC_license) with a CC license.
 
-For attribution and licenses of the images used, see the section below.
-
