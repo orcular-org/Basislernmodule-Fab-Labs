@@ -354,7 +354,7 @@ Größere Überhänge sind jedoch nicht möglich. Oft lässt sich dieses Problem
 </p>
 
 <p align="center">
-<a href="#s32">[32]</a> <i> Oben: Nur die Beine des Tisches lassen sich drucken, die Tischplatte hingegen müsste "in der Luft gedruckt" werden (funktioniert nicht). <br> Unten: Einfache Lösung: den Tisch so umdrehen, dass er frei von Überhängen ist und sich gut drucken lässt. </i>
+<a href="#s32">[32]</a> <i> Oben: Nur die Beine des Tisches lassen sich drucken, die Tischplatte hingegen müsste "in der Luft gedruckt" werden (funktioniert nicht). <br> Unten: Einfache Lösung: Den Tisch so umdrehen, dass er frei von Überhängen ist und sich gut drucken lässt. </i>
 </p>
 
 
