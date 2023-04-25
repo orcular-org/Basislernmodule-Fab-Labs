@@ -84,7 +84,7 @@ Mit FDM-3D-Druckern können z.B. dekorative Objekte wie Figuren oder Vasen, klei
 </p>
 
 <p align="center">
-<a href="#s7">[7]</a> <i> 3D-gedruckter Lautsprecher - </i>
+<a href="#s7">[7]</a> <i> 3D-gedrucktes Lautsprechergehäuse - </i>
 <a href="#s8">[8]</a> <i> 3D-gedrucktes Modell einer Turbine</i>
 </p>
 
@@ -95,7 +95,7 @@ Mit FDM-3D-Druckern können z.B. dekorative Objekte wie Figuren oder Vasen, klei
 
 <p align="center">
 <a href="#s9">[9]</a> <i> 3D-gedruckte Schale - </i>
-<a href="#s10">[10]</a> <i> Verschiedene Objekte</i>
+<a href="#s10">[10]</a> <i> Verschiedene 3D-gedruckte Objekte</i>
 </p>
 
 <p align="center">
