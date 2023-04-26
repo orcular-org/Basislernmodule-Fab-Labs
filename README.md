@@ -43,3 +43,10 @@ Autor der Texte ist Oskar Lidtke, freiberuflicher Ingenieur, Produktdesigner und
 
 See best practices for [attribution](https://wiki.creativecommons.org/wiki/Best_practices_for_attribution) and [marking your own work](https://wiki.creativecommons.org/wiki/Marking_your_work_with_a_CC_license) with a CC license.
 
+<p align="left">
+<i> <sub> Logo Open Educational Resources, <a href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>, Jonathas Mello, <a href="https://www.unesco.de/bildung/open-educational-resources">Source</a> </sub></i>
+</p>
+
+<p align="left">
+<img height="150" src="https://user-images.githubusercontent.com/123781559/234627928-979489c8-5a37-41e5-b0d6-ae08dab592ef.png">
+</p>
