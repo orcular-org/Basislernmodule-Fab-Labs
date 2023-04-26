@@ -27,13 +27,13 @@ Die Basislernmodule werden als sogenannte Open Educational Resources (OER), also
 - Der Quellcode (in diesem Fall im [Markdown-Format](https://de.wikipedia.org/wiki/Markdown)) wird offengelegt - einsehbar auf [diesem GitHub-Repository](https://github.com/orcular-org/Basislernmodule-Fab-Labs).
 - Die Lernmodule sind offen für Verbesserung und Weiterentwicklung unter Mithilfe der Community, z.B. durch Korrektur von Fehlern oder Ergänzung von weiteren Inhalten.
 
-In diesem Fall heißt dies: Sollten den Leser:innen Fehler auffallen oder Ergänzungsvorschläge vorliegen, wird es wertgeschätzt, wenn diese mitgeteilt werden. Am besten funktioniert dies über das Anlegen eines "Issues" (engl. für "Problem" oder "Fall") oder eines "Pull request" (eine Änderungsanfrage) hier auf GitHub. Hierfür benötigt es einen [GitHub-Account](https://github.com/signup).
+In diesem Fall heißt dies: Sollten den Leser:innen Fehler auffallen oder Ergänzungsvorschläge vorliegen, wird es wertgeschätzt, wenn diese mitgeteilt werden. Am besten funktioniert dies über das Anlegen eines "Issues" (engl. für "Problem" oder "Fall") oder eines "Pull request" (eine Änderungsanfrage) hier auf GitHub. Hierfür wird ein [GitHub-Account](https://github.com/signup) benötigt.
 
 ## Hintergrund
 
 Die Basislernmodule wurden im Frühjahr 2023 im Auftrag des [Laboratoriums für Fertigungstechnik](https://www.hsu-hh.de/laft/) der Helmut-Schmidt-Universität Hamburg entwickelt. An dem Institut wird u.a. zu digitaler Fertigung, Open Source Hardware und Fab Labs geforscht, zudem betreibt das Institut selbst ein öffentlich zugängliches Fab Lab, das [OpenLab Hamburg](https://openlab-hamburg.de/). Die Universität ist Gründungsmitglied beim [Fab City Hamburg e.V.](https://www.fabcity.hamburg/de/).
 
-Autor der Texte ist Oskar Lidtke, ebenfalls Gründungsmitglied des Fab City Hamburg e.V. und Betreiber des Projektes [Orcular](https://www.orcular.org/) - für weitere Lizenzinformationen, siehe unteren Abschnitt.
+Autor der Texte ist Oskar Lidtke, freiberuflicher Ingenieur, Produktdesigner und Dozent, ebenfalls Gründungsmitglied beim Fab City Hamburg e.V. und Betreiber des Projektes [Orcular](https://www.orcular.org/) - für weitere Lizenzinformationen siehe unteren Abschnitt.
 
 # Lizenzinformationen
 
