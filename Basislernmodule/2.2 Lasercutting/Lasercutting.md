@@ -106,12 +106,14 @@ Hier eine Übersicht einiger beliebter und gut geeigneter Materialien für Laser
 </p>
 
 <p align="center">
-<img height="400" src="https://user-images.githubusercontent.com/123781559/232888267-0c2b1192-9469-42c2-a812-e164b03b9ec6.png">
+<img height="400" src="https://github.com/orcular-org/Basislernmodule-Fab-Labs/assets/123781559/ae536e98-243e-480b-9871-1631598e6164">
 </p>
 
 <p align="center">
-<a href="#s8">[8]</a> <i> Lasercutting und -gravur von Metallblech - typische Mittelklasse-Lasercutter in Fab Labs können Metalle oft nur gravieren, zum Schneiden von Metallen braucht es hingegen teure Industrie-Lasercutter. </i>
+<a href="#s8">[8]</a> <i> Lasercutting von Metallblech - typische Mittelklasse-Lasercutter in Fab Labs können Metalle oft nur gravieren, zum Schneiden von Metallen braucht es hingegen teure Industrie-Lasercutter. </i>
 </p>
+
+
 
 
 ### Komponenten eines Lasercutters
@@ -399,7 +401,7 @@ For attribution and licenses of the images used, see the section below.
 **[7]** Lasergravur in Sperrholzplatte - **Image license:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) - **Author:** Oskar Lidtke, [github.com/orcular-org](https://github.com/orcular-org)
 
 <a name="s8"></a>
-**[8]** "Optimum TT" laser cutting machine during the "Armiya 2021" exhibition. - **Image license:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) - **Source:** https://commons.wikimedia.org/wiki/File:%22Optimum_TT%22_laser_cutting_machine_during_the_%22Armiya_2021%22_exhibition.jpg
+**[8]** Laser cutting machine - **Image license:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) - **Source:** https://commons.wikimedia.org/wiki/File:Laser_cutting_machine.jpg
 
 <a name="s9"></a>
 **[9]** CO2 Laser Test Cut and Engraving Template (cropped) - **Image license:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) - **Source:** https://www.thingiverse.com/thing:4575909
