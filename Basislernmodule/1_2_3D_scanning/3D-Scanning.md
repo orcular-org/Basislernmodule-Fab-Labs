@@ -139,9 +139,9 @@ Zudem gibt es auch professionelle Geräte, die jedoch sehr teuer sind und in der
 
 ### 3D-Druck von 3D-gescannten Modellen
 
-Hat man ein 3D-gescanntes Modell bereinigt und in ein 3D-druckbares Format überführt, z.B. STL (mehr dazu im [Basislernmodul 3D-Druck](../2.1%203D-Druck/3D-Druck.md)), kann man es einfach mit einem FDM-3D-Drucker als einfarbiges Objekt ausdrucken. Bei Verwendung eines Mehrfarben-3D-Druckers kann auch eine mehrfarbige Figur gedruckt werden - mit einigen wenigen Farben und beschränkter Genauigkeit.
+Hat man ein 3D-gescanntes Modell bereinigt und in ein 3D-druckbares Format überführt, z.B. STL (mehr dazu im [Basislernmodul 3D-Druck](../2_1_3D_printing/3D-Druck.md)), kann man es einfach mit einem FDM-3D-Drucker als einfarbiges Objekt ausdrucken. Bei Verwendung eines Mehrfarben-3D-Druckers kann auch eine mehrfarbige Figur gedruckt werden - mit einigen wenigen Farben und beschränkter Genauigkeit.
 
-Möchte man eine sehr detaillierte 3D-Druck-Figur mit vielen Farben und hoher Genauigkeit der Oberflächenoptik erhalten, reicht ein einfacher FDM-3D-Drucker (FDM = Fused Deposition Modeling, mehr dazu [hier](../2.1%203D-Druck/3D-Druck.md)) nicht aus. Kommerzielle Anbieter von 3D-Selfies nutzen meist eine andere 3D-Druck-Technologie: Binder Jetting, auch als Freistrahl-Bindemittelauftrag bezeichnet. Bei diesem 3D-Druck-Verfahren wird ein Pulver mit flüssigem Bindemittel aufgetragen und verbunden. Die entstehenden Figuren haben oft eine an Sandstein erinnernde Optik, zudem eine große Farbenvielfalt und Detailtreue.
+Möchte man eine sehr detaillierte 3D-Druck-Figur mit vielen Farben und hoher Genauigkeit der Oberflächenoptik erhalten, reicht ein einfacher FDM-3D-Drucker (FDM = Fused Deposition Modeling, mehr dazu [hier](../2_1_3D_printing/3D-Druck.md)) nicht aus. Kommerzielle Anbieter von 3D-Selfies nutzen meist eine andere 3D-Druck-Technologie: Binder Jetting, auch als Freistrahl-Bindemittelauftrag bezeichnet. Bei diesem 3D-Druck-Verfahren wird ein Pulver mit flüssigem Bindemittel aufgetragen und verbunden. Die entstehenden Figuren haben oft eine an Sandstein erinnernde Optik, zudem eine große Farbenvielfalt und Detailtreue.
 
 <p align="center">
 <img height="300" src="https://user-images.githubusercontent.com/123781559/232575862-4d60903d-628e-4b3d-9325-f3003ae366ce.png">
