@@ -3,15 +3,15 @@ Basislernmodule für verschiedene Themen rund um die Nutzung von Fab Labs - ver�
 
 ## Themenfeld 1: 3D-Modelle
 
-1. [3D-Design](Basislernmodule/1.1%203D-Design/3D-Design.md)
-2. [3D-Scanning](Basislernmodule/1.2%203D-Scanning/3D-Scanning.md)
-3. [Verwendung von 3D-Modellen aus dem Internet](Basislernmodule/1.3%20Verwendung%20von%203D%20Modellen%20aus%20dem%20Internet/Verwendung%20von%203D%20Modellen%20aus%20dem%20Internet.md)
+1. [3D-Design](Basislernmodule/1_1_3D_design/3D-Design.md)
+2. [3D-Scanning](Basislernmodule/1_2_3D_scanning/3D-Scanning.md)
+3. [Verwendung von 3D-Modellen aus dem Internet](Basislernmodule/1_3_Using_3D_models_from_the_internet/Verwendung_von_3D_Modellen_aus_dem_Internet.md)
 
 ## Themenfeld 2: Digitale Produktion
 
-1. [3D-Druck](Basislernmodule/2.1%203D-Druck/3D-Druck.md)
-2. [Lasercutting](Basislernmodule/2.2%20Lasercutting/Lasercutting.md)
-3. [CNC-Fräsen](Basislernmodule/2.3%20CNC-Fr%C3%A4sen/CNC-Fr%C3%A4sen.md)
+1. [3D-Druck](Basislernmodule/2_1_3D_printing/3D-Druck.md)
+2. [Lasercutting](Basislernmodule/2_2_Laser_cutting/Lasercutting.md)
+3. [CNC-Fräsen](Basislernmodule/2_3_CNC_milling/CNC-Fraesen.md)
 
 ## Ziele der Basislernmodule
 
@@ -23,7 +23,7 @@ Da jedes Fab Lab, jedes Gerät und jede Software unterschiedlich ist, werden kei
 
 Die Basislernmodule werden als sogenannte Open Educational Resources (OER), also  als freie Lern- und Lehrmaterialien veröffentlicht. Sie erfüllen damit typische Anforderungen, die man an Open-Source-Projekte stellt:
 - Die Inhalte sind frei und kostenlos für jede:n zugänglich.
-- Sie sind unter einer offenen Lizenz veröffentlicht, die die Verwendung, Kopie und Weiterverarbeitung unter bestimmten Bedingungen (z.B. Angabe der Quelle) gestattet - in diesem Fall unter der [Creative-Commons-Lizenz CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Zudem wurde darauf geachtet, dass verwendetes Bildmaterial ebenfalls unter einer Creative-Commons-Lizenz oder anderen offenen Lizenz veröffentlicht wurde - Details dazu finden sich jeweils am Ende eines jeden Basislernmoduls im Abschnitt "Bildnachweise". Mehr zum Thema Creative-Commons-Lizenzen [in diesem Basislernmodul](Basislernmodule/1.3%20Verwendung%20von%203D%20Modellen%20aus%20dem%20Internet/Verwendung%20von%203D%20Modellen%20aus%20dem%20Internet.md).
+- Sie sind unter einer offenen Lizenz veröffentlicht, die die Verwendung, Kopie und Weiterverarbeitung unter bestimmten Bedingungen (z.B. Angabe der Quelle) gestattet - in diesem Fall unter der [Creative-Commons-Lizenz CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Zudem wurde darauf geachtet, dass verwendetes Bildmaterial ebenfalls unter einer Creative-Commons-Lizenz oder anderen offenen Lizenz veröffentlicht wurde - Details dazu finden sich jeweils am Ende eines jeden Basislernmoduls im Abschnitt "Bildnachweise". Mehr zum Thema Creative-Commons-Lizenzen [in diesem Basislernmodul](Basislernmodule/1_3_Using_3D_models_from_the_internet/Verwendung_von_3D_Modellen_aus_dem_Internet.md).
 - Der Quellcode (in diesem Fall im [Markdown-Format](https://de.wikipedia.org/wiki/Markdown) mit kleinen Ergänzungen in [HTML](https://de.wikipedia.org/wiki/Hypertext_Markup_Language)) wird offengelegt - einsehbar auf [diesem GitHub-Repository](https://github.com/orcular-org/Basislernmodule-Fab-Labs).
 - Die Lernmodule sind offen für Verbesserung und Weiterentwicklung unter Mithilfe der Community, z.B. durch Korrektur von Fehlern oder Ergänzung von weiteren Inhalten.
 
