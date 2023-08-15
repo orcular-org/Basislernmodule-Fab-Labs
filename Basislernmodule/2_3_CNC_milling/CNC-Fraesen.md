@@ -35,8 +35,8 @@
 Fräsen ist ein Fertigungsverfahren, bei dem ein sich schnell drehendes Fräswerkzeug durch ein Werkstück - z.B. eine Holzplatte oder einen Metallblock - fährt und Material in Form von Spänen abträgt. Somit lassen sich unterschiedliche Formen und Bauteile fertigen.
 
 <p align="center">
-<img height="350" src="https://user-images.githubusercontent.com/123781559/233688153-23ca40a5-ca3b-4af9-b14d-aef2676d04a4.png">
-<img height="350" src="https://user-images.githubusercontent.com/123781559/233688354-45113abf-05a0-4c45-b5b8-ba5576b98737.png">
+<img height="350" src="images/1_Milling_cutter.png">
+<img height="350" src="images/2_CNC_milling.png">
 </p>
 
 
@@ -46,7 +46,7 @@ Fräsen ist ein Fertigungsverfahren, bei dem ein sich schnell drehendes Fräswer
 </p>
 
 <p align="center">
-<img height="350" src="https://user-images.githubusercontent.com/123781559/233688512-95e1a20b-cb17-4477-9cdd-7350541f8b25.png">
+<img height="350" src="images/3_CNC_milling_aluminium.png">
 </p>
 
 
@@ -61,9 +61,9 @@ Die klassische Anwendung erfolgt mit Fräsmaschinen, wobei die Drehachse des Fr�
 Kombiniert man eine Fräsmaschine mit einer CNC-Steuerung (CNC = Computerized Numerical Control - engl. für "rechnergestützte numerische Steuerung", manchmal auch nur "NC" genannt), so handelt es sich um eine CNC-Fräsmaschine - oder umgangssprachlich oft einfach "CNC-Fräse" genannt. Dabei wird zunächst am Computer ein CNC-Code generiert, entweder durch vom Menschen geschriebenen Code oder mithilfe von 3D-CAD-Modellen und CAD/CAM-Software (mehr dazu unten). Dieser NC-Code wird dann an die Maschine übertragen, die gemäß den Anweisungen im Programm vollautomatisiert alle Bewegungen ausführt und das Teil fertigt.
 
 <p align="center">
-<img height="250" src="https://user-images.githubusercontent.com/123781559/233688656-3916c509-5212-49ef-a258-22c1556f3b5e.png">
-<img height="250" src="https://user-images.githubusercontent.com/123781559/233688782-a2ea509f-5303-40a6-b407-ccf146b5a807.png">
-<img height="250" src="https://user-images.githubusercontent.com/123781559/233688954-0a87a29a-f3d8-4f5f-945e-6d7a4592a390.png">
+<img height="250" src="images/4_CNC_milling_machine.png">
+<img height="250" src="images/5_Open_Source_Hardware_CNC_milling_machine.png">
+<img height="250" src="images/6_CNC_milling_machine_fab_lab.png">
 </p>
 
 <p align="center">
@@ -86,8 +86,8 @@ Der Vorteil von CNC-Fräsen gegenüber 3D-Druck und Lasercutting ist, dass man a
 Mit CNC-Fräsen in Fab Labs wird vor allem Holz bearbeitet. Je nach Maschine sind auch Aluminium oder Stahl möglich. Eine weitere Möglichkeit bieten Kunststoffe, z.B. Platten aus Recyclingplastik.
 
 <p align="center">
-<img height="350" src="https://user-images.githubusercontent.com/123781559/233689223-7545b747-2e2d-4661-99ed-a013fdb3e714.png">
-<img height="350" src="https://user-images.githubusercontent.com/123781559/233689503-8b389fa5-884c-402a-bf16-872c34a3d751.png">
+<img height="350" src="images/7_CNC_milled_wood_parts_box.png">
+<img height="350" src="images/8_CNC_milling_metal.png">
 </p>
 
 
@@ -97,8 +97,8 @@ Mit CNC-Fräsen in Fab Labs wird vor allem Holz bearbeitet. Je nach Maschine sin
 </p>
 
 <p align="center">
-<img height="300" src="https://user-images.githubusercontent.com/123781559/233689738-cfa3be5f-7e59-4d97-bc4b-2d966b6f065d.png">
-<img height="300" src="https://user-images.githubusercontent.com/123781559/233689802-b91418c4-3dbf-454a-bf31-163009ddf6fe.png">
+<img height="300" src="images/9_CNC_milling_recycled_plastic_Precious_Plastic.png">
+<img height="300" src="images/10_CNC_milling_recycled_plastic_Precious_Plastic.png">
 </p>
 
 
@@ -118,7 +118,7 @@ CNC-Fräsmaschinen wurden ursprünglich für die Industrie und Handwerksbetriebe
 Neben 3-Achs-Fräsmaschinen gibt es auch 4- und 5-Achs-Fräsmaschinen. Dabei kommen zusätzlich zu den drei linearen Bewegungsachsen noch ein bis zwei Drehachsen hinzu. Dies wird realisiert, indem sich  entweder das Fräswerkzeug um das Werkstück drehen kann oder indem das eingespannte Werkstück gedreht wird - je nach Bauart der Maschine. Auf diese Weise kann die Fräse auch seitlich oder schräg in das Werkstück hineinarbeiten - damit sind deutlich komplexere Formen möglich. Derartige 4- und 5-Achs-Fräsen finden sich jedoch eher in der Industrie als in Fab Labs.
 
 <p align="center">
-<img height="400" src="https://user-images.githubusercontent.com/123781559/233690001-7e103765-c02f-4d8a-839a-21f6c6fe5a76.png">
+<img height="400" src="images/11_5-axis_CNC_machine.png">
 </p>
 
 
@@ -130,8 +130,8 @@ Neben 3-Achs-Fräsmaschinen gibt es auch 4- und 5-Achs-Fräsmaschinen. Dabei kom
 Eine Besonderheit im Bereich Fab-Lab- und Maker-Communities stellt die Maslow-CNC-Fräse dar. Die Maslow-CNC ist ein auf Open-Source-Hardware und -Software basierendes Projekt. Ihre Besonderheit ist der Aufbau: Die zu bearbeitende Platte liegt nicht flach und waagerecht, sondern fast senkrecht, leicht angewinkelt. Dadurch ist die Maschine besonders platzsparend. Als Herzstück wird eine handbetriebene Oberfräse eingesetzt. Diese sitzt in einem Gehäuse, welches auf zwei Ketten hängt, die motorgesteuert verlängert und verkürzt werden, sodass sich die Fräse nach links, rechts, oben und unten über die Platte bewegen kann. Zudem wird die Z-Richtung der Fräse angesteuert, also das senkrechte Eintauchen in die Platte.
 
 <p align="center">
-<img height="350" src="https://user-images.githubusercontent.com/123781559/233690136-bd7046d0-735f-4d69-a5cc-f01ec4536fd8.png">
-<img height="350" src="https://user-images.githubusercontent.com/123781559/233690221-f4449aae-83f4-4ede-a985-50ac0a8c819f.png">
+<img height="350" src="images/12_Maslow_CNC_machine.png">
+<img height="350" src="images/13_CNC_milling_recycled_plastic_Precious_Plastic_Maslow_CNC.png">
 </p>
 
 
@@ -154,7 +154,7 @@ Manche CNC-Fräsmaschinen verfügen über eine Absaugung. Hierbei werden die Sp�
 Professionellere CNC-Fräsmaschinen verfügen über eine Vorrichtung, die Schmier- und Kühlmittel auf das Fräswerkzeug spritzt. Dies ist vor allem beim Fräsen von Metallen wichtig.
 
 <p align="center">
-<img height="400" src="https://user-images.githubusercontent.com/123781559/233690293-301bc88d-b00b-4f68-b6d5-3fffeb866583.png">
+<img height="400" src="images/14_Cutting_fluid_CNC_milling.png">
 </p>
 
 
@@ -175,7 +175,7 @@ Im CAM werden auf Basis eines CAD-Modells verschiedene CNC-Arbeitsschritte defin
 Im [Basislernmodul 3D-Design und CAD](../1_1_3D_design/3D-Design.md) werden die beiden Softwarelösungen FreeCAD und Autodesk Fusion 360 vorgestellt - beide Programme sind CAD/CAM-Software, können also sowohl zum Modellieren von Bauteilen als auch zum Vorbereiten des CNC-Fräsens dieser Bauteile genutzt werden.
 
 <p align="center">
-<img height="400" src="https://user-images.githubusercontent.com/123781559/233690608-3465bd63-b85d-4fbf-ba00-8c5efbc7f838.png">
+<img height="400" src="images/15_CAM_in_FreeCAD_Path_workbench.png">
 </p>
 
 
@@ -193,7 +193,7 @@ Im [Basislernmodul 3D-Design und CAD](../1_1_3D_design/3D-Design.md) werden die 
 Fräswerkzeuge gibt es in vielen verschiedenen Formen, für verschiedene Anwendungen. Die gängigste und im Fab-Lab-Bereich am häufigsten eingesetzte Form ist der Schaftfräser. Der Schaft ist der Teil des Werkzeugs, der über keine Schneiden verfügt und in die Maschine eingespannt wird.
 
 <p align="center">
-<img height="400" src="https://user-images.githubusercontent.com/123781559/233690716-901c354e-9593-41f6-97cc-9f32baaa4dd6.png">
+<img height="400" src="images/16_Milling_cutter.png">
 </p>
 
 
@@ -214,7 +214,7 @@ Die wichtigsten Kenngrößen und Parameter beim CNC-Fräsen sind:
 Es gibt noch viele weitere einstellbare Parameter, diese vier sind jedoch die wichtigsten und maßgeblichen. Auf die einzelnen Parameter wird in den folgenden Abschnitten noch näher eingegangen.
 
 <p align="center">
-<img height="400" src="https://user-images.githubusercontent.com/123781559/233690884-b4e131fe-7eca-4a92-8069-fc09ebdeb2d3.png">
+<img height="400" src="images/17_Parameter_beim_CNC_Fraesen.png">
 </p>
 
 
@@ -223,8 +223,8 @@ Es gibt noch viele weitere einstellbare Parameter, diese vier sind jedoch die wi
 </p>
 
 <p align="center">
-<img height="250" src="https://user-images.githubusercontent.com/123781559/233691010-4084b953-9e8c-4bba-a037-1707da09d480.png">
-<img height="250" src="https://user-images.githubusercontent.com/123781559/233691063-9f2a06ed-5501-4581-9fb9-d77d06257d39.png">
+<img height="250" src="images/18_CAM_in_FreeCAD_Path_workbench.png">
+<img height="250" src="images/19_CAM_in_FreeCAD_Path_workbench.png">
 </p>
 
 
@@ -256,7 +256,7 @@ Es gibt bestimmte Bereiche, in denen das Fräswerkzeug mit einer anderen Geschwi
 Ab welcher Höhe die Sicherheitshöhe beginnt und mit welcher Geschwindigkeit sich der Fräser oberhalb dieser Höhe bewegen soll, kann in der CAM-Software eingestellt werden.
 
 <p align="center">
-<img height="400" src="https://user-images.githubusercontent.com/123781559/233691132-4b9651e5-beb2-4071-8475-5cbf4eae72bd.png">
+<img height="400" src="images/20_FreeCAD_Path_workbench_Visual_reference_for_Depth_properties.png">
 </p>
 
 
@@ -277,8 +277,8 @@ Es gibt viele unterschiedliche Bearbeitungsarten, die man in CAM-Systemen als ei
 Operationen werden in der CAD/CAM-Software als Pfade (engl. "Path") angelegt und sichtbar gemacht. Anhand der visualisierten Pfade kann man bereits erkennen, welchen Weg das Fräswerkzeug nehmen wird.
 
 <p align="center">
-<img height="350" src="https://user-images.githubusercontent.com/123781559/233691233-ffcd7bdb-982f-4f83-97f9-7e19545b5e62.png">
-<img height="350" src="https://user-images.githubusercontent.com/123781559/233691332-96c767ad-e786-4668-a330-ffea015f7636.png">
+<img height="350" src="images/21_FreeCAD_Path_workbench_Profile_operation.png">
+<img height="350" src="images/22_FreeCAD_Path_workbench_Pocket_operation.png">
 </p>
 
 
@@ -288,8 +288,8 @@ Operationen werden in der CAD/CAM-Software als Pfade (engl. "Path") angelegt und
 </p>
 
 <p align="center">
-<img height="350" src="https://user-images.githubusercontent.com/123781559/233691428-f2fa0dd5-54d3-489a-863b-40f37615784a.png">
-<img height="350" src="https://user-images.githubusercontent.com/123781559/233691467-edc4197a-1843-42ab-8df7-a78c20f94bc1.png">
+<img height="350" src="images/23_FreeCAD_Path_workbench_with_holding_tags.png">
+<img height="350" src="images/24_FreeCAD_Path_workbench_Helix_operation.png">
 </p>
 
 
@@ -307,8 +307,8 @@ Wird ein Teil vollständig vom Werkstück getrennt, also ein Profil oder eine ä
 Haltestege lassen sich im CAM-System einstellen. Im Endergebnis befinden sich die Haltestege am untersten Ende des Werkstücks und sind relativ schmal und flach, sodass sie sich leicht durchtrennen lassen.
 
 <p align="center">
-<img height="400" src="https://user-images.githubusercontent.com/123781559/233691502-92ef4333-3a83-4c76-8fd9-594705c1a1c5.png">
-<img height="400" src="https://user-images.githubusercontent.com/123781559/233691548-05b920a4-3c86-4c36-9861-23633f01910e.png">
+<img height="400" src="images/25_FreeCAD_Path_workbench_simulation_with_holding_tags.png">
+<img height="400" src="images/26_FreeCAD_Path_workbench_simulation_with_holding_tags.png">
 </p>
 
 
@@ -318,8 +318,8 @@ Haltestege lassen sich im CAM-System einstellen. Im Endergebnis befinden sich di
 </p>
 
 <p align="center">
-<img height="350" src="https://user-images.githubusercontent.com/123781559/233691645-35fdbcc8-f000-46a8-a162-1b9a8897606f.png">
-<img height="350" src="https://user-images.githubusercontent.com/123781559/233691744-48c2a0af-bd04-4fd2-9251-9a49acbb94ab.png">
+<img height="350" src="images/27_Holding_tags_CNC_milled_aluminium.png">
+<img height="350" src="images/28_Holding_tags_CNC_milled_wood.png">
 </p>
 
 
@@ -349,7 +349,7 @@ CNC-Maschinen sind potenziell gefährliche Maschinen und sollten nie ohne Einwei
 Ein relativ großer Aufwand beim CNC-Fräsen steckt in der Vorbereitung mit der CAM-Software. Hat man alle Operationen und CAM-Pfade definiert, sollte eine Simulation durchgeführt werden. Die meisten CAM-Programme verfügen über eine Simulationsfunktion, bei der der vollständige Fräsvorgang dargestellt wird, ähnlich wie bei einem Video, wobei man während der Simulation die 3D-Ansicht frei drehen kann.
 
 <p align="center">
-<img height="350" src="https://user-images.githubusercontent.com/123781559/233691827-28757bab-7727-4dfc-970f-e3b94805c32b.png">
+<img height="350" src="images/29_FreeCAD_Path_workbench_CAM_simulation.png">
 </p>
 
 
