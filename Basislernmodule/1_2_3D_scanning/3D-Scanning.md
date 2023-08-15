@@ -28,8 +28,8 @@ Im Kontext von Fab Labs und Maker-Communities werden 3D-Scanning-Methoden vor al
 Je nach eingesetztem 3D-Scanning-Verfahren entstehen entweder farblose bzw. einfarbige 3D-Modelle - d.h. es wird nur die Oberfläche des Objekts erfasst - oder farbige Modelle, die die Farben und Struktur des Objekts bzw. der Person miterfassen und als Textur über das 3D-Modell legen, womit ein relativ realistisches Abbild des realen Objekts entsteht.
 
 <p align="center">
-<img height="300" src="https://user-images.githubusercontent.com/123781559/232573839-2a60efcd-1d19-43b5-934a-9644e1083767.png">
-<img height="300" src="https://user-images.githubusercontent.com/123781559/232574065-b30cc3ab-1199-429a-abef-8f90b29614d7.png">
+<img height="300" src="images/1_3D_selfie.png">
+<img height="300" src="images/2_3D_scanning_MeshLab_example.png">
 </p>
 
 <p align="center">
@@ -38,7 +38,7 @@ Je nach eingesetztem 3D-Scanning-Verfahren entstehen entweder farblose bzw. einf
 </p>
 
 <p align="center">
-<img height="300" src="https://user-images.githubusercontent.com/123781559/232574355-a680ec69-fe0d-4a2a-b58b-52b01cec991d.png">
+<img height="300" src="images/3_Photogrammetry_with_camera.png">
 </p>
 
 <p align="center">
@@ -71,8 +71,8 @@ Beim Einsatz mehrerer Kameras können diese in verschiedenen Winkeln um das Obje
 Eine Software erkennt Unterschiede und Gemeinsamkeiten in den Bildern, findet die gleichen Punkte auf verschiedenen Bildern wieder und berechnet die jeweilige Position eines jeden Punktes im dreidimensionalen Raum. Aus diesen Positionsdaten wird ein 3D-Modell der Oberfläche generiert, zudem können die Farbpunkte (Pixel) der einzelnen Fotografien als Textur über das 3D-Modell gelegt werden.
 
 <p align="center">
-<img height="300" src="https://user-images.githubusercontent.com/123781559/232574726-eefc93d9-9240-421c-abd6-4f93a5e2630e.png">
-<img height="300" src="https://user-images.githubusercontent.com/123781559/232574911-d9acbe8a-1010-412c-8ddd-97494dc96e26.png">
+<img height="300" src="images/4_Photogrammetry_Meshroom.png">
+<img height="300" src="images/5_Photogrammetry_Meshroom2Blender.png">
 </p>
 
 <p align="center">
@@ -88,8 +88,8 @@ Geräte für 3D-Scanning gibt es in unterschiedlichen Ausführungen, z.B. als ha
 Vor allem für 3D-Selfies von Personen oder Menschengruppen gibt es Kabinen, die mit einer großen Anzahl an Kameras ausgestattet sind, die die Personen aus allen Richtungen erfassen. Da alle Kameras gleichzeitig ausgelöst werden, geht diese Methode sehr schnell und die abgelichteten Personen müssen nur sehr kurz still halten. 
 
 <p align="center">
-<img height="400" src="https://user-images.githubusercontent.com/123781559/232575098-8473ed19-b6c8-4e8e-af00-245dc7894233.png">
-<img height="400" src="https://user-images.githubusercontent.com/123781559/232575197-5f7dff6e-8a42-46e3-b097-15342a86c488.png">
+<img height="400" src="images/6_Handheld_3D_Scanner.png">
+<img height="400" src="images/7_3D_selfie_cabin.png">
 </p>
 
 <p align="center">
@@ -109,8 +109,8 @@ Bei vielen 3D-Scanning-Methoden muss das 3D-Modell noch in einer Software nachbe
 Je nach Verfahren liegt das Modell zunächst entweder als Polygonnetz oder als Punktwolke vor und muss mit Software zu einem sauberen Modell zusammengefügt, bereinigt und geglättet werden.
 
 <p align="center">
-<img height="250" src="https://user-images.githubusercontent.com/123781559/232575391-389fbc70-ea43-47b8-b610-0d5352c50ab8.png">
-<img height="250" src="https://user-images.githubusercontent.com/123781559/232575680-9bba06e9-f6f0-4622-aa7c-1532a2931c89.png">
+<img height="250" src="images/8_Polygon_Mesh_Dolphin_example.png">
+<img height="250" src="images/9_Point_Cloud_Tux_example.png">
 </p>
 
 <p align="center">
@@ -144,7 +144,7 @@ Hat man ein 3D-gescanntes Modell bereinigt und in ein 3D-druckbares Format über
 Möchte man eine sehr detaillierte 3D-Druck-Figur mit vielen Farben und hoher Genauigkeit der Oberflächenoptik erhalten, reicht ein einfacher FDM-3D-Drucker (FDM = Fused Deposition Modeling, mehr dazu [hier](../2_1_3D_printing/3D-Druck.md)) nicht aus. Kommerzielle Anbieter von 3D-Selfies nutzen meist eine andere 3D-Druck-Technologie: Binder Jetting, auch als Freistrahl-Bindemittelauftrag bezeichnet. Bei diesem 3D-Druck-Verfahren wird ein Pulver mit flüssigem Bindemittel aufgetragen und verbunden. Die entstehenden Figuren haben oft eine an Sandstein erinnernde Optik, zudem eine große Farbenvielfalt und Detailtreue.
 
 <p align="center">
-<img height="300" src="https://user-images.githubusercontent.com/123781559/232575862-4d60903d-628e-4b3d-9325-f3003ae366ce.png">
+<img height="300" src="images/10_3D_printed_3D_selfie.png">
 </p>
 
 <p align="center">
