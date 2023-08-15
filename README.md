@@ -48,5 +48,5 @@ See best practices for [attribution](https://wiki.creativecommons.org/wiki/Best_
 </p>
 
 <p align="left">
-<img height="150" src="https://user-images.githubusercontent.com/123781559/234627928-979489c8-5a37-41e5-b0d6-ae08dab592ef.png">
+<img height="150" src="Open_Educational_Resources_Logo.png">
 </p>
