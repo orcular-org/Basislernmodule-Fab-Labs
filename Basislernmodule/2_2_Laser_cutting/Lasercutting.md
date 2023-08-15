@@ -252,7 +252,7 @@ Der wichtigste Unterschied zwischen **Lasercutting und 3D-Druck** ist, dass Lase
 </p>
 
 <p align="center">
-<a href="#s16">[16]</a> <i> Beispiel für Unterschiede in der Geschwindigkeit bei 3D-Druck vs. Lasercutting: Das 3D-Drucken der Teile (obere beide Bilder) hat insgesamt ca. 2,5 Stunden gedauert - das Lasercutting (Bild unten links) nur ca. 12 Minuten. </i>
+<a href="#s16">[16]</a> <i> Beispiel für Unterschiede in der Geschwindigkeit bei 3D-Druck vs. Lasercutting: Das 3D-Drucken der Teile (obere zwei Bilder) hat insgesamt ca. 2,5 Stunden gedauert - das Lasercutting (Bild unten links) nur ca. 12 Minuten. </i>
 </p>
 
 
