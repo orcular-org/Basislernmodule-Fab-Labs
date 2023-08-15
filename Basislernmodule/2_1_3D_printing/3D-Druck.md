@@ -35,8 +35,8 @@ Es gibt kleine, relativ günstige 3D-Drucker für zu Hause oder für Fab Labs, d
 
 
 <p align="center">
-       <img height="400" src="https://user-images.githubusercontent.com/123781559/227555108-ebd86be8-9850-4ab8-94d8-15be34ee5be7.png">
-       <img height="400" src="https://user-images.githubusercontent.com/123781559/227562019-978eda65-88b7-49d7-b66e-72f8941ae146.png">
+       <img height="400" src="images/1_3D_Printer_Open_Source_Hardware.png">
+       <img height="400" src="images/2_Prusa_3D_Printer.png">
 </p>
 
 <p align="center">
@@ -46,8 +46,8 @@ Es gibt kleine, relativ günstige 3D-Drucker für zu Hause oder für Fab Labs, d
 
 
 <p align="center">
-       <img height="300" src="https://user-images.githubusercontent.com/123781559/228344847-ec0f3dfa-57fd-4b9f-8b2a-cdafccb589ca.png">
-       <img height="300" src="https://user-images.githubusercontent.com/123781559/228344985-73ceffa9-d48f-4804-a34a-712ae6ad6995.png">
+       <img height="300" src="images/3_BigFDM_3D_Printer.png">
+       <img height="300" src="images/4_3D_printing_buildings.png">
 </p>
 
 <p align="center">
@@ -64,8 +64,8 @@ FDM steht für "Fused Deposition Modeling". Das bedeutet, ein Stoff, meistens ei
 
 
 <p align="center">
-       <img height="400" src="https://user-images.githubusercontent.com/123781559/228348704-86426b52-4b1d-4f8c-a432-14c66ffa2119.png">
-       <img height="400" src="https://user-images.githubusercontent.com/123781559/228352600-c652c874-372b-4f5d-9970-316e3557aa9b.png">
+       <img height="400" src="images/5_3D_printing.png">
+       <img height="400" src="images/6_Visible_layers_on_3D_printed_object.png">
 </p>
 
 <p align="center">
@@ -79,8 +79,8 @@ Daher zählt man 3D-Druck auch zu den sogenannten "additiven Verfahren", da Obje
 Mit FDM-3D-Druckern können z.B. dekorative Objekte wie Figuren oder Vasen, kleine Spielzeuge, personalisierte Namensschilder und Schlüsselanhänger, Modelle für Demonstrationszwecke (z.B. von Maschinen oder Gebäuden), Ersatzteile für bestehende Produkte (z.B. Schubladengriffe oder drehbare Knöpfe für Musikanlagen), Alltagshelfer wie Handtuchhaken oder Funktionsteile wie Gehäuse für Elektronikgeräte, Flaschenöffner oder sogar Bauteile für 3D-Drucker gedruckt werden.
 
 <p align="center">
-<img height="300" src="https://user-images.githubusercontent.com/123781559/228950513-8ab76058-957e-4ce9-8508-2e45329b62c0.png">
-<img height="300" src="https://user-images.githubusercontent.com/123781559/228950645-b1502905-6c1c-4f3a-8d73-a67f2cd63270.png">
+<img height="300" src="images/7_3D_printed_speaker_casing.png">
+<img height="300" src="images/8_3D_printed_jet_engine_turbine_model.png">
 </p>
 
 <p align="center">
@@ -89,8 +89,8 @@ Mit FDM-3D-Druckern können z.B. dekorative Objekte wie Figuren oder Vasen, klei
 </p>
 
 <p align="center">
-<img height="300" src="https://user-images.githubusercontent.com/123781559/228954408-7558e95f-a85c-470c-960a-92e0bbfa1bd8.png">
-<img height="300" src="https://user-images.githubusercontent.com/123781559/228954649-96d65f57-c056-4b25-830b-e36800b428ae.png">
+<img height="300" src="images/9_3D_printing_a_yarn_bowl.png">
+<img height="300" src="images/10_3D_printed_objects.png">
 </p>
 
 <p align="center">
@@ -99,9 +99,9 @@ Mit FDM-3D-Druckern können z.B. dekorative Objekte wie Figuren oder Vasen, klei
 </p>
 
 <p align="center">
-<img height="230" src="https://user-images.githubusercontent.com/123781559/228958699-f2e9ea4c-5c8e-4902-9ec7-268f865793ee.png">
-<img height="230" src="https://user-images.githubusercontent.com/123781559/228958805-1750d640-9f1c-4cec-bde2-bc2d8b1c51ff.png">
-<img height="230" src="https://user-images.githubusercontent.com/123781559/228958899-5732f5e3-24c7-4530-bb69-c3214c4cdb74.png">
+<img height="230" src="images/11_3D_printed_object.png">
+<img height="230" src="images/12_3D_printed_object.png">
+<img height="230" src="images/13_3D_printed_object.png">
 </p>
 
 <p align="center">
@@ -119,8 +119,8 @@ Mit FDM-3D-Druckern können z.B. dekorative Objekte wie Figuren oder Vasen, klei
 Das Grundmaterial, das man für einen FDM-3D-Drucker benötigt, nennt sich Filament. Ein Filament ist ein dünner Kunststoffdraht, der auf eine Rolle gewickelt ist.
 
 <p align="center">
-<img height="300" src="https://user-images.githubusercontent.com/123781559/228964087-d6a8c22b-640f-4da6-9847-7d67378b6798.png">
-<img height="300" src="https://user-images.githubusercontent.com/123781559/228964181-d73f73c3-8ba2-49a9-9cdd-4f701e3b1ab0.png">
+<img height="300" src="images/14_Filament_for_3D_printing.png">
+<img height="300" src="images/15_Filament_for_3D_printing.png">
 </p>
 
 <p align="center">
@@ -150,7 +150,7 @@ Filamente werden meistens in den Durchmesser-Varianten 1,75 mm und 2,85 mm verka
 Gewöhnliche 3D-Drucker können nur mit einem Filament zurzeit drucken, d.h. wenn man in einer anderen Farbe oder mit einem anderen Material drucken möchte, muss man die Filamentrolle wechseln. Es gibt aber auch 3D-Drucker, die mit zwei oder mehr Filamenten auf einmal drucken können. So können mehrfarbige Objekte oder auch Objekte aus verschiedenen Materialien gedruckt werden, z.B. indem das Stützmaterial (mehr dazu siehe unten, Abschnitt [Stützmaterial](#stützmaterial-und-brücken)) aus einem leicht entfernbaren Material und das eigentliche Objekt aus einem stabilen Material gedruckt wird.
 
 <p align="center">
-<img height="400" src="https://user-images.githubusercontent.com/123781559/228966443-6117228a-d488-49cc-9fb7-bca371345b53.png">
+<img height="400" src="images/16_3D_printing_color_mixing.png">
 </p>
 
 <p align="center">
@@ -162,7 +162,7 @@ Gewöhnliche 3D-Drucker können nur mit einem Filament zurzeit drucken, d.h. wen
 Zunächst sollte man sich mit dem grundlegenden Aufbau eines FDM-3D-Druckers vertraut machen. Hier wird beispielhaft ein typischer FDM-3D-Drucker beschrieben. Die meisten FDM-Drucker sind auf diese oder ähnliche Weise aufgebaut. Je nach Hersteller und Modell kann dieser Aufbau auch abweichen, aber die Grundprinzipien bleiben die gleichen.
 
 <p align="center">
-       <img height="500" src="https://user-images.githubusercontent.com/123781559/228371509-65427cdb-5a2f-43db-bab9-18c349bc308e.png">
+       <img height="500" src="images/17_Die_wichtigsten_Komponenten_eines_3D-Druckers.png">
 </p>
 
 <p align="center">
@@ -172,8 +172,8 @@ Zunächst sollte man sich mit dem grundlegenden Aufbau eines FDM-3D-Druckers ver
 Die wichtigste Komponente ist der Extruder, den man sich ähnlich wie einen "Druckkopf" bei Tintenstrahldruckern vorstellen kann.
 
 <p align="center">
-<img height="300" src="https://user-images.githubusercontent.com/123781559/231214463-7300d3b7-f7c8-4ef1-835b-832cdd675ac4.png">
-<img height="300" src="https://user-images.githubusercontent.com/123781559/231214586-2137f3f7-d4fa-4cc6-8046-e9be2a258ec0.png">
+<img height="300" src="images/18_Extruder.png">
+<img height="300" src="images/19_Extruder.png">
 </p>
 
 <p align="center">
@@ -196,8 +196,8 @@ Die X- und Y-Achse beziehen sich in der Regel auf Bewegungen in der horizontalen
 - Y-Achse: "vorne und hinten"
 
 <p align="center">
-       <img height="400" src="https://user-images.githubusercontent.com/123781559/228372124-5b5fd75e-29c4-4cda-bc98-a285a9d389b2.png">
-       <img height="400" src="https://user-images.githubusercontent.com/123781559/228372187-d8ed1539-0d39-43ea-b18e-60b2039fb0be.png">
+       <img height="400" src="images/20_X-_Y-_and_Z-axis_3D_printer.png">
+       <img height="400" src="images/21_Top_view_3D_printer_with_X-_and_Y-axis.png">
 </p>
 
 <p align="center">
@@ -213,7 +213,7 @@ Die Z-Achse hingegen bezieht sich auf die vertikale (senkrechte) Bewegung:
 <br>
 
 <p align="center">
-       <img height="400" src="https://user-images.githubusercontent.com/123781559/228372746-eb115280-5621-4a70-bccf-280dc9de1353.png">
+       <img height="400" src="images/22_Front_view_3D_printer_with_X-_and_Z-axis.png">
 </p>
 
 <p align="center">
@@ -241,7 +241,7 @@ Manchmal kann es notwendig sein, einen 3D-Drucker erneut zu kalibrieren, z.B. na
 Zunächst braucht man ein digitales 3D-Modell des Objekts, das man drucken möchte. Solche 3D-Modelle kann man entweder selbst modellieren/designen (z.B. mit einer CAD-Software) oder man lädt sich ein fertiges Modell aus dem Internet. Die meisten Modelldateien sind auch klein genug, um z.B. per E-Mail verschickt zu werden. Eine weitere Möglichkeit, ein 3D-Modell zu erstellen, besteht im 3D-Scannen eines realen Objekts oder einer Person.
 
 <p align="center">
-<img height="400" src="https://user-images.githubusercontent.com/123781559/231223723-82e3d49e-2547-459c-ad68-068bcb5e983a.png">
+<img height="400" src="images/23_3D_CAD_model_part_FreeCAD.png">
 </p>
 
 <p align="center">
@@ -270,7 +270,7 @@ Manche kleinere Hersteller von 3D-Druckern nutzen auch Slicer-Programme der grö
 In der Slicer-Software sieht man eine Vorschau des Heizbetts sowie der importierten 3D-Objekte. Mit der Software lassen sich die zu druckenden 3D-Objekte vervielfältigen (um ein Objekt gleich mehrmals zu drucken), virtuell im Raum bewegen, drehen, skalieren (vergrößern/verkleinern), und in gewünschte Positionen auf dem Heizbett platzieren.
 
 <p align="center">
-<img height="400" src="https://user-images.githubusercontent.com/123781559/231225892-91ae9e6e-60d9-4985-a746-0d75631386c3.png">
+<img height="400" src="images/24_Slicing_in_PrusaSlicer.png">
 </p>
 
 <p align="center">
@@ -290,8 +290,8 @@ Nachdem man die STL-Datei(en) im Slicer importiert, korrekt gedreht, ausgerichte
 Slicing (von englisch „slice“ = Scheibe) ist ein Ablauf in der Software, der das 3D-Objekt in viele dünne Scheiben (slices) unterteilt, die übereinander geschichtet sind. Die Scheiben haben dabei genau die Höhe bzw. Dicke, die man eingestellt hat, z.B. 0,15 mm (dieser Parameter wird meistens als „Schichthöhe“ oder englisch „layer height“ bezeichnet). Eine Schicht ist also quasi nur „2D“, während die aufeinandergestapelten Schichten zusammen ein 3D-Objekt ergeben.
   
 <p align="center">
-<img height="340" src="https://user-images.githubusercontent.com/123781559/231289616-610e09a9-8198-4fc3-82aa-3d009fdc7b99.png">
-<img height="340" src="https://user-images.githubusercontent.com/123781559/231227964-e6d9f173-5828-4e47-8245-025ed0141fdc.png">
+<img height="340" src="images/25_Slicing_in_PrusaSlicer.png">
+<img height="340" src="images/26_Slicing_in_PrusaSlicer_visible_layers.png">
 </p>
 
 <p align="center">
@@ -306,8 +306,8 @@ Außerdem werden beim Slicing auch Stützmaterialien generiert, sofern man welch
 Nach ausgeführtem Slicing empfiehlt es sich, den Druckablauf zu prüfen. Die meisten Slicer bieten eine Vorschau- bzw. Simulationsfunktion an. Damit kann man sich die verschiedenen Schichten (von der ersten, untersten Schicht bis zur letzten ganz oben) einzeln ansehen und auch den Verlaufsweg des Extruders innerhalb einer jeden Schicht anzeigen lassen.
 
 <p align="center">
-<img height="350" src="https://user-images.githubusercontent.com/123781559/231230669-11a2e5bb-27ca-406f-80df-aaeadde64d8b.png">
-<img height="350" src="https://user-images.githubusercontent.com/123781559/231230687-ba466471-1fb5-4a9d-9184-15513a43e678.png">
+<img height="350" src="images/27_Slicing_simulation_infill_in_PrusaSlicer.png">
+<img height="350" src="images/28_Slicing_simulation_infill_in_PrusaSlicer.png">
 </p>
 
 <p align="center">
@@ -328,7 +328,7 @@ Der von der Slicer-Software generierte G-Code muss an den 3D-Drucker übertragen
 Da beim 3D-Druck stets Material aufeinandergeschichtet werden muss, kann es Probleme geben, wenn ein Objekt sogenannte Überhänge hat. Ein 3D-Drucker kann nicht „in der Luft“ drucken. Eine zu druckende Wand muss daher idealerweise im 90°-Winkel nach oben ragen, wobei je nach Material auch Schrägen möglich sind (meistens in Winkeln von mindestens 45°). Die Ränder der Schichten überlappen sich dann ein wenig.
 
 <p align="center">
-<img height="400" src="https://user-images.githubusercontent.com/123781559/231237520-44af31e4-83dc-4b5d-8b13-a84a15cea35e.png">
+<img height="400" src="images/29_Layer_angle_minimum_45_degrees_3D_printing.png">
 </p>
 
 <p align="center">
@@ -336,8 +336,8 @@ Da beim 3D-Druck stets Material aufeinandergeschichtet werden muss, kann es Prob
 </p>
 
 <p align="center">
-<img height="350" src="https://user-images.githubusercontent.com/123781559/231262464-72dd29d8-2bf0-4287-aeb1-8fb7f66ad6d3.png">
-<img height="350" src="https://user-images.githubusercontent.com/123781559/231262498-2cadc795-e7a6-4308-b73d-f9e4768bcd7c.png">
+<img height="350" src="images/30_3D_printing_object_45_degree_angle_PrusaSlicer.png">
+<img height="350" src="images/31_3D_printing_object_45_degree_angle_PrusaSlicer.png">
 </p>
 
 <p align="center">
@@ -350,7 +350,7 @@ Da beim 3D-Druck stets Material aufeinandergeschichtet werden muss, kann es Prob
 Größere Überhänge sind jedoch nicht möglich. Oft lässt sich dieses Problem lösen, indem man das Objekt in der Slicer-Software in eine günstigere Position dreht. Viele Slicer verfügen über eine Funktion, bei der man nur eine Oberfläche des Objekts anklicken muss, auf die es „gelegt“ werden soll.
 
 <p align="center">
-<img height="400" src="https://user-images.githubusercontent.com/123781559/231267207-d3abbc50-cd72-4855-b2fa-4f09f9d2fde3.png">
+<img height="400" src="images/32_Flipping_object_in_PrusaSlicer_for_better_3D_printing.png">
 </p>
 
 <p align="center">
@@ -361,7 +361,7 @@ Größere Überhänge sind jedoch nicht möglich. Oft lässt sich dieses Problem
 Bei komplexer geformten Objekten kann es sein, dass es keine überhangfreie Drehposition gibt. In dem Fall kann man in der Slicer-Software automatisch sogenanntes Stützmaterial generieren lassen. Dieses Stützmaterial ist größtenteils hohl und lässt sich nach dem 3D-Druck meistens relativ leicht entfernen, z.B. mit den Fingern oder mit einer Zange.
 
 <p align="center">
-<img height="400" src="https://user-images.githubusercontent.com/123781559/231269120-b3aa2e5a-f668-4734-a817-5a4bc9b2ce56.png">
+<img height="400" src="images/33_Support_material_3D_printing.png">
 </p>
 
 <p align="center">
@@ -372,7 +372,7 @@ Bei komplexer geformten Objekten kann es sein, dass es keine überhangfreie Dreh
 Zudem können manche 3D-Drucker und Slicer auch sogenannte Brücken drucken, wenn die Voraussetzungen stimmen. Bei einer Brücke spannt der Extruder Fäden von einer Seite eines Sockels zur anderen. Eine nur einseitig befestigte und am anderen Ende frei in der Luft hängende "Brücke" ist nicht möglich. Zudem darf eine Brücke nicht zu lang bzw. der Abstand zwischen den Sockeln nicht zu groß sein, da der Faden beim Drucken sonst zu wenig Spannung hat und herunterhängt. Für kurze Distanzen sind Brücken aber eine sehr gute Möglichkeit, um ohne Stützmaterial „in der Luft“ zu drucken.
 
 <p align="center">
-<img height="400" src="https://user-images.githubusercontent.com/123781559/231270536-47aa3b98-7e93-41ae-9f14-c63984b7f1ac.png">
+<img height="400" src="images/34_Bridging_3D_printing_PrusaSlicer.png">
 </p>
 
 <p align="center">
@@ -387,8 +387,8 @@ Meistens ist es gar nicht notwendig, ein komplett massives Kunststoffteil zu dru
 Ein Infill von z.B. 15 % (üblicher Standardwert) bedeutet, dass das Objekt zu 15% mit Material gefüllt ist, während die restlichen 85 % hohl bzw. mit Luft gefüllt sind. Für die meisten 3D-Druck-Vorhaben reicht das vollkommen aus. Somit wiegt das Objekt weniger, es wird in kürzerer Zeit gedruckt und es wird weniger Material verbraucht als bei einem massiven Objekt (Infill 100%). Je nach Bedarf kann ein niedriger oder auch ein höherer Infill-Wert eingestellt werden, z.B. wenn das Objekt starke Belastungen aushalten soll.
 
 <p align="center">
-<img height="350" src="https://user-images.githubusercontent.com/123781559/231274669-ce1fc5f2-1b33-4dd6-a743-5b1384c512b8.png">
-<img height="350" src="https://user-images.githubusercontent.com/123781559/231274846-3f1a59d6-1904-4776-84f2-ac12ee6be783.png">
+<img height="350" src="images/35_Infill_3D_printing_UltiMaker_Cura_slicer.png">
+<img height="350" src="images/36_Infill_3D_printing.png">
 </p>
 
 <p align="center">
@@ -411,7 +411,7 @@ Beim Start eines 3D-Druck-Auftrags wird der 3D-Drucker üblicherweise zunächst 
 Danach wird eine wenige Zentimeter lange Linie am Rand des Heizbetts gedruckt, die sogenannte „intro line“ oder „purge line“ (engl. purge = reinigen). Dieser Vorgang dient der „Spülung“ der Düse und stellt sicher, dass die Düse voll mit zähflüssigem Filament gefüllt, gut durchflutet und bereit zum Drucken ist. Würde der 3D-Drucker die purge line weglassen und direkt mit dem Druck des Objekts beginnen, könnte es sein, dass zu Beginn noch kein Filament herauskommt oder dass es nur sehr ungleichmäßig heraustritt.
 
 <p align="center">
-<img height="400" src="https://user-images.githubusercontent.com/123781559/231279149-0d816436-0c5a-4ce7-841a-6cb67fe9a45a.png">
+<img height="400" src="images/37_Purge_line_3D_printing.png">
 </p>
 
 <p align="center">
@@ -423,7 +423,7 @@ Danach wird eine wenige Zentimeter lange Linie am Rand des Heizbetts gedruckt, d
 Anschließend wird meist, falls so eingestellt, eine Außenlinie um die Fläche herum gedruckt, wo die Objekte entstehen sollen. Diese sogenannte „Schürze“ (engl. „skirt“) vermittelt gleich zu Beginn des Drucks einen Eindruck von der Größe der zu druckenden Objekte. Zudem kann man an der Schürze bereits früh erkennen, ob das Material gut haftet und ob keine Probleme in der Qualität erkennbar sind, um den Druck an der Stelle im Zweifel noch abbrechen zu können.
 
 <p align="center">
-<img height="400" src="https://user-images.githubusercontent.com/123781559/231280914-673540b8-6d43-4d43-ac21-7403f314c2bd.png">
+<img height="400" src="images/38_Skirt_3D_printing.png">
 </p>
 
 <p align="center">
@@ -439,8 +439,8 @@ Bei manchen Materialien kann es hilfreich sein, zusätzlich einen Rand (engl. �
 Nach dem Drucken von Schürze und Rand wird die erste Schicht des Objekts gedruckt. Diese sollte man genau beobachten. Stellt man fest, dass die erste Schicht unsauber ausgeführt ist, z.B. wenn das Filament an einigen Stellen nicht richtig haftet (zu erkennen an kleinen Erhebungen in der Schicht), sollte man den Druck an dieser Stelle abbrechen, das bereits gedruckte Material entfernen, das Heizbett reinigen bzw. die Z-Achse neu kalibrieren und den Druck neu starten.
 
 <p align="center">
-<img height="300" src="https://user-images.githubusercontent.com/123781559/231281848-0418b2c1-a7d3-4319-855d-fcf984df0e4c.png">
-<img height="300" src="https://user-images.githubusercontent.com/123781559/231281880-e13b9e86-3d65-4556-96aa-e4b1b79bf8a1.png">
+<img height="300" src="images/39_First_layer_3D_printing.png">
+<img height="300" src="images/40_First_layer_3D_printing.png">
 </p>
 
 <p align="center">
