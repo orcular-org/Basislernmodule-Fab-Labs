@@ -46,10 +46,10 @@ Je nachdem, welche Rechte man einräumen möchte, gibt es verschiedene CC-Rechte
 
 | Icon | Kürzel | Name des Moduls | Kurzerklärung |
 | - | - | - | - | 
-| ![grafik](https://user-images.githubusercontent.com/123781559/230212615-f0b3ad27-7d9d-4357-8f32-0e1271283adc.png) | BY | Namensnennung (englisch: Attribution) | Der Name des Urhebers muss genannt werden. |
-| ![grafik](https://user-images.githubusercontent.com/123781559/230212445-145da283-a17d-4477-a13e-1e97dddce196.png) | NC | Nicht kommerziell (Non-Commercial) | Das Werk darf nicht für kommerzielle Zwecke verwendet werden. |
-| ![grafik](https://user-images.githubusercontent.com/123781559/230212738-d262c0dd-6128-42a6-ba9b-cb8b340e49e8.png) | ND | Keine Bearbeitung (No Derivatives) | Das Werk darf nicht verändert werden. |
-| ![grafik](https://user-images.githubusercontent.com/123781559/230212948-7e388c5f-6524-4d21-89db-a1a8bc15f52c.png) | SA | Weitergabe unter gleichen Bedingungen (Share Alike) | Das Werk muss nach Veränderungen unter der gleichen Lizenz weitergegeben werden. |
+| ![grafik](images/1_BY.png) | BY | Namensnennung (englisch: Attribution) | Der Name des Urhebers muss genannt werden. |
+| ![grafik](images/2_NC.png) | NC | Nicht kommerziell (Non-Commercial) | Das Werk darf nicht für kommerzielle Zwecke verwendet werden. |
+| ![grafik](images/3_ND.png) | ND | Keine Bearbeitung (No Derivatives) | Das Werk darf nicht verändert werden. |
+| ![grafik](images/4_SA.png) | SA | Weitergabe unter gleichen Bedingungen (Share Alike) | Das Werk muss nach Veränderungen unter der gleichen Lizenz weitergegeben werden. |
 
 <p align="center"> <i> Rechtemodule bei Creative Commons - Tabelle von: https://de.wikipedia.org/wiki/Creative_Commons#Die_Rechtemodule - <a href="https://creativecommons.org/licenses/by-sa/3.0/">(CC BY-SA 3.0)</a> </i> </p>
 
