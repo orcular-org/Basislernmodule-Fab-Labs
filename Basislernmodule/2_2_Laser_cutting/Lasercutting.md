@@ -37,8 +37,8 @@ Lasercutting (engl. für Laserschneiden) ist ein Prozess, bei dem ein Laserstrah
 Zu schneidende Werkstücke dürfen nicht zu dick sein, in der Regel verwendet man einige Millimeter dicke Platten. Gravuren können auch auf dickere Objekte gelasert werden, solange sie in die Höhenbegrenzung der Maschine passen. So lassen sich z.B. auch Möbel, Küchenbretter oder Stifte mit Holzgriff gravieren.
 
 <p align="center">
-<img height="350" src="https://user-images.githubusercontent.com/123781559/232886906-2b0516b5-e2f8-43c1-b33a-f38e4ceff766.png">
-<img height="350" src="https://user-images.githubusercontent.com/123781559/232887094-2e0b53a2-2a1c-4bab-8f83-27e4b55df318.png">
+<img height="350" src="images/1_Laser_cutting_wood.png">
+<img height="350" src="images/2_Laser_engraving_wood.png">
 </p>
 
 <p align="center">
@@ -52,8 +52,8 @@ Es gibt eine Vielzahl an unterschiedlichen Lasercuttern, die sich vor allem in i
 Lasercutter, die man typischerweise in einem Fab Lab vorfindet, haben meistens einen Bearbeitungsraum von ca. 30 x 20 cm bis 70 x 40 cm. Zum Vergleich: ein DIN-A3-Format (typische Größe einer Holzplatte für Lasercutting) misst ca. 42 x 30 cm, passt also gut in die meisten Lasercutter. Die Leistung des Lasers liegt meistens zwischen 30 und 60 Watt. Mit derartigen Lasercuttern kann man z.B. dünne Platten aus Holz, Kunststoff, transparentem Acrylglas, Textil, Leder oder Pappe schneiden und gravieren. Zum Schneiden von Metallen (z.B. Aluminium oder Stahl) reicht die Leistung dieser Mittelklasse-Geräte in der Regel nicht aus, aber Gravuren auf Metall lassen sich damit durchaus realisieren.
 
 <p align="center">
-<img height="350" src="https://user-images.githubusercontent.com/123781559/232887249-917c1e14-d710-45a9-81b2-607d06f83f0a.png">
-<img height="350" src="https://user-images.githubusercontent.com/123781559/232887523-0d2947a3-46b6-44ef-9324-a4bdf81aac06.png">
+<img height="350" src="images/3_Fabulaser_Open_Source_Hardware_Laser_cutter.png">
+<img height="350" src="images/4_Laser_cutter_fab_lab.png">
 </p>
 
 <p align="center">
@@ -69,7 +69,7 @@ Ein Lasercutter benötigt in der Regel eine digitale Grafikdatei als Eingabe, di
 Mit Lasercutting lassen sich z.B. Namensschilder, Bilder, Aufsteller, Deko-Artikel oder Schmuck herstellen. Auch mehrteilige Produkte wie Aufbewahrungsboxen, kleine Schubladen, Spar- oder Spendendosen, Spielzeuge, Brettspiele, Puzzles oder Gehäuse für Elektronikprodukte lassen sich mit Lasercutting realisieren. Die besondere Stärke von Lasergravur liegt in der Herstellung von personalisierten oder individuellen Produkten, z.B. mit Namen, Portraits oder Logos.
 
 <p align="center">
-<img height="400" src="https://user-images.githubusercontent.com/123781559/232887683-79bac157-2e5f-4063-bbb9-62c9aebea5c8.png">
+<img height="400" src="images/5_Laser_cut_and_engraved_objects.png">
 </p>
 
 <p align="center">
@@ -96,8 +96,8 @@ Hier eine Übersicht einiger beliebter und gut geeigneter Materialien für Laser
 - **Metalle:** In Industrie- und Handwerksbetrieben gibt es Maschinen, die Metallbleche laserschneiden können. Da Lasercutter dieser Art sehr teuer sind, findet man sie eher selten in Fab Labs. Ein typischer Fab-Lab-Lasercutter kann jedoch durchaus Gravuren in Metall (z.B. Aluminium oder Stahl) einbringen.
 
 <p align="center">
-<img height="350" src="https://user-images.githubusercontent.com/123781559/232887903-f8a80480-672f-4ae3-8b55-b0ae406a2f40.png">
-<img height="350" src="https://user-images.githubusercontent.com/123781559/232888119-774131f4-e9b3-4698-9fab-9205365e5df1.png">
+<img height="350" src="images/6_Laser_cut_and_engraved_acrylic_and_wood.png">
+<img height="350" src="images/7_Laser_cut_and_engraved_plywood.png">
 </p>
 
 <p align="center">
@@ -106,7 +106,7 @@ Hier eine Übersicht einiger beliebter und gut geeigneter Materialien für Laser
 </p>
 
 <p align="center">
-<img height="400" src="https://github.com/orcular-org/Basislernmodule-Fab-Labs/assets/123781559/ae536e98-243e-480b-9871-1631598e6164">
+<img height="400" src="images/8_Laser_cutting_metal.png">
 </p>
 
 <p align="center">
@@ -147,8 +147,8 @@ Möchte man jedoch davon abweichen oder ein bisher unerprobtes Material (für da
 Im Internet finden sich auch Testkarten, die für solche Materialtests entwickelt wurden. Dabei testet der Lasercutter in einem Durchlauf unterschiedliche Einstellungen aus. Anhand der fertig gelaserten Testkarte kann man dann das Ergebnis begutachten und die idealen Werte ablesen.
 
 <p align="center">
-<img height="350" src="https://user-images.githubusercontent.com/123781559/232888601-b3d153c7-662e-42b4-b776-b1aa0019e08f.png">
-<img height="350" src="https://user-images.githubusercontent.com/123781559/232888742-ab3c51c5-2cb4-4273-bf27-508a721bb4eb.png">
+<img height="350" src="images/9_Laser_cutting_test_card.png">
+<img height="350" src="images/10_Laser_engraving_test_card.png">
 </p>
 
 <p align="center">
@@ -166,7 +166,7 @@ Auch wenn die Schnittbreite mit bloßem Auge kaum erkennbar ist - sie ist oft nu
 Um eine Vorstellung von der Schnittbreite zu bekommen, kann man ein lasergeschnittenes Teil oder Loch mit einem Messschieber ausmessen und den Messwert mit dem Wert in der Vektorgrafik vergleichen - man wird feststellen, dass es leichte Abweichungen gibt. Anhand der Differenz zwischen gezeichneter und gemessener Länge kann man die Schnittbreite ermitteln. Diesen Wert kann man dann beim Zeichnen der Vektorgrafik als Schnittlinienversatz berücksichtigen.
 
 <p align="center">
-<img height="300" src="https://user-images.githubusercontent.com/123781559/232889054-b2d2e741-0d6c-40d8-a18a-d612963b078c.png">
+<img height="300" src="images/11_Laser_cut_designed_vs_measured_length.png">
 </p>
 
 <p align="center">
@@ -189,7 +189,7 @@ Raster- und Vektorgrafiken lassen sich vor allem über zwei Methoden leicht unte
   - **Vektorgrafiken** haben Dateiformate wie SVG, DXF, AI oder unter gewissen Bedingungen auch PDF.
 
 <p align="center">
-<img height="300" src="https://user-images.githubusercontent.com/123781559/232889275-3816b17f-51b8-4cb2-b40a-68ef523d48e0.png">
+<img height="300" src="images/12_Vektorgrafik_vs_Rastergrafik.png">
 </p>
 
 <p align="center">
@@ -204,8 +204,8 @@ Für Gravuren hingegen können auch Rastergrafiken verwendet werden. Der Laser f
 Dateiformate wie SVG können auch eine Kombination aus Vektorgrafik und Rastergrafik enthalten, wobei Vektorlinien geschnitten und Rastergrafiken graviert werden - sofern man nicht etwas anderes einstellt.
 
 <p align="center">
-<img height="350" src="https://user-images.githubusercontent.com/123781559/232889543-af48bce3-4681-4354-bf58-ad318124a6e8.png">
-<img height="350" src="https://user-images.githubusercontent.com/123781559/232889651-64524d0c-464b-42c1-a9f5-965b5e5d2b23.png">
+<img height="350" src="images/13_Example_svg_file_vector_graphics_for_laser_cutting_and_engraving.png">
+<img height="350" src="images/14_Laser_cut_and_engraved_plywood.png">
 </p>
 
 <p align="center">
@@ -219,7 +219,7 @@ In manchen Programmen ist es auch möglich, die Reihenfolge der Laserschnitte fe
 <a name="abb15"></a>
 
 <p align="center">
-<img height="400" src="https://user-images.githubusercontent.com/123781559/232889919-69bfe4ad-a968-4bf7-ab65-e2895b727d72.png">
+<img height="400" src="images/15_Example_svg_file_vector_graphics_for_laser_cutting.png">
 </p>
 
 <p align="center">
@@ -248,7 +248,7 @@ Viele Lasercutter nutzen die kostenlose Open-Source-Software Visicut (https://vi
 Der wichtigste Unterschied zwischen **Lasercutting und 3D-Druck** ist, dass Lasercutting in der Regel deutlich schneller abläuft als 3D-Druck. 3D-Drucke können oft mehrere Stunden dauern, während Lasercut-Teile oft in wenigen Minuten fertig sind. Je nach Form und Komplexität kann sich dies im Einzelfall aber natürlich auch ganz anders verhalten. Bevor man also ein Teil 3D-druckt, lohnt es sich, zu überlegen, ob man es auch mit Lasercutting realisieren kann, sofern Form und Material dies zulassen (mehr zum Thema im [Basislernmodul 3D-Druck](../2_1_3D_printing/3D-Druck.md)).
 
 <p align="center">
-<img height="400" src="https://user-images.githubusercontent.com/123781559/232890083-9332c566-ed05-4482-950a-a7bc693cfeb9.png">
+<img height="400" src="images/16_3D_printing_and_laser_cutting_orcuCar_Orcular.png">
 </p>
 
 <p align="center">
@@ -264,8 +264,8 @@ Auch zwischen **Lasercutting und CNC-Fräsen** gibt es typische Unterschiede. W�
 Eine beliebte Anwendung von Lasercutting besteht in Stecksystemen - vor allem für Holzplatten. Dabei werden mehrere Teile so geformt, dass sie rechtwinklig zueinander gesteckt werden können. Eine Möglichkeit besteht darin, einen Zapfen in ein eckiges Loch zu stecken. Eine andere Methode ist der Einsatz von zinnenartigen Rändern, womit sich ganze Boxen oder ähnliche Strukturen zusammenstecken lassen.
 
 <p align="center">
-<img height="300" src="https://user-images.githubusercontent.com/123781559/232890336-3351a5b7-50a6-4386-98dc-8461c93a388c.png">
-<img height="300" src="https://user-images.githubusercontent.com/123781559/232890424-ff274293-e489-4056-9edf-c291aaab14c1.png">
+<img height="300" src="images/17_Laser_cut_box_push-fit_system.png">
+<img height="300" src="images/18_Vector_graphics_for_laser_cut_box_push-fit_system.png">
 </p>
 
 <p align="center">
@@ -291,7 +291,7 @@ Zudem lassen sich auf diese Weise Produkte entwerfen, die nicht nur Lasercut-Tei
 Viele CAD-Programme (z.B. FreeCAD) verfügen über Tools, mit denen man die 3D-modellierten Teile für das Lasercutting auf eine 2D-Ebene projizieren und als Vektorgrafik exportieren kann, die man dann für Lasercutting verwenden kann.
 
 <p align="center">
-<img height="400" src="https://user-images.githubusercontent.com/123781559/232898338-72487889-f694-4bbf-8754-6ebd9ca7c126.png">
+<img height="400" src="images/19_3D_CAD_designed_product_laser_cutting_3D_printing_FreeCAD_orcuCar_Orcular.png">
 </p>
 
 <p align="center">
@@ -305,8 +305,8 @@ Eine beliebte Technik im Lasercut-Design nennt sich "living hinge" (engl. für "
 Ein living hinge lässt sich mit Lasercutting herstellen, indem viele, sehr eng aneinander liegende und leicht versetzte Schnittlinien in die Platte geschnitten werden. Die Platte wird dadurch sehr flexibel und lässt sich an der Stelle leicht biegen. Dies geht vor allem mit dünnen Holzplatten gut. Man kann es für Scharnierfunktionen, z.B. für Deckel von Truhen, verwenden oder man nutzt es, um abgerundete Kanten zu erzeugen.
 
 <p align="center">
-<img height="350" src="https://user-images.githubusercontent.com/123781559/232891365-84b83858-738b-4ca2-b872-fe60662b681f.png">
-<img height="350" src="https://user-images.githubusercontent.com/123781559/232891483-17aed9f6-99eb-4e24-a110-5a0bf6ed408d.png">
+<img height="350" src="images/20_Laser_cut_box_living_hinge.png">
+<img height="350" src="images/21_Laser_cut_wood_living_hinge.png">
 </p>
 
 <p align="center">
