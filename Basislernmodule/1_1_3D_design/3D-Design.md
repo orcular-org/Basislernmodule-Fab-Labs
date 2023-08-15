@@ -26,8 +26,8 @@ Es gibt verschiedene Software, mit denen man digitale 3D-Modelle zeichnen bzw. m
 Je nach Anwendungszweck gibt es Programme mit unterschiedlichen Schwerpunkten und Funktionen. Zum Modellieren von Bauteilen für technische Produkte wird in der Regel CAD-Software benutzt (CAD = Computer Aided Design; engl. für „Computergestütztes Entwerfen“). Andererseits gibt es auch 3D-Grafikprogramme, die einen eher künstlerischen Schwerpunkt haben, z.B. für komplex geformte Figuren, die für 3D-Druck, Produktdesign, aber auch z.B. für 3D-Animationsfilme verwendet werden können.
 
 <p align="center">									
-<img height="300" src="https://user-images.githubusercontent.com/123781559/230741949-fb767a24-7d64-41e1-ac21-6c8ee098d404.png">									
-<img height="300" src="https://user-images.githubusercontent.com/123781559/230742006-6dc72ee1-34d6-4eee-affc-183329d7f9eb.png">																	
+<img height="300" src="images/1_CAD_FreeCAD_Example.png">									
+<img height="300" src="images/2_Blender_example.png">																	
 </p>									
 									
 <p align="center">									
@@ -50,9 +50,9 @@ Beim Erstellen eines 3D-Modells – bei CAD spricht man von „modellieren“ od
 Dabei startet man üblicherweise mit dem Zeichnen einer 2D-Skizze, die aus Punkten, Linien, Kurven und geometrischen Formen wie Kreisen oder Sechsecken besteht. Mit Bemaßungen kann man die Skizzenelemente exakt definieren, z.B. Länge von Linien oder Kreisdurchmesser millimetergenau festlegen. Durch sogenannte Abhängigkeiten kann man beispielsweise festlegen, dass zwei Linien parallel oder gleich lang sein sollen. Als nächster Schritt wird diese 2D-Skizze zu einem 3D-Objekt mit festgelegter Dicke „aufgepolstert“ (engl. "Pad") oder um eine Achse rotiert wird, um einen Drehkörper (engl. "Revolution") zu erstellen. Aufbauend auf diesem Objekt können weitere Elemente hinzugefügt werden, etwa durch weitere 2D-Skizzen und Aufpolsterung/Drehung, durch Abziehen von Teilen (z.B. für Löcher, Bohrungen oder Taschen (engl. "Pocket")), durch Vervielfältigung von Elementen oder Abrundung von Kanten.
 
 <p align="center">
-[3] <img height="130" src="https://user-images.githubusercontent.com/123781559/230787254-ebd619b0-d32e-4870-903f-1376d1a02625.png"> <br>
-[4] <img height="130" src="https://user-images.githubusercontent.com/123781559/230787339-42671cf1-cdf9-4c2b-b961-447bfd418588.png"> <br>
-[5] <img height="130" src="https://user-images.githubusercontent.com/123781559/230787386-b8406c93-b49e-456c-8611-8e90f8bf9391.png">
+[3] <img height="130" src="images/3_FreeCAD_PartDesign_Pad.png"> <br>
+[4] <img height="130" src="images/4_FreeCAD_PartDesign_Revolution.png"> <br>
+[5] <img height="130" src="images/5_FreeCAD_PartDesign_Pocket.png">
 </p>
 
 <p align="center">
@@ -63,8 +63,8 @@ Dabei startet man üblicherweise mit dem Zeichnen einer 2D-Skizze, die aus Punkt
 
 
 <p align="center">
-<img height="300" src="https://user-images.githubusercontent.com/123781559/230790441-ef7c1deb-014a-4441-9c7d-ffd4dde279f8.png">
-<img height="300" src="https://user-images.githubusercontent.com/123781559/230790464-0a6f5112-d468-457e-9855-ff1a709c298a.png">
+<img height="300" src="images/6_FreeCAD_Sketch.png">
+<img height="300" src="images/7_FreeCAD_PartDesign_example.png">
 </p>
 
 <p align="center">
@@ -76,7 +76,7 @@ Dabei startet man üblicherweise mit dem Zeichnen einer 2D-Skizze, die aus Punkt
 Viele CAD-Programme enthalten auch Funktionen zum Erstellen von technischen Maßzeichnungen. Dabei wird das Bauteil zunächst in 3D modelliert und anschließend aus verschiedenen Blickrichtungen auf eine 2D-Zeichnung projiziert. Diese Ansichten können auf einem Blatt angeordnet, mit Bemaßungen sowie weiteren Informationen versehen und ausgedruckt werden. Dies ist hilfreich für Teile, die man nicht mit digitalen Fertigungsmethoden herstellen möchte, sondern mit konventionellen Werkzeugen, z.B. Zuschneiden und Bohren von Holzbrettern oder Aluminiumprofilen.
 
 <p align="center">
-<img height="400" src="https://user-images.githubusercontent.com/123781559/230791093-6e675d05-3405-4e3e-82ef-5ad42a848693.png">
+<img height="400" src="images/8_FreeCAD_Drawing_TechDraw.png">
 </p>
 
 <p align="center">
@@ -115,8 +115,8 @@ FreeCAD enthält viele unterschiedliche Programm-Module (sogenannte „Workbench
 **FreeCAD-Wiki:** https://wiki.freecad.org/ - In deutscher Sprache (teilweise unvollständig): https://wiki.freecad.org/Main_Page/de
 
 <p align="center">
-<img height="300" src="https://user-images.githubusercontent.com/123781559/230791448-53b14b55-1f3d-4dbe-b351-d9323aa8fb55.png">
-<img height="300" src="https://user-images.githubusercontent.com/123781559/230791596-5868e09f-cb26-4cc5-9ead-c20ae9d21017.png">
+<img height="300" src="images/9_FreeCAD_UI.png">
+<img height="300" src="images/10_FreeCAD_example.png">
 </p>
 
 <p align="center">
@@ -136,8 +136,8 @@ Aufgrund seiner klaren und verständlichen Bedienbarkeit gilt Fusion 360 als ver
 **Registrierung und Download für Privatanwender:innen:** https://www.autodesk.de/products/fusion-360/personal
 
 <p align="center">
-<img height="300" src="https://user-images.githubusercontent.com/123781559/230791930-d1f61b09-237b-4588-8795-999f708b8deb.png">
-<img height="300" src="https://user-images.githubusercontent.com/123781559/230791949-6f1ebd53-2d95-4a97-b80d-a833959c66ae.png">
+<img height="300" src="images/11_Autodesk_Fusion_360_example.png">
+<img height="300" src="images/12_Autodesk_Fusion_360_example.png">
 </p>
 
 <p align="center">
@@ -156,8 +156,8 @@ Dabei kommen oft sogenannte Sculpting-Werkzeuge zum Einsatz, womit sich 3D-Objek
 Weitere Funktionen von 3D-Grafikprogrammen sind z.B. die Texturierung, Animation (für Animationsfilme oder Videospiele) und Rendering, z.B. zur Inszenierung eines Objekts oder Produkts in einer bestimmten Umgebung und Belichtung in einer sogenannten Szene. Viele 3D-Grafikprogramme können die Modelle als STL-Datei exportieren, womit sie sich 3D-drucken lassen.
 
 <p align="center">
-<img height="250" src="https://user-images.githubusercontent.com/123781559/231005150-ca68ab7e-513b-40cb-82b2-33b35e3654b9.png">
-<img height="250" src="https://user-images.githubusercontent.com/123781559/231005186-7ccdc655-0b44-4dec-8165-c06afcf1d2dd.png">
+<img height="250" src="images/13_Blender_sculpting_example.png">
+<img height="250" src="images/14_Blender_rendering_example.png">
 </p>
 
 <p align="center">
@@ -178,8 +178,8 @@ Blender ist eine 3D-Grafiksuite, die als „Free and open-source software“, al
 **Download:** https://www.blender.org/
 
 <p align="center">
-<img height="300" src="https://user-images.githubusercontent.com/123781559/231006876-84ec1b88-3213-4acb-aa66-78d41b9b0e7c.png">
-<img height="300" src="https://user-images.githubusercontent.com/123781559/231006928-30bffb9e-e718-43ac-859c-dd5a61bf99b8.png">
+<img height="300" src="images/15_Blender_UI.png">
+<img height="300" src="images/16_Blender_sculpting_example.png">
 </p>
 
 <p align="center">
@@ -200,8 +200,8 @@ Tinkercad gehört, so wie auch Fusion 360, zu dem Unternehmen Autodesk und setzt
 **Registrierung und Anwendung:** https://www.tinkercad.com/
 
 <p align="center">
-<img height="250" src="https://user-images.githubusercontent.com/123781559/231008608-c820e2b9-f7bf-4537-8ea6-02873cda1bb3.png">
-<img height="250" src="https://user-images.githubusercontent.com/123781559/231008650-cef97389-a24c-4b71-ac55-2ee98d7ae5d4.png">
+<img height="250" src="images/17_Tinkercad_UI_Browser.png">
+<img height="250" src="images/18_Tinkercad_example.png">
 </p>
 
 <p align="center">
