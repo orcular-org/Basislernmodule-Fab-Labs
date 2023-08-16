@@ -2,6 +2,8 @@
 
 This article is still being translated into **Ukrainian**.
 
+Links in this article may not work at the moment. Find the other articles [in this folder](/Basislernmodule) and its subfolders (Ukrainian article templates have "UA" in the file name).
+
 To do:
 - Edit file
 - Replace text by Ukrainian translation
