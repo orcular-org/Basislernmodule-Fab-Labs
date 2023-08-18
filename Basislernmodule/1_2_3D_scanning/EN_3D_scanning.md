@@ -114,9 +114,9 @@ Especially for 3D selfies of people or groups of people, there are booths that a
 
 ### Post processing
 
-Bei vielen 3D-Scanning-Methoden muss das 3D-Modell noch in einer Software nachbearbeitet werden, bevor es z.B. für 3D-Druck verwendet werden kann.
+With many 3D scanning methods, the 3D model still has to be processed in software before it can be used for 3D printing, for example.
 
-Je nach Verfahren liegt das Modell zunächst entweder als Polygonnetz oder als Punktwolke vor und muss mit Software zu einem sauberen Modell zusammengefügt, bereinigt und geglättet werden.
+Depending on the process, the model is initially available either as a polygon mesh or as a point cloud and must be put together, cleaned and smoothed into a clean model using software.
 
 <p align="center">
 <img height="250" src="images/8_Polygon_Mesh_Dolphin_example.png">
@@ -124,8 +124,8 @@ Je nach Verfahren liegt das Modell zunächst entweder als Polygonnetz oder als P
 </p>
 
 <p align="center">
-<a href="#s8">[8]</a> <i> Beispiel für ein Polygonnetz - </i>
-<a href="#s9">[9]</a> <i> Beispiel für eine Punktwolke (erstellt per Photogrammetrie) </i>
+<a href="#s8">[8]</a> <i> Example of a polygon mesh - </i>
+<a href="#s9">[9]</a> <i> Example of a point cloud (created by photogrammetry) </i>
 </p>
 
 
