@@ -24,9 +24,9 @@ To do:
      - [Blender](#blender)
      - [Tinkercad](#tinkercad) 
 
-[Lizenzinformationen](#lizenzinformationen)
+[License information](#lizenzinformationen)
 
-[Bildnachweise](#bildnachweise)
+[Image references](#bildnachweise)
 
 
 ## Introduction
@@ -219,7 +219,7 @@ Tinkercad gehört, so wie auch Fusion 360, zu dem Unternehmen Autodesk und setzt
 <a href="#s18">[18]</a> <i> 3D-Design eines Messschiebers in Tinkercad </i>
 </p>
 
-# Lizenzinformationen
+# License information
 
 **Author:** Oskar Lidtke, https://github.com/orcular-org/
 
@@ -230,7 +230,7 @@ See best practices for [attribution](https://wiki.creativecommons.org/wiki/Best_
 For attribution and licenses of the images used, see the section below.
 
 
-# Bildnachweise
+# Image references
 
 <a name="s1"></a>
 **[1]** Gsuter.png (cropped) - **Image license:** [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/) - **Source:** https://wiki.freecad.org/File:Gsuter.png
