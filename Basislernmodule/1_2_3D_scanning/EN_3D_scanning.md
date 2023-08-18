@@ -8,28 +8,28 @@ To do:
 - Commit changes
 - When done, remove this note
 
-> Zurück zur [Übersicht Basislernmodule](../../README.md)
+> Back to [basic learning modules overview](../../translations/EN_Readme.md)
 
-# 3D-Scanning
+# 3D scanning
 
-## Inhalt
+## Contents
 
-1. [Einführung](#einführung)
-2. [Verfahren und Technologien](#verfahren-und-technologien)
-   - [Laserscanning](#laserscanning)
-   - [Photogrammetrie](#photogrammetrie)
-   - [Gerätetypen](#gerätetypen)
-3. [Verarbeitung eines gescannten 3D-Modells](#verarbeitung-eines-gescannten-3d-modells)
-   - [Nachbearbeitung](#nachbearbeitung)
+1. [Introduction](#introduction)
+2. [Processes and technologies](#verfahren-und-technologien)
+   - [Laser scanning](#laserscanning)
+   - [Photogrammetry](#photogrammetry)
+   - [Device types](#gerätetypen)
+3. [Processing of a scanned 3D model](#verarbeitung-eines-gescannten-3d-modells)
+   - [Post processing](#nachbearbeitung)
    - [Software](#software)
    - [Hardware](#hardware)
-   - [3D-Druck von 3D-gescannten Modellen](#3d-druck-von-3d-gescannten-modellen)
+   - [3D printing from 3D scanned models](#3d-druck-von-3d-gescannten-modellen)
 
-[Lizenzinformationen](#lizenzinformationen)
+[License information](#license-information)
 
-[Bildnachweise](#bildnachweise)
+[Image references](#image-references)
 
-## Einführung
+## Introduction
 
 3D-Scanning bezeichnet verschiedene Verfahren, bei denen die Oberflächen von real vorhandenen Objekten, Personen oder Umgebungen mit speziellen Geräten derart erfasst werden, dass ein digitales 3D-Modell davon entsteht. 3D-Scanning wird in vielen Bereichen eingesetzt, z.B. in der Filmindustrie, in der Gelände- und Gebäudevermessung oder in Form von Reverse Engineering, d.h. Reproduktion von vorhandenen technischen Bauteilen.
 
@@ -58,7 +58,7 @@ Je nach eingesetztem 3D-Scanning-Verfahren entstehen entweder farblose bzw. einf
 
 
 
-## Verfahren und Technologien
+## Processes and technologies
 
 Es gibt unterschiedliche 3D-Scanning-Verfahren, wovon im Hobby-Bereich und in Fab Labs vor allem zwei hervorzuheben sind:
 - Laserscanning
@@ -66,11 +66,11 @@ Es gibt unterschiedliche 3D-Scanning-Verfahren, wovon im Hobby-Bereich und in Fa
 
 Zudem gibt es auch Geräte, die eine Kombination aus Laserscanning und Photogrammetrie oder noch weiteren Methoden einsetzen.
 
-### Laserscanning
+### Laser scanning
 
 Beim Laserscanning werden die zu erfassenden Oberflächen zeilen- oder rasterartig mit einem Laserstrahl abgefahren. Die von der Oberfläche reflektierte Laserstrahlung trifft auf Sensoren, woraufhin aus den so gewonnenen Messdaten die jeweilige Entfernung und Position der gescannten Punkte berechnet wird. Aus diesen Daten erzeugt eine Software ein dreidimensionales Modell der Oberfläche.
 
-### Photogrammetrie
+### Photogrammetry
 
 Bei der Photogrammetrie wird das zu erfassende Objekt zunächst aus vielen verschiedenen Winkeln fotografiert, entweder mit einer einzelnen Kamera oder mit vielen Kameras gleichzeitig.
 
@@ -91,7 +91,7 @@ Eine Software erkennt Unterschiede und Gemeinsamkeiten in den Bildern, findet di
 </p>
 
 
-### Gerätetypen
+### Device types
 
 Geräte für 3D-Scanning gibt es in unterschiedlichen Ausführungen, z.B. als handgeführte Geräte, die man um das Objekt herumträgt, um es aus verschiedenen Winkeln zu erfassen. Es gibt auch Smartphone-Apps, mit denen man die Handykamera für Photogrammetrie-3D-Scanning nutzen kann. Die meisten guten Apps sind in der Regel kostenpflichtig oder nur in eingeschränktem Umfang kostenlos nutzbar.
 
@@ -110,9 +110,9 @@ Vor allem für 3D-Selfies von Personen oder Menschengruppen gibt es Kabinen, die
 
 
 
-## Verarbeitung eines gescannten 3D-Modells
+## Processing of a scanned 3D model
 
-### Nachbearbeitung
+### Post processing
 
 Bei vielen 3D-Scanning-Methoden muss das 3D-Modell noch in einer Software nachbearbeitet werden, bevor es z.B. für 3D-Druck verwendet werden kann.
 
@@ -147,7 +147,7 @@ Für Fab Labs und Maker gibt es u.a. folgende **Geräte und Hardware-Projekte** 
 
 Zudem gibt es auch professionelle Geräte, die jedoch sehr teuer sind und in der Regel nur von Unternehmen genutzt werden, doch auch manche Fab Labs verfügen über solche Geräte.
 
-### 3D-Druck von 3D-gescannten Modellen
+### 3D printing from 3D scanned models
 
 Hat man ein 3D-gescanntes Modell bereinigt und in ein 3D-druckbares Format überführt, z.B. STL (mehr dazu im [Basislernmodul 3D-Druck](../2_1_3D_printing/3D-Druck.md)), kann man es einfach mit einem FDM-3D-Drucker als einfarbiges Objekt ausdrucken. Bei Verwendung eines Mehrfarben-3D-Druckers kann auch eine mehrfarbige Figur gedruckt werden - mit einigen wenigen Farben und beschränkter Genauigkeit.
 
@@ -164,7 +164,7 @@ Möchte man eine sehr detaillierte 3D-Druck-Figur mit vielen Farben und hoher Ge
 
 Schließlich gibt es auch die Möglichkeit, eine einfarbig (möglichst weiß) gedruckte Figur aus dem FDM-3D-Drucker nachträglich zu bearbeiten und zu bemalen.
 
-# Lizenzinformationen
+# License information
 
 **Author:** Oskar Lidtke, https://github.com/orcular-org/
 
@@ -174,7 +174,7 @@ See best practices for [attribution](https://wiki.creativecommons.org/wiki/Best_
 
 For attribution and licenses of the images used, see the section below.
 
-# Bildnachweise
+# Image references
 
 <a name="s1"></a>
 **[1]** 3D selfie in 1-20 scale as received from Shapeways, the printer company for Madurodam's Fantasitron IMG 4557 FRD.jpg - **Image license:** [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/deed.en) - **Source:** https://commons.wikimedia.org/wiki/File:3D_selfie_in_1-20_scale_as_received_from_Shapeways,_the_printer_company_for_Madurodam%27s_Fantasitron_IMG_4557_FRD.jpg
