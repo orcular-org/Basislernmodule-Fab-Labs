@@ -83,19 +83,19 @@ You usually start by drawing a 2D sketch consisting of points, lines, curves and
 </p>
 
 
-Viele CAD-Programme enthalten auch Funktionen zum Erstellen von technischen Maßzeichnungen. Dabei wird das Bauteil zunächst in 3D modelliert und anschließend aus verschiedenen Blickrichtungen auf eine 2D-Zeichnung projiziert. Diese Ansichten können auf einem Blatt angeordnet, mit Bemaßungen sowie weiteren Informationen versehen und ausgedruckt werden. Dies ist hilfreich für Teile, die man nicht mit digitalen Fertigungsmethoden herstellen möchte, sondern mit konventionellen Werkzeugen, z.B. Zuschneiden und Bohren von Holzbrettern oder Aluminiumprofilen.
+Many CAD programs also contain functions for creating technical drawings (or engineering drawings). The component is first modeled in 3D and then projected onto a 2D drawing from different perspectives. These views can be arranged on a sheet, provided with dimensions and other information, and printed out. This is helpful for parts that you don't want to make with digital manufacturing methods, but with conventional tools, e.g. cutting and drilling wooden planks or aluminum profiles.
 
 <p align="center">
 <img height="400" src="images/8_FreeCAD_Drawing_TechDraw.png">
 </p>
 
 <p align="center">
-<a href="#s8">[8]</a> <i> Technische (Maß)zeichnung in FreeCAD </i>
+<a href="#s8">[8]</a> <i> Technical drawing (or engineering drawing) in FreeCAD </i>
 </p>
 
-Einige CAD-Programme verfügen über Funktionen für „parametrisches Design“. Dabei werden Bauteile nicht mit exakten Zahlenwerten bemaßt (z.B. 10 mm), sondern mit Parametern (z.B. mit „Länge“ oder „Durchmesser“). Mit einem parametrischen Modell können dann viele unterschiedliche Varianten des Bauteils generiert werden, so muss etwa eine Schraube nicht in jeder beliebigen Variante neu modelliert werden, sondern nur einmal als parametrisches Modell, wobei man z.B. die Parameter „Länge“ und „Durchmesser“ variiert und das jeweils erzeugte Schraubenmodell als Variante abspeichert. Parameter können auch mithilfe von Formeln verknüpft werden (z.B. „Länge = 2 x Durchmesser + 10 mm“).
+Some CAD programs have “parametric design” capabilities. Components are not dimensioned with exact numerical values (e.g. 10 mm), but with parameters (e.g. with "length" or "diameter"). With a parametric model, many different variants of the component can then be generated, for example a screw does not have to be remodeled in every variant, but only once as a parametric model, whereby the parameters "length" and "diameter" are varied, for example, and each screw model is saved as a variant. Parameters can also be linked using formulas (e.g. "length = 2 x diameter + 10 mm").
 
-Auf Videoportalen wie YouTube finden sich viele Video-Tutorials für das Erlernen von CAD-Modellierung. Manche Fab Labs bieten auch Workshops an. Grundlagen für einfache Modelle lassen sich relativ schnell erlernen, für komplexere CAD-Projekte und erweiterte Funktionen braucht es jedoch viel Einarbeitung und Übung.
+There are many video tutorials for learning CAD modeling on video portals such as YouTube. Some fab labs also offer workshops. The basics for simple models can be learned relatively quickly, but it takes a lot of training and practice for more complex CAD projects and advanced functions.
 
 
 ### File formats for CAD models
