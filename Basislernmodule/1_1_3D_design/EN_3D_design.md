@@ -137,13 +137,13 @@ FreeCAD contains many different program modules (so-called "workbenches") and fu
 
 #### Autodesk Fusion 360
 
-Fusion 360 ist eine von Autodesk entwickelte Software-Suite für CAD, CAM und weitere technische Anwendungen. Grundsätzlich ist Fusion 360 ein kostenpflichtiges Programm, es lässt sich jedoch unter bestimmten Bedingungen und mit eingeschränkter Funktionalität auch kostenlos nutzen. So muss man bei der Registrierung angeben, dass man Privatanwender:in ist („personal use“). Diese kostenlose „Hobby-Lizenz“ muss regelmäßig erneuert werden. Sobald man Projekte kommerziell nutzen möchte, ist man verpflichtet, eine Lizenz zu kaufen. Zudem stehen unter der kostenlosen Lizenz nicht alle Funktionen zur Verfügung. Die Bedingungen und Funktionen für kostenlose Nutzung können sich noch öfters ändern, die aktuellen Infos hierzu findet man auf der [Fusion-360-Webseite](https://www.autodesk.de/products/fusion-360/).
+Fusion 360 is a software suite developed by Autodesk for CAD, CAM and other technical applications. Basically, Fusion 360 is a paid program, but it can also be used free of charge under certain conditions and with limited functionality. When registering, you have to state that you will use the program for "personal use". This free "hobby license" must be renewed regularly. As soon as you want to use projects commercially, you are obliged to buy a license. In addition, not all functions are available under the free license. The conditions and functions for free use are subject to change, the latest information can be found on the [Fusion-360 website](https://www.autodesk.de/products/fusion-360/).
 
-Fusion 360 ist cloud-basiert, d.h. man benötigt eine Verbindung zum Internet und muss sich bei erster Benutzung mit seinen Kontodaten anmelden. Projektdateien werden online in einer Cloud von Autodesk gespeichert, können jedoch auch lokal heruntergeladen werden (z.B. als f3d-Datei). Falls keine Internetverbindung besteht, kann auch zeitweilig offline gearbeitet werden, die Dateien werden bei nächster Verbindung mit dem Internet synchronisiert. Die erstmalige Anmeldung muss jedoch online erfolgen.
+Fusion 360 is cloud-based, i.e. you need a connection to the internet and have to log in with your account details the first time you use it. Project files are stored online in an Autodesk cloud, but can also be downloaded locally (e.g. as an f3d file). If there is no internet connection, you can work offline for a while, the files will be synchronized the next time you connect to the internet. However, the first registration must be done online.
 
-Aufgrund seiner klaren und verständlichen Bedienbarkeit gilt Fusion 360 als vergleichsweise leicht erlernbare CAD-Software, was sie zu einem viel genutzten und beliebten Programm in Maker-Communities macht.
+Due to its clear and understandable usability, Fusion 360 is considered a comparatively easy-to-learn CAD software, which makes it a widely used and popular program in maker communities.
 
-**Registrierung und Download für Privatanwender:innen:** https://www.autodesk.de/products/fusion-360/personal
+**Registration and download for personal use:** https://www.autodesk.de/products/fusion-360/personal
 
 <p align="center">
 <img height="300" src="images/11_Autodesk_Fusion_360_example.png">
@@ -152,7 +152,7 @@ Aufgrund seiner klaren und verständlichen Bedienbarkeit gilt Fusion 360 als ver
 
 <p align="center">
 <a href="#s11">[11]</a> <i> </i>
-<a href="#s12">[12]</a> <i> Autodesk Fusion 360: Benutzeroberfläche</i>
+<a href="#s12">[12]</a> <i> Autodesk Fusion 360: User Interface</i>
 </p>
 
 
