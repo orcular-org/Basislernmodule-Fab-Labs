@@ -13,14 +13,14 @@ To do:
 # 3D-Design
 ## Inhalt
 
-1. [Einführung](#einf%C3%BChrung)
-2. [CAD-Software](#cad-software)
-   - [Dateiformate für CAD-Modelle](#dateiformate-f%C3%BCr-cad-modelle)
-   - [Beispiele für CAD-Software](#beispiele-f%C3%BCr-cad-software)
+1. [Introduction](#introduction)
+2. [CAD software](#cad-software)
+   - [File formats for CAD models](#dateiformate-f%C3%BCr-cad-modelle)
+   - [Examples of CAD software](#beispiele-f%C3%BCr-cad-software)
      - [FreeCAD](#freecad)
      - [Autodesk Fusion 360](#autodesk-fusion-360)
-3. [3D-Grafik- und Modellierungsprogramme](#3d-grafik--und-modellierungsprogramme)
-   - [Beispiele für 3D-Grafik- und 3D-Modellierungsprogramme](#beispiele-f%C3%BCr-3d-grafik--und-3d-modellierungsprogramme)
+3. [3D graphics and modeling programs](#3d-grafik--und-modellierungsprogramme)
+   - [Examples of 3D graphics and 3D modeling programs](#beispiele-f%C3%BCr-3d-grafik--und-3d-modellierungsprogramme)
      - [Blender](#blender)
      - [Tinkercad](#tinkercad) 
 
@@ -29,7 +29,7 @@ To do:
 [Bildnachweise](#bildnachweise)
 
 
-## Einführung
+## Introduction
 
 Es gibt verschiedene Software, mit denen man digitale 3D-Modelle zeichnen bzw. modellieren kann. Diese 3D-Modelle können anschließend z.B. für 3D-Druck, Lasercutting oder CNC-Fräsen genutzt werden.
 
@@ -49,7 +49,7 @@ Statt eigene 3D-Modelle zu erstellen, kann man auch fertige Modelle aus dem Inte
 
 Eine weitere Möglichkeit, ein 3D-Modell zu erstellen, besteht im 3D-Scanning. Damit lassen sich Gegenstände, Ersatzteile oder auch Personen einscannen und als 3D-Modell am Rechner abbilden. Mit etwas Nachbearbeitung lassen sich diese Modelle auch 3D-drucken (mehr dazu im [Basislernmodul zu 3D-Scanning](../1_2_3D_scanning/3D-Scanning.md)).
 
-## CAD-Software
+## CAD software
 
 CAD-Software wird in der Regel im technischen Bereich eingesetzt, z.B. im Maschinenbau, in der Architektur oder Elektrotechnik – bei Unternehmen für Produktentwicklung, Planung von Gebäuden und ähnlichen Bereichen. Aber auch für Hobby-Anwendungen, z.B. zum Designen von Objekten für 3D-Druck oder CNC-Fräsen, haben sich CAD-Programme bewährt.
 
@@ -98,7 +98,7 @@ Einige CAD-Programme verfügen über Funktionen für „parametrisches Design“
 Auf Videoportalen wie YouTube finden sich viele Video-Tutorials für das Erlernen von CAD-Modellierung. Manche Fab Labs bieten auch Workshops an. Grundlagen für einfache Modelle lassen sich relativ schnell erlernen, für komplexere CAD-Projekte und erweiterte Funktionen braucht es jedoch viel Einarbeitung und Übung.
 
 
-### Dateiformate für CAD-Modelle
+### File formats for CAD models
 
 Jede Software hat ihr eigenes Dateiformat für Projektdateien, z.B. haben Dateien in der Software "FreeCAD" die Dateiendung *.FCStd und Dateien in "Autodesk Fusion 360" die Endung *.f3d.
 Es gibt im CAD-Bereich aber zahlreiche unterschiedliche Dateiformate, die von unterschiedlichen CAD-Programmen erstellt und geöffnet werden können.
@@ -110,7 +110,7 @@ Plant man sein Produkt als Open Source Hardware zu veröffentlichen, ist es empf
 Ein weiteres wichtiges Dateiformat ist STL, vor allem für 3D-Druck. Praktisch jede bekannte CAD- oder 3D-Grafiksoftware kann 3D-Modelle im STL-Format exportieren, sodass man sie anschließend 3D-drucken kann (mehr dazu im [Basislernmodul 3D-Druck](../2_1_3D_printing/3D-Druck.md)).
 
 
-### Beispiele für CAD-Software
+### Examples of CAD software
 
 Hier eine Auswahl einiger beliebter CAD-Programme, die weitestgehend kostenlos nutzbar sind:
 
@@ -157,7 +157,7 @@ Aufgrund seiner klaren und verständlichen Bedienbarkeit gilt Fusion 360 als ver
 
 
 
-## 3D-Grafik- und Modellierungsprogramme
+## 3D graphics and modeling programs
 
 Im Gegensatz zu CAD-Programmen, die eher für technische Produktentwicklung genutzt werden, richten sich 3D-Grafikprogramme eher an künstlerische oder Design-bezogene Anwendungen, z.B. zum Gestalten von Figuren, Vasen, Gefäßen oder sonstigen, komplex gestalteten Formen.
 
@@ -177,7 +177,7 @@ Weitere Funktionen von 3D-Grafikprogrammen sind z.B. die Texturierung, Animation
 
 
 
-### Beispiele für 3D-Grafik- und 3D-Modellierungsprogramme
+### Examples of 3D graphics and 3D modeling programs
 
 Hier eine Auswahl einiger beliebter 3D-Grafik- und 3D-Modellierungsprogramme, die kostenlos nutzbar sind:
 
