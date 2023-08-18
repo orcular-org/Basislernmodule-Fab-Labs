@@ -1,12 +1,5 @@
-**Translation note:**
-
-This article is still being translated into **English**.
-
-To do:
-- Edit file
-- Replace text by English translation
-- Commit changes
-- When done, remove this note
+> **Translation note:**
+> This article was translated from German. The original German article can be found [here](3D-Design.md).
 
 > Back to [basic learning modules overview](../../translations/EN_Readme.md)
 
