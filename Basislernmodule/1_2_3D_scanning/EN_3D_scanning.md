@@ -31,11 +31,11 @@ To do:
 
 ## Introduction
 
-3D-Scanning bezeichnet verschiedene Verfahren, bei denen die Oberflächen von real vorhandenen Objekten, Personen oder Umgebungen mit speziellen Geräten derart erfasst werden, dass ein digitales 3D-Modell davon entsteht. 3D-Scanning wird in vielen Bereichen eingesetzt, z.B. in der Filmindustrie, in der Gelände- und Gebäudevermessung oder in Form von Reverse Engineering, d.h. Reproduktion von vorhandenen technischen Bauteilen.
+3D scanning refers to various processes in which the surfaces of real objects, people or environments are recorded with special devices in such a way that a digital 3D model is created. 3D scanning is used in many areas, e.g. in the film industry, in terrain and building surveying or in the form of reverse engineering, i.e. the reproduction of existing technical components.
 
-Im Kontext von Fab Labs und Maker-Communities werden 3D-Scanning-Methoden vor allem zum Erstellen von dreidimensionalen Personenmodellen (sogenannte "3D-Selfies"), zum Nachbilden von Figuren, Spielzeugen u.ä. sowie zur Reproduktion von Ersatzteilen eingesetzt. Aus den 3D-gescannten Modellen lassen sich in Fab Labs wieder reale Objekte fertigen, beispielsweise mit 3D-Druckern.
+In the context of fab labs and maker communities, 3D scanning methods are primarily used to create three-dimensional human models (so-called "3D selfies"), to replicate figures, toys, and the like, as well as for the reproduction of spare parts. Real objects can be produced from the 3D scanned models in fab labs, for example with 3D printers.
 
-Je nach eingesetztem 3D-Scanning-Verfahren entstehen entweder farblose bzw. einfarbige 3D-Modelle - d.h. es wird nur die Oberfläche des Objekts erfasst - oder farbige Modelle, die die Farben und Struktur des Objekts bzw. der Person miterfassen und als Textur über das 3D-Modell legen, womit ein relativ realistisches Abbild des realen Objekts entsteht.
+Depending on the 3D scanning method used, either colorless (monochrome) 3D models are created - i.e. only the surface of the object is captured - or colored models that capture the colors and structure of the object or person and overlay them as a texture on the 3D model, creating a relatively realistic image of the real object.
 
 <p align="center">
 <img height="300" src="images/1_3D_selfie.png">
@@ -43,8 +43,8 @@ Je nach eingesetztem 3D-Scanning-Verfahren entstehen entweder farblose bzw. einf
 </p>
 
 <p align="center">
-<a href="#s1">[1]</a> <i> 3D-Selfie: Personenmodell, erstellt über 3D-Scanning und 3D-Druck - </i>
-<a href="#s2">[2]</a> <i> 3D-gescanntes Modell einer Statue, dargestellt in der Software MeshLab </i>
+<a href="#s1">[1]</a> <i> 3D selfie: Person model created via 3D scanning and 3D printing - </i>
+<a href="#s2">[2]</a> <i> 3D scanned model of a statue rendered in MeshLab software </i>
 </p>
 
 <p align="center">
@@ -52,7 +52,7 @@ Je nach eingesetztem 3D-Scanning-Verfahren entstehen entweder farblose bzw. einf
 </p>
 
 <p align="center">
-<a href="#s3">[3]</a> <i> Photogrammetrie: Eine 3D-Scanning-Methode unter Verwendung einer Fotokamera </i>
+<a href="#s3">[3]</a> <i> Photogrammetry: A 3D scanning method using a photo camera </i>
 </p>
 
 
