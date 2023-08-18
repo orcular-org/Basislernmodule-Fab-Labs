@@ -15,18 +15,18 @@ To do:
 
 1. [Introduction](#introduction)
 2. [CAD software](#cad-software)
-   - [File formats for CAD models](#dateiformate-f%C3%BCr-cad-modelle)
-   - [Examples of CAD software](#beispiele-f%C3%BCr-cad-software)
+   - [File formats for CAD models](#file-formats-for-cad-models)
+   - [Examples of CAD software](#examples-of-cad-software)
      - [FreeCAD](#freecad)
      - [Autodesk Fusion 360](#autodesk-fusion-360)
-3. [3D graphics and modeling programs](#3d-grafik--und-modellierungsprogramme)
-   - [Examples of 3D graphics and 3D modeling programs](#beispiele-f%C3%BCr-3d-grafik--und-3d-modellierungsprogramme)
+3. [3D graphics and modeling programs](#3d-graphics-and-modeling-programs)
+   - [Examples of 3D graphics and 3D modeling programs](#examples-of-3d-graphics-and-3d-modeling-programs)
      - [Blender](#blender)
      - [Tinkercad](#tinkercad) 
 
-[License information](#lizenzinformationen)
+[License information](#license-information)
 
-[Image references](#bildnachweise)
+[Image references](#image-references)
 
 
 ## Introduction
