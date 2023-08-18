@@ -8,7 +8,7 @@ To do:
 - Commit changes
 - When done, remove this note
 
-> Zurück zur [Übersicht Basislernmodule](../../README.md)
+> Back to [basic learning modules overview](../../translations/EN_Readme.md)
 
 # 3D design
 ## Contents
@@ -201,13 +201,13 @@ Blender is a 3D graphics suite released as "Free and open-source software". The 
 
 #### Tinkercad
 
-Tinkercad ist eine kostenlose, im Browser ausgeführte Web-App, die man für 3D-Design, aber auch für Elektronik und Programmierung einsetzen kann. Sie ist relativ einfach in der Bedienung und richtet sich in erster Linie an Kinder, Jugendliche und den Einsatz im Schulunterricht. Aber auch für Erwachsene, die sich nicht die Mühe machen wollen, ein komplexes CAD- oder 3D-Grafikdesignprogramm zu erlernen, ist Tinkercad interessant.
+Tinkercad is a free, browser-based web app that can be used for 3D design, but also for electronics and programming. It is relatively easy to use and is primarily aimed at children, young people and use in school lessons. But Tinkercad is also interesting for adults who don't want to go through the trouble of learning a complex CAD or 3D graphic design program.
 
-Auch wenn scheinbar "CAD" im Namen "Tinkercad" steckt, wäre es etwas unpassend, Tinkercad als CAD-Programm zu bezeichnen. Tinkercad eignet sich zwar gut für die Erstellung von einfachen 3D-Modellen, das System stößt jedoch schnell an seine Grenzen, sobald man etwas komplexere technische Produkte oder 3D-Figuren entwickeln möchte. Die Software ist eher auf einfache Bedienung als auf Funktionalität ausgerichtet, daher unterscheidet sich der Ablauf im Modellieren auch grundsätzlich von gängigen CAD-Programmen. STL-Export für 3D-Druck ist mit Tinkercad möglich.
+Although Tinkercad appears to have "CAD" in its name, calling Tinkercad a CAD program would be a bit inappropriate. Although Tinkercad is good for creating simple 3D models, the system quickly reaches its limits as soon as you want to develop more complex technical products or 3D figures. The software is more geared towards simple operation than functionality, which is why the modeling process differs fundamentally from common CAD programs. STL export for 3D printing is possible with Tinkercad.
 
-Tinkercad gehört, so wie auch Fusion 360, zu dem Unternehmen Autodesk und setzt die Registrierung eines (kostenlosen) Benutzer:innen-Kontos voraus. Es muss jedoch keine Software heruntergeladen oder installiert werden, die Anwendung läuft direkt im Browser.
+Like Fusion 360, Tinkercad belongs to the Autodesk company and requires the registration of a (free) user account. However, no software needs to be downloaded or installed, the application runs directly in the browser.
 
-**Registrierung und Anwendung:** https://www.tinkercad.com/
+**Registration and application:** https://www.tinkercad.com/
 
 <p align="center">
 <img height="250" src="images/17_Tinkercad_UI_Browser.png">
@@ -215,8 +215,8 @@ Tinkercad gehört, so wie auch Fusion 360, zu dem Unternehmen Autodesk und setzt
 </p>
 
 <p align="center">
-<a href="#s17">[17]</a> <i> Tinkercad-Benutzeroberfläche (im Browser) - </i>
-<a href="#s18">[18]</a> <i> 3D-Design eines Messschiebers in Tinkercad </i>
+<a href="#s17">[17]</a> <i> Tinkercad user interface (in browser) - </i>
+<a href="#s18">[18]</a> <i> 3D design of a caliper in Tinkercad </i>
 </p>
 
 # License information
