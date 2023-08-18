@@ -179,11 +179,11 @@ Other functions of 3D graphics programs are e.g. texturing, animation (for anima
 
 ### Examples of 3D graphics and 3D modeling programs
 
-Hier eine Auswahl einiger beliebter 3D-Grafik- und 3D-Modellierungsprogramme, die kostenlos nutzbar sind:
+Here is a selection of some popular 3D graphics and 3D modeling programs that are free to use:
 
 #### Blender
 
-Blender ist eine 3D-Grafiksuite, die als „Free and open-source software“, also kostenlos verfügbar und mit offenem Quellcode veröffentlich ist. Die Software-Suite umfasst Funktionen zum modellieren, texturieren und animieren. Blender ist ein im professionellen wie auch im Hobby-Bereich sehr beliebtes Programm, gilt als besonders ausgereifte Open-Source-Software und die Grundlagen lassen sich verhältnismäßig leicht erlernen.
+Blender is a 3D graphics suite released as "Free and open-source software". The software suite includes functions for modeling, texturing and animation. Blender is a program that is very popular in the professional as well as in the hobby area, is considered to be particularly sophisticated open source software and the basics are relatively easy to learn.
 
 **Download:** https://www.blender.org/
 
@@ -193,7 +193,7 @@ Blender ist eine 3D-Grafiksuite, die als „Free and open-source software“, al
 </p>
 
 <p align="center">
-<a href="#s15">[15]</a> <i> Blender-Benutzeroberfläche - </i>
+<a href="#s15">[15]</a> <i> Blender user interface - </i>
 <a href="#s16">[16]</a> <i> Sculpting in Blender </i>
 </p>
 
