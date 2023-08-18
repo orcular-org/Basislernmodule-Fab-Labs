@@ -15,15 +15,15 @@ To do:
 ## Contents
 
 1. [Introduction](#introduction)
-2. [Processes and technologies](#verfahren-und-technologien)
-   - [Laser scanning](#laserscanning)
+2. [Processes and technologies](#processes-and-technologies)
+   - [Laser scanning](#laser-scanning)
    - [Photogrammetry](#photogrammetry)
-   - [Device types](#gerätetypen)
-3. [Processing of a scanned 3D model](#verarbeitung-eines-gescannten-3d-modells)
-   - [Post processing](#nachbearbeitung)
+   - [Device types](#device-types)
+3. [Processing of a scanned 3D model](#processing-of-a-scanned-3d-model)
+   - [Post processing](#post-processing)
    - [Software](#software)
    - [Hardware](#hardware)
-   - [3D printing from 3D scanned models](#3d-druck-von-3d-gescannten-modellen)
+   - [3D printing from 3D scanned models](#3d-printing-from-3d-scanned-models)
 
 [License information](#license-information)
 
