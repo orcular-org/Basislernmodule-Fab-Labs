@@ -55,9 +55,9 @@ CAD software is usually used in the technical field, e.g. in mechanical engineer
 
 If a model designed in CAD is to be manufactured using CNC machines (milling or turning), it must be processed in CAM software (CAM = Computer Aided Manufacturing) in order to define milling diameters, speeds, work processes, etc. (more on this in the [basic learning module for CNC milling](../2_3_CNC_milling/EN_CNC_milling.md)). Many CAD programs have an integrated CAM module, which is referred to as CAD/CAM software.
 
-Beim Erstellen eines 3D-Modells – bei CAD spricht man von „modellieren“ oder „konstruieren“ – arbeitet man meistens mit sogenannter geometrischer und generativer Modellierung.
+When creating a 3D model - in CAD one speaks of "modeling" or "designing" - one usually works with so-called geometric and generative modeling.
 
-Dabei startet man üblicherweise mit dem Zeichnen einer 2D-Skizze, die aus Punkten, Linien, Kurven und geometrischen Formen wie Kreisen oder Sechsecken besteht. Mit Bemaßungen kann man die Skizzenelemente exakt definieren, z.B. Länge von Linien oder Kreisdurchmesser millimetergenau festlegen. Durch sogenannte Abhängigkeiten kann man beispielsweise festlegen, dass zwei Linien parallel oder gleich lang sein sollen. Als nächster Schritt wird diese 2D-Skizze zu einem 3D-Objekt mit festgelegter Dicke „aufgepolstert“ (engl. "Pad") oder um eine Achse rotiert wird, um einen Drehkörper (engl. "Revolution") zu erstellen. Aufbauend auf diesem Objekt können weitere Elemente hinzugefügt werden, etwa durch weitere 2D-Skizzen und Aufpolsterung/Drehung, durch Abziehen von Teilen (z.B. für Löcher, Bohrungen oder Taschen (engl. "Pocket")), durch Vervielfältigung von Elementen oder Abrundung von Kanten.
+You usually start by drawing a 2D sketch consisting of points, lines, curves and geometric shapes such as circles or hexagons. With dimensions you can define the sketch elements exactly, e.g. specify the length of lines or circle diameters with millimeter precision. So-called dependencies can be used, for example, to specify that two lines should be parallel or of the same length. The next step is to "pad" this 2D sketch into a 3D object with a specified thickness or rotate it around an axis to create a revolution. Based on this object, further elements can be added, for example by further 2D sketches and padding/rotation, by subtracting parts (e.g. for holes, bores or pockets), by duplicating elements or rounding edges.
 
 <p align="center">
 [3] <img height="130" src="images/3_FreeCAD_PartDesign_Pad.png"> <br>
@@ -66,9 +66,9 @@ Dabei startet man üblicherweise mit dem Zeichnen einer 2D-Skizze, die aus Punkt
 </p>
 
 <p align="center">
-<a href="#s3">[3]</a> <i> 3D-Aufpolsterung (Pad) aus einer 2D-Skizze - </i>
-<a href="#s4">[4]</a> <i> 3D-Drehkörper (Revolution) aus 2D-Skizze - </i>
-<a href="#s5">[5]</a> <i> Tasche (Pocket) aus 2D-Skizze </i>
+<a href="#s3">[3]</a> <i> 3D padding from a 2D sketch - </i>
+<a href="#s4">[4]</a> <i> 3D rotary body (revolution) from 2D sketch - </i>
+<a href="#s5">[5]</a> <i> Pocket from 2D sketch </i>
 </p>
 
 
@@ -78,8 +78,8 @@ Dabei startet man üblicherweise mit dem Zeichnen einer 2D-Skizze, die aus Punkt
 </p>
 
 <p align="center">
-<a href="#s6">[6]</a> <i> Konstruktionsskizze in FreeCAD - </i>
-<a href="#s7">[7]</a> <i> Ein mit geometrischer Modellierung erstelltes Bauteil in FreeCAD </i>
+<a href="#s6">[6]</a> <i> 2D Sketch in FreeCAD - </i>
+<a href="#s7">[7]</a> <i> A part created with geometric modeling in FreeCAD </i>
 </p>
 
 
