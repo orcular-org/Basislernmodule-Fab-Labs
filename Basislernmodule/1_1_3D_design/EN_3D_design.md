@@ -45,7 +45,7 @@ Depending on the application, there are programs with different focuses and func
 <a href="#s2">[2]</a> <i> 3D model in 3D modeling software Blender </i>																	
 </p>									
 
-Instead of creating your own 3D models, you can also download finished models from the Internet, edit them if necessary and then print them out with a 3D printer, for example (more on this in the [3D printing basic learning module](../2_1_3D_printing/EN_3D-printing.md)). Es gibt eine Vielzahl an Webseiten, von denen man 3D-Modelle beziehen oder auf die man seine eigenen Kreationen hochladen und sie mit anderen teilen kann (mehr dazu im [Basislernmodul zum Thema Download von 3D-Modellen](../1_3_Using_3D_models_from_the_internet/Verwendung_von_3D_Modellen_aus_dem_Internet.md)).
+Instead of creating your own 3D models, you can also download finished models from the Internet, edit them if necessary and then print them out with a 3D printer, for example (more on this in the [3D printing basic learning module](../2_1_3D_printing/EN_3D_printing.md)). Es gibt eine Vielzahl an Webseiten, von denen man 3D-Modelle beziehen oder auf die man seine eigenen Kreationen hochladen und sie mit anderen teilen kann (mehr dazu im [Basislernmodul zum Thema Download von 3D-Modellen](../1_3_Using_3D_models_from_the_internet/Verwendung_von_3D_Modellen_aus_dem_Internet.md)).
 
 Eine weitere Möglichkeit, ein 3D-Modell zu erstellen, besteht im 3D-Scanning. Damit lassen sich Gegenstände, Ersatzteile oder auch Personen einscannen und als 3D-Modell am Rechner abbilden. Mit etwas Nachbearbeitung lassen sich diese Modelle auch 3D-drucken (mehr dazu im [Basislernmodul zu 3D-Scanning](../1_2_3D_scanning/3D-Scanning.md)).
 
