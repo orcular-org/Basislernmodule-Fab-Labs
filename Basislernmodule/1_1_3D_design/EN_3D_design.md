@@ -100,14 +100,14 @@ There are many video tutorials for learning CAD modeling on video portals such a
 
 ### File formats for CAD models
 
-Jede Software hat ihr eigenes Dateiformat für Projektdateien, z.B. haben Dateien in der Software "FreeCAD" die Dateiendung *.FCStd und Dateien in "Autodesk Fusion 360" die Endung *.f3d.
-Es gibt im CAD-Bereich aber zahlreiche unterschiedliche Dateiformate, die von unterschiedlichen CAD-Programmen erstellt und geöffnet werden können.
+Each software has its own file format for project files, e.g. files in the "FreeCAD" software have the file extension *.FCStd and files in "Autodesk Fusion 360" have the extension *.f3d.
+In the CAD area, however, there are numerous different file formats that can be created and opened by different CAD programs.
 
-Besonders hervorzuheben ist das STEP-Dateiformat (*.ste, *.step oder *.stp). STEP steht für „STandard for the Exchange of Product model data” und ist in einer weltweit anerkannten ISO-Norm standardisiert. STEP-Dateien eignen sich daher gut als Austauschformat zwischen unterschiedlichen CAD-Programmen. Möchte man seine CAD-Datei mit jemandem teilen, der eine andere CAD-Software benutzt, ist das Exportieren im STEP-Format also oft eine gute Lösung, auch wenn nicht alle Informationen und Editierfunktionen erhalten bleiben, aber zumindest kann die Datei in der anderen Software geöffnet, betrachtet und analysiert werden.
+The STEP file format (*.ste, *.step or *.stp) deserves special mention. STEP stands for "STandard for the Exchange of Product model data" and is standardized in a globally recognized ISO standard. STEP files are therefore well suited as an exchange format between different CAD programs. So if you want to share your CAD file with someone who uses another CAD software, exporting it in STEP format is often a good solution, even if not all information and editing functions are preserved, but at least the file can be used in the other software opened, viewed and analyzed.
 
-Plant man sein Produkt als Open Source Hardware zu veröffentlichen, ist es empfehlenswert, eine CAD-Software zu verwenden, die kostenfrei ist und auf Open Source Software basiert (z.B. FreeCAD oder Blender, mehr dazu siehe unten), damit möglichst viele Menschen die Dateien öffnen, bearbeiten und als verbesserte Variante zum Projekt beitragen können.
+If you plan to release your product as open source hardware, it is advisable to use CAD software that is free and based on open source software (e.g. FreeCAD or Blender, see below for more) so that as many people as possible are able to open the files, edit and contribute to the project as an improved version.
 
-Ein weiteres wichtiges Dateiformat ist STL, vor allem für 3D-Druck. Praktisch jede bekannte CAD- oder 3D-Grafiksoftware kann 3D-Modelle im STL-Format exportieren, sodass man sie anschließend 3D-drucken kann (mehr dazu im [Basislernmodul 3D-Druck](../2_1_3D_printing/3D-Druck.md)).
+Another important file format is STL, especially for 3D printing. Virtually any popular CAD or 3D graphics software can export 3D models in STL format so that you can then 3D print them (more on this in the [3D Printing basic learning module](../2_1_3D_printing/EN_3D_printing.md)).
 
 
 ### Examples of CAD software
