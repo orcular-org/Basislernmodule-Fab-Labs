@@ -10,8 +10,8 @@ To do:
 
 > Zurück zur [Übersicht Basislernmodule](../../README.md)
 
-# 3D-Design
-## Inhalt
+# 3D design
+## Contents
 
 1. [Introduction](#introduction)
 2. [CAD software](#cad-software)
