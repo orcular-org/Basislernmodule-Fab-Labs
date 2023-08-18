@@ -51,9 +51,9 @@ Another way to create a 3D model is through 3D scanning. This allows objects, sp
 
 ## CAD software
 
-CAD-Software wird in der Regel im technischen Bereich eingesetzt, z.B. im Maschinenbau, in der Architektur oder Elektrotechnik – bei Unternehmen für Produktentwicklung, Planung von Gebäuden und ähnlichen Bereichen. Aber auch für Hobby-Anwendungen, z.B. zum Designen von Objekten für 3D-Druck oder CNC-Fräsen, haben sich CAD-Programme bewährt.
+CAD software is usually used in the technical field, e.g. in mechanical engineering, in architecture or electrical engineering - in companies for product development, planning of buildings and similar areas. But CAD programs have also proven themselves for hobby applications, e.g. for designing objects for 3D printing or CNC milling.
 
-Soll ein in CAD entworfenes Modell mithilfe von CNC-Maschinen (fräsen oder drehen) gefertigt werden, muss es in einer CAM-Software (CAM = Computer Aided Manufacturing) bearbeitet werden, um Fräsdurchmesser, Drehzahlen, Arbeitsabläufe etc. zu definieren (mehr dazu im [Basislernmodul zu CNC-Fräsen](../2_3_CNC_milling/CNC-Fraesen.md)). Viele CAD-Programme haben ein integriertes CAM-Modul, man spricht dann von CAD/CAM-Software.
+If a model designed in CAD is to be manufactured using CNC machines (milling or turning), it must be processed in CAM software (CAM = Computer Aided Manufacturing) in order to define milling diameters, speeds, work processes, etc. (more on this in the [basic learning module for CNC milling](../2_3_CNC_milling/EN_CNC_milling.md)). Many CAD programs have an integrated CAM module, which is referred to as CAD/CAM software.
 
 Beim Erstellen eines 3D-Modells – bei CAD spricht man von „modellieren“ oder „konstruieren“ – arbeitet man meistens mit sogenannter geometrischer und generativer Modellierung.
 
