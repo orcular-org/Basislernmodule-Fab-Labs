@@ -98,7 +98,7 @@ In the CAD area, however, there are numerous different file formats that can be 
 
 The STEP file format (*.ste, *.step or *.stp) deserves special mention. STEP stands for "STandard for the Exchange of Product model data" and is standardized in a globally recognized ISO standard. STEP files are therefore well suited as an exchange format between different CAD programs. So if you want to share your CAD file with someone who uses another CAD software, exporting it in STEP format is often a good solution, even if not all information and editing functions are preserved, but at least the file can be used in the other software opened, viewed and analyzed.
 
-If you plan to release your product as open source hardware, it is advisable to use CAD software that is free and based on open source software (e.g. FreeCAD or Blender, see below for more) so that as many people as possible are able to open the files, edit and contribute to the project as an improved version.
+If you plan to release your product as open-source hardware, it is advisable to use CAD software that is free and based on open-source software (e.g. FreeCAD or Blender, see below for more) so that as many people as possible are able to open the files, edit and contribute to the project as an improved version.
 
 Another important file format is STL, especially for 3D printing. Virtually any popular CAD or 3D graphics software can export 3D models in STL format so that you can then 3D print them (more on this in the [3D Printing basic learning module](../2_1_3D_printing/EN_3D_printing.md)).
 
@@ -109,7 +109,7 @@ Here is a selection of some popular CAD programs, most of which can be used free
 
 #### FreeCAD
 
-As the name suggests, FreeCAD is a so-called "free and open-source software", i.e. the software is absolutely free of charge, including for commercial applications, and its source code is open. This makes FreeCAD a popular software solution in open source communities, as it guarantees that projects created with FreeCAD can be opened and edited by anyone free of charge, even in the long term (as open source hardware). In addition, FreeCAD can be modified by anyone or supplemented and improved by extensions (open source software), which means that there are already numerous bug fixes, additional functions, workbenches and macros programmed by the user community.
+As the name suggests, FreeCAD is a so-called "free and open-source software", i.e. the software is absolutely free of charge, including for commercial applications, and its source code is open. This makes FreeCAD a popular software solution in open-source communities, as it guarantees that projects created with FreeCAD can be opened and edited by anyone free of charge, even in the long term (as open-source hardware). In addition, FreeCAD can be modified by anyone or supplemented and improved by extensions (open-source software), which means that there are already numerous bug fixes, additional functions, workbenches and macros programmed by the user community.
 
 FreeCAD contains many different program modules (so-called "workbenches") and functions for 3D modeling, 3D printing, CAM and CNC milling, laser cutting, motion simulation, architecture and much more. A particular strength of FreeCAD is also parametric design, whereby the "Spreadsheet" workbench can be used to create spreadsheets that can be used to control parameters of the CAD model. FreeCAD is not cloud-based, but runs purely locally on the computer (Windows, Mac or Linux).
 
@@ -176,7 +176,7 @@ Here is a selection of some popular 3D graphics and 3D modeling programs that ar
 
 #### Blender
 
-Blender is a 3D graphics suite released as "Free and open-source software". The software suite includes functions for modeling, texturing and animation. Blender is a program that is very popular in the professional as well as in the hobby area, is considered to be particularly sophisticated open source software and the basics are relatively easy to learn.
+Blender is a 3D graphics suite released as "Free and open-source software". The software suite includes functions for modeling, texturing and animation. Blender is a program that is very popular in the professional as well as in the hobby area, is considered to be particularly sophisticated open-source software and the basics are relatively easy to learn.
 
 **Download:** https://www.blender.org/
 
