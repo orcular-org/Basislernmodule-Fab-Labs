@@ -131,9 +131,9 @@ Depending on the process, the model is initially available either as a polygon m
 
 ### Software
 
-Im Bereich 3D-Scanning gibt es u.a. folgende **Software**:
+In the field of 3D scanning, the following **software** is available, among others:
 
-- [Meshroom](https://alicevision.org/#meshroom): Kostenlose Open-Source-Software für 3D-Rekonstruktion, basierend auf dem [AliceVision Framework](https://alicevision.org/), einem Software-Paket für Photogrammetrie-Anwendungen.
+- [Meshroom](https://alicevision.org/#meshroom): Free, open-source 3D reconstruction software based on the [AliceVision Framework](https://alicevision.org/), a software package for photogrammetry applications.
 - [MeshLab](https://www.meshlab.net/): Kostenlose Open-Source-Software zum Bearbeiten, Bereinigen, Rendering, Texturieren und Konvertieren von 3D-gescannten Polygonnetz-3D-Modellen.
 - [3DF Zephyr](https://www.3dflow.net): Ein Programm mit einer [kostenlosen](https://www.3dflow.net/3df-zephyr-free/) und mehreren kostenpflichtigen Versionen für Photogrammetrie, also für die Generierung von 3D-Modellen aus mehreren 2D-Einzelbildern.
 - [ReconstructMe](https://www.reconstructme.net): Software zum Erstellen von 3D-Selfies mit eigener Kamera - verfügbar sind sowohl eine kostenlose als auch eine kostenpflichtige Version.
