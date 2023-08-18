@@ -60,25 +60,25 @@ Depending on the 3D scanning method used, either colorless (monochrome) 3D model
 
 ## Processes and technologies
 
-Es gibt unterschiedliche 3D-Scanning-Verfahren, wovon im Hobby-Bereich und in Fab Labs vor allem zwei hervorzuheben sind:
-- Laserscanning
-- Photogrammetrie
+There are different 3D scanning methods, of which two in particular stand out in the hobby sector and in fab labs:
+- Laser scanning
+- Photogrammetry
 
-Zudem gibt es auch Geräte, die eine Kombination aus Laserscanning und Photogrammetrie oder noch weiteren Methoden einsetzen.
+There are also devices that use a combination of laser scanning and photogrammetry or other methods.
 
 ### Laser scanning
 
-Beim Laserscanning werden die zu erfassenden Oberflächen zeilen- oder rasterartig mit einem Laserstrahl abgefahren. Die von der Oberfläche reflektierte Laserstrahlung trifft auf Sensoren, woraufhin aus den so gewonnenen Messdaten die jeweilige Entfernung und Position der gescannten Punkte berechnet wird. Aus diesen Daten erzeugt eine Software ein dreidimensionales Modell der Oberfläche.
+With laser scanning, the surfaces to be recorded are scanned in a line or grid pattern with a laser beam. The laser radiation reflected from the surface hits sensors, whereupon the respective distance and position of the scanned points is calculated from the measurement data obtained in this way. Software uses this data to create a three-dimensional model of the surface.
 
 ### Photogrammetry
 
-Bei der Photogrammetrie wird das zu erfassende Objekt zunächst aus vielen verschiedenen Winkeln fotografiert, entweder mit einer einzelnen Kamera oder mit vielen Kameras gleichzeitig.
+In photogrammetry, the object to be captured is first photographed from many different angles, either with a single camera or with many cameras simultaneously.
 
-Wird nur eine einzelne Kamera verwendet, muss man sie um das Objekt herumführen - von Hand oder maschinell mit einem Roboterarm - und möglichst viele Fotos aus vielen verschiedenen Perspektiven aufnehmen. Dabei sollte sich das Objekt bzw. die Person möglichst nicht bewegen. Möglich ist auch die Verwendung eines Drehtellers, auf dem das Objekt platziert und gedreht wird, sodass die Kamera nur noch in vertikaler Position verschoben werden muss.
+If only a single camera is used, you have to move it around the object - by hand or mechanically with a robotic arm - and take as many photos as possible from many different perspectives. The object or person should not move if possible. It is also possible to use a turntable on which the object is placed and rotated so that the camera only has to be moved in the vertical position.
 
-Beim Einsatz mehrerer Kameras können diese in verschiedenen Winkeln um das Objekt bzw. die Person herum platziert werden. Die Kameras werden dann alle gleichzeitig ausgelöst.
+When using multiple cameras, they can be placed at different angles around the object or person. The cameras are then all triggered at the same time.
 
-Eine Software erkennt Unterschiede und Gemeinsamkeiten in den Bildern, findet die gleichen Punkte auf verschiedenen Bildern wieder und berechnet die jeweilige Position eines jeden Punktes im dreidimensionalen Raum. Aus diesen Positionsdaten wird ein 3D-Modell der Oberfläche generiert, zudem können die Farbpunkte (Pixel) der einzelnen Fotografien als Textur über das 3D-Modell gelegt werden.
+Software recognizes differences and similarities in the images, finds the same points on different images and calculates the respective position of each point in three-dimensional space. A 3D model of the surface is generated from this position data. In addition, the color points (pixels) of the individual photographs can be laid over the 3D model as a texture.
 
 <p align="center">
 <img height="300" src="images/4_Photogrammetry_Meshroom.png">
@@ -86,8 +86,8 @@ Eine Software erkennt Unterschiede und Gemeinsamkeiten in den Bildern, findet di
 </p>
 
 <p align="center">
-<a href="#s4">[4]</a> <i> Photogrammetrie mit der Software Meshroom - </i>
-<a href="#s5">[5]</a> <i> Meshroom2Blender - eine Erweiterung für die 3D-Grafiksoftware Blender </i>
+<a href="#s4">[4]</a> <i> Photogrammetry with the software Meshroom - </i>
+<a href="#s5">[5]</a> <i> Meshroom2Blender - an extension for the 3D graphics software Blender </i>
 </p>
 
 
