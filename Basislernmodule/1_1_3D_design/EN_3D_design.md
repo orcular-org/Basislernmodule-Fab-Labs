@@ -31,9 +31,9 @@ To do:
 
 ## Introduction
 
-Es gibt verschiedene Software, mit denen man digitale 3D-Modelle zeichnen bzw. modellieren kann. Diese 3D-Modelle können anschließend z.B. für 3D-Druck, Lasercutting oder CNC-Fräsen genutzt werden.
+There are various software that can be used to draw or model digital 3D models. These 3D models can then be used, for example, for 3D printing, laser cutting or CNC milling.
 
-Je nach Anwendungszweck gibt es Programme mit unterschiedlichen Schwerpunkten und Funktionen. Zum Modellieren von Bauteilen für technische Produkte wird in der Regel CAD-Software benutzt (CAD = Computer Aided Design; engl. für „Computergestütztes Entwerfen“). Andererseits gibt es auch 3D-Grafikprogramme, die einen eher künstlerischen Schwerpunkt haben, z.B. für komplex geformte Figuren, die für 3D-Druck, Produktdesign, aber auch z.B. für 3D-Animationsfilme verwendet werden können.
+Depending on the application, there are programs with different focuses and functions. CAD software (CAD = Computer Aided Design) is generally used to model components for technical products. On the other hand, there are also 3D graphics programs that have a more artistic focus, e.g. for complex shaped figures that can be used for 3D printing, product design, but also e.g. for 3D animation films.
 
 <p align="center">									
 <img height="300" src="images/1_CAD_FreeCAD_Example.png">									
@@ -41,11 +41,11 @@ Je nach Anwendungszweck gibt es Programme mit unterschiedlichen Schwerpunkten un
 </p>									
 									
 <p align="center">									
-<a href="#s1">[1]</a> <i> Baugruppe in der Software FreeCAD - </i>									
-<a href="#s2">[2]</a> <i> 3D-Modell in der 3D-Modellierungssoftware Blender </i>																	
+<a href="#s1">[1]</a> <i> Assembly in the software FreeCAD - </i>									
+<a href="#s2">[2]</a> <i> 3D model in 3D modeling software Blender </i>																	
 </p>									
 
-Statt eigene 3D-Modelle zu erstellen, kann man auch fertige Modelle aus dem Internet herunterladen, ggf. nachbearbeiten und anschließend z.B. mit einem 3D-Drucker ausdrucken (mehr dazu im [Basislernmodul 3D-Druck](../2_1_3D_printing/3D-Druck.md)). Es gibt eine Vielzahl an Webseiten, von denen man 3D-Modelle beziehen oder auf die man seine eigenen Kreationen hochladen und sie mit anderen teilen kann (mehr dazu im [Basislernmodul zum Thema Download von 3D-Modellen](../1_3_Using_3D_models_from_the_internet/Verwendung_von_3D_Modellen_aus_dem_Internet.md)).
+Instead of creating your own 3D models, you can also download finished models from the Internet, edit them if necessary and then print them out with a 3D printer, for example (more on this in the [3D printing basic learning module](../2_1_3D_printing/EN_3D-printing.md)). Es gibt eine Vielzahl an Webseiten, von denen man 3D-Modelle beziehen oder auf die man seine eigenen Kreationen hochladen und sie mit anderen teilen kann (mehr dazu im [Basislernmodul zum Thema Download von 3D-Modellen](../1_3_Using_3D_models_from_the_internet/Verwendung_von_3D_Modellen_aus_dem_Internet.md)).
 
 Eine weitere Möglichkeit, ein 3D-Modell zu erstellen, besteht im 3D-Scanning. Damit lassen sich Gegenstände, Ersatzteile oder auch Personen einscannen und als 3D-Modell am Rechner abbilden. Mit etwas Nachbearbeitung lassen sich diese Modelle auch 3D-drucken (mehr dazu im [Basislernmodul zu 3D-Scanning](../1_2_3D_scanning/3D-Scanning.md)).
 
