@@ -112,17 +112,17 @@ Another important file format is STL, especially for 3D printing. Virtually any 
 
 ### Examples of CAD software
 
-Hier eine Auswahl einiger beliebter CAD-Programme, die weitestgehend kostenlos nutzbar sind:
+Here is a selection of some popular CAD programs, most of which can be used free of charge:
 
 #### FreeCAD
 
-FreeCAD ist, wie der Name schon sagt, eine sogenannte „Free and open-source software“, d.h. die Software ist uneingeschränkt kostenlos, also auch für kommerzielle Anwendungen, und ihr Quellcode ist offen. Dies macht FreeCAD zu einer beliebten Softwarelösung in Open-Source-Communities, da garantiert ist, dass mit FreeCAD erstellte Projekte auch langfristig von jedem kostenlos geöffnet und bearbeitet werden können (als Open Source Hardware). Zudem kann FreeCAD von jedem modifiziert oder durch Erweiterungen ergänzt und verbessert werden (Open Source Software), wodurch es schon zahlreiche, von der Nutzer:innen-Community programmierte Bugfixes, Zusatzfunktionen, Workbenches und Makros gibt.
+As the name suggests, FreeCAD is a so-called "free and open-source software", i.e. the software is absolutely free of charge, including for commercial applications, and its source code is open. This makes FreeCAD a popular software solution in open source communities, as it guarantees that projects created with FreeCAD can be opened and edited by anyone free of charge, even in the long term (as open source hardware). In addition, FreeCAD can be modified by anyone or supplemented and improved by extensions (open source software), which means that there are already numerous bug fixes, additional functions, workbenches and macros programmed by the user community.
 
-FreeCAD enthält viele unterschiedliche Programm-Module (sogenannte „Workbenches“) und Funktionen für 3D-Modellierung, 3D-Druck, CAM und CNC-Fräsen, Lasercutting, Bewegungssimulationen, Architektur und vieles mehr. Eine besondere Stärke von FreeCAD ist auch das parametrische Designen, wobei mit der „Spreadsheet“-Workbench Kalkulationstabellen erstellt werden können, mit denen man Parameter des CAD-Modells steuern kann. FreeCAD ist nicht cloud-basiert, sondern läuft rein lokal auf dem Rechner (Windows, Mac oder Linux).
+FreeCAD contains many different program modules (so-called "workbenches") and functions for 3D modeling, 3D printing, CAM and CNC milling, laser cutting, motion simulation, architecture and much more. A particular strength of FreeCAD is also parametric design, whereby the "Spreadsheet" workbench can be used to create spreadsheets that can be used to control parameters of the CAD model. FreeCAD is not cloud-based, but runs purely locally on the computer (Windows, Mac or Linux).
 
 **Download:** https://www.freecad.org/
 
-**FreeCAD-Wiki:** https://wiki.freecad.org/ - In deutscher Sprache (teilweise unvollständig): https://wiki.freecad.org/Main_Page/de
+**FreeCAD Wiki:** https://wiki.freecad.org/
 
 <p align="center">
 <img height="300" src="images/9_FreeCAD_UI.png">
@@ -130,8 +130,8 @@ FreeCAD enthält viele unterschiedliche Programm-Module (sogenannte „Workbench
 </p>
 
 <p align="center">
-<a href="#s9">[9]</a> <i> FreeCAD-Benutzeroberfläche - </i>
-<a href="#s10">[10]</a> <i> Baugruppe mit Skizzen in FreeCAD </i>
+<a href="#s9">[9]</a> <i> FreeCAD user interface - </i>
+<a href="#s10">[10]</a> <i> Assembly with sketches in FreeCAD </i>
 </p>
 
 
