@@ -1,12 +1,5 @@
-**Translation note:**
-
-This article is still being translated into **English**.
-
-To do:
-- Edit file
-- Replace text by English translation
-- Commit changes
-- When done, remove this note
+> **Translation note:**
+> This article was translated from German. The original German article can be found [here](3D-Scanning.md).
 
 > Back to [basic learning modules overview](../../translations/EN_Readme.md)
 
@@ -134,35 +127,35 @@ Depending on the process, the model is initially available either as a polygon m
 In the field of 3D scanning, the following **software** is available, among others:
 
 - [Meshroom](https://alicevision.org/#meshroom): Free, open-source 3D reconstruction software based on the [AliceVision Framework](https://alicevision.org/), a software package for photogrammetry applications.
-- [MeshLab](https://www.meshlab.net/): Kostenlose Open-Source-Software zum Bearbeiten, Bereinigen, Rendering, Texturieren und Konvertieren von 3D-gescannten Polygonnetz-3D-Modellen.
-- [3DF Zephyr](https://www.3dflow.net): Ein Programm mit einer [kostenlosen](https://www.3dflow.net/3df-zephyr-free/) und mehreren kostenpflichtigen Versionen für Photogrammetrie, also für die Generierung von 3D-Modellen aus mehreren 2D-Einzelbildern.
-- [ReconstructMe](https://www.reconstructme.net): Software zum Erstellen von 3D-Selfies mit eigener Kamera - verfügbar sind sowohl eine kostenlose als auch eine kostenpflichtige Version.
+- [MeshLab](https://www.meshlab.net/): Free open-source software for editing, cleaning, rendering, texturing and converting 3D scanned mesh 3D models.
+- [3DF Zephyr](https://www.3dflow.net): A program with one [free](https://www.3dflow.net/3df-zephyr-free/) and several paid versions for photogrammetry, i.e. for generating 3D models from several 2D frames.
+- [ReconstructMe](https://www.reconstructme.net): Software for creating 3D selfies with your own camera - both free and paid versions are available.
 
 ### Hardware
 
-Für Fab Labs und Maker gibt es u.a. folgende **Geräte und Hardware-Projekte** (teilweise Open-Source-Hardware):
+For fab labs and makers there are, among others, the following **devices and hardware projects** (partly open-source hardware):
 - [OpenScan](https://www.openscan.eu/) - ([GitHub-Seite](https://openscan-org.github.io/OpenScan-Doc/))
 - [FabScan](https://fabscan.org)
 - [MakerScanner](http://www.makerscanner.com/)
 
-Zudem gibt es auch professionelle Geräte, die jedoch sehr teuer sind und in der Regel nur von Unternehmen genutzt werden, doch auch manche Fab Labs verfügen über solche Geräte.
+There are also professional devices, but they are very expensive and are usually only used by companies, but some fab labs also have such devices.
 
 ### 3D printing from 3D scanned models
 
-Hat man ein 3D-gescanntes Modell bereinigt und in ein 3D-druckbares Format überführt, z.B. STL (mehr dazu im [Basislernmodul 3D-Druck](../2_1_3D_printing/3D-Druck.md)), kann man es einfach mit einem FDM-3D-Drucker als einfarbiges Objekt ausdrucken. Bei Verwendung eines Mehrfarben-3D-Druckers kann auch eine mehrfarbige Figur gedruckt werden - mit einigen wenigen Farben und beschränkter Genauigkeit.
+Once you have cleaned up a 3D scanned model and transferred it to a 3D printable format, e.g. STL (more on this in the [3D printing basic learning module](../2_1_3D_printing/EN_3D_printing.md)), you can simply print it out as a single color object using an FDM 3D printer. When using a multicolor 3D printer, a multicolor figure can also be printed - with a few colors and limited accuracy.
 
-Möchte man eine sehr detaillierte 3D-Druck-Figur mit vielen Farben und hoher Genauigkeit der Oberflächenoptik erhalten, reicht ein einfacher FDM-3D-Drucker (FDM = Fused Deposition Modeling, mehr dazu [hier](../2_1_3D_printing/3D-Druck.md)) nicht aus. Kommerzielle Anbieter von 3D-Selfies nutzen meist eine andere 3D-Druck-Technologie: Binder Jetting, auch als Freistrahl-Bindemittelauftrag bezeichnet. Bei diesem 3D-Druck-Verfahren wird ein Pulver mit flüssigem Bindemittel aufgetragen und verbunden. Die entstehenden Figuren haben oft eine an Sandstein erinnernde Optik, zudem eine große Farbenvielfalt und Detailtreue.
+If you want to get a very detailed 3D printed figure with many colors and high accuracy of the surface optics, a simple FDM 3D printer (FDM = Fused Deposition Modeling, more about it [here](../2_1_3D_printing/EN_3D_printing.md)) is not enough. Commercial providers of 3D selfies usually use a different 3D printing technology: binder jetting. In this 3D printing process, a powder is applied and bonded with a liquid binding agent. The resulting figures often have a look reminiscent of sandstone, as well as a large variety of colors and attention to detail.
 
 <p align="center">
 <img height="300" src="images/10_3D_printed_3D_selfie.png">
 </p>
 
 <p align="center">
-<a href="#s10">[10]</a> <i> 3D-gedrucktes Modell eines 3D-Selfies </i>
+<a href="#s10">[10]</a> <i> 3D printed model of a 3D selfie </i>
 </p>
 
 
-Schließlich gibt es auch die Möglichkeit, eine einfarbig (möglichst weiß) gedruckte Figur aus dem FDM-3D-Drucker nachträglich zu bearbeiten und zu bemalen.
+Finally, there is also the option of subsequently processing and painting a figure printed in one color (preferably white) from the FDM 3D printer.
 
 # License information
 
