@@ -159,11 +159,11 @@ Due to its clear and understandable usability, Fusion 360 is considered a compar
 
 ## 3D graphics and modeling programs
 
-Im Gegensatz zu CAD-Programmen, die eher für technische Produktentwicklung genutzt werden, richten sich 3D-Grafikprogramme eher an künstlerische oder Design-bezogene Anwendungen, z.B. zum Gestalten von Figuren, Vasen, Gefäßen oder sonstigen, komplex gestalteten Formen.
+In contrast to CAD programs, which are used more for technical product development, 3D graphics programs are aimed more at artistic or design-related applications, e.g. for creating figures, vases, jars or other complex shapes.
 
-Dabei kommen oft sogenannte Sculpting-Werkzeuge zum Einsatz, womit sich 3D-Objekte präzise verformen lassen, ähnlich wie beim Töpfern mit Ton. Die millimetergenaue Bemaßung sowie Konstruktion von eher eckigen Teilen, wie bei technischen Bauteilen in CAD-Programmen, steht damit weniger im Vordergrund als die Freiheit in der Form- und Ausgestaltung des 3D-Objekts.
+So-called sculpting tools are often used here, with which 3D objects can be precisely deformed, similar to pottery with clay. The millimeter-precise dimensioning and construction of rather angular parts, such as technical components in CAD programs, is less important than the freedom in the shape and design of the 3D object.
 
-Weitere Funktionen von 3D-Grafikprogrammen sind z.B. die Texturierung, Animation (für Animationsfilme oder Videospiele) und Rendering, z.B. zur Inszenierung eines Objekts oder Produkts in einer bestimmten Umgebung und Belichtung in einer sogenannten Szene. Viele 3D-Grafikprogramme können die Modelle als STL-Datei exportieren, womit sie sich 3D-drucken lassen.
+Other functions of 3D graphics programs are e.g. texturing, animation (for animated films or video games) and rendering, e.g. for staging an object or product in a certain environment and exposure in a so-called scene. Many 3D graphics programs can export the models as an STL file, with which they can be 3D printed.
 
 <p align="center">
 <img height="250" src="images/13_Blender_sculpting_example.png">
@@ -171,8 +171,8 @@ Weitere Funktionen von 3D-Grafikprogrammen sind z.B. die Texturierung, Animation
 </p>
 
 <p align="center">
-<a href="#s13">[13]</a> <i> Scultping in der Software Blender - </i>
-<a href="#s14">[14]</a> <i> Rendering von Kochtöpfen in Blender </i>
+<a href="#s13">[13]</a> <i> Sculpting in the software Blender - </i>
+<a href="#s14">[14]</a> <i> Rendering of cooking pots in Blender </i>
 </p>
 
 
