@@ -93,9 +93,9 @@ Software recognizes differences and similarities in the images, finds the same p
 
 ### Device types
 
-Geräte für 3D-Scanning gibt es in unterschiedlichen Ausführungen, z.B. als handgeführte Geräte, die man um das Objekt herumträgt, um es aus verschiedenen Winkeln zu erfassen. Es gibt auch Smartphone-Apps, mit denen man die Handykamera für Photogrammetrie-3D-Scanning nutzen kann. Die meisten guten Apps sind in der Regel kostenpflichtig oder nur in eingeschränktem Umfang kostenlos nutzbar.
+Devices for 3D scanning come in different forms, e.g. as handheld devices that you carry around the object to capture it from different angles. There are also smartphone apps that allow you to use your phone camera for photogrammetry 3D scanning. Most good apps are usually paid or only available for free to a limited extent.
 
-Vor allem für 3D-Selfies von Personen oder Menschengruppen gibt es Kabinen, die mit einer großen Anzahl an Kameras ausgestattet sind, die die Personen aus allen Richtungen erfassen. Da alle Kameras gleichzeitig ausgelöst werden, geht diese Methode sehr schnell und die abgelichteten Personen müssen nur sehr kurz still halten. 
+Especially for 3D selfies of people or groups of people, there are booths that are equipped with a large number of cameras that capture people from all directions. Since all cameras are triggered at the same time, this method is very quick and the people photographed only have to stay still for a very short time. 
 
 <p align="center">
 <img height="400" src="images/6_Handheld_3D_Scanner.png">
@@ -103,8 +103,8 @@ Vor allem für 3D-Selfies von Personen oder Menschengruppen gibt es Kabinen, die
 </p>
 
 <p align="center">
-<a href="#s6">[6]</a> <i> Handgeführter 3D-Scanner mit Laserscanner und integrierter Kamera für Texturierung - </i>
-<a href="#s7">[7]</a> <i> 3D-Selfie-Kabine: In der Wand befinden sich viele Kameras, die alle gleichzeitig ausgelöst werden und damit die Person in der Mitte aus verschiedenen Winkeln fotografieren. 
+<a href="#s6">[6]</a> <i> Handheld 3D scanner with laser scanner and integrated camera for texturing - </i>
+<a href="#s7">[7]</a> <i> 3D photo booth: There are many cameras in the wall that all fire at the same time, taking pictures of the person in the center from different angles. 
  </i>
 </p>
 
