@@ -71,17 +71,19 @@ With this tool, you can select the desired license properties and then get the c
 
 ### Why permission for commercial use is important
 
-An dieser Stelle soll noch auf ein weit verbreitetes Problem im Zusammenhang mit Creative-Commons-Lizenzen hingewiesen werden. Viele Urheber:innen veröffentlichen ihre Werke mit einer „Non-commercial“-Lizenz (NC), die die kommerzielle Nutzung des Werkes ausschließt.
+At this point, a widespread problem in connection with Creative Commons licenses should be pointed out. Many authors publish their works with a "non-commercial" license (NC), which excludes the commercial use of the work.
 
-In einer [Broschüre](https://upload.wikimedia.org/wikipedia/commons/5/51/Freies_Wissen_dank_Creative-Commons-Lizenzen_Folgen%2C_Risiken_und_Nebenwirkungen_der_Bedingung_nicht-kommerziell_%E2%80%93_NC.pdf) [(CC BY-SA 3.0 DE)](https://creativecommons.org/licenses/by-sa/3.0/de/) von Wikimedia Deutschland, Creative Commons Deutschland und iRights.info heißt es dazu:
+A [brochure](https://upload.wikimedia.org/wikipedia/commons/5/51/Freies_Wissen_dank_Creative-Commons-Lizenzen_Folgen%2C_Risiken_und_Nebenwirkungen_der_Bedingung_nicht-kommerziell_%E2%80%93_NC.pdf) (only available in German) [(CC BY-SA 3.0 DE)](https://creativecommons.org/licenses/by-sa/3.0/de/) published by Wikimedia Germany, Creative Commons Germany and iRights.info states:
 
 > „Die populärsten Lizenzen (...) tragen das Kürzel NC für "noncommercial – keine kommerzielle Nutzung" (...). Viele, die intuitiv zu den eingeschränkten Lizenzen greifen, tun dies aus dem durchaus nachvollziehbaren Wunsch heraus, der ungewollten und unkontrollierbaren kommerziellen Ausbeutung ihres Schaffens vorzubeugen. Die zahlreichen, ebenfalls ungewollten Nebenwirkungen aber, die das mit sich bringt, kennen nur wenige.“
 
-Die vollständige Broschüre findet sich [hier](https://upload.wikimedia.org/wikipedia/commons/5/51/Freies_Wissen_dank_Creative-Commons-Lizenzen_Folgen%2C_Risiken_und_Nebenwirkungen_der_Bedingung_nicht-kommerziell_%E2%80%93_NC.pdf). [(CC BY-SA 3.0 DE)](https://creativecommons.org/licenses/by-sa/3.0/de/)
+> **"The most popular licenses (...) bear the abbreviation NC for "noncommercial - no commercial use" (...). Many who intuitively reach for the restricted licenses do so out of an understandable desire to prevent the unwanted and uncontrollable commercial exploitation of their work. However, only a few people are aware of the numerous, likewise unwanted side effects that this entails.”**
 
-Die wichtigsten Probleme in Kürze: Vielen Menschen ist nicht bewusst, dass die Verwendung von NC-Lizenzen auch eine Veröffentlichung auf z.B. Wikipedia oder privat betriebenen Webseiten betrifft, auch wenn man im ersten Moment keine kommerzielle Nutzung vermuten würde. Wikipedia ist zwar grundsätzlich gemeinnützig und nicht-kommerziell, da Wikipedia jedoch z.B. in Suchmaschinen integriert wird, die wiederum zu kommerziellen Unternehmen gehören, kann es Schwierigkeiten geben. Auch eine privat oder von einem gemeinnützigen Verein betriebene Webseite, die Werbebanner einsetzt, gilt als kommerziell und darf keine NC-Werke verwenden.
+The full brochure can be found [here](https://upload.wikimedia.org/wikipedia/commons/5/51/Freies_Wissen_dank_Creative-Commons-Lizenzen_Folgen%2C_Risiken_und_Nebenwirkungen_der_Bedingung_nicht-kommerziell_%E2%80%93_NC.pdf) (only available in German). [(CC BY-SA 3.0 DE)](https://creativecommons.org/licenses/by-sa/3.0/de/)
 
-NC-Lizenzen sorgen im Bereich Mediennutzung mit Creative-Commons-Lizenzen sowie bei Open-Source-Software und -Hardware oft für ärgerliche und unerwünschte Einschränkungen, während die Sorgen vor kommerzieller Ausnutzung durch Unternehmen oft unbegründet sind. Bevor man also eine NC-Lizenz in Betracht zieht, lohnt sich die Lektüre der Broschüre.
+The most important problems in brief: Many people are not aware that the use of NC licenses also affects publication on e.g. Wikipedia or privately operated websites, even if one would not suspect commercial use at first glance. While Wikipedia is fundamentally non-profit and non-commercial, difficulties can arise as Wikipedia is integrated into, for example, search engines, which in turn belong to commercial companies. A website operated privately or by a non-profit association that uses advertising banners is also considered commercial and may not use NC works.
+
+NC licenses often create annoying and unwanted restrictions in the area of media use with Creative Commons licenses and open source software and hardware, while concerns about commercial exploitation by companies are often unfounded. So before considering an NC license it is worth reading the brochure.
 
 # License information
 
