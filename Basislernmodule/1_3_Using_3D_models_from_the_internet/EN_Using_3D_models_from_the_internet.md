@@ -42,32 +42,32 @@ Even though the platforms are actually focused on 3D printing, you can also find
 
 ## Open Licenses and Creative Commons
 
-Creative Commons (CC) ist eine gemeinnützige Organisation mit Sitz in den USA, die verschiedene Standard-Lizenzverträge veröffentlicht, die weltweit Gültigkeit haben. Grundsätzlich lassen sich CC-Lizenzen auf alle Werke, die üblicherweise dem Urheberrecht unterliegen, anwenden – z.B. Texte, Bilder, Musikstücke, Videos oder eben auch 3D-Modelle. Viele 3D-Modelle auf den oben genannten Plattformen verfügen über eine CC-Lizenz.
+Creative Commons (CC) is a US-based non-profit organization that publishes various standard license agreements that are valid worldwide. In principle, CC licenses can be applied to all works that are usually subject to copyright – e.g. texts, images, pieces of music, videos or even 3D models. Many 3D models on the above platforms have a CC license.
 
-Wer ein Werk erstellt, also Urheber:in ist, kann beim Veröffentlichen (z.B. auf einer Webseite) bestimmen, ob und mit welcher Lizenz das Werk versehen wird. In der Regel findet sich die entsprechende Lizenzinformation auf der gleichen Webseite, auf der sie veröffentlicht ist.
+Anyone who creates a work, i.e. who is the author, can determine when it is published (e.g. on a website) whether and with which license the work is provided. As a rule, the corresponding license information can be found on the same website on which it is published.
 
-Die Lizenz räumt dabei allen Menschen, die das Werk herunterladen, bestimmte Rechte ein. Wird das Werk ohne Lizenz veröffentlicht, bestehen diese Rechte nicht bzw. es gelten die jeweiligen Gesetze nach dem Urheberrecht.
+The license grants certain rights to all people who download the work. If the work is published without a license, these rights do not exist or the respective copyright laws apply.
 
-CC-Lizenzen sind nur eine Möglichkeit – es gibt auch andere Lizenzmodelle, z.B. GNU General Public License (GNU GPL). Aufgrund ihrer Einfachheit, klaren Verständlichkeit und weiten Bekanntheit haben sich CC-Modelle jedoch bewährt.
+CC licenses are just one option - there are also other license models, e.g. GNU General Public License (GNU GPL). However, due to their simplicity, clear comprehensibility and wide awareness, CC models have proven themselves.
 
 ### Different types of CC licenses
 
-Je nachdem, welche Rechte man einräumen möchte, gibt es verschiedene CC-Rechtemodule, die man wählen und miteinander kombinierten kann:
+Depending on which rights you want to grant, there are different CC rights modules that you can choose and combine:
 
-| Icon | Kürzel | Name des Moduls | Kurzerklärung |
+| Icon | Abbreviation | Module name | Explanation |
 | - | - | - | - | 
-| ![grafik](images/1_BY.png) | BY | Namensnennung (englisch: Attribution) | Der Name des Urhebers muss genannt werden. |
-| ![grafik](images/2_NC.png) | NC | Nicht kommerziell (Non-Commercial) | Das Werk darf nicht für kommerzielle Zwecke verwendet werden. |
-| ![grafik](images/3_ND.png) | ND | Keine Bearbeitung (No Derivatives) | Das Werk darf nicht verändert werden. |
-| ![grafik](images/4_SA.png) | SA | Weitergabe unter gleichen Bedingungen (Share Alike) | Das Werk muss nach Veränderungen unter der gleichen Lizenz weitergegeben werden. |
+| ![grafik](images/1_BY.png) | BY | Attribution | The name of the author must be mentioned. |
+| ![grafik](images/2_NC.png) | NC | Non-Commercial | The work may not be used for commercial purposes. |
+| ![grafik](images/3_ND.png) | ND | No Derivatives | The work must not be altered. |
+| ![grafik](images/4_SA.png) | SA | Share Alike | The work must be redistributed under the same license after modifications. |
 
-<p align="center"> <i> Rechtemodule bei Creative Commons - Tabelle von: https://de.wikipedia.org/wiki/Creative_Commons#Die_Rechtemodule - <a href="https://creativecommons.org/licenses/by-sa/3.0/">(CC BY-SA 3.0)</a> </i> </p>
+<p align="center"> <i> Rights modules at Creative Commons - table from: https://de.wikipedia.org/wiki/Creative_Commons#Die_Rechtemodule - <a href="https://creativecommons.org/licenses/by-sa/3.0/">(CC BY-SA 3.0)</a> </i> </p>
 
 
-Durch die Zusammenstellung mehrerer Module ergeben sich verschiedene Lizenzen, z.B. bedeutet die Lizenz „CC BY-SA 4.0“, dass das Werk geteilt und auch verändert werden darf, solange der/die Urheber:in genannt wird (BY), inklusive einem Link zur Quelle und zur Lizenz, und das erneut veröffentlichte (oder ggf. veränderte) Werk unter der gleichen Lizenz veröffentlicht wird (also in diesem Fall ebenfalls unter CC BY-SA). Da kein "NC"-Modul enthalten ist, ist auch die kommerzielle Verwendung gestattet. Die „4.0“ zeigt dabei die Version der Lizenz an. Eine vollständige Beschreibung dieser Lizenz findet sich unter https://creativecommons.org/licenses/by-sa/4.0/deed.de
+The combination of several modules results in different licenses, e.g. the "CC BY-SA 4.0" license means that the work may be shared and modified as long as the author is named (BY), including a link to the source and the license, and the republished (or modified, if applicable) work is released under the same license (in this case also under CC BY-SA). Since no "NC" module is included, commercial use is also permitted. The "4.0" indicates the version of the license. A full description of this license can be found at https://creativecommons.org/licenses/by-sa/4.0/deed.en
 
-Möchte man als Urheber:in eines 3D-Modells oder sonstigen Werks eine CC-Lizenz für die Veröffentlichung nutzen, geht dies relativ einfach über die Webseite https://creativecommons.org/choose.
-Mit diesem Tool kann man die gewünschten Lizenzeigenschaften auswählen und bekommt anschließend das entsprechende CC-Kürzel sowie einen Link zur Lizenz angezeigt. Diese kann man anschließend an der Stelle, an der man das Werk veröffentlicht, platzieren.
+If you are the author of a 3D model or other work and would like to use a CC license for publication, it is relatively easy to do so via the website https://creativecommons.org/choose.
+With this tool, you can select the desired license properties and then get the corresponding CC abbreviation and a link to the license displayed. You can then inculde this in the place where the work is published.
 
 ### Why permission for commercial use is important
 
