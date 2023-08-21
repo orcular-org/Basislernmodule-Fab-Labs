@@ -24,21 +24,21 @@ To do:
 
 ## Downloading finished 3D models
 
-Statt eigene 3D-Modelle zu erstellen, kann man auch fertige Modelle aus dem Internet herunterladen, ggf. nachbearbeiten und anschließend z.B. für 3D-Druck benutzen. Verschiedene Webseiten bieten eine riesige Auswahl von einfachen Objekten bis hin zu komplexen mehrteiligen Produkten.
+Instead of creating your own 3D models, you can also download ready-made models from the Internet, edit them if necessary and then use them for 3D printing, for example. Various websites offer a huge selection from simple objects to complex multi-part products.
 
-Zwei bekannte und beliebte Webseiten für downloadbare 3D-Druck-Modelle sind:
+Two well-known and popular websites for downloadable 3D printing models are:
 - Thingiverse https://www.thingiverse.com
 - Printables https://www.printables.com
 
-Beim Download von 3D-Modellen von derartigen Plattformen sollte man darauf achten, welche Lizenz verwendet wurde. Für den privaten Gebrauch ist dies nicht so wichtig, aber falls man ein Objekt z.B. kommerziell nutzen oder in abgewandelter Form veröffentlichen möchte, sollte man sich unbedingt mit dem Thema „Creative-Commons-Lizenzen“ vertraut machen und prüfen, unter welcher Lizenz die Datei veröffentlich wurde - oder ob sie vielleicht gar keine Lizenz hat. In der Regel wird die Lizenz direkt auf der jeweiligen Downloadwebseite des Modells angegeben (mehr zum Thema Lizenzen unten).
+When downloading 3D models from such platforms, you should pay attention to which license was used. This is not so important for private use, but if you want to use an object commercially or publish it in a modified form, you should definitely familiarize yourself with the topic of "Creative Commons licenses" and check under which license the file is published - or whether it might not have a license at all. The license is usually specified directly on the model's respective download website (more on the subject of licenses below).
 
 ### Vector graphics for laser cutting and editable 3D/CAD models
 
-Die oben genannten Plattformen sind üblicherweise für das Teilen von 3D-Modellen für den 3D-Druck gedacht, d.h. in der Regel findet man STL-Dateien. Der Nachteil von STL-Dateien ist, dass sie nicht einfach bearbeitbar und veränderbar sind. Manche Designer:innen veröffentlichen auch bearbeitbare Dateien, die sich in der entsprechenden CAD- oder 3D-Modellierungssoftware öffnen und bearbeiten lassen (mehr zum Thema im [Basislernmodul CAD- und 3D-Designsoftware](../1_1_3D_design/3D-Design.md)).
+The platforms mentioned above are usually for sharing 3D models for 3D printing, i.e. usually you will find STL files. The disadvantage of STL files is that they are not easily editable and modifiable. Some designers also publish editable files that can be opened and edited in the appropriate CAD or 3D modeling software (more on this topic in the [3D printing basic learning module](../2_1_3D_printing/EN_3D_printing.md)).
 
-Sucht man gezielt nach solchen Projekten, empfiehlt es sich, einfach den Namen der Software in die Suchleiste der Plattform einzugeben, z.B. "FreeCAD", "Blender", "Fusion 360" o.ä. - auf diese Weise findet man oft Projekte, die gleich die Ursprungsdatei mitliefern.
+If you are specifically looking for such projects, it is advisable to simply enter the name of the software in the search bar of the platform, e.g. "FreeCAD", "Blender", "Fusion 360" or similar. - This way you will often find projects that include the original file.
 
-Auch wenn die Plattformen eigentlich auf 3D-Druck ausgerichtet sind, finden sich dort auch Lasercut-Dateien oder Projekte, die aus Lasercutting und 3D-Druck kombiniert bestehen. Gibt man "lasercut" oder "lasercutting" in die Suchleiste ein, findet man viele solcher Projekte, also auch Vektorgrafik-Dateien (mehr zum Thema im [Basislernmodul Lasercutting](../2_2_Laser_cutting/Lasercutting.md)).
+Even though the platforms are actually focused on 3D printing, you can also find lasercut files or projects that consist of lasercutting and 3D printing combined. If you enter "lasercut" or "lasercutting" in the search bar, you will find many such projects, including vector graphics files (more on this topic in the [laser cutting basic learning module](../2_2_Laser_cutting/EN_Laser_cutting.md)).
 
 ## Open Licenses and Creative Commons
 
