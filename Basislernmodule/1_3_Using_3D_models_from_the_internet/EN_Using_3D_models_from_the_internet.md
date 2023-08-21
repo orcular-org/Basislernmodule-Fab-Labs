@@ -8,21 +8,21 @@ To do:
 - Commit changes
 - When done, remove this note
 
-> Zurück zur [Übersicht Basislernmodule](../../README.md)
+> Back to [basic learning modules overview](../../translations/EN_Readme.md)
 
-# Verwendung von 3D-Modellen aus dem Internet
+# Using 3D models from the Internet
 
-## Inhalt
+## Contents
 
-1. [Download fertiger 3D-Modelle](#download-fertiger-3d-modelle)
-   - [Vektorgrafiken für Lasercutting und bearbeitbare 3D-/CAD-Modelle](#vektorgrafiken-f%C3%BCr-lasercutting-und-bearbeitbare-3d-cad-modelle)
-2. [Offene Lizenzen und Creative Commons](#offene-lizenzen-und-creative-commons)
-   - [Verschiedene Typen von CC-Lizenzen](#verschiedene-typen-von-cc-lizenzen)
-   - [Warum die Erlaubnis für kommerzielle Nutzung wichtig ist](#warum-die-erlaubnis-f%C3%BCr-kommerzielle-nutzung-wichtig-ist)
+1. [Downloading finished 3D models](#download-fertiger-3d-modelle)
+   - [Vector graphics for laser cutting and editable 3D/CAD models](#vektorgrafiken-f%C3%BCr-lasercutting-und-bearbeitbare-3d-cad-modelle)
+2. [Open Licenses and Creative Commons](#offene-lizenzen-und-creative-commons)
+   - [Different types of CC licenses](#verschiedene-typen-von-cc-lizenzen)
+   - [Why permission for commercial use is important](#warum-die-erlaubnis-f%C3%BCr-kommerzielle-nutzung-wichtig-ist)
 
-[Lizenzinformationen](#lizenzinformationen)
+[License information](#license-information)
 
-## Download fertiger 3D-Modelle
+## Downloading finished 3D models
 
 Statt eigene 3D-Modelle zu erstellen, kann man auch fertige Modelle aus dem Internet herunterladen, ggf. nachbearbeiten und anschließend z.B. für 3D-Druck benutzen. Verschiedene Webseiten bieten eine riesige Auswahl von einfachen Objekten bis hin zu komplexen mehrteiligen Produkten.
 
@@ -32,7 +32,7 @@ Zwei bekannte und beliebte Webseiten für downloadbare 3D-Druck-Modelle sind:
 
 Beim Download von 3D-Modellen von derartigen Plattformen sollte man darauf achten, welche Lizenz verwendet wurde. Für den privaten Gebrauch ist dies nicht so wichtig, aber falls man ein Objekt z.B. kommerziell nutzen oder in abgewandelter Form veröffentlichen möchte, sollte man sich unbedingt mit dem Thema „Creative-Commons-Lizenzen“ vertraut machen und prüfen, unter welcher Lizenz die Datei veröffentlich wurde - oder ob sie vielleicht gar keine Lizenz hat. In der Regel wird die Lizenz direkt auf der jeweiligen Downloadwebseite des Modells angegeben (mehr zum Thema Lizenzen unten).
 
-### Vektorgrafiken für Lasercutting und bearbeitbare 3D-/CAD-Modelle
+### Vector graphics for laser cutting and editable 3D/CAD models
 
 Die oben genannten Plattformen sind üblicherweise für das Teilen von 3D-Modellen für den 3D-Druck gedacht, d.h. in der Regel findet man STL-Dateien. Der Nachteil von STL-Dateien ist, dass sie nicht einfach bearbeitbar und veränderbar sind. Manche Designer:innen veröffentlichen auch bearbeitbare Dateien, die sich in der entsprechenden CAD- oder 3D-Modellierungssoftware öffnen und bearbeiten lassen (mehr zum Thema im [Basislernmodul CAD- und 3D-Designsoftware](../1_1_3D_design/3D-Design.md)).
 
@@ -40,7 +40,7 @@ Sucht man gezielt nach solchen Projekten, empfiehlt es sich, einfach den Namen d
 
 Auch wenn die Plattformen eigentlich auf 3D-Druck ausgerichtet sind, finden sich dort auch Lasercut-Dateien oder Projekte, die aus Lasercutting und 3D-Druck kombiniert bestehen. Gibt man "lasercut" oder "lasercutting" in die Suchleiste ein, findet man viele solcher Projekte, also auch Vektorgrafik-Dateien (mehr zum Thema im [Basislernmodul Lasercutting](../2_2_Laser_cutting/Lasercutting.md)).
 
-## Offene Lizenzen und Creative Commons
+## Open Licenses and Creative Commons
 
 Creative Commons (CC) ist eine gemeinnützige Organisation mit Sitz in den USA, die verschiedene Standard-Lizenzverträge veröffentlicht, die weltweit Gültigkeit haben. Grundsätzlich lassen sich CC-Lizenzen auf alle Werke, die üblicherweise dem Urheberrecht unterliegen, anwenden – z.B. Texte, Bilder, Musikstücke, Videos oder eben auch 3D-Modelle. Viele 3D-Modelle auf den oben genannten Plattformen verfügen über eine CC-Lizenz.
 
@@ -50,7 +50,7 @@ Die Lizenz räumt dabei allen Menschen, die das Werk herunterladen, bestimmte Re
 
 CC-Lizenzen sind nur eine Möglichkeit – es gibt auch andere Lizenzmodelle, z.B. GNU General Public License (GNU GPL). Aufgrund ihrer Einfachheit, klaren Verständlichkeit und weiten Bekanntheit haben sich CC-Modelle jedoch bewährt.
 
-### Verschiedene Typen von CC-Lizenzen
+### Different types of CC licenses
 
 Je nachdem, welche Rechte man einräumen möchte, gibt es verschiedene CC-Rechtemodule, die man wählen und miteinander kombinierten kann:
 
@@ -69,7 +69,7 @@ Durch die Zusammenstellung mehrerer Module ergeben sich verschiedene Lizenzen, z
 Möchte man als Urheber:in eines 3D-Modells oder sonstigen Werks eine CC-Lizenz für die Veröffentlichung nutzen, geht dies relativ einfach über die Webseite https://creativecommons.org/choose.
 Mit diesem Tool kann man die gewünschten Lizenzeigenschaften auswählen und bekommt anschließend das entsprechende CC-Kürzel sowie einen Link zur Lizenz angezeigt. Diese kann man anschließend an der Stelle, an der man das Werk veröffentlicht, platzieren.
 
-### Warum die Erlaubnis für kommerzielle Nutzung wichtig ist
+### Why permission for commercial use is important
 
 An dieser Stelle soll noch auf ein weit verbreitetes Problem im Zusammenhang mit Creative-Commons-Lizenzen hingewiesen werden. Viele Urheber:innen veröffentlichen ihre Werke mit einer „Non-commercial“-Lizenz (NC), die die kommerzielle Nutzung des Werkes ausschließt.
 
@@ -83,7 +83,7 @@ Die wichtigsten Probleme in Kürze: Vielen Menschen ist nicht bewusst, dass die 
 
 NC-Lizenzen sorgen im Bereich Mediennutzung mit Creative-Commons-Lizenzen sowie bei Open-Source-Software und -Hardware oft für ärgerliche und unerwünschte Einschränkungen, während die Sorgen vor kommerzieller Ausnutzung durch Unternehmen oft unbegründet sind. Bevor man also eine NC-Lizenz in Betracht zieht, lohnt sich die Lektüre der Broschüre.
 
-# Lizenzinformationen
+# License information
 
 **Author:** Oskar Lidtke, https://github.com/orcular-org/
 
