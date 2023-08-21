@@ -14,11 +14,11 @@ To do:
 
 ## Contents
 
-1. [Downloading finished 3D models](#download-fertiger-3d-modelle)
-   - [Vector graphics for laser cutting and editable 3D/CAD models](#vektorgrafiken-f%C3%BCr-lasercutting-und-bearbeitbare-3d-cad-modelle)
-2. [Open Licenses and Creative Commons](#offene-lizenzen-und-creative-commons)
-   - [Different types of CC licenses](#verschiedene-typen-von-cc-lizenzen)
-   - [Why permission for commercial use is important](#warum-die-erlaubnis-f%C3%BCr-kommerzielle-nutzung-wichtig-ist)
+1. [Downloading finished 3D models](#downloading-finished-3d-models)
+   - [Vector graphics for laser cutting and editable 3D/CAD models](#vector-graphics-for-laser-cutting-and-editable-3dcad-models)
+2. [Open Licenses and Creative Commons](#open-licenses-and-creative-commons)
+   - [Different types of CC licenses](#different-types-of-cc-licenses)
+   - [Why permission for commercial use is important](#why-permission-for-commercial-use-is-important)
 
 [License information](#license-information)
 
