@@ -86,7 +86,7 @@ FDM stands for "fused deposition modeling". This means that a material, usually 
 
 This is why 3D printing is also classified as "additive manufacturing", since objects are created by adding new material. In contrast, there is also "subtractive manufacturing", i.e. manufacturing processes in which an existing material is separated or something is "taken away", e.g. by [laser cutting](../2_2_Laser_cutting/EN_Laser_cutting.md) or [CNC milling](../2_3_CNC_milling/EN_CNC_milling.md).
 
-Mit FDM-3D-Druckern können z.B. dekorative Objekte wie Figuren oder Vasen, kleine Spielzeuge, personalisierte Namensschilder und Schlüsselanhänger, Modelle für Demonstrationszwecke (z.B. von Maschinen oder Gebäuden), Ersatzteile für bestehende Produkte (z.B. Schubladengriffe oder drehbare Knöpfe für Musikanlagen), Alltagshelfer wie Handtuchhaken oder Funktionsteile wie Gehäuse für Elektronikgeräte, Flaschenöffner oder sogar Bauteile für 3D-Drucker gedruckt werden.
+FDM 3D printers can be used, for example, to print decorative objects such as figurines or vases, small toys, personalized name tags and key chains, models for demonstration purposes (e.g. of machines or buildings), spare parts for existing products (e.g. drawer handles or rotating knobs for music systems), everyday helpers such as towel hooks or functional parts such as housings for electronic devices, bottle openers or even components for 3D printers.
 
 <p align="center">
 <img height="300" src="images/7_3D_printed_speaker_casing.png">
@@ -94,8 +94,8 @@ Mit FDM-3D-Druckern können z.B. dekorative Objekte wie Figuren oder Vasen, klei
 </p>
 
 <p align="center">
-<a href="#s7">[7]</a> <i> 3D-gedrucktes Lautsprechergehäuse - </i>
-<a href="#s8">[8]</a> <i> 3D-gedrucktes Modell einer Turbine</i>
+<a href="#s7">[7]</a> <i> 3D printed speaker housing - </i>
+<a href="#s8">[8]</a> <i> 3D printed model of a turbine</i>
 </p>
 
 <p align="center">
@@ -104,8 +104,8 @@ Mit FDM-3D-Druckern können z.B. dekorative Objekte wie Figuren oder Vasen, klei
 </p>
 
 <p align="center">
-<a href="#s9">[9]</a> <i> 3D-gedruckte Schale - </i>
-<a href="#s10">[10]</a> <i> Verschiedene 3D-gedruckte Objekte</i>
+<a href="#s9">[9]</a> <i> 3D printed bowl - </i>
+<a href="#s10">[10]</a> <i> Various 3D printed objects</i>
 </p>
 
 <p align="center">
@@ -117,7 +117,7 @@ Mit FDM-3D-Druckern können z.B. dekorative Objekte wie Figuren oder Vasen, klei
 <p align="center">
 <a href="#s11">[11]</a> <i>  - </i>
 <a href="#s12">[12]</a> <i>  - </i>
-<a href="#s13">[13]</a> <i> Verschiedene 3D-gedruckte Objekte</i>
+<a href="#s13">[13]</a> <i> Various 3D printed objects</i>
 </p>
 
 
