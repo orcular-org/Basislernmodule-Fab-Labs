@@ -264,7 +264,7 @@ Other basic learning modules deal with the topics of [3D CAD modelling](../1_1_3
 
 Most 3D printers require files in STL format (or sometimes OBJ format) - i.e. with the file extension ".stl" or ".obj". However, STL is the more common file format. Almost every CAD software is able to export 3D models in STL format. In the case of downloaded files from the internet, one should first check whether it is in STL format.
 
-Before you can print the STL file, you have to process it in a so-called slicer software. In short, the slicer software creates many small, superimposed layers or slices based on the 3D model and calculates the control commands for the 3D printer, which then prints the model layer by layer on top of each other. (a more detailed  [description of slicing below](#slicing-testing-and-export)).
+Before you can print the STL file, you have to process it in a so-called slicer software. In short, the slicer software creates many small, superimposed layers or slices based on the 3D model and calculates the control commands for the 3D printer, which then prints the model layer by layer on top of each other (a more detailed  [description of slicing below](#slicing-testing-and-export)).
 
 ### Slicer software
 
