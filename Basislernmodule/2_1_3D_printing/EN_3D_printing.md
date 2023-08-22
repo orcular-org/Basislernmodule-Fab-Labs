@@ -126,7 +126,7 @@ FDM 3D printers can be used, for example, to print decorative objects such as fi
 ## Basics
 ### Filament
 
-Das Grundmaterial, das man für einen FDM-3D-Drucker benötigt, nennt sich Filament. Ein Filament ist ein dünner Kunststoffdraht, der auf eine Rolle gewickelt ist.
+The basic material needed for an FDM 3D printer is called filament. A filament is a thin plastic wire wound on a spool.
 
 <p align="center">
 <img height="300" src="images/14_Filament_for_3D_printing.png">
@@ -134,26 +134,26 @@ Das Grundmaterial, das man für einen FDM-3D-Drucker benötigt, nennt sich Filam
 </p>
 
 <p align="center">
-<a href="#s14">[14]</a> <i> Verschiedene Filamentrollen - </i>
-<a href="#s15">[15]</a> <i> Filamentrolle</i>
+<a href="#s14">[14]</a> <i> Different spools of filament - </i>
+<a href="#s15">[15]</a> <i> Filament spool</i>
 </p>
 
-Filamente gibt es in verschiedensten Farben und Materialien.
-Das gängigste 3D-Druck-Material ist PLA. Es ist günstig, einfach zu drucken, ist für die allermeisten Anwendungen und damit auch für Einsteiger:innen gut geeignet.
+Filaments come in a wide variety of colors and materials.
+The most common 3D printing material is PLA. It is cheap, easy to print, suitable for most applications and therefore also for beginners.
 
-PLA ist eine Kunststoff- bzw. Plastiksorte und steht für "polylactic acid" (englisch für "Polylactide").
+PLA is a type of plastic and stands for "polylactic acid".
 
-Hier eine Kurzübersicht der gängigsten Materialien für FDM-3D-Drucker und die wichtigsten Vor- und Nachteile:
+Here is a brief overview of the most common materials for FDM 3D printers and the main advantages and disadvantages:
 
-- **PLA:** Günstig, einfach zu drucken, gut für Einsteiger:innen, ideal für dekorative Objekte oder Bauteile mit niedrigen Belastungen; gut recyclebar
-- **PETG / PET-G:** Robuster als PLA, gut für Funktionsbauteile, die hohe Kräfte/Belastungen aushalten sollen; leichter zu drucken als ABS; etwas fester als ABS
-- **PET:** Eher selten als 3D-Druck-Filament zu finden, weniger geeignet als PET-G; sehr gut recyclebar; lässt sich z.B. aus PET-Flaschen herstellen
-- **ABS:** Ähnlich gut belastbar wie PETG, höhere Hitzebeständigkeit als PETG; dünstet beim Drucken ungesunde Dämpfe aus, gut belüfteter Raum notwendig; schwierig zu drucken, Gehäuse und hohe Heizbetttemperatur empfehlenswert
-- **ASA:** Gilt als „Nachfolger“ von ABS; verzieht weniger und dünstet weniger aus als ABS
-- **Nylon:** Besonders hohe mechanische und thermische Beständigkeit; schwierig zu drucken, eher für Fortgeschrittene; teurer als andere Filamentsorten; anfällig für Feuchte
-- **TPU:** Flexibles, „gummiartiges“ Material; lässt sich nach dem Druck leicht verformen; ideal für kleine Reifen, Stempel u.ä.; relativ schwierig zu drucken; teurer als andere Filamentsorten
+- **PLA:** Inexpensive, easy to print, good for beginners, ideal for decorative objects or components with low loads; good recyclability. 
+- **PETG / PET-G:** More robust than PLA, good for functional components that need to withstand high forces/loads; easier to print than ABS; slightly stronger than ABS. 
+- **PET:** Rather rarely found as 3D printing filament, less suitable than PET-G; very well recyclable; can be produced from PET bottles, for example. 
+- **ABS:** Similar to PETG in load capacity, higher heat resistance than PETG; emits unhealthy fumes during printing, well ventilated room required; difficult to print, enclosure and high heating bed temperature recommended.
+- **ASA:** Considered the "successor" to ABS; less warping and evaporates less than ABS. 
+- **Nylon:** Particularly high mechanical and thermal resistance; difficult to print, more for advanced users; more expensive than other filament types; susceptible to moisture 
+- **TPU:** Flexible, "rubbery" material; can be easily deformed after printing; ideal for small tires, stamps, etc.; relatively difficult to print; more expensive than other types of filaments. 
 
-Da jedes Material eine andere Schmelztemperatur hat, ist es wichtig, diese im Druckprozess korrekt einzustellen. Der 3D-Drucker erhitzt im sogenannten Extruder das Filament auf eine Temperatur, mit der es sich gut verflüssigen und drucken lässt, während das Heizbett auf eine Temperatur eingestellt wird, die sicherstellt, dass das Filament gut darauf haftet. So verwendet man z.B. für PLA üblicherweise eine Extrudertemperatur von 200-230 °C und eine Heizbetttemperatur von 60 °C. Diese Temperaturempfehlungen können aber je nach Hersteller auch abweichen. Am besten prüft man die Angaben auf der Filamentrolle bzw. in beigelegten Datenblättern und gleicht sie mit den Einstellungen in der Slicer-Software ab (mehr [zum Thema Slicing später](#slicer-software)).
+Since every material has a different melting temperature, it is important to set this correctly in the printing process. The 3D printer heats the filament in the so-called extruder to a temperature at which it can be liquefied and printed well, while the heating bed is set to a temperature that ensures that the filament adheres well to it. For example, for PLA, it is common to use an extruder temperature of 200-230 °C and a heating bed temperature of 60 °C. However, these temperature recommendations can also differ depending on the manufacturer. It is best to check the specifications on the filament spool or in the enclosed data sheets and compare them with the settings in the slicer software. (more [about slicing later](#slicer-software)).
 
 Filamente werden meistens in den Durchmesser-Varianten 1,75 mm und 2,85 mm verkauft, wobei 1,75 mm die deutlich verbreitete Variante ist. Für größere 3D-Drucker bzw. für solche, bei denen die Düse entsprechend getauscht wurde, wird das dickere 2,85-mm-Filament verwendet.
 
