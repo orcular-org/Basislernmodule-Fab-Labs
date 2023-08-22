@@ -262,9 +262,9 @@ First, you need a digital 3D model of the object you want to print. Such 3D mode
 
 Other basic learning modules deal with the topics of [3D CAD modelling](../1_1_3D_design/EN_3D_design.md) (CAD = Computer Aided Design), [3D scanning](../1_2_3D_scanning/EN_3D_scanning.md) and [downloading models from websites.](../1_3_Using_3D_models_from_the_internet/EN_Using_3D_models_from_the_internet.md).
 
-Für die meisten 3D-Drucker benötigt man Dateien im STL-Format (oder manchmal auch OBJ-Format) - also mit der Dateiendung „.stl“ oder „.obj“. STL ist aber das üblichere Dateiformat. Fast jede CAD-Software ist in der Lage, 3D-Modelle im STL-Format zu exportieren. Bei heruntergeladenen Dateien aus dem Internet sollte man zunächst prüfen, ob es im STL-Format vorliegt.
+Most 3D printers require files in STL format (or sometimes OBJ format) - i.e. with the file extension ".stl" or ".obj". However, STL is the more common file format. Almost every CAD software is able to export 3D models in STL format. In the case of downloaded files from the internet, one should first check whether it is in STL format.
 
-Bevor man die STL-Datei drucken kann, muss man sie noch in einer sogenannten Slicer-Software bearbeiten. Kurz gesagt, erzeugt die Slicer-Software auf Basis des 3D-Modells viele kleine, übereinanderliegende Schichten oder Scheiben und berechnet die Steuerbefehle für den 3D-Drucker, der das Modell dann Schicht für Schicht aufeinander druckt (eine genauere [Beschreibung des Slicings weiter unten](#slicing-prüfung-und-export)).
+Before you can print the STL file, you have to process it in a so-called slicer software. In short, the slicer software creates many small, superimposed layers or slices based on the 3D model and calculates the control commands for the 3D printer, which then prints the model layer by layer on top of each other. (a more detailed  [description of slicing below](#slicing-testing-and-export)).
 
 ### Slicer software
 
