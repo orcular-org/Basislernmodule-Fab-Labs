@@ -164,22 +164,22 @@ Ordinary 3D printers can only print with one filament at a time, so if you want 
 </p>
 
 <p align="center">
-<a href="#s16">[16]</a> <i> Mehrfarbiger 3D-Druck</i>
+<a href="#s16">[16]</a> <i> Multicolor 3D Printing</i>
 </p>
 
 ### 3D printer components
 
-Zunächst sollte man sich mit dem grundlegenden Aufbau eines FDM-3D-Druckers vertraut machen. Hier wird beispielhaft ein typischer FDM-3D-Drucker beschrieben. Die meisten FDM-Drucker sind auf diese oder ähnliche Weise aufgebaut. Je nach Hersteller und Modell kann dieser Aufbau auch abweichen, aber die Grundprinzipien bleiben die gleichen.
+First of all, you should familiarize yourself with the basic structure of an FDM 3D printer. A typical FDM 3D printer is described here as an example. Most FDM printers are built in this or a similar way. Depending on the manufacturer and model, this setup may also differ, but the basic principles remain the same.
 
 <p align="center">
        <img height="500" src="images/17_Die_wichtigsten_Komponenten_eines_3D-Druckers.png">
 </p>
 
 <p align="center">
-       <a href="#s17">[17]</a> <i> Die wichtigsten Komponenten eines 3D-Druckers </i>
+       <a href="#s17">[17]</a> <i> The main components of a 3D printer </i>
 </p>
 
-Die wichtigste Komponente ist der Extruder, den man sich ähnlich wie einen "Druckkopf" bei Tintenstrahldruckern vorstellen kann.
+The most important component is the extruder, which can be thought of as similar to a "print head" in inkjet printers.
 
 <p align="center">
 <img height="300" src="images/18_Extruder.png">
@@ -187,8 +187,8 @@ Die wichtigste Komponente ist der Extruder, den man sich ähnlich wie einen "Dru
 </p>
 
 <p align="center">
-<a href="#s18">[18]</a> <i> Vereinfachte Schnittdarstellung eines Extruders mit: (1) Filament - (2) Extruder mit Zahnrädern für den Filamentvorschub - (3) Beheizte Düse (Nozzle) - </i>
-<a href="#s19">[19]</a> <i> Foto eines Extruders </i>
+<a href="#s18">[18]</a> <i> Simplified sectional view of an extruder with: (1) Filament - (2) Extruder with gears for filament feed - (3) Heated nozzle - </i>
+<a href="#s19">[19]</a> <i> Photo of an extruder </i>
 </p>
 
 
