@@ -193,17 +193,17 @@ The most important component is the extruder, which can be thought of as similar
 
 
 
-Oben am Extruder befindet sich eine Öffnung, in die der Filamentdraht eingeführt wird. Im Inneren des Extuders wird das Filament von zwei Zahnrädern, die den "Vorschub" des Filaments steuern, eingezogen bzw. nach unten weitergeschoben.
+At the top of the extruder is an opening into which the filament wire is inserted. Inside the extruder, the filament is pulled in or pushed on down by two gears that control the "feed" of the filament.
 
-Danach geht das Filament durch einen Kühlteil. Ein Ventilator bläst Luft gegen die Kühlrippen, um das Filament in diesem Bereich zu kühlen. Auf diese Weise verhindert man, dass das Filament Wärme nach oben leitet und bereits im Bereich der Zahnräder schmilzt. Flüssiges Filament ließe sich dann nicht mehr von den Zahnrädern vorschieben. Im Laufe eines 3D-Druck-Vorgangs kann es sein, dass der Ventilator mal anspringt und mal wieder ausgeht.
+After that, the filament goes through a cooling section. A fan blows air against the cooling fins to cool the filament in this area. This prevents the filament from conducting heat upwards and melting in the area of the gears. Liquid filament could then no longer be pushed forward by the gear wheels. In the course of a 3D printing process, the fan may sometimes start and sometimes stop again.
 
-Nach dem Kühlteil des Extruders bewegt sich das Filament weiter nach unten durch das sogenannte "Hotend" (von engl. „hot end“ = „heißes Ende“). Dort wird das Filament erhitzt, geschmolzen und ein Stück weit verflüssigt. Abschließend wird das zähflüssige Filament durch eine Düse (sogenannte "Nozzle") gedrückt. Das z.B. 1,75 mm dicke Filament wird durch die Düse/Nozzle auf einen deutlich kleineren Durchmesser gepresst (meistens ca. 0,4 mm). Das austretende Filament kann nun zum schichtweisen Auftragen, also 3D-Drucken, verwendet werden.
+After the cooling section of the extruder, the filament moves further down through the so-called "hot end". There, the filament is heated, melted and liquefied to some extent. Finally, the viscous filament is pressed through a nozzle. The filament, which is e.g. 1.75 mm thick, is pressed through the nozzle to a much smaller diameter (usually approx. 0.4 mm). The emerging filament can now be used for layer-by-layer deposition, i.e. 3D printing.
 
-Damit der Extruder Objekte im dreidimensionalen Raum erschaffen kann, muss er sich in alle Richtungen bewegen können. Dafür gibt es bei 3D-Druckern die drei motorgesteuerten Achsen: X-, Y- und Z-Achse.
+In order for the extruder to create objects in three-dimensional space, it must be able to move in all directions. This is why 3D printers have three motor-controlled axes: the X, Y and Z axes.
 
-Die X- und Y-Achse beziehen sich in der Regel auf Bewegungen in der horizontalen bzw. waagerechten Grundfläche:
-- X-Achse: "links und rechts"
-- Y-Achse: "vorne und hinten"
+The X and Y axes usually refer to movements in the horizontal base:
+- X-axis: "left and right"
+- Y-axis: "front and back"
 
 <p align="center">
        <img height="400" src="images/20_X-_Y-_and_Z-axis_3D_printer.png">
@@ -211,14 +211,14 @@ Die X- und Y-Achse beziehen sich in der Regel auf Bewegungen in der horizontalen
 </p>
 
 <p align="center">
-       <a href="#s20">[20]</a> <i> X-, Y- und Z-Achse eines 3D-Druckers - </i>
-       <a href="#s21">[21]</a> <i> Draufsicht eines 3D-Druckers mit X- und Y-Achse </i>
+       <a href="#s20">[20]</a> <i> X, Y and Z axis of a 3D printer - </i>
+       <a href="#s21">[21]</a> <i> Top view of 3D printer with X and Y axis </i>
 </p>
 
 <br>
 
-Die Z-Achse hingegen bezieht sich auf die vertikale (senkrechte) Bewegung:
-- Z-Achse: "oben und unten"
+The Z axis, on the other hand, refers to vertical movement:
+- Z-axis: "top and bottom"
 
 <br>
 
@@ -227,22 +227,22 @@ Die Z-Achse hingegen bezieht sich auf die vertikale (senkrechte) Bewegung:
 </p>
 
 <p align="center">
-       <a href="#s22">[22]</a> <i> Frontansicht eines 3D-Druckers mit X- und Z-Achse </i>
+       <a href="#s22">[22]</a> <i> Front view of a 3D printer with X- and Z-axis </i>
 </p>
 
-Der Extruder sitzt oft auf einer Stange, auf der er sich nach links und rechts (also in X-Richtung) bewegen kann. Angesteuert wird dies über einen Motor und einen Riemen.
+The extruder often sits on a rod on which it can move to the left and right (i.e. in the X direction). This is controlled by a motor and a belt.
 
-Für Bewegungen in der Y-Achse wird oft gar nicht der Extruder bewegt, sondern das Heizbett – auch hier durch einen Motor und ein Riemen.
+For movements in the Y-axis, it is often not the extruder that is moved at all, but the heating bed - again by a motor and a belt.
 
-Für die Z-Achse wiederum gibt es meist motorgesteuerte Spindeln, die die gesamte X-Achsen-Stange nach oben und unten verschiebt. Bei manchen 3D-Druckern wird nicht der Extruder (bzw. die x-Achse), sondern das Heizbett nach oben bzw. unten bewegt.
+For the Z-axis, on the other hand, there are usually motor-controlled spindles that move the entire X-axis bar up and down. In some 3D printers, it is not the extruder (or the x-axis) that is moved up or down, but the heating bed.
 
-Den Druckablauf kann man sich nun so vorstellen, dass ein 3D-Drucker zunächst wie ein „2D-Drucker“ funktioniert. Geschmolzenes Filament wird durch die Düse/Nozzle des Extruders gedrückt, während sich gleichzeitig die X- und Y-Achsen bewegen. Somit „zeichnet“ der Drucker die erste, unterste Schicht auf das Heizbett, sozusagen „in 2D“. Sobald die erste Schicht fertig ist, fährt der Extruder ein kleines Stück weit (oft nur einen Bruchteil eines Millimeters) in z-Richtung hoch und „zeichnet“ darauf dann die zweite Schicht. So wird fortgefahren, bis die oberste Schicht und damit das ganze dreidimensionale Objekt fertig ist.
+The printing process can now be imagined in such a way that a 3D printer initially functions like a "2D printer". Molten filament is pushed through the extruder's nozzle while the X and Y axes move at the same time. Thus, the printer "draws" the first, bottom layer onto the heated bed, "in 2D" so to speak. As soon as the first layer is ready, the extruder moves up a small distance (often only a fraction of a millimeter) in the z-direction and then "draws" the second layer on top of it. This continues until the top layer and thus the entire three-dimensional object is finished.
 
 ### Calibration
 
-Ein neu gekaufter oder neu zusammengebauter 3D-Drucker muss zunächst kalibriert werden. Die meisten 3D-Drucker haben dafür ein Programm, das man über die Einstellungen starten kann. Beim Kalibrieren fährt der Extruder verschiedene Punkte an, fährt die x-, y- und z-Achse jeweils einmal in gesamter Länge ab und „tastet“ das Heizbett ab. Die Messwerte und Koordinaten werden gespeichert und es wird sichergestellt, dass der 3D-Drucker korrekt ausgerichtet ist.
+A newly purchased or newly assembled 3D printer must first be calibrated. Most 3D printers have a program for this that can be started via the settings. During calibration, the extruder moves to various points, moves along the x-, y- and z-axis once in their entire length and "scans" the heating bed. The measured values and coordinates are saved and it is ensured that the 3D printer is correctly aligned.
 
-Manchmal kann es notwendig sein, einen 3D-Drucker erneut zu kalibrieren, z.B. nachdem man ihn transportiert hat oder wenn Fehler in den Druckergebnissen auffallen.
+Sometimes it may be necessary to recalibrate a 3D printer, e.g. after you have transported it or if you notice errors in the print results.
 
 
 ## Preparing a 3D print
