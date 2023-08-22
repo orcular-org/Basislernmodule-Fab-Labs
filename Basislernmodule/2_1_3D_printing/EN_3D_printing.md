@@ -248,19 +248,19 @@ Sometimes it may be necessary to recalibrate a 3D printer, e.g. after you have t
 ## Preparing a 3D print
 ### Digital 3D model
 
-Zunächst braucht man ein digitales 3D-Modell des Objekts, das man drucken möchte. Solche 3D-Modelle kann man entweder selbst modellieren/designen (z.B. mit einer CAD-Software) oder man lädt sich ein fertiges Modell aus dem Internet. Die meisten Modelldateien sind auch klein genug, um z.B. per E-Mail verschickt zu werden. Eine weitere Möglichkeit, ein 3D-Modell zu erstellen, besteht im 3D-Scannen eines realen Objekts oder einer Person.
+First, you need a digital 3D model of the object you want to print. Such 3D models can either be modeled/designed by yourself (e.g. with CAD software) or you can download a ready-made model from the internet. Most model files are also small enough to be sent by e-mail, for example. Another way to create a 3D model is to 3D scan a real object or person.
 
 <p align="center">
 <img height="400" src="images/23_3D_CAD_model_part_FreeCAD.png">
 </p>
 
 <p align="center">
-<a href="#s23">[23]</a> <i> 3D-Modell eines Bauteils, erstellt in FreeCAD </i>
+<a href="#s23">[23]</a> <i> 3D model of a component created in FreeCAD </i>
 </p>
 
 
 
-Mit den Themen [3D-CAD-Modellierung](../1_1_3D_design/3D-Design.md) (CAD = Computer Aided Design), [3D-Scanning](../1_2_3D_scanning/3D-Scanning.md) und [Modell-Download von Webseiten](../1_3_Using_3D_models_from_the_internet/Verwendung_von_3D_Modellen_aus_dem_Internet.md) befassen sich andere Basislernmodule.
+Other basic learning modules deal with the topics of [3D CAD modelling](../1_1_3D_design/EN_3D_design.md) (CAD = Computer Aided Design), [3D scanning](../1_2_3D_scanning/EN_3D_scanning.md) and [downloading models from websites.](../1_3_Using_3D_models_from_the_internet/EN_Using_3D_models_from_the_internet.md).
 
 Für die meisten 3D-Drucker benötigt man Dateien im STL-Format (oder manchmal auch OBJ-Format) - also mit der Dateiendung „.stl“ oder „.obj“. STL ist aber das üblichere Dateiformat. Fast jede CAD-Software ist in der Lage, 3D-Modelle im STL-Format zu exportieren. Bei heruntergeladenen Dateien aus dem Internet sollte man zunächst prüfen, ob es im STL-Format vorliegt.
 
