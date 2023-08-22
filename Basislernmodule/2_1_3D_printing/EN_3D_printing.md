@@ -39,9 +39,9 @@ To do:
 
 ## Introduction
 
-Mit 3D-Druck bezeichnet man viele unterschiedliche Verfahren, bei denen ein Gerät (3D-Drucker) materielle, dreidimensionale Objekte erschafft. Dabei werden die Objekte meistens zunächst in einer Software als 3D-Modell entworfen und anschließend an den 3D-Drucker gesendet.
+3D printing refers to many different processes in which a device (3D printer) creates material, three-dimensional objects. In most cases, the objects are first designed in software as a 3D model and then sent to the 3D printer.
 
-Es gibt kleine, relativ günstige 3D-Drucker für zu Hause oder für Fab Labs, die meistens aus Kunststoff drucken, aber auch größere Drucker bis hin zu großen Anlagen, die ganze Gebäude, zumindest die Grundstruktur aus Wänden, aus Beton drucken können. Manche 3D-Drucker können auch Metall oder Lebensmittel wie Schokolade drucken – die Bandbreite an 3D-Druckverfahren ist sehr groß.
+There are small, relatively inexpensive 3D printers for the home or for fab labs that print mostly from plastic, but also larger printers up to large systems that can print entire buildings, at least the basic structure of walls, from concrete. Some 3D printers can also print metal or food like chocolate - the range of 3D printing processes is very wide.
 
 
 <p align="center">
@@ -50,8 +50,8 @@ Es gibt kleine, relativ günstige 3D-Drucker für zu Hause oder für Fab Labs, d
 </p>
 
 <p align="center">
-       <a href="#s1">[1]</a> <i> DIY-3D-Drucker mit Open-Hardware-Lizenz - </i>
-       <a href="#s2">[2]</a> <i> 3D-Drucker von Prusa </i>
+       <a href="#s1">[1]</a> <i> DIY 3D printer with open hardware license - </i>
+       <a href="#s2">[2]</a> <i> Prusa 3D Printer </i>
 </p>
 
 
@@ -61,15 +61,15 @@ Es gibt kleine, relativ günstige 3D-Drucker für zu Hause oder für Fab Labs, d
 </p>
 
 <p align="center">
-       <a href="#s3">[3]</a> <i> BigFDM-3D-Drucker für große Modelle bis zu 80 x 80 x 90 cm - </i>
-       <a href="#s4">[4]</a> <i> 3D-Druck von Häusern </i>
+       <a href="#s3">[3]</a> <i> BigFDM 3D printer for large models up to 80 x 80 x 90 cm - </i>
+       <a href="#s4">[4]</a> <i> 3D printing houses </i>
 </p>
 
-Am weitesten verbreitet und am beliebtesten sind 3D-Drucker, die nach dem sogenannten FDM-Verfahren arbeiten. In diesem Basislernmodul wird es daher zunächst nur um FDM-Drucker gehen.
+The most widespread and popular 3D printers are those that work according to the so-called FDM process. This basic learning module will therefore initially only deal with FDM printers.
 
-Die zweithäufigste Art von 3D-Druckern in Fab Labs neben dem FDM-Verfahren sind wohl die SLA-Drucker. Diese sind jedoch schwieriger in der Anwendung und damit weniger gut für Einsteiger:innen geeignet als FDM-Drucker, es empfiehlt sich also, zunächst mit FDM anzufangen.
+The second most common type of 3D printers in fab labs besides the FDM process are probably the SLA printers. However, these are more difficult to use and therefore less suitable for beginners than FDM printers, so it is recommended to start with FDM first.
 
-FDM steht für "Fused Deposition Modeling". Das bedeutet, ein Stoff, meistens ein Kunststoff/Plastik, wird von dem 3D-Drucker erhitzt, dabei geschmolzen und anschließend schichtweise aufgetragen. Die Schichten kühlen kurz darauf ab, wodurch sie sich zu einem festen Objekt zusammenfügen. Mit FDM gedruckte Objekte lassen sich gut an den typischen Schichten erkennen, die meist nur einen Bruchteil eines Millimeters dick sind.
+FDM stands for "fused deposition modeling". This means that a material, usually plastic, is heated by the 3D printer, melted in the process, and then applied in layers. The layers cool shortly thereafter, causing them to bond together to form a solid object. Objects printed with FDM can be easily recognized by the typical layers, which are usually only a fraction of a millimeter thick.
   
 
 
@@ -79,12 +79,12 @@ FDM steht für "Fused Deposition Modeling". Das bedeutet, ein Stoff, meistens ei
 </p>
 
 <p align="center">
-       <a href="#s5">[5]</a> <i> 3D-Druck - </i>
-       <a href="#s6">[6]</a> <i> 3D-gedrucktes Objekt mit sichtbaren Schichten </i>
+       <a href="#s5">[5]</a> <i> 3D printing - </i>
+       <a href="#s6">[6]</a> <i> 3D printed object with visible layers </i>
 </p>
 
 
-Daher zählt man 3D-Druck auch zu den sogenannten "additiven Verfahren", da Objekte entstehen, indem neues Material hinzugefügt ("addiert") wird. Im Gegensatz dazu gibt es auch "subtraktive Verfahren", d.h. Fertigungsverfahren, bei denen ein bestehendes Material getrennt wird bzw. etwas "weggenommen" wird, z.B. durch [Lasercutting](../2_2_Laser_cutting/Lasercutting.md) oder [CNC-Fräsen](../2_3_CNC_milling/CNC-Fraesen.md).
+This is why 3D printing is also classified as "additive manufacturing", since objects are created by adding new material. In contrast, there is also "subtractive manufacturing", i.e. manufacturing processes in which an existing material is separated or something is "taken away", e.g. by [laser cutting](../2_2_Laser_cutting/EN_Laser_cutting.md) or [CNC milling](../2_3_CNC_milling/EN_CNC_milling.md).
 
 Mit FDM-3D-Druckern können z.B. dekorative Objekte wie Figuren oder Vasen, kleine Spielzeuge, personalisierte Namensschilder und Schlüsselanhänger, Modelle für Demonstrationszwecke (z.B. von Maschinen oder Gebäuden), Ersatzteile für bestehende Produkte (z.B. Schubladengriffe oder drehbare Knöpfe für Musikanlagen), Alltagshelfer wie Handtuchhaken oder Funktionsteile wie Gehäuse für Elektronikgeräte, Flaschenöffner oder sogar Bauteile für 3D-Drucker gedruckt werden.
 
