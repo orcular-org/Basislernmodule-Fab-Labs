@@ -268,36 +268,36 @@ Before you can print the STL file, you have to process it in a so-called slicer 
 
 ### Slicer software
 
-Es gibt viele verschiedene Slicer-Programme. Viele große und bekannte Hersteller von 3D-Druckern haben ihre eigene Slicer-Software und bieten diese über ihre Website in der Regel kostenlos zum Download an. Zwei Beispiele (mit Download-Links):
+There are many different slicer programs available. Many large and well-known 3D printer manufacturers have their own slicer software and usually offer them for free download via their website. Two examples (with download links):
 
-- PrusaSlicer		https://www.prusa3d.com/de/page/prusaslicer_424/ 
-- UltiMaker Cura 	https://ultimaker.com/de/software/ultimaker-cura 
+- PrusaSlicer		https://www.prusa3d.com/page/prusaslicer_424/
+- UltiMaker Cura 	https://ultimaker.com/software/ultimaker-cura/
 
-Viele Slicer-Programme basieren auf Open-Source-Software, z.B. wurde der PrusaSlicer auf Basis der Open-Source-Software „Slic3r“ entwickelt und der PrusaSlicer selbst ist damit auch Open Source.
+Many slicer programs are based on open source software, e.g. PrusaSlicer was developed on the basis of the open source software "Slic3r" and PrusaSlicer itself is thus also open source.
 
-Manche kleinere Hersteller von 3D-Druckern nutzen auch Slicer-Programme der größeren Hersteller und liefern dazu nur eine Konfigurationsdatei, die die Slicer-Software auf den 3D-Drucker anpasst.
+Some smaller manufacturers of 3D printers also use slicer programs from the larger manufacturers and supply only a configuration file for this purpose, which adapts the slicer software to the 3D printer.
 
-In der Slicer-Software sieht man eine Vorschau des Heizbetts sowie der importierten 3D-Objekte. Mit der Software lassen sich die zu druckenden 3D-Objekte vervielfältigen (um ein Objekt gleich mehrmals zu drucken), virtuell im Raum bewegen, drehen, skalieren (vergrößern/verkleinern), und in gewünschte Positionen auf dem Heizbett platzieren.
+In the slicer software you can see a preview of the heating bed and the imported 3D objects. With the software, the 3D objects to be printed can be duplicated (to print an object several times at once), virtually moved in space, rotated, scaled (enlarged/reduced), and placed in desired positions on the heating bed.
 
 <p align="center">
 <img height="400" src="images/24_Slicing_in_PrusaSlicer.png">
 </p>
 
 <p align="center">
-<a href="#s24">[24]</a> <i> Vorbereitung mehrerer Objekte für den 3D-Druck in einer Slicer-Software (PrusaSlicer) </i>
+<a href="#s24">[24]</a> <i> Preparation of multiple objects for 3D printing in a slicer software (PrusaSlicer) </i>
 </p>
 
 
 
 ### Slicing, testing and export
 
-Es gibt zahlreiche Einstellungen im Slicer, wobei in diesem Basislernmodul nicht auf alle Einstellungen im Detail eingegangen wird. Für einen ersten, einfachen 3D-Druck reichen meistens die Standard-Einstellungen aus.
+There are numerous settings in the slicer, although not all settings will be discussed in detail in this basic learning module. For a first, simple 3D print the standard settings are mostly sufficient.
 
-Die wichtigste Einstellung ist das Material. Möchte man z.B. mit PLA drucken, wählt man in der Materialeinstellung „PLA“ aus oder gibt die empfohlenen Temperaturen des Filamentherstellers an.
+The most important setting is the material. If you want to print with PLA, for example, select "PLA" in the material setting or enter the recommended temperatures of the filament manufacturer.
 
-Nachdem man die STL-Datei(en) im Slicer importiert, korrekt gedreht, ausgerichtet und die [Stützmaterialien](#stützmaterial-und-brücken) eingestellt hat, muss man das Slicing starten.
+After importing the STL file(s) into the slicer, correctly rotating, aligning and setting the [support material](#support-material-and-bridges), you need to start slicing.
 
-Slicing (von englisch „slice“ = Scheibe) ist ein Ablauf in der Software, der das 3D-Objekt in viele dünne Scheiben (slices) unterteilt, die übereinander geschichtet sind. Die Scheiben haben dabei genau die Höhe bzw. Dicke, die man eingestellt hat, z.B. 0,15 mm (dieser Parameter wird meistens als „Schichthöhe“ oder englisch „layer height“ bezeichnet). Eine Schicht ist also quasi nur „2D“, während die aufeinandergestapelten Schichten zusammen ein 3D-Objekt ergeben.
+Slicing is a process in the software that divides the 3D object into many thin slices that are layered on top of each other. The slices have exactly the height or thickness you have set, e.g. 0.15 mm (this parameter is usually called "layer height"). A layer is thus practically only "2D", while the layers stacked on top of each other together result in a 3D object.
   
 <p align="center">
 <img height="340" src="images/25_Slicing_in_PrusaSlicer.png">
@@ -305,15 +305,15 @@ Slicing (von englisch „slice“ = Scheibe) ist ein Ablauf in der Software, der
 </p>
 
 <p align="center">
-<a href="#s25">[25]</a> <i> Slicing eines 3D-Objekts für den 3D-Druck (Software: PrusaSlicer) - </i>
-<a href="#s26">[26]</a> <i> Schichten (slices) in Seitenansicht </i>
-   <br> <i> (Bilder anklicken zum Vergrößern) </i>
+<a href="#s25">[25]</a> <i> Slicing of a 3D object for 3D printing (software: PrusaSlicer) - </i>
+<a href="#s26">[26]</a> <i> Layers (slices) in side view </i>
+   <br> <i> (click images to enlarge) </i>
 </p>
 
-Die Slicer-Software macht an der Stelle aber noch viel mehr als nur das eigentliche Slicing. Sie generiert auch den genauen Verlaufsweg des Extruders, also auch den Weg, den der Extruder in jeder Schicht in x- und y-Richtung und anschließend auch in Höhenrichtung (z) nimmt.
-Außerdem werden beim Slicing auch Stützmaterialien generiert, sofern man welche eingestellt hat (mehr dazu siehe unten, Abschnitt „Stützmaterial“).
+However, the slicer software does much more than just the actual slicing at this point. It also generates the exact path of the extruder, i.e. the path that the extruder takes in each layer in the x and y direction and then also in the height direction (z).
+In addition, support material is also generated during slicing, if you have set any (for more on this, see the section "Support material" below).
 
-Nach ausgeführtem Slicing empfiehlt es sich, den Druckablauf zu prüfen. Die meisten Slicer bieten eine Vorschau- bzw. Simulationsfunktion an. Damit kann man sich die verschiedenen Schichten (von der ersten, untersten Schicht bis zur letzten ganz oben) einzeln ansehen und auch den Verlaufsweg des Extruders innerhalb einer jeden Schicht anzeigen lassen.
+After slicing has been performed, it is advisable to check the print run. Most slicers offer a preview or simulation function. This allows you to view the different layers (from the first, lowest layer to the last at the top) individually and also to display the extruder's path within each layer.
 
 <p align="center">
 <img height="350" src="images/27_Slicing_simulation_infill_in_PrusaSlicer.png">
@@ -322,11 +322,11 @@ Nach ausgeführtem Slicing empfiehlt es sich, den Druckablauf zu prüfen. Die me
 
 <p align="center">
 <a href="#s27">[27]</a> <i>  - </i>
-<a href="#s28">[28]</a> <i> Simulation des 3D-Druckablaufs mit sichtbarer Infill-Struktur (Software: PrusaSlicer) </i>
+<a href="#s28">[28]</a> <i> Simulation of the 3D printing process with visible infill structure (software: PrusaSlicer) </i>
 </p>
 
 
-Hat man das Slicing überprüft, kann man die Datei als sogenannte „G-Code“-Datei exportieren.
+Once you have checked the slicing, you can export the file as a so-called "G-code" file.
 
 ### G-code
 
