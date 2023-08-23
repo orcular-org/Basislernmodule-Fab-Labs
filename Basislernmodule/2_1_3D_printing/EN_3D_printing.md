@@ -165,7 +165,7 @@ Ordinary 3D printers can only print with one filament at a time, so if you want 
 First of all, you should familiarize yourself with the basic structure of an FDM 3D printer. A typical FDM 3D printer is described here as an example. Most FDM printers are built in this or a similar way. Depending on the manufacturer and model, this setup may also differ, but the basic principles remain the same.
 
 <p align="center">
-       <img height="500" src="images/17_Die_wichtigsten_Komponenten_eines_3D-Druckers.png">
+       <img height="500" src="images/17_EN_The_main_components_of_a_3D_printer.png">
 </p>
 
 <p align="center">
