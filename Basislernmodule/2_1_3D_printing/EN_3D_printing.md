@@ -410,43 +410,43 @@ An infill of e.g. 15% (usual default value) means that the object is 15% filled 
 ## 3D printing process
 ### Before printing
 
-Vor Beginn eines 3D-Drucks sollte man überprüfen, ob das richtige Filament eingesetzt und ob genügend Filament auf der Rolle vorhanden ist. Zudem empfiehlt es sich, das Heizbett zu reinigen, z.B. mit Isopropanol oder Glasreiniger. Damit werden unsichtbare Fettreste entfernt, die z.B. durch Berühren des Druckbetts mit den Fingern entstehen können. Fettreste können dazu führen, dass das Filament nicht richtig auf dem Druckbett haftet.
+Before starting a 3D print, you should check whether the correct filament is used and whether there is enough filament on the spool. It is also advisable to clean the heating bed, e.g. with isopropanol or glass cleaner. This removes invisible grease residues that can be caused, for example, by touching the print bed with the fingers. Grease residues can cause the filament not to adhere properly to the print bed.
 
-Hat man den fertigen G-Code an den 3D-Drucker übertragen und den 3D-Druck gestartet, sollte man den Beginn des Drucks eine Weile beobachten und bei Problemen den 3D-Druck pausieren oder abbrechen. 
+Once you have transferred the finished G-code to the 3D printer and started 3D printing, you should observe the start of printing for a while and pause or cancel the process in case of problems.
 
 
 ### Leveling, skirt and brim
-Beim Start eines 3D-Druck-Auftrags wird der 3D-Drucker üblicherweise zunächst das Heizbett an verschiedenen Stellen abtasten, um nochmals die Z-Positionen zu kalibrieren (sogenanntes „Leveling“).
+When starting a 3D print job, the 3D printer will usually first scan the heated bed at various points to calibrate the Z positions again (so-called "leveling").
 
-Danach wird eine wenige Zentimeter lange Linie am Rand des Heizbetts gedruckt, die sogenannte „intro line“ oder „purge line“ (engl. purge = reinigen). Dieser Vorgang dient der „Spülung“ der Düse und stellt sicher, dass die Düse voll mit zähflüssigem Filament gefüllt, gut durchflutet und bereit zum Drucken ist. Würde der 3D-Drucker die purge line weglassen und direkt mit dem Druck des Objekts beginnen, könnte es sein, dass zu Beginn noch kein Filament herauskommt oder dass es nur sehr ungleichmäßig heraustritt.
+After this, a line a few centimeters long is printed at the edge of the heating bed, the so-called "intro line" or "purge line". This process serves to "purge" the nozzle and ensures that the nozzle is fully filled with viscous filament, well flooded and ready for printing. If the 3D printer were to skip the purge line and start printing the object directly, it is possible that no filament would come out at the beginning or that it would come out very unevenly.
 
 <p align="center">
 <img height="400" src="images/37_Purge_line_3D_printing.png">
 </p>
 
 <p align="center">
-<a href="#s37">[37]</a> <i> Purge line am Rand des Heizbetts: Diese Linie wird vor Beginn des eigentlichen 3D-Drucks gezogen, um die Düse zu spülen und für einen gleichmäßigen Filamentfluss zu sorgen. </i>
+<a href="#s37">[37]</a> <i> Purge line at the edge of the heating bed: This line is drawn before the actual 3D printing begins in order to purge the nozzle and ensure an even filament flow. </i>
 </p>
 
 
 
-Anschließend wird meist, falls so eingestellt, eine Außenlinie um die Fläche herum gedruckt, wo die Objekte entstehen sollen. Diese sogenannte „Schürze“ (engl. „skirt“) vermittelt gleich zu Beginn des Drucks einen Eindruck von der Größe der zu druckenden Objekte. Zudem kann man an der Schürze bereits früh erkennen, ob das Material gut haftet und ob keine Probleme in der Qualität erkennbar sind, um den Druck an der Stelle im Zweifel noch abbrechen zu können.
+Afterwards, an outer line is usually printed around the area where the objects are to be created, if this option is set. This so-called "skirt" gives an impression of the size of the objects to be printed right at the start of printing. In addition, the skirt allows you to see at an early stage whether the material adheres well and whether there are no visible problems with the quality, so that you can still cancel the print at that point if you are in doubt.
 
 <p align="center">
 <img height="400" src="images/38_Skirt_3D_printing.png">
 </p>
 
 <p align="center">
-<a href="#s38">[38]</a> <i> Schürze (skirt) am Rand eines 3D-gedruckten Objekts: Die Schürze dient dazu, vor Beginn des eigentlichen Drucks den Umriss zu erkennen, zudem wird der Durchfluss in der Düse stabilisiert. </i>
+<a href="#s38">[38]</a> <i> Skirt on the edge of a 3D-printed object: The skirt is used to identify the outline before the actual printing begins, and it also stabilizes the flow in the nozzle. </i>
 </p>
 
 
 
-Bei manchen Materialien kann es hilfreich sein, zusätzlich einen Rand (engl. „brim“) zu drucken, um das Objekt während des Drucks zu stabilisieren. Die Rand-Funktion kann bei Bedarf in den Einstellungen des Slicers aktiviert und eingestellt werden.
+With some materials it can be helpful to print an additional "brim" to stabilize the object during printing. The brim function can be activated and set in the slicer settings if required.
 
 ### The first layer
 
-Nach dem Drucken von Schürze und Rand wird die erste Schicht des Objekts gedruckt. Diese sollte man genau beobachten. Stellt man fest, dass die erste Schicht unsauber ausgeführt ist, z.B. wenn das Filament an einigen Stellen nicht richtig haftet (zu erkennen an kleinen Erhebungen in der Schicht), sollte man den Druck an dieser Stelle abbrechen, das bereits gedruckte Material entfernen, das Heizbett reinigen bzw. die Z-Achse neu kalibrieren und den Druck neu starten.
+After printing the skirt and brim, the first layer of the object is printed. This should be observed closely. If you notice that the first layer is not clean, e.g. if the filament does not stick properly in some places (as indicated by small bumps in the layer), you should stop printing at this point, remove the material that has already been printed, clean the heating bed or recalibrate the Z-axis and restart printing.
 
 <p align="center">
 <img height="300" src="images/39_First_layer_3D_printing.png">
@@ -455,22 +455,22 @@ Nach dem Drucken von Schürze und Rand wird die erste Schicht des Objekts gedruc
 
 <p align="center">
 <a href="#s39">[39]</a> <i>  - </i>
-<a href="#s40">[40]</a> <i> Gelungene erste Schicht eines 3D-Drucks: Der Druck der ersten Schicht sollte stets genau beobachtet und bei Qualitätsmängeln ggf. neu gestartet werden. </i>
+<a href="#s40">[40]</a> <i> Successful first layer of a 3D print: The printing of the first layer should always be closely monitored and restarted if necessary in case of quality defects. </i>
 </p>
 
-Eine misslungene erste Schicht kann sonst dazu führen, dass das gesamte Objekt im späteren Verlauf unsauber wird oder gänzlich misslingt. Da ein 3D-Druck mehrere Minuten oder oft sogar Stunden dauern kann, lohnt es sich, eine gute erste Schicht sicherzustellen, bevor man viel Zeit und Material verschwendet.
+Otherwise, a failed first layer can result in the entire object becoming unclean or failing altogether later on. Since 3D printing can take several minutes or often even hours, it pays to ensure a good first layer before wasting a lot of time and material.
 
 ### More layers
 
-Im Laufe des 3D-Drucks kann man beobachten, wie die weiteren Schichten aufgetragen werden. Dabei wird man auch das Innere des Objekts mit der Infill-Gitterstruktur erkennen.
+In the course of 3D printing, you can observe how the further layers are applied. This will also reveal the interior of the object with the infill grid structure.
 
-Wenn die erste Schicht gut gelungen ist, kann man den 3D-Drucker problemlos unbeobachtet lassen. Ob man auch den Raum verlassen oder gar über Nacht drucken darf, muss man im Zweifel mit dem/der Besitzer:in des Druckers bzw. mit dem Fab Lab absprechen.
+If the first layer has turned out well, you can leave the 3D printer unattended without any problems. Whether you are allowed to leave the room or even print overnight must be discussed with the owner of the printer or the fab lab.
 
 ### After printing
 
-Sobald der 3D-Druck fertig ist, fährt der Extruder in eine Position, wo er nicht stört, sodass man das Objekt entnehmen kann. Viele 3D-Drucker haben eine entnehmbare Platte (z.B. aus Federstahlblech) auf dem Druckbett. Dies erleichtert die Entnahme der Objekte, da man erst die Platte als Ganzes entnehmen, danach leicht biegen und die Objekte einfach von der Platte lösen kann.
+Once the 3D print is finished, the extruder moves to a position where it will not interfere, so you can remove the object. Many 3D printers have a removable plate (e.g. made of spring steel sheet) on the print bed. This makes it easier to remove the objects because you can first remove the plate as a whole, then bend it slightly and easily release the objects from the plate.
 
-Abschließend muss man ggf. vorhandenes Stützmaterial entfernen. Zudem kann man das Objekt auf verschiedene Arten nachbearbeiten, z.B. schleifen oder mit Epoxidharz behandeln, um die Oberflächenoptik zu verschönern.
+Finally, any supporting material must be removed. In addition, the object can be finished in various ways, e.g. sanded or treated with epoxy resin to improve the surface appearance.
 
 # License information
 
