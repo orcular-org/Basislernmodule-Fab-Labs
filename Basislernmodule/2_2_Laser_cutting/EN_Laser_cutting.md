@@ -8,39 +8,39 @@ To do:
 - Commit changes
 - When done, remove this note
 
-> Zurück zur [Übersicht Basislernmodule](../../README.md)
+> Back to [basic learning modules overview](../../translations/EN_Readme.md)
 
-# Lasercutting
+# Laser cutting
 
-## Inhalt
+## Contents
 
-1. [Einführung](#einführung)
-2. [Grundlagen](#grundlagen)
-   - [Materialien](#materialien)
-   - [Komponenten eines Lasercutters](#komponenten-eines-lasercutters)
-   - [Parameter: Leistung und Geschwindigkeit](#parameter-leistung-und-geschwindigkeit)
-   - [Schnittbreite (kerf)](#schnittbreite-kerf)
-   - [Vektorgrafik](#vektorgrafik)
+1. [Introduction](#introduction)
+2. [Basics](#basics)
+   - [Materials](#materials)
+   - [Components of a laser cutter](#components-of-a-laser-cutter)
+   - [Parameters: Power and speed](#parameters-power-and-speed)
+   - [Kerf](#kerf)
+   - [Vector graphic](#vector-graphic)
    - [Software](#software)
-   - [Unterschiede zu anderen digitalen Fertigungsmethoden](#unterschiede-zu-anderen-digitalen-fertigungsmethoden)
-3. [Designtipps](#designtipps)
-   - [Stecksysteme](#stecksysteme)
-   - [3D-CAD und Projektion](#3d-cad-und-projektion)
+   - [Differences to other digital manufacturing methods](#differences-to-other-digital-manufacturing-methods)
+3. [Design tips](#design-tips)
+   - [Push-fit systems](#push-fit-systems)
+   - [3D CAD and projection](#3d-cad-and-projection)
    - [Living hinge](#living-hinge)
-   - [Download von Vorlagen](#download-von-vorlagen)
-   - [Häufige Fehler](#häufige-fehler)
-4. [Vorbereitung und Ablauf eines Lasercuttings](#vorbereitung-und-ablauf-eines-lasercuttings)
-   - [Sicherheit](#sicherheit)
-   - [Lasercut-Datei](#lasercut-datei)
-   - [Vorbereitung](#vorbereitung)
-   - [Ablauf eines Lasercuttings](#ablauf-eines-lasercuttings)
+   - [Downloading templates](#downloading-templates)
+   - [Common mistakes](#common-mistakes)
+4. [Preparation and process of a laser cutting](#preparation-and-process-of-a-laser-cutting)
+   - [Security](#security)
+   - [Laser cut file](#laser-cut-file)
+   - [Preparation](#preparation)
+   - [Laser cutting process](#laser-cutting-process)
 
-[Lizenzinformationen](#lizenzinformationen)
+[License information](#license-information)
 
-[Bildnachweise](#bildnachweise)
+[Image references](#image-references)
 
 
-## Einführung
+## Introduction
 
 Lasercutting (engl. für Laserschneiden) ist ein Prozess, bei dem ein Laserstrahl ein Material erhitzt, dieses dabei schmilzt oder verbrennt und somit trennt. Die entsprechenden Maschinen nennt man Lasercutter. Zusätzlich zum Schneiden sind Lasercutter auch in der Lage zu gravieren, d.h. das Material wird nicht vollständig durchtrennt, sondern nur an der Oberfläche bearbeitet, womit sich z.B. Schriftzüge oder Abbildungen in das Werkstück einbringen lassen.
 
@@ -87,9 +87,9 @@ Mit Lasercutting lassen sich z.B. Namensschilder, Bilder, Aufsteller, Deko-Artik
 </p>
 
 
-## Grundlagen
+## Basics
 
-### Materialien
+### Materials
 
 Grundsätzlich ist es sehr wichtig, vor dem Lasercutting zu klären, ob das Material bearbeitet werden darf, da es Stoffe gibt, die beim Laserschneiden lebensgefährliche Dämpfe erzeugen können. Mehr Infos finden sich in der unten stehenden Materialliste und im Abschnitt [Sicherheit](#sicherheit).
 
@@ -126,7 +126,7 @@ Hier eine Übersicht einiger beliebter und gut geeigneter Materialien für Laser
 
 
 
-### Komponenten eines Lasercutters
+### Components of a laser cutter
 Gute Lasercutter verfügen über ein geschlossenes Gehäuse und ein Abluftsystem. Es gibt auch günstige Lasercutter bzw. Lasergravierer mit offenem Aufbau. Bei diesen ist jedoch besondere Vorsicht geboten, da es leicht zu Unfällen kommen kann. In Fab Labs finden sich üblicherweise geschlossene Lasercutter mit Abluftsystem.
 
 Die obere, aufklappbare Abdeckung ist in der Regel durchsichtig, sodass man den Lasercutprozess beobachten kann. Im Inneren befindet sich die gitterförmige Arbeitsfläche, auf die man die zu schneidende Platte legt. Die Arbeitsfläche lässt sich in der Höhe verstellen, was für die sogenannte Fokussierung des Lasers (Einstellung des Brennpunktes) sehr wichtig ist. Der Laser ist so kalibriert, dass er einen ganz bestimmten Abstand zum Werkstück haben muss, um ideal schneiden zu können. Jedes Mal, wenn man eine Platte einlegt, die eine andere Dicke als die vorherige Platte hat, sollte man den Lasercutter neu fokussieren. Manche Lasercutter können dies über eine Autofokus-Funktion automatisch durchführen, bei anderen muss man eine mitgelieferte oder eingebaute Fokussierhilfe als Abstandsmesser verwenden, um den Lasercutter manuell einzustellen.
@@ -137,7 +137,7 @@ Einige Lasercutter verfügen über ein kompressorbetriebenes System, das Luft au
 
 Eine Lüftungsanlage saugt während des Lasercuttings Luft aus dem Arbeitsraum des Gerätes ab und führt die Abluft über ein Filtersystem und einen Schlauch nach draußen. Damit werden unangenehme Gerüche verhindert und gesundheitsschädliche Dämpfe gefiltert und abgeführt.
 
-### Parameter: Leistung und Geschwindigkeit
+### Parameters: Power and speed
 Beim Lasercutten gibt es vor allem zwei Parameter, die für den Prozess maßgeblich sind und vor jedem Betrieb richtig eingestellt werden müssen:
 
 - **Leistung (in Watt oder %):** Die Leistung steht, vereinfacht gesagt, für die Energie oder Stärke des Laserstrahls.
@@ -167,7 +167,7 @@ Im Internet finden sich auch Testkarten, die für solche Materialtests entwickel
 </p>
 
 
-### Schnittbreite (kerf)
+### Kerf
 
 Beim Trennen mittels Lasercutting wird entlang der Schnittlinie eine kleine Menge Material verbrannt, verdampft oder geschmolzen. Dies führt dazu, dass Trennlinien nicht "unendlich dünn" sind, sondern eine gewisse Breite haben - die sogenannte Schnittbreite. In vielen Programmen findet man auch den englischen Begriff für Schnittbreite, "kerf". Eine Schnittlinie kann man sich also eher wie einen Schnittkanal vorstellen - zwischen den beiden Teilen klafft eine winzig schmale Lücke.
 
@@ -184,7 +184,7 @@ Um eine Vorstellung von der Schnittbreite zu bekommen, kann man ein lasergeschni
 </p>
 
 
-### Vektorgrafik
+### Vector graphic
 Für Lasercutting ist es wichtig, sich mit dem Konzept von Vektorgrafiken vertraut zu machen.
 
 Eine Vektorgrafik ist eine Computergrafik, die aus Grundformen wie Linien, Kreisen, Polygonen (mehreckige Formen) und Kurven (Splines) aufgebaut ist. Die digitale Datei einer Vektorgrafik enthält dabei alle notwendigen Informationen, um die Grafik eindeutig darzustellen, z.B. Position und Länge von Linien oder Durchmesser von Kreisen. Zudem können u.a. Strichstärke und Farbe von Linien oder Füllfarbe von Formen gespeichert werden.
@@ -254,7 +254,7 @@ Je nach Lasercutter-Hersteller und -Modell benötigt man oft noch eine spezielle
 
 Viele Lasercutter nutzen die kostenlose Open-Source-Software Visicut (https://visicut.org). Beliebt, wenn auch nicht kostenlos, ist auch die Software Lightburn (https://lightburnsoftware.com/). Mit Lightburn können Vektorgrafiken gezeichnet und auch direkt aus der Software heraus an den Lasercutter gesendet werden, zudem verfügt das Programm über zahlreiche Komfortfunktionen speziell für Lasercutting und -gravieren.
 
-### Unterschiede zu anderen digitalen Fertigungsmethoden
+### Differences to other digital manufacturing methods
 Der wichtigste Unterschied zwischen **Lasercutting und 3D-Druck** ist, dass Lasercutting in der Regel deutlich schneller abläuft als 3D-Druck. 3D-Drucke können oft mehrere Stunden dauern, während Lasercut-Teile oft in wenigen Minuten fertig sind. Je nach Form und Komplexität kann sich dies im Einzelfall aber natürlich auch ganz anders verhalten. Bevor man also ein Teil 3D-druckt, lohnt es sich, zu überlegen, ob man es auch mit Lasercutting realisieren kann, sofern Form und Material dies zulassen (mehr zum Thema im [Basislernmodul 3D-Druck](../2_1_3D_printing/3D-Druck.md)).
 
 <p align="center">
@@ -268,9 +268,9 @@ Der wichtigste Unterschied zwischen **Lasercutting und 3D-Druck** ist, dass Lase
 
 Auch zwischen **Lasercutting und CNC-Fräsen** gibt es typische Unterschiede. Während beim Lasercutten nur flache Teile in gleichmäßiger Dicke herstellbar sind (sozusagen "2D-Teile"), können mit CNC-Fräsen auch dreidimensionale Formen gefertigt werden. Zudem können Lasercutter nur begrenzt dicke Platten schneiden - je nach Material nur einige Millimeter bis ca. 1-2 Zentimeter Dicke - während mit CNC-Fräsen deutlich dickere Platten durchtrennt werden können. Außerdem können viele CNC-Fräsen auch Aluminium oder ähnlich harte Materialien bearbeiten, was mit Lasercuttern oft nicht möglich ist (mehr zum Thema im [Basislernmodul CNC-Fräsen](../2_3_CNC_milling/CNC-Fraesen.md)).
 
-## Designtipps
+## Design tips
 
-### Stecksysteme
+### Push-fit systems
 Eine beliebte Anwendung von Lasercutting besteht in Stecksystemen - vor allem für Holzplatten. Dabei werden mehrere Teile so geformt, dass sie rechtwinklig zueinander gesteckt werden können. Eine Möglichkeit besteht darin, einen Zapfen in ein eckiges Loch zu stecken. Eine andere Methode ist der Einsatz von zinnenartigen Rändern, womit sich ganze Boxen oder ähnliche Strukturen zusammenstecken lassen.
 
 <p align="center">
@@ -293,7 +293,7 @@ Bevor man sich die Mühe macht und eine steckbare Box aufwendig selbst zeichnet,
 - Für Inkscape gibt es die kostenlose Erweiterung [Lasercut tabbed box](https://inkscape.org/de/~Neon22/%E2%98%85lasercut-tabbed-box). Damit lassen sich Länge, Breite und Höhe sowie Zapfenlänge und Schnittbreiten-Versatz (kerf) für verschiedene boxartige Produkte als Vektorgrafik generieren. Diese Vektorgrafik kann auch nachträglich in Inkscape bearbeitet werden.
 - Ein weiteres Tool heißt "Boxes.py" (https://www.festi.info/boxes.py/). Hierfür ist keine Softwareinstallation notwendig, die Anwendung läuft im Browser. Dieses Open-Source-Projekt bietet eine Vielzahl von verschiedenen steckbaren Lasercut-Bausätzen, z.B. Kisten, Schubladen, Fächer oder Truhen mit Deckeln. Es können Parameter wie Länge, Breite, Höhe und Schnittbreitenversatz eingegeben werden, abschließend wird eine downloadbare SVG-Vektorgrafik erzeugt, die man direkt für Lasercutting verwenden oder vorher noch bearbeiten kann. Einige Bausätze enthalten auch "living hinges", mehr dazu [unten](#living-hinge).
 
-### 3D-CAD und Projektion
+### 3D CAD and projection
 Statt Lasercut-Projekte in 2D zu zeichnen, kann man auch eine 3D-CAD-Software verwenden (mehr dazu im [Basislernmodul 3D-Design und CAD](../1_1_3D_design/3D-Design.md)). Auf diese Weise kann man ein aus mehreren Lasercut-Teilen bestehendes Produkt entwerfen und in 3D darstellen. Vorteil an dieser Methode ist, dass man direkt sehen kann, wie das fertige, zusammengesteckte Produkt aussehen wird - beim Design in 2D sieht man die einzelnen Teile nur nebeneinander und benötigt etwas Vorstellungskraft, um sich ein Bild vom fertigen 3D-Produkt zu machen.
 
 Zudem lassen sich auf diese Weise Produkte entwerfen, die nicht nur Lasercut-Teile, sondern beispielsweise auch 3D-gedruckte oder CNC-gefräste Teile, Schrauben oder andere Elemente enthalten.
@@ -325,19 +325,19 @@ Ein living hinge lässt sich mit Lasercutting herstellen, indem viele, sehr eng 
 </p>
 
 
-### Download von Vorlagen
+### Downloading templates
 Statt eigene Lasercut-Zeichnungen zu entwerfen, kann man auch fertige Vorlagen aus dem Internet verwenden. Viele Portale, die eigentlich eher für 3D-Druck-Dateien gedacht sind, enthalten auch Projekte für Lasercutting. Man findet sie, indem man einfach "laser cut" oder "lasercutting" in die Suchleiste eingibt. Mehr zu dem Thema im [Basislernmodul Verwendung von 3D-Modellen aus dem Internet](../1_3_Using_3D_models_from_the_internet/Verwendung_von_3D_Modellen_aus_dem_Internet.md).
 
-### Häufige Fehler
+### Common mistakes
 Ein häufiger Anfängerfehler beim Erstellen von Lasercut-Vektorgrafiken ist, die Schnittlinien nicht richtig zu formatieren, sodass die Linien graviert und nicht geschnitten werden. Je nach Lasercutter und Software gibt es bestimmte Dinge, die beachtet werden müssen, damit die Software eine Linie als Schnittline erkennt und sie nicht graviert. Es lohnt sich also, vor Start des Lasercuttings die Einstellungen nochmals genau zu prüfen. 
 
 Gelegentlich passiert auch ein Fehler, bei dem der Lasercutter jede Linie zweimal schneidet. Dies liegt meistens daran, dass man doppelte Linien in der Vektorgrafik hat. Da sie jedoch übereinanderliegen, erkennt man es am Bildschirm nicht. Hier sollte man die Tools der Software nutzen, um zu prüfen, ob doppelte Linien vorhanden sind (z.B. Ebenen nacheinander ausblenden oder Linien probeweise löschen, anschließend ggf. rückgängig machen).
 
 Schließlich passiert es auch oft, dass ein fertig geschnittenes Bauteil nicht die gewünschte Größe hat, z.B. nur halb so groß ist, wie gewünscht. Man sollte also die Maße der Vektorgrafik genau prüfen und auch nachschauen, ob die richtigen Einheiten eingestellt sind (z.B. Millimeter und nicht Zoll).
 
-## Vorbereitung und Ablauf eines Lasercuttings
+## Preparation and process of a laser cutting
 
-### Sicherheit
+### Security
 Ein Lasercutter ist eine potenziell gefährliche Maschine und sollte niemals ohne Einweisung oder Befugnis benutzt werden. Fab Labs bieten in der Regel Einweisungen in die Sicherheit und Benutzung an, die man absolviert haben muss, bevor man das Gerät benutzen darf.
 
 Bei ordnungsgemäßem Betrieb entsteht keine unmittelbare Gefahr für den Menschen. Falls der Betrieb jedoch nicht ordnungsgemäß verläuft, z.B. wegen Beschädigung des Gehäuses, bei Umbau und Umgehung der Sicherheitstechnik oder durch unübliche Reflexion und Streuung des Laserlichts, kann die Laserstrahlung vor allem für die Augen, aber auch für die Haut sehr gefährlich werden. Die Laserstrahlung eines Lasercutters ist unsichtbar, was die Gefahr noch vergrößert. Bei Unsicherheiten ist besondere Vorsicht geboten. Bei Defekten oder unüblichem Verhalten sollte eine Maschine nicht benutzt und das Fab-Lab-Personal verständigt werden.
@@ -352,10 +352,10 @@ Für den unwahrscheinlichen Fall, dass ein Brand entsteht, sollte stets ein CO2-
 
 Schließlich ist es wichtig zu wissen, welche Materialien man lasern darf und welche nicht. Dies ist stets mit dem Personal zu klären. Einige Kunststoffe, z.B. PVC, dürfen auf keinen Fall gelasert werden, da sie dabei gesundheitsgefährdende bis lebensgefährliche Dämpfe erzeugen.
 
-### Lasercut-Datei
+### Laser cut file
 Wie in den oberen Abschnitten beschrieben, benötigt man für das Lasercutting eine Grafikdatei - Schnittlinien als Vektorgrafik, Gravuren als Rastergrafik. Wie die Daten an den Lasercutter übertragen werden, ist bei jedem Lasercutter anders. Oft wird eine spezielle Software benötigt. Viele Programme bieten eine Funktion an, die eine Schätzung der Betriebsdauer - aufgeschlüsselt nach Schneiden und Gravieren - berechnet. Bevor man den Betrieb startet, empfiehlt es sich, anhand der Werte zu prüfen, ob der Auftrag wie gewünscht durchgeführt wird. Ist etwa die berechnete Zeitdauer für Gravur unüblich hoch und die Dauer für das Schneiden gleich null, so wurde die Vektorgrafik evtl. nicht erkannt.  
 
-### Vorbereitung
+### Preparation
 Die wichtigsten Schritte, an die man beim Start eines Lasercutting-Auftrags denken sollte, sind:
 - Platte in den Lasercutter legen
 - Ggf. Höhe verstellen und fokussieren (oder, falls vorhanden, Autofokus einschalten)
@@ -369,7 +369,7 @@ Die wichtigsten Schritte, an die man beim Start eines Lasercutting-Auftrags denk
 
 Je nach Lasercutter-Modell können manche Schritte von der obigen Liste abweichen.
 
-### Ablauf eines Lasercuttings
+### Laser cutting process
 Üblicherweise beginnt ein Lasercutter zunächst mit den Gravuren. Der Grund liegt darin, dass ein einmal ausgeschnittenes Teil unter Umständen leicht kippen kann - nachträgliche Gravuren würden somit auf eine schräge Oberfläche treffen und nicht korrekt ausgeführt werden.
 
 Anschließend werden die Schnittlinien ausgeführt. Das Schneiden geht für gewöhnlich deutlich schneller als das Gravieren.
@@ -377,7 +377,7 @@ Anschließend werden die Schnittlinien ausgeführt. Das Schneiden geht für gew�
 Nach abgeschlossenem Lasercutting empfiehlt es sich, noch kurz zu warten, damit die Belüftungsanlage Rauch und Dämpfe absaugen kann. Danach kann die Klappe geöffnet und die Teile können entnommen werden.
 Falls ein Schnitt nicht richtig durchgegangen ist, liegt dies entweder an einem falsch eingestellten Profil (falsche Parametereinstellungen), an einer Unebenheit der Platte oder an anderen Ursachen. Oft kann es helfen, einen Lasercut-Auftrag einfach ein zweites Mal auszuführen, sodass die halbfertigen Schnitte beim erneuten Durchgang ganz durchgeschnitten werden. Dabei muss die Platte exakt an die gleiche Position gelegt werden (möglichst mit Hilfe des Anschlags am Rand) oder gleich liegen gelassen werden. Es ist auch möglich, direkt am Computer einzustellen, dass der Laser zwei Durchgänge schneiden soll.
 
-# Lizenzinformationen
+# License information
 
 **Author:** Oskar Lidtke, https://github.com/orcular-org/
 
@@ -387,7 +387,7 @@ See best practices for [attribution](https://wiki.creativecommons.org/wiki/Best_
 
 For attribution and licenses of the images used, see the section below.
 
-# Bildnachweise
+# Image references
 
 <a name="s1"></a>
 **[1]** CC BY-SA 3.0Laser cutting: Epilog Legend 36EXT cutting 2.5mm wood fibreboard - **Image license:** [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/deed.en) - **Source:** https://commons.wikimedia.org/wiki/File:Laser_cutting_snowflakes.jpg
