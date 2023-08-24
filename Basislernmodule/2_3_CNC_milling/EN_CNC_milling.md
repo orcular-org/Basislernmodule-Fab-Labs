@@ -93,7 +93,7 @@ The advantage of CNC milling over 3D printing and lasercutting is that you can a
 
 ### Materials
 
-Mit CNC-Fräsen in Fab Labs wird vor allem Holz bearbeitet. Je nach Maschine sind auch Aluminium oder Stahl möglich. Eine weitere Möglichkeit bieten Kunststoffe, z.B. Platten aus Recyclingplastik.
+CNC milling machines in fab labs are mainly used to machine wood. Depending on the machine, aluminum or steel are also possible. Plastics offer another possibility, e.g. sheets of recycled plastic.
 
 <p align="center">
 <img height="350" src="images/7_CNC_milled_wood_parts_box.png">
@@ -102,8 +102,8 @@ Mit CNC-Fräsen in Fab Labs wird vor allem Holz bearbeitet. Je nach Maschine sin
 
 
 <p align="center">
-<a href="#s7">[7]</a> <i> Holz lässt sich gut mit CNC-Fräsen verarbeiten, z.B. für Teile von Kisten oder Möbeln. - </i>
-<a href="#s8">[8]</a> <i> Manche CNC-Fräsen können auch Aluminium oder sogar Stahl bearbeiten. </i>
+<a href="#s7">[7]</a> <i> Wood can be well processed with CNC milling, for example, for parts of boxes or furniture. - </i>
+<a href="#s8">[8]</a> <i> Some CNC milling machines can also machine aluminum or even steel. </i>
 </p>
 
 <p align="center">
@@ -114,18 +114,18 @@ Mit CNC-Fräsen in Fab Labs wird vor allem Holz bearbeitet. Je nach Maschine sin
 
 <p align="center">
 <a href="#s9">[9]</a> <i>  - </i>
-<a href="#s10">[10]</a> <i> Viele Kunststoffe lassen sich CNC-fräsen - hier z.B. eine "Precious Plastic"-Platte aus recyceltem HDPE </i>
+<a href="#s10">[10]</a> <i> Many plastics can be CNC milled - here, for example, a "Precious Plastic" sheet made from recycled HDPE </i>
 </p>
 
 
 
 ### Types of CNC milling machines
 
-Die häufigste CNC-Fräsmaschinen-Variante in Fab Labs ist die 3-Achs-Portalfräse. Bei Portalfräsen wird der Fräskopf an einem Querbalken zwischen zwei Ständern geführt. Das Werkstück, z.B. eine Platte, liegt auf einer waagerechten Oberfläche und ist dort festgeschraubt oder eingespannt. Das Fräswerkzeug zeigt stets senkrecht nach unten und kann in drei Raumachsen bewegt werden: X-, Y- und Z-Achse - daher kommt die Bezeichnung "3-Achs-Fräsmaschine". Die Z-Achse bezeichnet in der Regel die senkrechte Achse, also die Bewegung nach oben und unten.
+The most common CNC milling machine variant in fab labs is the 3-axis portal milling machine. In portal milling machines, the milling head is guided on a crossbeam between two uprights. The workpiece, e.g. a plate, lies on a horizontal surface and is screwed or clamped there. The milling tool always points vertically downwards and can be moved in three spatial axes: X-, Y- and Z-axis - hence the name "3-axis milling machine". The Z-axis usually refers to the vertical axis, i.e. the movement up and down.
 
-CNC-Fräsmaschinen wurden ursprünglich für die Industrie und Handwerksbetriebe entwickelt und sind relativ teuer. Manche Fab Labs verfügen dennoch über solche teuren Industriemaschinen, andere greifen eher auf kostengünstige Hobbygeräte zurück, von denen es mittlerweile auch viele gibt. Zudem gibt es Bausätze und Anleitungen zum Bau von eigenen CNC-Fräsmaschinen. Dabei wird oft eine handbetriebene Oberfräse eingesetzt und um bewegliche Achsen und eine CNC-Steuerung ergänzt.
+CNC milling machines were originally developed for industry and craft businesses and are relatively expensive. Some fab labs nevertheless have such expensive industrial machines, while others tend to use inexpensive hobby machines, of which there are now also many. There are also kits and instructions for building your own CNC milling machines. This often involves using a hand-held router and adding moving axes and a CNC control.
 
-Neben 3-Achs-Fräsmaschinen gibt es auch 4- und 5-Achs-Fräsmaschinen. Dabei kommen zusätzlich zu den drei linearen Bewegungsachsen noch ein bis zwei Drehachsen hinzu. Dies wird realisiert, indem sich  entweder das Fräswerkzeug um das Werkstück drehen kann oder indem das eingespannte Werkstück gedreht wird - je nach Bauart der Maschine. Auf diese Weise kann die Fräse auch seitlich oder schräg in das Werkstück hineinarbeiten - damit sind deutlich komplexere Formen möglich. Derartige 4- und 5-Achs-Fräsen finden sich jedoch eher in der Industrie als in Fab Labs.
+In addition to 3-axis milling machines, there are also 4- and 5-axis milling machines. In addition to the three linear movement axes, one or two rotary axes are added. This is realized either by allowing the milling tool to rotate around the workpiece or by rotating the clamped workpiece - depending on the design of the machine. In this way, the milling machine can also work from the side or at an angle into the workpiece - making significantly more complex shapes possible. However, 4- and 5-axis milling machines of this type are more likely to be found in industry than in fab labs.
 
 <p align="center">
 <img height="400" src="images/11_5-axis_CNC_machine.png">
@@ -133,11 +133,11 @@ Neben 3-Achs-Fräsmaschinen gibt es auch 4- und 5-Achs-Fräsmaschinen. Dabei kom
 
 
 <p align="center">
-<a href="#s11">[11]</a> <i> Eine 5-Achs-CNC-Fräse - Das Fräswerkzeug kann sich in drei linearen Achsen bewegen und zusätzlich um zwei Achsen drehen - somit kann auch seitlich und schräg in das Werkstück gefräst werden, wodurch deutlich komplexere Formen als mit 3-Achs-Maschinen herstellbar sind. </i>
+<a href="#s11">[11]</a> <i> A 5-axis CNC milling machine - The milling tool can move in three linear axes and additionally rotate around two axes - thus it is also possible to mill from the side and at an angle into the workpiece, making it possible to produce much more complex shapes than with 3-axis machines. </i>
 </p>
 
 
-Eine Besonderheit im Bereich Fab-Lab- und Maker-Communities stellt die Maslow-CNC-Fräse dar. Die Maslow-CNC ist ein auf Open-Source-Hardware und -Software basierendes Projekt. Ihre Besonderheit ist der Aufbau: Die zu bearbeitende Platte liegt nicht flach und waagerecht, sondern fast senkrecht, leicht angewinkelt. Dadurch ist die Maschine besonders platzsparend. Als Herzstück wird eine handbetriebene Oberfräse eingesetzt. Diese sitzt in einem Gehäuse, welches auf zwei Ketten hängt, die motorgesteuert verlängert und verkürzt werden, sodass sich die Fräse nach links, rechts, oben und unten über die Platte bewegen kann. Zudem wird die Z-Richtung der Fräse angesteuert, also das senkrechte Eintauchen in die Platte.
+A special project in the area of fab lab and maker communities is the Maslow CNC milling machine. The Maslow CNC is a project based on open-source hardware and software. Its unique feature is its design: The plate to be machined is not flat and horizontal, but almost vertical, slightly angled. This makes the machine particularly space-saving. A manually operated router is used as the centerpiece. This sits in a housing that hangs on two chains that are lengthened and shortened under motor control, allowing the router to move left, right, up and down across the slab. In addition, the Z-direction of the router is controlled, i.e. the vertical plunge into the slab.
 
 <p align="center">
 <img height="350" src="images/12_Maslow_CNC_machine.png">
@@ -146,8 +146,8 @@ Eine Besonderheit im Bereich Fab-Lab- und Maker-Communities stellt die Maslow-CN
 
 
 <p align="center">
-<a href="#s12">[12]</a> <i> Die Maslow-CNC-Maschine steht leicht angeschrägt, fast senkrecht, was sie sehr platzsparend macht. Eine eigentlich für den Handbetrieb nutzbare Oberfräse hängt an zwei Ketten, die über Motoren verlängert und verkürzt werden - darüber wird die Bewegung der Fräse gesteuert. - </i>
-<a href="#s13">[13]</a> <i> Neben Holz ist auch die Bearbeitung von z.B. Kunststoff möglich (hier: eine "Precious Plastic"-Recyclingkunststoffplatte). </i>
+<a href="#s12">[12]</a> <i> The Maslow CNC machine stands slightly inclined, almost vertically, which makes it very space-saving. A router, which can actually be used for manual operation, hangs on two chains that are lengthened and shortened via motors - this controls the movement of the router. - </i>
+<a href="#s13">[13]</a> <i> In addition to wood, it is also possible to process plastic, for example (here: a "Precious Plastic" recycled plastic sheet). </i>
 </p>
 
 
@@ -155,13 +155,13 @@ Eine Besonderheit im Bereich Fab-Lab- und Maker-Communities stellt die Maslow-CN
 
 ### Components of a CNC milling machine
 
-Die wichtigsten Komponenten sind das Fräswerkzeug mit motorbetriebener Spindel, die geführten und motorgesteuerten Achsen und die CNC-Steuerung, deren Funktionen bereits oben erläutert wurden.
+The most important components are the milling tool with motor-driven spindle, the guided and motor-controlled axes and the CNC control, whose functions have already been explained above.
 
-Als Unterlage auf dem Frästisch wird bei CNC-Fräsen oft eine sogenannte Opferplatte aus Holz oder Kunststoff befestigt. Der Grund liegt darin, dass der Fräser oft auch etwas tiefer als bis zur Unterkante des Werkstücks fräsen muss, um das Teil aus dem Werkstückblock herauszufräsen. Dabei fräst das Werkzeug ein klein wenig in die Opferplatte hinein. Die Opferplatte muss nach einiger Zeit ausgetauscht werden, da die Werkstücke wegen der vielen Rillen irgendwann nicht mehr ganz eben, sondern schief aufliegen und damit nicht mehr genau bearbeitet werden können.
+A so-called sacrificial plate made of wood or plastic is often attached as a base on the milling table for CNC milling. The reason is that the milling cutter often has to mill a little deeper than the lower edge of the workpiece in order to mill the part out of the workpiece block. In doing so, the tool mills a little bit into the sacrificial plate. The sacrificial plate has to be replaced after some time, since the workpieces eventually no longer lie completely flat but crooked due to the many grooves and can therefore no longer be machined accurately.
 
-Manche CNC-Fräsmaschinen verfügen über eine Absaugung. Hierbei werden die Späne direkt am Werkstück abgesaugt und über einen Schlauch in einen Behälter transportiert. Fehlt so eine Absaugung, muss die Arbeitsfläche regelmäßig von Spänen bereinigt werden, z.B. mit einem Staubsauger.
+Some CNC milling machines have an extraction system. Here, the chips are extracted directly at the workpiece and transported via a hose into a container. If such an extraction system is missing, the work surface must be regularly cleaned of chips, e.g. with a vacuum cleaner.
 
-Professionellere CNC-Fräsmaschinen verfügen über eine Vorrichtung, die Schmier- und Kühlmittel auf das Fräswerkzeug spritzt. Dies ist vor allem beim Fräsen von Metallen wichtig.
+More professional CNC milling machines have a device that sprays lubricant and coolant onto the milling tool. This is especially important when milling metals.
 
 <p align="center">
 <img height="400" src="images/14_Cutting_fluid_CNC_milling.png">
@@ -169,20 +169,20 @@ Professionellere CNC-Fräsmaschinen verfügen über eine Vorrichtung, die Schmie
 
 
 <p align="center">
-<a href="#s14">[14]</a> <i> Zuführung von Kühlschmiermittel beim Fräsen durch einen Kugelgelenkschlauch  </i>
+<a href="#s14">[14]</a> <i> Supply of cooling lubricant during milling through a ball joint hose  </i>
 </p>
 
 
 ### CAM
 
-Vor dem eigentlichen CNC-Fräsen muss zunächst ein digitaler Steuercode erstellt werden, der der Maschine "mitteilt", was sie tun soll.
-Der Beginn hierfür findet in einer CAD/CAM-Software statt. CAD steht für "Computer Aided Design" (engl. für „Computergestütztes Entwerfen“). Mit CAD-Software können also 3D-Modelle von Bauteilen oder Objekten konstruiert bzw. modelliert werden (mehr dazu im [Basislernmodul 3D-Design und CAD](../1_1_3D_design/3D-Design.md)).
+Before the actual CNC milling, a digital control code must first be created that "tells" the machine what to do.
+The beginning of this takes place in CAD/CAM software. CAD stands for Computer Aided Design. CAD software can therefore be used to design 3D models of components or objects (more on this in the [3D design and CAD basic learning module](../1_1_3D_design/EN_3D_design.md)).
 
-Auf Basis eines 3D-CAD-Modells wird als nächstes das CAM durchgeführt. CAM steht für "Computer Aided Manufacturing" (engl. für "Computergestützte Fertigung"). Es gibt CAM-Software als eigenständige Programme, oft sind sie jedoch als Modul in ein CAD-Programm integriert - man spricht dann von CAD/CAM-Software.
+Next, CAM is carried out on the basis of a 3D CAD model. CAM stands for "Computer Aided Manufacturing". CAM software exists as stand-alone programs, but is often integrated as a module in a CAD program - this is then referred to as CAD/CAM software.
 
-Im CAM werden auf Basis eines CAD-Modells verschiedene CNC-Arbeitsschritte definiert, z.B. Taschen, Profile oder Bohrungen. Zudem werden wichtige Parameter wie Drehzahl und Vorschub eingegeben. Details zu all diesen Begriffen finden sich in den nächsten Abschnitten.
+In CAM, various CNC operations are defined on the basis of a CAD model, e.g. pockets, profiles or bores (drilled holes). In addition, important parameters such as spindle speed and feed rate are entered. Details on all these terms can be found in the next sections.
 
-Im [Basislernmodul 3D-Design und CAD](../1_1_3D_design/3D-Design.md) werden die beiden Softwarelösungen FreeCAD und Autodesk Fusion 360 vorgestellt - beide Programme sind CAD/CAM-Software, können also sowohl zum Modellieren von Bauteilen als auch zum Vorbereiten des CNC-Fräsens dieser Bauteile genutzt werden.
+In the [3D design and CAD basic learning module](../1_1_3D_design/EN_3D_design.md), the two software solutions FreeCAD and Autodesk Fusion 360 are presented - both programs are CAD/CAM software, so they can be used both to model parts and to prepare CNC milling of these parts.
 
 <p align="center">
 <img height="400" src="images/15_CAM_in_FreeCAD_Path_workbench.png">
@@ -190,7 +190,7 @@ Im [Basislernmodul 3D-Design und CAD](../1_1_3D_design/3D-Design.md) werden die 
 
 
 <p align="center">
-<a href="#s15">[15]</a> <i> CAM in der Software FreeCAD: Die roten und grünen Linien zeigen die Pfade, die das Fräswerkzeug nehmen soll - so entsteht aus einem massiven Materialblock das hier dargestellte Bauteil. </i>
+<a href="#s15">[15]</a> <i> CAM in FreeCAD software: The red and green lines show the paths that the milling tool is to take - this is how the component shown here is created from a solid block of material. </i>
 </p>
 
 
