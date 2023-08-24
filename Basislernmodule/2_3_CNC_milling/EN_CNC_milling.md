@@ -278,13 +278,13 @@ The height at which the safety height starts and the speed at which the cutter s
 
 ### Operation types
 
-Es gibt viele unterschiedliche Bearbeitungsarten, die man in CAM-Systemen als eine sogenannte Operation anlegen kann. Die wichtigsten sind:
+There are many different types of machining that can be created in CAM systems as a so-called operation. The most important are:
 
-- **Profil:** Das Fräswerkzeug fährt die äußere Kontur des zu fertigenden Teils ab, beginnend auf der Oberfläche des Werkstücks. Danach geht es schrittweise - jeweils um die Schnitttiefe - in das Material hinein und fährt das Profil erneut ab. Am Ende ist das Teil nahezu vollständig vom Werkstückblock getrennt und kann entnommen werden. Wichtig ist hier, Haltestege mit einzuplanen - mehr dazu im nächsten Abschnitt.
-- **Tasche:** Eine Tasche stellt eine Vertiefung im Material dar. Ähnlich wie beim Profilfräsen beginnt der Fräsvorgang an der Oberfläche und geht dann schrittweise herunter, je Durchgang um die Schnitttiefe.
-- **Bohrung:** Bohrungen, also kreisrunde Löcher, können mit Bohr- oder Fräswerkzeugen gefertigt werden. Spannt man ein Bohrwerkzeug ein und stellt die CAM-Operation entsprechend als Bohrung ein, wird der Bohrvorgang senkrecht ausgeführt, wie bei einer Bohrmaschine. Verwendet man hingegen ein Fräswerkzeug, ist es wichtig, dass der Fräsdurchmesser kleiner als der Bohrdurchmesser ist und das Fräswerkzeug nicht in einem Durchgang vollständig in das Material geht - ein Fräser sollte nicht zum Bohren verwendet werden. Stattdessen empfiehlt es sich, eine Helixform als Pfad zu verwenden. Alternativ kann eine Operation vom Typ "Tasche" erstellt werden,  sodass stufenweise Kreisflächen gefräst werden - je Stufe um eine Zuschnitttiefe weiter - und somit praktisch eine Bohrung gefräst wird.
+- **Profile:** The milling tool traces the outer contour of the part to be produced, starting on the surface of the workpiece. It then enters the material step by step - each time by the depth of cut - and traverses the profile again. At the end, the part is almost completely separated from the workpiece block and can be removed. It is important here to include holding bars - more on this in the next section.
+- **Pocket:** A pocket represents a depression in the material. Similar to profile milling, the milling process starts at the surface and then gradually goes down, by the depth of cut per pass.
+- **Drilling:** Bores, circular holes, can be made with drilling or milling tools. If you clamp a drilling tool and set the CAM operation as drilling accordingly, the drilling operation is performed vertically, as with a drilling machine. If, on the other hand, one uses a milling tool, it is important that the milling tool diameter is smaller than the drilling diameter and that the milling tool does not go completely into the material in one pass - a milling cutter should not be used for drilling. Instead, it is recommended to use a helix shape as a path. Alternatively, a "pocket" type operation can be created so that circular surfaces are milled in steps - one cutting depth further per step - and thus a hole is practically milled.
 
-Operationen werden in der CAD/CAM-Software als Pfade (engl. "Path") angelegt und sichtbar gemacht. Anhand der visualisierten Pfade kann man bereits erkennen, welchen Weg das Fräswerkzeug nehmen wird.
+Operations are created and visualized as paths in the CAD/CAM software. Based on the visualized paths, it is already possible to see which path the milling tool will take.
 
 <p align="center">
 <img height="350" src="images/21_FreeCAD_Path_workbench_Profile_operation.png">
@@ -293,8 +293,8 @@ Operationen werden in der CAD/CAM-Software als Pfade (engl. "Path") angelegt und
 
 
 <p align="center">
-<a href="#s21">[21]</a> <i> CAM-Operation "Profil": entlang des grünen Pfades wird die äußere Kontur des Bauteils gefräst. - </i>
-<a href="#s22">[22]</a> <i> CAM-Operation "Tasche": Eine Vertiefung im Material, dessen Hohlraum durch den Fräser vollständig entfernt wird, bis der Boden der Tasche (grün) erreicht wird. </i>
+<a href="#s21">[21]</a> <i> CAM operation "Profile": the outer contour of the part is milled along the green path. - </i>
+<a href="#s22">[22]</a> <i> CAM operation "Pocket": A depression in the material whose cavity is completely removed by the cutter until the bottom of the pocket (green) is reached. </i>
 </p>
 
 <p align="center">
@@ -304,17 +304,17 @@ Operationen werden in der CAD/CAM-Software als Pfade (engl. "Path") angelegt und
 
 
 <p align="center">
-<a href="#s23">[23]</a> <i> Bauteil in der Software FreeCAD mit mehreren CAM-Operationen (grüne und rote Pfade): Außenkontur und innere Kreiskontur als "Profil" mit Haltestegen, die vier kleinen Bohrungen als "Taschen". - </i>
-<a href="#s24">[24]</a> <i> Nahansicht einer Bohrung des Bauteils: Die Bohrung wird hier nicht als Bohr-Operation, sondern als gefräste Tasche ausgeführt. Der Pfad hat eine Helixform, um das Material langsam und damit schonend für das Fräswerkzeug zu bearbeiten. (Bilder anklicken zum Vergrößern) </i>
+<a href="#s23">[23]</a> <i> Component in FreeCAD software with several CAM operations (green and red paths): Outer contour and inner circular contour as "profile" with holding tags, the four small holes as "pockets". - </i>
+<a href="#s24">[24]</a> <i> Close-up view of a hole in the component: Here, the hole is not a drilling operation, but a milled pocket. The path has a helical shape (helix) in order to machine the material slowly and thus gently for the milling tool. (Click on images to enlarge) </i>
 </p>
 
 
 
 ### Holding tags
 
-Wird ein Teil vollständig vom Werkstück getrennt, also ein Profil oder eine äußere Kontur gefräst, sollte man sogenannte Haltestege mit einplanen. Andernfalls könnte sich das gefertigte Teil im letzten Fräsvorgang verdrehen, kippen und mit dem Fräswerkzeug verkeilen. Die Folgen wären, dass das Teil nicht richtig gefertigt wird, im schlimmsten Fall droht ein Schaden an der Maschine.
+If a part is completely separated from the workpiece, that is, a profile or an outer contour is milled, so-called holding tags should also be planned. Otherwise, the manufactured part could twist, tilt and wedge with the milling tool in the final milling process. The consequences would be that the part would not be manufactured correctly, and in the worst case, there would be a risk of damage to the machine.
 
-Haltestege lassen sich im CAM-System einstellen. Im Endergebnis befinden sich die Haltestege am untersten Ende des Werkstücks und sind relativ schmal und flach, sodass sie sich leicht durchtrennen lassen.
+Holding tags can be set in the CAM system. In the end result, the holding tags are located at the lowest end of the workpiece and are relatively narrow and flat so that they can be easily cut through.
 
 <p align="center">
 <img height="400" src="images/25_FreeCAD_Path_workbench_simulation_with_holding_tags.png">
@@ -324,7 +324,7 @@ Haltestege lassen sich im CAM-System einstellen. Im Endergebnis befinden sich di
 
 <p align="center">
 <a href="#s25">[25]</a> <i>  - </i>
-<a href="#s26">[26]</a> <i> Haltestege (gelb) in der CAM-Simulationsansicht von FreeCAD </i>
+<a href="#s26">[26]</a> <i> Holding tags (yellow) in the CAM simulation view of FreeCAD </i>
 </p>
 
 <p align="center">
@@ -334,17 +334,17 @@ Haltestege lassen sich im CAM-System einstellen. Im Endergebnis befinden sich di
 
 
 <p align="center">
-<a href="#s27">[27]</a> <i> Haltestege in einem CNC-gefrästen Aluminium-Teil. Im linken Bereich ist ein Haltesteg gut sichtbar; rechts sind einige Spanreste, da der Fräser im letzten Schritt nicht tief genug gegangen ist. - </i>
-<a href="#s28">[28]</a> <i> Haltestege in einem Holzbrett, gefräst mit einer Maslow-CNC. (Bilder anklicken zum Vergrößern)</i>
+<a href="#s27">[27]</a> <i> Holding tags in a CNC-milled aluminum part. In the left area, a holding tag is clearly visible; on the right, there are some chip residues because the milling cutter did not go deep enough in the last step. - </i>
+<a href="#s28">[28]</a> <i> Holding tags in a wooden board, milled with a Maslow CNC. (Click images to enlarge)</i>
 </p>
 
 
 
-Das Fräswerkzeug nimmt im untersten Bereich des zu fräsenden Profils einen Pfad, bei dem es vor den Stellen, wo die Haltestege vorgesehen sind, ein Stück hochfährt und diesen Teil ausspart, womit die Haltestege übrig bleiben.
+The milling tool takes a path in the lowest part of the profile to be milled, in which it moves up a bit in front of the places where the holding tags are provided and cuts out this part, leaving the holding tags.
 
-Größe und Anzahl der Haltestege sollten so gewählt werden, dass sie das Teil sicher halten können, ansonsten sollten sie so klein wie möglich entworfen werden, damit man sie leicht durchtrennen kann.
+The size and number of holding tags should be chosen so that they can hold the part securely, apart from that, they should be designed to be as small as possible so that you can cut them easily.
 
-Nach abgeschlossenem Fräsvorgang können die Haltestege je nach Material mit unterschiedlichen Methoden durchtrennt werden. Bei Holz kann beispielsweise eine Säge verwendet werden, bei Aluminium funktioniert es mit einer Metallsäge oder auch mit Hammer und Meißel gut. Nach dem Trennen sollten die Säge- oder Bruchstellen mit einer Feile nachbearbeitet werden.
+After the milling process is complete, the holding tags can be cut using different methods depending on the material. For wood, for example, a saw can be used, for aluminum it works well with a metal saw or even with a hammer and chisel. After cutting, the sawed or broken areas should be reworked with a file.
 
 
 
