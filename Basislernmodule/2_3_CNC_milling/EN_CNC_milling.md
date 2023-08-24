@@ -42,7 +42,7 @@ To do:
 
 ## Introduction
 
-Fräsen ist ein Fertigungsverfahren, bei dem ein sich schnell drehendes Fräswerkzeug durch ein Werkstück - z.B. eine Holzplatte oder einen Metallblock - fährt und Material in Form von Spänen abträgt. Somit lassen sich unterschiedliche Formen und Bauteile fertigen.
+Milling is a manufacturing process in which a rapidly rotating milling tool (also called a milling cutter) moves through a workpiece - e.g. a wooden board or a metal block - and removes material in the form of swarf (or chips). In this way, different shapes and components can be manufactured.
 
 <p align="center">
 <img height="350" src="images/1_Milling_cutter.png">
@@ -51,8 +51,8 @@ Fräsen ist ein Fertigungsverfahren, bei dem ein sich schnell drehendes Fräswer
 
 
 <p align="center">
-<a href="#s1">[1]</a> <i> Fräswerkzeuge - </i>
-<a href="#s2">[2]</a> <i> Eine Fräsmaschine im Einsatz - rechts im Bild sind abgetragene Späne zu sehen </i>
+<a href="#s1">[1]</a> <i> Milling tools - </i>
+<a href="#s2">[2]</a> <i> A milling machine in use - chips removed can be seen on the right of the picture </i>
 </p>
 
 <p align="center">
@@ -61,14 +61,14 @@ Fräsen ist ein Fertigungsverfahren, bei dem ein sich schnell drehendes Fräswer
 
 
 <p align="center">
-<a href="#s3">[3]</a> <i> CNC-Fräsen von Aluminium </i>
+<a href="#s3">[3]</a> <i> CNC milling of aluminum </i>
 </p>
 
 
 
-Die klassische Anwendung erfolgt mit Fräsmaschinen, wobei die Drehachse des Fräswerkzeugs über einen Elektromotor gedreht wird, während die Bewegung des Fräsers im Raum per Handbedienung mit Kurbeln oder elektrisch gesteuert per Tastendruck erfolgt.
+The classic application is with milling machines, where the axis of rotation of the milling tool is rotated by an electric motor, while the movement of the cutter in space is performed by manual control with cranks or electrically controlled at the touch of buttons.
 
-Kombiniert man eine Fräsmaschine mit einer CNC-Steuerung (CNC = Computerized Numerical Control - engl. für "rechnergestützte numerische Steuerung", manchmal auch nur "NC" genannt), so handelt es sich um eine CNC-Fräsmaschine - oder umgangssprachlich oft einfach "CNC-Fräse" genannt. Dabei wird zunächst am Computer ein CNC-Code generiert, entweder durch vom Menschen geschriebenen Code oder mithilfe von 3D-CAD-Modellen und CAD/CAM-Software (mehr dazu unten). Dieser NC-Code wird dann an die Maschine übertragen, die gemäß den Anweisungen im Programm vollautomatisiert alle Bewegungen ausführt und das Teil fertigt.
+When a milling machine is combined with a CNC (Computerized Numerical Control, sometimes just called "NC"), it is called a CNC milling machine - or often simply a "CNC mill" or CNC router. In this process, CNC code is first generated on the computer, either through human-written code or with the help of 3D CAD models and CAD/CAM software (more on this below). This NC code is then transferred to the machine, which executes all movements fully automatically according to the instructions in the program and produces the part.
 
 <p align="center">
 <img height="250" src="images/4_CNC_milling_machine.png">
@@ -77,17 +77,17 @@ Kombiniert man eine Fräsmaschine mit einer CNC-Steuerung (CNC = Computerized Nu
 </p>
 
 <p align="center">
-<a href="#s4">[4]</a> <i> CNC-Fräsmaschine (Open Source Hardware) - </i>
-<a href="#s5">[5]</a> <i> Kleine Tisch-CNC-Fräse (Open Source Hardware) - </i>
-<a href="#s6">[6]</a> <i> CNC-Fräsmaschine in einem Fab Lab (Bilder anklicken zum Vergrößern)</i>
+<a href="#s4">[4]</a> <i> CNC milling machine (open-source hardware) - </i>
+<a href="#s5">[5]</a> <i> Small desktop CNC milling machine (open-source hardware) - </i>
+<a href="#s6">[6]</a> <i> CNC milling machine in a fab lab (click images to enlarge)</i>
 </p>
 
 
-Neben den CNC-Fräsen gibt es auch andere CNC-Maschinen, z.B. CNC-Drehmaschinen. In diesen Basislernmodulen liegt der Fokus jedoch auf Maschinen, die typischerweise in Fab Labs genutzt werden, dazu zählen insbesondere CNC-Fräsen.
+In addition to CNC mills, there are also other CNC machines, e.g. CNC lathes (for CNC turning). In these basic learning modules, however, the focus is on machines that are typically used in fab labs, these include CNC milling machines in particular.
 
-Im Vergleich zu anderen typischen digitalen Fertigungsmethoden in Fab Labs, etwa 3D-Druck oder Lasercutting, ist CNC-Fräsen deutlich anspruchsvoller. Dies liegt primär daran, dass vor allem softwareseitig viel Vorbereitung notwendig ist, da erst ein aufwendiges CAM-Programm (mehr dazu [unten](#cam)) modelliert werden muss, bei dem man alle CNC-Arbeitsschritte einzeln definiert. Dies erfordert einiges an Vorwissen und ist meist etwas aufwendiger als die Vorbereitung von 3D-Drucken oder Lasercuttings. Zudem muss man Parameter wie Drehzahl und Vorschub definieren, hierfür muss man sich mit Materialien und Fräswerkzeugen auskennen und oft auch etwas berechnen. Zum Thema CNC-Fräsen gibt es sehr viel zu lernen. In diesem Basislernmodul wird jedoch nur auf die wichtigsten Grundlagen eingegangen, die für den Anfang im Hobby- und Fab-Lab-Bereich wichtig sind.
+Compared to other typical digital manufacturing methods in fab labs, such as 3D printing or laser cutting, CNC milling is significantly more demanding and challenging. This is primarily due to the fact that a lot of preparation is required, especially on the software side, since a complex CAM program (more on this [below](#cam)) must first be modeled, in which all CNC operations and steps are defined individually. This requires some prior knowledge and is usually a bit more time-consuming than the preparation of 3D printing or laser cutting. In addition, you have to define parameters such as spindle speed and feed rate, for this you have to be familiar with materials and milling tools and often you have to calculate something. There is a lot to learn about CNC milling. In this basic learning module, however, only the most important basics are dealt with, which are important for the beginning in the hobby and fab lab area.
 
-Der Vorteil von CNC-Fräsen gegenüber 3D-Druck und Lasercutting ist, dass man auch Metalle bearbeiten kann, wie etwa Aluminium oder je nach Maschine auch Stahl. Zudem sind deutlich dickere Holzplatten als beim Lasercutting bearbeitbar. Im Gegensatz zu Lasercutting sind zudem nicht nur flache, plattenförmige Objekte, sondern auch dreidimensionale Formen möglich.
+The advantage of CNC milling over 3D printing and lasercutting is that you can also machine metals, such as aluminum or, depending on the machine, even steel. In addition, significantly thicker wood boards can be machined than with lasercutting. In contrast to lasercutting, not only flat, plate-shaped objects are possible, but also three-dimensional shapes.
 
 ## Basics
 
