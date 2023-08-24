@@ -42,9 +42,9 @@ To do:
 
 ## Introduction
 
-Lasercutting (engl. für Laserschneiden) ist ein Prozess, bei dem ein Laserstrahl ein Material erhitzt, dieses dabei schmilzt oder verbrennt und somit trennt. Die entsprechenden Maschinen nennt man Lasercutter. Zusätzlich zum Schneiden sind Lasercutter auch in der Lage zu gravieren, d.h. das Material wird nicht vollständig durchtrennt, sondern nur an der Oberfläche bearbeitet, womit sich z.B. Schriftzüge oder Abbildungen in das Werkstück einbringen lassen.
+Lasercutting is a process in which a laser beam heats a material, melting or burning it in the process and thus separating it. The corresponding machines are called laser cutters. In addition to cutting, laser cutters are also capable of engraving, which means that the material is not cut through completely, but only processed on the surface, so that, for example, lettering or images can be added to the workpiece.
 
-Zu schneidende Werkstücke dürfen nicht zu dick sein, in der Regel verwendet man einige Millimeter dicke Platten. Gravuren können auch auf dickere Objekte gelasert werden, solange sie in die Höhenbegrenzung der Maschine passen. So lassen sich z.B. auch Möbel, Küchenbretter oder Stifte mit Holzgriff gravieren.
+Workpieces to be cut must not be too thick, usually plates a few millimeters thick are used. Engravings can also be lasered on thicker objects as long as they fit within the height limits of the machine. For example, furniture, kitchen boards or pens with wooden handles can be engraved.
 
 <p align="center">
 <img height="350" src="images/1_Laser_cutting_wood.png">
@@ -52,14 +52,14 @@ Zu schneidende Werkstücke dürfen nicht zu dick sein, in der Regel verwendet ma
 </p>
 
 <p align="center">
-<a href="#s1">[1]</a> <i> Ein Lasercutter schneidet Formen aus einer Holzplatte (MDF) - </i>
-<a href="#s2">[2]</a> <i> Lasergravur in einer Holzplatte </i>
+<a href="#s1">[1]</a> <i> A laser cutter cuts shapes from a wooden sheet (MDF) - </i>
+<a href="#s2">[2]</a> <i> Laser engraving in a wooden sheet </i>
 </p>
 
 
-Es gibt eine Vielzahl an unterschiedlichen Lasercuttern, die sich vor allem in ihrer Größe und Laserleistung unterscheiden.
+There are a variety of different laser cutters, which differ mainly in size and laser power.
 
-Lasercutter, die man typischerweise in einem Fab Lab vorfindet, haben meistens einen Bearbeitungsraum von ca. 30 x 20 cm bis 70 x 40 cm. Zum Vergleich: ein DIN-A3-Format (typische Größe einer Holzplatte für Lasercutting) misst ca. 42 x 30 cm, passt also gut in die meisten Lasercutter. Die Leistung des Lasers liegt meistens zwischen 30 und 60 Watt. Mit derartigen Lasercuttern kann man z.B. dünne Platten aus Holz, Kunststoff, transparentem Acrylglas, Textil, Leder oder Pappe schneiden und gravieren. Zum Schneiden von Metallen (z.B. Aluminium oder Stahl) reicht die Leistung dieser Mittelklasse-Geräte in der Regel nicht aus, aber Gravuren auf Metall lassen sich damit durchaus realisieren.
+Laser cutters typically found in a fab lab usually have a processing space of about 30 x 20 cm to 70 x 40 cm. For comparison, a DIN A3 (ISO 216) format (typical size of a wood panel for laser cutting) measures approx. 42 x 30 cm, so it fits well in most laser cutters. The power of the laser is usually between 30 and 60 watts. Such laser cutters can be used to cut and engrave, for example, thin sheets of wood, plastic, transparent acrylic, textile, leather or cardboard. For cutting metals (e.g. aluminum or steel), the power of these mid-range devices is usually not enough, but engravings on metal can still be realized with them.
 
 <p align="center">
 <img height="350" src="images/3_Fabulaser_Open_Source_Hardware_Laser_cutter.png">
@@ -67,23 +67,23 @@ Lasercutter, die man typischerweise in einem Fab Lab vorfindet, haben meistens e
 </p>
 
 <p align="center">
-<a href="#s3">[3]</a> <i> Fabulaser Mini - ein Open-Source-Hardware-Lasercutter - </i>
-<a href="#s4">[4]</a> <i> Lasercutter in einem Fab Lab </i>
+<a href="#s3">[3]</a> <i> Fabulaser Mini - an open source hardware laser cutter - </i>
+<a href="#s4">[4]</a> <i> Laser cutter in a fab lab </i>
 </p>
 
 
-Es gibt auch leistungsstarke Industriegeräte, die in der Lage sind, Metalle zu schneiden. Da diese Maschinen sehr teuer sind, wird man sie jedoch kaum in Fab Labs vorfinden, sondern eher in größeren Unternehmen.
+There are also powerful industrial machines capable of cutting metals. However, since these machines are very expensive, you will hardly find them in Fab Labs, but rather in larger companies.
 
-Ein Lasercutter benötigt in der Regel eine digitale Grafikdatei als Eingabe, die alle Schnittlinien und zu gravierenden Abbildungen enthält. Schnittlinien müssen dabei als Vektorgrafik vorliegen (mehr dazu unten).
+A laser cutter usually requires a digital graphic file as input, which contains all cutting lines and images to be engraved. Cutting lines must be available as vector graphics (more on this below).
 
-Mit Lasercutting lassen sich z.B. Namensschilder, Bilder, Aufsteller, Deko-Artikel oder Schmuck herstellen. Auch mehrteilige Produkte wie Aufbewahrungsboxen, kleine Schubladen, Spar- oder Spendendosen, Spielzeuge, Brettspiele, Puzzles oder Gehäuse für Elektronikprodukte lassen sich mit Lasercutting realisieren. Die besondere Stärke von Lasergravur liegt in der Herstellung von personalisierten oder individuellen Produkten, z.B. mit Namen, Portraits oder Logos.
+Lasercutting can be used, for example, to produce nameplates, pictures, display stands, decorative items or jewelry (e.g. made of wood or plastic). Multi-part products such as storage boxes, small drawers, donation or savings boxes, toys, board games, puzzles or housings for electronic products can also be realized with lasercutting. The particular strength of laser engraving lies in the production of personalized or individual products, e.g. with names, portraits or logos.
 
 <p align="center">
 <img height="400" src="images/5_Laser_cut_and_engraved_objects.png">
 </p>
 
 <p align="center">
-<a href="#s5">[5]</a> <i> Verschiedene lasergeschnittene und -gravierte Objekte </i>
+<a href="#s5">[5]</a> <i> Various laser cut and engraved objects </i>
 </p>
 
 
