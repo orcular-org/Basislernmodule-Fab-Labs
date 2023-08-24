@@ -1,14 +1,5 @@
-**Translation note:**
-
-This article is still being translated into **English**.
-
-Links in this article may not work at the moment. Find the other articles [in this folder](/Basislernmodule) and its subfolders (English article templates have "EN" in the file name).
-
-To do:
-- Edit file
-- Replace text by English translation
-- Commit changes
-- When done, remove this note
+> **Translation note:**
+> This article was translated from German. The original German article can be found [here](../README.md).
 
 # Basic learning modules for fab labs
 Basic learning modules for various topics related to the use of fab labs - published as Open Educational Resources (OER).
