@@ -43,7 +43,7 @@ In this case, this means: If readers notice errors or have suggestions for addit
 
 ## Background
 
-The basic learning modules were developed in spring 2023 on behalf of the [Laboratorium für Fertigungstechnik (Laboratory for Manufacturing Technology)](https://www.hsu-hh.de/laft/) at Helmut Schmidt University in Hamburg. Research at the institute includes digital manufacturing, open-source hardware and fab labs, and the institute itself also operates a publicly accessible fab lab, the [OpenLab Hamburg](https://openlab-hamburg.de/). The university is a founding member of [Fab City Hamburg e.V. association](https://www.fabcity.hamburg/de/).
+The basic learning modules were developed in spring 2023 on behalf of the [Laboratorium für Fertigungstechnik (Laboratory for Manufacturing Technology)](https://www.hsu-hh.de/laft/) at Helmut Schmidt University in Hamburg. Research at the institute includes digital manufacturing, open-source hardware and fab labs, and the institute itself also operates a publicly accessible fab lab, the [OpenLab Hamburg](https://openlab-hamburg.de/). The university is a founding member of [Fab City Hamburg e.V. association](https://www.fabcity.hamburg/en/).
 
 Author of the texts is Oskar Lidtke, freelance engineer, product designer and lecturer, also founding member of Fab City Hamburg e.V. association and operator of the project [Orcular](https://www.orcular.org/) - for further license information see the section below.
 
