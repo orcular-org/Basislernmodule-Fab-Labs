@@ -192,7 +192,7 @@ Raster and vector graphics can be easily distinguished mainly by two methods:
   - **Vector graphics** have file formats like SVG, DXF, AI or under certain conditions PDF.
 
 <p align="center">
-<img height="300" src="images/12_Vektorgrafik_vs_Rastergrafik.png">
+<img height="300" src="images/12_EN_Vector_graphics_vs_Raster_graphics.png">
 </p>
 
 <p align="center">
