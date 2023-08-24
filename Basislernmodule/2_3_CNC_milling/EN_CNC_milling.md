@@ -352,11 +352,11 @@ After the milling process is complete, the holding tags can be cut using differe
 
 ### Safety
 
-CNC-Maschinen sind potenziell gefährliche Maschinen und sollten nie ohne Einweisung und Freigabe benutzt werden. Fab Labs bieten in der Regel eine verpflichtende Sicherheitseinweisung an. Die Einzelheiten hierzu sind bei jeder Maschine anders, daher erfolgt in diesem Basislernmodul keine genauere Beschreibung.
+CNC machines are potentially dangerous machines and should never be used without instruction and clearance. Fab labs usually offer a mandatory safety briefing. The details of this are different for each machine, so a more detailed description is not provided in this basic learning module.
 
 ### CAM, simulation, G-code file
 
-Ein relativ großer Aufwand beim CNC-Fräsen steckt in der Vorbereitung mit der CAM-Software. Hat man alle Operationen und CAM-Pfade definiert, sollte eine Simulation durchgeführt werden. Die meisten CAM-Programme verfügen über eine Simulationsfunktion, bei der der vollständige Fräsvorgang dargestellt wird, ähnlich wie bei einem Video, wobei man während der Simulation die 3D-Ansicht frei drehen kann.
+A relatively large effort in CNC milling is in the preparation with the CAM software. Once you have defined all the operations and CAM paths, you should run a simulation. Most CAM programs have a simulation function in which the complete milling process is displayed, similar to a video, whereby one can freely rotate the 3D view during the simulation.
 
 <p align="center">
 <img height="350" src="images/29_FreeCAD_Path_workbench_CAM_simulation.png">
@@ -364,13 +364,13 @@ Ein relativ großer Aufwand beim CNC-Fräsen steckt in der Vorbereitung mit der 
 
 
 <p align="center">
-<a href="#s29">[29]</a> <i> CAM-Simulationsmodus in FreeCAD: Die grünen und roten Pfade zeigen den Verlaufsweg des Fräswerkzeugs (grau). Zu Beginn der Simulation ist ein massiver, dunkelroter Block zu sehen; während der Simulation kann man beobachten, wie der Fräser (grau) Material entfernt, wodurch die gelben Flächen entstehen. In dieser Momentaufnahme ist das äußere Profil bereits fertig, die Tasche ist gerade mitten in der Bearbeitung. </i>
+<a href="#s29">[29]</a> <i> CAM simulation mode in FreeCAD: The green and red paths show the path of the milling tool (gray). At the beginning of the simulation, a solid, dark red block can be seen; during the simulation, you can observe how the milling cutter (gray) removes material, creating the yellow areas. In this snapshot, the outer profile is already finished, and the pocket is in the middle of machining. </i>
 </p>
 
 
-Die Simulation kann auch in erhöhter Geschwindigkeit abgespielt werden. Während der Simulation wird sichtbar, wann an welcher Stelle Material abgetragen wird und wie das fertige Teil am Ende aussieht. Fallen noch Fehler auf, kann das CAM-Programm noch nachbearbeitet werden und man spart sich teure Fehler in der Fertigung.
+The simulation can also be played back at increased speed. During the simulation, it becomes visible when and where material is removed and what the finished part will look like in the end. If errors are still detected, the CAM program can still be reworked and expensive errors in production can be avoided.
 
-Abschließend muss das CAM-Programm mithilfe eines Post-Prozessors (üblicherweise in der Software eingebaut) als eine G-Code-Datei exportiert werden. G-Codes beim CNC-Fräsen basieren auf dem gleichen Prinzip wie G-Codes beim 3D-Druck - mehr dazu in dem [Basislernmodul zu 3D-Druck](../2_1_3D_printing/3D-Druck.md), im Abschnitt [G-Code](../2_1_3D_printing/3D-Druck.md#g-code).
+Finally, the CAM program must be exported as a G-code file using a post-processor (usually built into the software). G-codes in CNC milling are based on the same principle as G-codes in 3D printing - more about this in the [3D printing basic learning module](../2_1_3D_printing/EN_3D_printing.md), in the section [G-code](../2_1_3D_printing/EN_3D_printing.md#g-code).
 
 ### Workpiece
 
