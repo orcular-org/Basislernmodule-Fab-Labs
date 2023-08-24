@@ -200,7 +200,7 @@ In the [3D design and CAD basic learning module](../1_1_3D_design/EN_3D_design.m
 
 
 ### Milling tool shapes
-Fräswerkzeuge gibt es in vielen verschiedenen Formen, für verschiedene Anwendungen. Die gängigste und im Fab-Lab-Bereich am häufigsten eingesetzte Form ist der Schaftfräser. Der Schaft ist der Teil des Werkzeugs, der über keine Schneiden verfügt und in die Maschine eingespannt wird.
+Milling tools come in many different shapes, for different applications. The most common form, and the one most often used in the fab lab sector, is the end mill. The shank is the part of the tool that has no cutting edges and is clamped into the machine.
 
 <p align="center">
 <img height="400" src="images/16_Milling_cutter.png">
@@ -208,20 +208,20 @@ Fräswerkzeuge gibt es in vielen verschiedenen Formen, für verschiedene Anwendu
 
 
 <p align="center">
-<a href="#s16">[16]</a> <i> Verschiedene Fräswerkzeuge: Rechts unten ein Radiusschaftfräser mit Rundung an der Spitze. In der Draufsicht links lässt sich gut die Zähnezahl bzw. Anzahl der Schneiden erkennen: oben ein zweischneidiges und unten vierschneidige Fräswerkzeuge. </i>
+<a href="#s16">[16]</a> <i> Different milling tools: On the bottom right, a radius end mill with rounding at the tip. The top view on the left clearly shows the number of teeth or cutting edges: a double-edged milling tool at the top and a four-edged milling tool at the bottom. </i>
 </p>
 
 
 ### Main parameters
 
-Die wichtigsten Kenngrößen und Parameter beim CNC-Fräsen sind:
+The most important characteristic values and parameters in CNC milling are:
 
-- **Fräsdurchmesser (in Millimeter, mm):** der Durchmesser des Fräswerkzeugs.
-- **Drehzahl (in Umdrehungen pro Minute, U/min):** die Geschwindigkeit, mit der sich das Fräswerkzeug dreht.
-- **Vorschubgeschwindigkeit (in Millimeter pro Minute, mm/min):** die Geschwindigkeit, mit der sich das Fräswerkzeug in horizontaler Richtung bewegt.
-- **Schnitttiefe (auch Zustelltiefe oder Eintauchtiefe genannt) (in Millimeter, mm):** In der Regel beschreibt dies die Tiefe, die das Fräswerkzeug pro Durchgang in das Material eintaucht.
+- **Milling diameter (in millimeters, mm):** the diameter of the milling tool.
+- **Speed (in revolutions per minute, rpm):** the speed at which the milling tool rotates (spindle speed).
+- **Feed rate (in millimeters per minute, mm/min):** the speed at which the milling tool moves in the horizontal direction.
+- **Depth of cut (in millimeters, mm):** As a rule, this describes the depth to which the milling tool plunges into the material per pass.
 
-Es gibt noch viele weitere einstellbare Parameter, diese vier sind jedoch die wichtigsten und maßgeblichen. Auf die einzelnen Parameter wird in den folgenden Abschnitten noch näher eingegangen.
+There are many other adjustable parameters, but these four are the most important and decisive ones. The individual parameters will be discussed in more detail in the following sections.
 
 <p align="center">
 <img height="400" src="images/17_EN_CNC_milling_parameters.png">
@@ -229,7 +229,7 @@ Es gibt noch viele weitere einstellbare Parameter, diese vier sind jedoch die wi
 
 
 <p align="center">
-<a href="#s17">[17]</a> <i> Die wichtigsten Parameter beim Fräsen. </i>
+<a href="#s17">[17]</a> <i> The most important parameters in milling. </i>
 </p>
 
 <p align="center">
@@ -239,24 +239,24 @@ Es gibt noch viele weitere einstellbare Parameter, diese vier sind jedoch die wi
 
 
 <p align="center">
-<a href="#s18">[18]</a> <i> Pfad (grün) zum Fräsen einer Tasche in der CAD/CAM-Software FreeCAD. - </i>
-<a href="#s19">[19]</a> <i> Gleiches Modell in der Seitenansicht: Anhand der grünen Pfadlinien erkennt man die Schnitttiefe - hier beträgt sie 0,3 mm, die Tiefe der Tasche beträgt 2 mm. </i>
+<a href="#s18">[18]</a> <i> Path (green) for milling a pocket in the FreeCAD CAD/CAM software. - </i>
+<a href="#s19">[19]</a> <i> The same model in side view: Based on the green path lines, you can see the depth of cut - here it is 0.3 mm, the depth of the pocket is 2 mm. </i>
 </p>
 
 
 
 ### Milling tool diameter
-Fräswerkzeuge gibt es in unterschiedlichen Durchmessern - bei Fab-Lab-Maschinen üblicherweise zwischen drei und zehn Millimetern. Für jedes Fräsvorhaben muss man sich entweder für einen Fräsdurchmesser entscheiden oder das CNC-Vorhaben in mehrere Abschnitte mit unterschiedlichen Durchmessern unterteilen. Dabei muss das Fräswerkzeug im Laufe des Prozesses gewechselt werden, in der Regel von Hand. Manche professionelle Maschinen können auch selbstständig Werkzeuge wechseln, ohne dass eine Person eingreifen muss.
+Milling tools come in different diameters - usually between three and ten millimeters for fab lab machines. For each milling project, one must either decide on a milling diameter or divide the CNC project into several sections with different diameters. In this case, the milling tool must be changed during the process, usually by hand. Some professional machines can also change tools autonomously without the need for a person to intervene.
 
-Je größer der Fräsdurchmesser, desto mehr Material wird pro Zeit entfernt, d.h. desto schneller läuft die Fertigung ab. Gleichzeitig kann ein Fräsdurchmesser nicht größer als die kleinste zu fräsende Tasche (Vertiefung im Material) sein. Es gilt also, den Fräser so groß wie möglich, aber so klein wie nötig auszuwählen.
+The larger the milling diameter, the more material is removed per time, thus the faster the production runs. At the same time, a milling diameter cannot be larger than the smallest pocket (a depression in the material) to be milled. It is therefore necessary to select the milling cutter as large as possible, but as small as necessary.
 
 ### Determination of spindle speed, feed rate and cutting depth
 
-Die Parameter-Einstellungen sind sehr wichtig, da zu hohe oder zu niedrige Drehzahlen oder Vorschubgeschwindigkeiten zu unsauberen Ergebnissen oder im schlimmsten Fall zur Beschädigung der Maschine führen können.
+The parameter settings are very important, as too high or too low speeds or feed rates can lead to unclean results or, in the worst case, damage to the machine.
 
-Hat man seinen Fräsdurchmesser gewählt und kennt das zu fräsende Material des Werkstücks, kann man daraus die anderen Parameter berechnen. In Fachbüchern und im Internet (beispielsweise [hier](https://www.sorotec.de/webshop/Datenblaetter/fraeser/schnittwerte.pdf)) finden sich Tabellen und Formeln, zudem finden sich diese üblicherweise vor Ort in der Werkstatt bzw. im Fab Lab. Die berechneten Werte für Drehzahl und Vorschub können in das CAM-Programm eingegeben werden. In gewissem Rahmen kann auch von den Werten abgewichen werden, d.h. man verwendet die berechneten Werte lediglich als Richtwert, dabei sollte man sich aber gut auskennen.
+Once you have selected your milling diameter and know the material of the workpiece to be milled, you can calculate the other parameters. Tables and formulas can be found in reference books and on the Internet (for example [here](https://www.sorotec.de/webshop/Datenblaetter/fraeser/schnittwerte.pdf) - only available in German), and they are also usually found on site in the workshop or fab lab. The calculated values for speed and feed can be entered into the CAM program. To a certain extent, it is also possible to deviate from the values, i.e. the calculated values are only used as a guide value, but you should be well versed in this.
 
-Für die Schnitttiefe wird oft als Richtwert angenommen, dass sie höchstens den Fräsdurchmesser betragen sollte. Um sicher zu gehen, empfehlen sich Schnitttiefen kleiner als der Fräsdurchmesser, z.B. der halbe Durchmesser. Dies ist vor allem beim Fräsen von Metallen wichtig. Hintergrund ist, dass das Fräswerkzeug bei größerer Eintauchtiefe mehr Material pro Zeit schneidet, was Werkzeug und Werkstück stark belastet und zu unsauberen Ergebnissen oder Schäden führen kann. Zudem sind Fräswerkzeuge durch ihre Form auf das Fräsen optimiert, also das Schneiden quer zur Werkzeugachse. Sie können auch ein stückweit bohren, also in Achsrichtung arbeiten, sind jedoch durch ihre Form weniger dafür geeignet. Daher sollte eher in kleinen Schritten eingetaucht und nach jedem Eintauchen zunächst die gesamte zu entfernende Fläche gefräst werden.
+For the cutting depth, it is often assumed as a guideline that it should be no more than the milling diameter. To be on the safe side, cutting depths smaller than the milling diameter are recommended, e.g. half the diameter. This is especially important when milling metals. The reason for this is that the milling tool cuts more material per time at a greater plunge depth, which puts a lot of stress on the tool and workpiece and can lead to unclean results or damage. In addition, milling tools are optimized by their shape for milling, i.e. cutting across the tool axis. They can also drill a bit, meaning they can work in the direction of the axis, but their shape makes them less suitable for this. Therefore, plunging should rather be done in small steps and the entire surface to be removed should be milled first after each plunge.
 
 
 ### Safety height
