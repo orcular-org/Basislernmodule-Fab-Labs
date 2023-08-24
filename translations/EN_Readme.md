@@ -15,15 +15,15 @@ Basic learning modules for various topics related to the use of fab labs - publi
 
 ## Topic 1: 3D Models
 
-1. [3D design](Basislernmodule/1_1_3D_design/EN_3D_design.md)
-2. [3D scanning](Basislernmodule/1_2_3D_scanning/EN_3D_scanning.md)
-3. [Using 3D models from the Internet](Basislernmodule/1_3_Using_3D_models_from_the_internet/EN_Using_3D_models_from_the_internet.md)
+1. [3D design](../Basislernmodule/1_1_3D_design/EN_3D_design.md)
+2. [3D scanning](../Basislernmodule/1_2_3D_scanning/EN_3D_scanning.md)
+3. [Using 3D models from the Internet](../Basislernmodule/1_3_Using_3D_models_from_the_internet/EN_Using_3D_models_from_the_internet.md)
 
 ## Topic 2: Digital production
 
-1. [3D printing](Basislernmodule/2_1_3D_printing/EN_3D_printing.md)
-2. [Laser cutting](Basislernmodule/2_2_Laser_cutting/EN_Laser_cutting.md)
-3. [CNC milling](Basislernmodule/2_3_CNC_milling/EN_CNC_milling.md)
+1. [3D printing](../Basislernmodule/2_1_3D_printing/EN_3D_printing.md)
+2. [Laser cutting](../Basislernmodule/2_2_Laser_cutting/EN_Laser_cutting.md)
+3. [CNC milling](../Basislernmodule/2_3_CNC_milling/EN_CNC_milling.md)
 
 ## Aims of the basic learning modules
 
