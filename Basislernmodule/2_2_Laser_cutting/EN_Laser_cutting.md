@@ -30,7 +30,7 @@ To do:
    - [Downloading templates](#downloading-templates)
    - [Common mistakes](#common-mistakes)
 4. [Preparation and process of a laser cutting](#preparation-and-process-of-a-laser-cutting)
-   - [Security](#security)
+   - [Safety](#safety)
    - [Laser cut file](#laser-cut-file)
    - [Preparation](#preparation)
    - [Laser cutting process](#laser-cutting-process)
@@ -91,7 +91,7 @@ Lasercutting can be used, for example, to produce nameplates, pictures, display 
 
 ### Materials
 
-Grundsätzlich ist es sehr wichtig, vor dem Lasercutting zu klären, ob das Material bearbeitet werden darf, da es Stoffe gibt, die beim Laserschneiden lebensgefährliche Dämpfe erzeugen können. Mehr Infos finden sich in der unten stehenden Materialliste und im Abschnitt [Sicherheit](#sicherheit).
+Basically, it is very important to clarify before laser cutting whether the material may be processed, as there are substances that can produce life-threatening fumes during laser cutting. More info can be found in the material list below and in the [safety section](#safety).
 
 Hier eine Übersicht einiger beliebter und gut geeigneter Materialien für Lasercutting und -gravur:
 
@@ -337,7 +337,7 @@ Schließlich passiert es auch oft, dass ein fertig geschnittenes Bauteil nicht d
 
 ## Preparation and process of a laser cutting
 
-### Security
+### Safety
 Ein Lasercutter ist eine potenziell gefährliche Maschine und sollte niemals ohne Einweisung oder Befugnis benutzt werden. Fab Labs bieten in der Regel Einweisungen in die Sicherheit und Benutzung an, die man absolviert haben muss, bevor man das Gerät benutzen darf.
 
 Bei ordnungsgemäßem Betrieb entsteht keine unmittelbare Gefahr für den Menschen. Falls der Betrieb jedoch nicht ordnungsgemäß verläuft, z.B. wegen Beschädigung des Gehäuses, bei Umbau und Umgehung der Sicherheitstechnik oder durch unübliche Reflexion und Streuung des Laserlichts, kann die Laserstrahlung vor allem für die Augen, aber auch für die Haut sehr gefährlich werden. Die Laserstrahlung eines Lasercutters ist unsichtbar, was die Gefahr noch vergrößert. Bei Unsicherheiten ist besondere Vorsicht geboten. Bei Defekten oder unüblichem Verhalten sollte eine Maschine nicht benutzt und das Fab-Lab-Personal verständigt werden.
