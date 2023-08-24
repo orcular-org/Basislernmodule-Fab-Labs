@@ -169,18 +169,18 @@ Test cards developed for such material tests can also be found on the internet. 
 
 ### Kerf
 
-Beim Trennen mittels Lasercutting wird entlang der Schnittlinie eine kleine Menge Material verbrannt, verdampft oder geschmolzen. Dies führt dazu, dass Trennlinien nicht "unendlich dünn" sind, sondern eine gewisse Breite haben - die sogenannte Schnittbreite. In vielen Programmen findet man auch den englischen Begriff für Schnittbreite, "kerf". Eine Schnittlinie kann man sich also eher wie einen Schnittkanal vorstellen - zwischen den beiden Teilen klafft eine winzig schmale Lücke.
+When cutting by laser, a small amount of material is burned, vaporized or melted along the cutting line. As a result, cut lines are not "infinitely thin" but have a certain width - the so-called kerf. A cut line can therefore be thought of more like a cutting channel - there is a tiny gap between the two parts.
 
-Auch wenn die Schnittbreite mit bloßem Auge kaum erkennbar ist - sie ist oft nur einen Bruchteil eines Millimeters breit - ist es bei einigen Anwendungen wichtig, sie im Hinterkopf zu behalten. Dies gilt z.B. für Stecksysteme (mehr dazu unten im Abschnitt [Stecksysteme](#stecksysteme)), bei denen es auf einen guten Sitz der gesteckten Teile ankommt. 
+Even though the cutting width is hardly visible to the naked eye - it is often only a fraction of a millimeter wide - it is important to keep it in mind for some applications. This applies, for example, to push-fit systems (more on this below in the [push-fit systems section](#push-fit-systems)), where a good fit of the pushed-in parts is important.  
 
-Um eine Vorstellung von der Schnittbreite zu bekommen, kann man ein lasergeschnittenes Teil oder Loch mit einem Messschieber ausmessen und den Messwert mit dem Wert in der Vektorgrafik vergleichen - man wird feststellen, dass es leichte Abweichungen gibt. Anhand der Differenz zwischen gezeichneter und gemessener Länge kann man die Schnittbreite ermitteln. Diesen Wert kann man dann beim Zeichnen der Vektorgrafik als Schnittlinienversatz berücksichtigen.
+To get an idea of the cutting width (kerf), you can measure a laser-cut part or hole with a caliper and compare the measured value with the value in the vector graphic - you will notice that there are slight deviations. Using the difference between the drawn length and the measured length, you can determine the width of the cut (kerf). This value can then be taken into account as the cutting line offset when drawing the vector graphic.
 
 <p align="center">
 <img height="300" src="images/11_Laser_cut_designed_vs_measured_length.png">
 </p>
 
 <p align="center">
-<a href="#s11">[11]</a> <i> Ein lasergeschnittenes Teil, das 40 mm breit gezeichnet wurde, misst in diesem Beispiel lediglich 39,75 mm - die Differenz von 0,25 mm ergibt sich durch die Schnittbreite. Pro Schnittkante beträgt sie hier also 0,25 mm : 2 = 0,125 mm </i>
+<a href="#s11">[11]</a> <i> In this example, a laser-cut part that was drawn 40 mm wide measures only 39.75 mm - the difference of 0.25 mm results from the cutting width (kerf). Per cut edge it is therefore 0.25 mm : 2 = 0.125 mm here </i>
 </p>
 
 
