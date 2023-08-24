@@ -238,35 +238,35 @@ In some programs it is also possible to specify the order of the laser cuts by g
 
 
 ### Software
-Zum Zeichnen von Vektorgrafiken gibt es viele unterschiedliche Programme. Meistens wird derartige Software im professionellen Bereich eingesetzt, was die Softwarelizenzen relativ teuer macht. Es gibt aber auch gute kostenlose Alternativen:
+There are many different software for drawing vector graphics. Mostly such software is used in the professional field, which makes the licenses relatively expensive. But there are also good free alternatives:
 
-Eine beliebte und kostenlose Open-Source-Software für **Vektorgrafikbearbeitung** ist **Inkscape**.
+A popular and free open source software for **vector graphics editing** is **Inkscape**.
 
 - **Inkscape:** https://inkscape.org
 
-Für das Zeichnen und Erstellen von **Rastergrafiken** gibt es ebenfalls viele, teilweise teure Programme.
-Als kostenlose und Open-Source-basierte Alternativen gibt es:
+For drawing and creating **raster graphics** there are also many programs, some of them expensive.
+As free and open source based alternatives there are:
 
 - **Krita:** https://krita.org
 - **GIMP:** https://www.gimp.org
 
-Je nach Lasercutter-Hersteller und -Modell benötigt man oft noch eine spezielle Software, die die Vektor- und Rastergrafiken in Steuersignale umwandelt und an den Lasercutter sendet. Diese Software wird üblicherweise mit dem Lasercutter mitgeliefert.
+Depending on the laser cutter manufacturer and model, special software is often required to convert the vector and raster graphics into control signals and send them to the laser cutter. This software is usually supplied with the laser cutter.
 
-Viele Lasercutter nutzen die kostenlose Open-Source-Software Visicut (https://visicut.org). Beliebt, wenn auch nicht kostenlos, ist auch die Software Lightburn (https://lightburnsoftware.com/). Mit Lightburn können Vektorgrafiken gezeichnet und auch direkt aus der Software heraus an den Lasercutter gesendet werden, zudem verfügt das Programm über zahlreiche Komfortfunktionen speziell für Lasercutting und -gravieren.
+Many laser cutters use the free open-source software Visicut (https://visicut.org). Also popular, although not free, is the Lightburn software (https://lightburnsoftware.com/). With Lightburn, vector graphics can be drawn and also sent directly from the software to the laser cutter, and the program also has numerous convenience functions specifically for laser cutting and engraving.
 
 ### Differences to other digital manufacturing methods
-Der wichtigste Unterschied zwischen **Lasercutting und 3D-Druck** ist, dass Lasercutting in der Regel deutlich schneller abläuft als 3D-Druck. 3D-Drucke können oft mehrere Stunden dauern, während Lasercut-Teile oft in wenigen Minuten fertig sind. Je nach Form und Komplexität kann sich dies im Einzelfall aber natürlich auch ganz anders verhalten. Bevor man also ein Teil 3D-druckt, lohnt es sich, zu überlegen, ob man es auch mit Lasercutting realisieren kann, sofern Form und Material dies zulassen (mehr zum Thema im [Basislernmodul 3D-Druck](../2_1_3D_printing/3D-Druck.md)).
+The most important difference between **lasercutting and 3D printing** is that lasercutting is usually much faster than 3D printing. 3D printing can often take several hours, while lasercut parts are often finished in a few minutes. Of course, depending on the shape and complexity, this can be quite different in individual cases. So before you 3D print a part, it's worth considering whether you can also do it with lasercutting, if the shape and material allow it (more on this topic in the [3D printing basic learning module](../2_1_3D_printing/EN_3D_printing.md)).
 
 <p align="center">
 <img height="400" src="images/16_3D_printing_and_laser_cutting_orcuCar_Orcular.png">
 </p>
 
 <p align="center">
-<a href="#s16">[16]</a> <i> Beispiel für Unterschiede in der Geschwindigkeit bei 3D-Druck vs. Lasercutting: Das 3D-Drucken der Teile (obere zwei Bilder) hat insgesamt ca. 2,5 Stunden gedauert - das Lasercutting (Bild unten links) nur ca. 12 Minuten. </i>
+<a href="#s16">[16]</a> <i> Example of differences in speed for 3D printing vs. laser cutting: 3D printing the parts (top two images) took a total of about 2.5 hours - laser cutting (bottom left image) took only about 12 minutes. </i>
 </p>
 
 
-Auch zwischen **Lasercutting und CNC-Fräsen** gibt es typische Unterschiede. Während beim Lasercutten nur flache Teile in gleichmäßiger Dicke herstellbar sind (sozusagen "2D-Teile"), können mit CNC-Fräsen auch dreidimensionale Formen gefertigt werden. Zudem können Lasercutter nur begrenzt dicke Platten schneiden - je nach Material nur einige Millimeter bis ca. 1-2 Zentimeter Dicke - während mit CNC-Fräsen deutlich dickere Platten durchtrennt werden können. Außerdem können viele CNC-Fräsen auch Aluminium oder ähnlich harte Materialien bearbeiten, was mit Lasercuttern oft nicht möglich ist (mehr zum Thema im [Basislernmodul CNC-Fräsen](../2_3_CNC_milling/CNC-Fraesen.md)).
+There are also typical differences between **Lasercutting and CNC milling**. While laser cutting can only produce flat parts of uniform thickness (so to speak "2D parts"), CNC milling can also produce three-dimensional shapes. In addition, laser cutters can only cut plates of limited thickness - only a few millimeters to about 1-2 centimeters thick, depending on the material - while CNC milling machines can cut through much thicker plates. In addition, many CNC mills can also handle aluminum or similarly hard materials, which is often not possible with laser cutters (more on this topic in the [CNC milling basic learning module](../2_3_CNC_milling/EN_CNC_milling.md)).
 
 ## Design tips
 
