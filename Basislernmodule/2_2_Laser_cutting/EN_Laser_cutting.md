@@ -310,9 +310,9 @@ Many CAD programs (e.g. FreeCAD) have tools to project 3D modeled parts onto a 2
 
 
 ### Living hinge
-Eine beliebte Technik im Lasercut-Design nennt sich "living hinge" (engl. für "Biegescharnier"). Gewöhnliche Scharniere bestehen aus mehreren Bauteilen, Biegescharniere hingegen aus nur einem einzigen Teil, welches an einer oder an mehreren Stellen dünnwandig ausgestaltet oder eng geschnitten ist. Biegescharniere finden sich z.B. bei Eierpappkartons oder bei Brotdosen aus Kunststoff.
+A popular technique in laser cut design is called "living hinge". Ordinary hinges are made of several components, whereas living hinges consist of only one part, which is thin-walled or tightly cut in one or more places. Living hinges are found, for example, in egg cartons or plastic lunch boxes.
 
-Ein living hinge lässt sich mit Lasercutting herstellen, indem viele, sehr eng aneinander liegende und leicht versetzte Schnittlinien in die Platte geschnitten werden. Die Platte wird dadurch sehr flexibel und lässt sich an der Stelle leicht biegen. Dies geht vor allem mit dünnen Holzplatten gut. Man kann es für Scharnierfunktionen, z.B. für Deckel von Truhen, verwenden oder man nutzt es, um abgerundete Kanten zu erzeugen.
+A living hinge can be made with lasercutting by cutting many, very closely spaced and slightly offset cut lines into the plate. This makes the board very flexible and easy to bend in place. This works well with thin wood sheets in particular. You can use it for hinge functions, such as for lids on chests, or you can use it to create rounded edges.
 
 <p align="center">
 <img height="350" src="images/20_Laser_cut_box_living_hinge.png">
@@ -320,13 +320,13 @@ Ein living hinge lässt sich mit Lasercutting herstellen, indem viele, sehr eng 
 </p>
 
 <p align="center">
-<a href="#s20">[20]</a> <i> Eine zusammengesteckte Box aus lasergeschnittenen Holzteilen mit living hinge. - </i>
-<a href="#s21">[21]</a> <i> Durch bestimmte Schnittmuster entsteht ein flexibles living hinge. </i>
+<a href="#s20">[20]</a> <i> An assembled box made of laser cut wooden parts with living hinge. - </i>
+<a href="#s21">[21]</a> <i> Certain cutting patterns create a flexible living hinge. </i>
 </p>
 
 
 ### Downloading templates
-Statt eigene Lasercut-Zeichnungen zu entwerfen, kann man auch fertige Vorlagen aus dem Internet verwenden. Viele Portale, die eigentlich eher für 3D-Druck-Dateien gedacht sind, enthalten auch Projekte für Lasercutting. Man findet sie, indem man einfach "laser cut" oder "lasercutting" in die Suchleiste eingibt. Mehr zu dem Thema im [Basislernmodul Verwendung von 3D-Modellen aus dem Internet](../1_3_Using_3D_models_from_the_internet/Verwendung_von_3D_Modellen_aus_dem_Internet.md).
+Instead of designing your own lasercut drawings, you can also use ready-made templates from the Internet. Many websites, which are actually intended for 3D printing files, also contain projects for lasercutting. You can find them by simply typing "laser cut" or "lasercutting" into the search bar. More about this topic in the ["Using 3D models from the Internet" basic learning module](../1_3_Using_3D_models_from_the_internet/EN_Using_3D_models_from_the_internet.md).
 
 ### Common mistakes
 Ein häufiger Anfängerfehler beim Erstellen von Lasercut-Vektorgrafiken ist, die Schnittlinien nicht richtig zu formatieren, sodass die Linien graviert und nicht geschnitten werden. Je nach Lasercutter und Software gibt es bestimmte Dinge, die beachtet werden müssen, damit die Software eine Linie als Schnittline erkennt und sie nicht graviert. Es lohnt sich also, vor Start des Lasercuttings die Einstellungen nochmals genau zu prüfen. 
