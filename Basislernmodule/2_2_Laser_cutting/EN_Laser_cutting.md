@@ -185,33 +185,33 @@ To get an idea of the cutting width (kerf), you can measure a laser-cut part or 
 
 
 ### Vector graphic
-Für Lasercutting ist es wichtig, sich mit dem Konzept von Vektorgrafiken vertraut zu machen.
+For lasercutting, it is important to become familiar with the concept of vector graphics.
 
-Eine Vektorgrafik ist eine Computergrafik, die aus Grundformen wie Linien, Kreisen, Polygonen (mehreckige Formen) und Kurven (Splines) aufgebaut ist. Die digitale Datei einer Vektorgrafik enthält dabei alle notwendigen Informationen, um die Grafik eindeutig darzustellen, z.B. Position und Länge von Linien oder Durchmesser von Kreisen. Zudem können u.a. Strichstärke und Farbe von Linien oder Füllfarbe von Formen gespeichert werden.
-Damit unterscheiden sich Vektorgrafiken grundsätzlich von sogenannten Rastergrafiken, die über rasterartig angeordnete, farbige Bildpunkte (Pixel) aufgebaut sind.
+A vector graphic is a computer graphic that is constructed from basic shapes such as lines, circles, polygons (multiangular shapes) and curves (splines). The digital file of a vector graphic contains all the necessary information to clearly represent the graphic, e.g. position and length of lines or diameter of circles. In addition, line width and color of lines or fill color of shapes can be stored, among other things.
+In this way, vector graphics differ fundamentally from so-called raster graphics, which are constructed using colored image points (pixels) arranged in a grid-like manner.
 
-Raster- und Vektorgrafiken lassen sich vor allem über zwei Methoden leicht unterscheiden:
-- **Qualitätsverlust beim Skalieren (zoomen):**
-  - Eine **Rastergrafik** wird beim Vergrößern (hineinzoomen) immer undeutlicher, irgendwann erkennt man einzelne Pixel
-  - Eine **Vektorgrafik** hingegen bleibt beim Vergrößern stets scharf, da die Linien und Flächen nicht als Pixel, sondern über das oben beschriebene Verfahren definiert sind
-- **Dateiformat:**
-  - **Rastergrafiken** haben Dateiformate wie JPG/JPEG, PNG, GIF oder TIFF.
-  - **Vektorgrafiken** haben Dateiformate wie SVG, DXF, AI oder unter gewissen Bedingungen auch PDF.
+Raster and vector graphics can be easily distinguished mainly by two methods:
+- **Quality loss when scaling (zooming):**
+  - A **raster graphic** becomes more and more unclear when zooming in, at some point you can recognize single pixels
+  - A **vector graphic**, on the other hand, always remains sharp when zoomed in, because the lines and areas are not defined as pixels but by the method described above
+- **File Format:**
+  - **Raster graphics** have file formats like JPG/JPEG, PNG, GIF or TIFF.
+  - **Vector graphics** have file formats like SVG, DXF, AI or under certain conditions PDF.
 
 <p align="center">
 <img height="300" src="images/12_Vektorgrafik_vs_Rastergrafik.png">
 </p>
 
 <p align="center">
-<a href="#s12">[12]</a> <i> Vektorgrafiken lassen sich ohne Qualitätsverlust beliebig skalieren - Rastergrafiken hingegen werden beim Skalieren undeutlich und verpixelt. </i>
+<a href="#s12">[12]</a> <i> Vector graphics can be scaled as desired without loss of quality - raster graphics, on the other hand, become blurred and pixelated when scaled. </i>
 </p>
 
 
-Um eine Grafikdatei für Lasercutting verwenden zu können, muss diese in einem Vektorformat vorliegen. Hintergrund ist, dass die Linien und Kurven einer Vektorgrafik über eine Software in Steuersignale für den Lasercutter umgewandelt werden, wobei der Laser jede Linie und Kurve abfährt und laserschneidet. Der Laser "kennt" damit Anfangs- und Endpunkt einer jeden Linie und Kurve und fährt sie in einem Durchlauf ab. Mit pixelbasierten Rastergrafiken wäre dies nicht möglich, da die Software nicht erkennen kann, welche Pixel zu einer Linie gehören.
+To use a graphic file for lasercutting, it must be in a vector format. The reason for this is that the lines and curves of a vector graphic are converted via software into control signals for the laser cutter, whereby the laser traces and laser-cuts each line and curve. The laser thus "knows" the start and end points of each line and curve and traces them in one pass. This would not be possible with pixel-based raster graphics, since the software cannot recognize which pixels belong to a line.
 
-Für Gravuren hingegen können auch Rastergrafiken verwendet werden. Der Laser fährt dann die Grafik - sozusagen zeilenweise - von oben nach unten ab; jede Zeile von links nach rechts. Dunklere Pixel werden tiefer eingraviert, helle Pixel weniger tief und leere bzw. weiße Pixel werden ausgelassen, also nicht graviert. Es können auch farbige Grafiken verwendet werden, wobei sie von der Software automatisch in Graustufen umgewandelt werden.
+For engravings, on the other hand, raster graphics can also be used. The laser then traces the graphic - line by line, so to speak - from top to bottom; each line from left to right. Darker pixels are engraved deeper, lighter pixels less deeply, and empty or white pixels are left out, i.e. not engraved. Colored graphics can also be used, in which case the software automatically converts them to grayscale.
 
-Dateiformate wie SVG können auch eine Kombination aus Vektorgrafik und Rastergrafik enthalten, wobei Vektorlinien geschnitten und Rastergrafiken graviert werden - sofern man nicht etwas anderes einstellt.
+File formats like SVG can also contain a combination of vector graphics and raster graphics, where vector lines are cut and raster graphics are engraved - unless you set something else.
 
 <p align="center">
 <img height="350" src="images/13_Example_svg_file_vector_graphics_for_laser_cutting_and_engraving.png">
@@ -219,12 +219,12 @@ Dateiformate wie SVG können auch eine Kombination aus Vektorgrafik und Rastergr
 </p>
 
 <p align="center">
-<a href="#s13">[13]</a> <i> Beispiel für eine SVG-Grafikdatei - die schwarzen Konturlinien sind Vektorlinien und werden vom Laser geschnitten, das Katzenbild ist eine PNG-Rastergrafik und wird graviert - </i>
-<a href="#s14">[14]</a> <i> Fertiges Ergebnis - erstellt mit Lasercutting und -gravur aus 4 mm dicken Sperrholzplatten </i>
+<a href="#s13">[13]</a> <i> Example of SVG graphic file - the black contour lines are vector lines and are cut by the laser, the cat image is a PNG raster graphic and is engraved - </i>
+<a href="#s14">[14]</a> <i> Finished result - created with laser cutting and engraving from 4 mm thick plywood sheets </i>
 </p>
 
 
-In manchen Programmen ist es auch möglich, die Reihenfolge der Laserschnitte festzulegen, indem man den Vektorlinien unterschiedliche Farben gibt oder sie auf verschiedene Ebenen legt. Dies kann sinnvoll sein, wenn man z.B. erreichen möchte, dass zuerst die Inneren und zum Schluss die äußersten Linien geschnitten werden. Würde man mit dem äußersten Umriss anfangen, könnte die Platte nach dem Ausschneiden leicht kippen. Die später geschnittenen inneren Linien und Formen könnten dann verzerrt geschnitten werden oder der Laser schneidet gar nicht erst durch die gesamte Platte. Daher empfiehlt es sich, Schnittlinien stets in der Reihenfolge von innen nach außen zu schneiden.
+In some programs it is also possible to specify the order of the laser cuts by giving the vector lines different colors or placing them on different layers. This can be useful if, for example, you want to achieve that the inner lines are cut first and the outermost lines at the end. If you were to start with the outermost outline, the plate might tilt slightly after cutting. The inner lines and shapes cut later could then be cut distorted or the laser might not cut through the entire plate at all. Therefore, it is recommended to always cut cutting lines in the order from the inside to the outside.
 
 <a name="abb15"></a>
 
@@ -233,7 +233,7 @@ In manchen Programmen ist es auch möglich, die Reihenfolge der Laserschnitte fe
 </p>
 
 <p align="center">
-<a href="#s15">[15]</a> <i> In dieser SVG-Vektorgrafik wurden die Schnittlinien in unterschiedlichen Farben erstellt, damit die Schnitte in einer bestimmten Reihenfolge - von innen nach außen - ausgeführt werden können. Die hier vorgesehene Reihenfolge ist: zuerst rote Linien schneiden, dann blaue, schwarze und zuletzt grüne. </i>
+<a href="#s15">[15]</a> <i> In this SVG vector graphic, the cutting lines have been created in different colors so that the cuts can be made in a certain order - from the inside to the outside. The order provided here is: cut red lines first, then blue, black and finally green. </i>
 </p>
 
 
