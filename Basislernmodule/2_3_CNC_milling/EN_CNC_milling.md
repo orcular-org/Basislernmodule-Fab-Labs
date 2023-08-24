@@ -224,7 +224,7 @@ Die wichtigsten Kenngrößen und Parameter beim CNC-Fräsen sind:
 Es gibt noch viele weitere einstellbare Parameter, diese vier sind jedoch die wichtigsten und maßgeblichen. Auf die einzelnen Parameter wird in den folgenden Abschnitten noch näher eingegangen.
 
 <p align="center">
-<img height="400" src="images/17_Parameter_beim_CNC_Fraesen.png">
+<img height="400" src="images/17_EN_CNC_milling_parameters.png">
 </p>
 
 
