@@ -329,53 +329,53 @@ A living hinge can be made with lasercutting by cutting many, very closely space
 Instead of designing your own lasercut drawings, you can also use ready-made templates from the Internet. Many websites, which are actually intended for 3D printing files, also contain projects for lasercutting. You can find them by simply typing "laser cut" or "lasercutting" into the search bar. More about this topic in the ["Using 3D models from the Internet" basic learning module](../1_3_Using_3D_models_from_the_internet/EN_Using_3D_models_from_the_internet.md).
 
 ### Common mistakes
-Ein häufiger Anfängerfehler beim Erstellen von Lasercut-Vektorgrafiken ist, die Schnittlinien nicht richtig zu formatieren, sodass die Linien graviert und nicht geschnitten werden. Je nach Lasercutter und Software gibt es bestimmte Dinge, die beachtet werden müssen, damit die Software eine Linie als Schnittline erkennt und sie nicht graviert. Es lohnt sich also, vor Start des Lasercuttings die Einstellungen nochmals genau zu prüfen. 
+A common beginner mistake when creating laser cut vector graphics is not formatting the cut lines correctly so that the lines are engraved and not cut. Depending on the laser cutter and the software, there are certain things that need to be taken care of so that the software recognizes a line as a cut line and does not engrave it. It is therefore advisable to check the settings again carefully before starting laser cutting. 
 
-Gelegentlich passiert auch ein Fehler, bei dem der Lasercutter jede Linie zweimal schneidet. Dies liegt meistens daran, dass man doppelte Linien in der Vektorgrafik hat. Da sie jedoch übereinanderliegen, erkennt man es am Bildschirm nicht. Hier sollte man die Tools der Software nutzen, um zu prüfen, ob doppelte Linien vorhanden sind (z.B. Ebenen nacheinander ausblenden oder Linien probeweise löschen, anschließend ggf. rückgängig machen).
+Occasionally an error happens where the laser cutter cuts each line twice. This is usually because you have duplicate lines in the vector graphic. However, since they are on top of each other, you can't see it on the screen. Here you should use the tools of the software to check whether there are duplicate lines (e.g. hide layers one after the other or delete lines on a test basis, then undo if necessary).
 
-Schließlich passiert es auch oft, dass ein fertig geschnittenes Bauteil nicht die gewünschte Größe hat, z.B. nur halb so groß ist, wie gewünscht. Man sollte also die Maße der Vektorgrafik genau prüfen und auch nachschauen, ob die richtigen Einheiten eingestellt sind (z.B. Millimeter und nicht Zoll).
+Finally, it often happens that a finished cut component is not the desired size, e.g. it is only half the desired size. So you should check the dimensions of the vector graphic carefully and also check whether the correct units are set (e.g. millimeters and not inches).
 
 ## Preparation and process of a laser cutting
 
 ### Safety
-Ein Lasercutter ist eine potenziell gefährliche Maschine und sollte niemals ohne Einweisung oder Befugnis benutzt werden. Fab Labs bieten in der Regel Einweisungen in die Sicherheit und Benutzung an, die man absolviert haben muss, bevor man das Gerät benutzen darf.
+A laser cutter is a potentially dangerous machine and should never be used without instruction or authority. Fab Labs typically offer instructions and safety briefings that must be completed before the machine can be used.
 
-Bei ordnungsgemäßem Betrieb entsteht keine unmittelbare Gefahr für den Menschen. Falls der Betrieb jedoch nicht ordnungsgemäß verläuft, z.B. wegen Beschädigung des Gehäuses, bei Umbau und Umgehung der Sicherheitstechnik oder durch unübliche Reflexion und Streuung des Laserlichts, kann die Laserstrahlung vor allem für die Augen, aber auch für die Haut sehr gefährlich werden. Die Laserstrahlung eines Lasercutters ist unsichtbar, was die Gefahr noch vergrößert. Bei Unsicherheiten ist besondere Vorsicht geboten. Bei Defekten oder unüblichem Verhalten sollte eine Maschine nicht benutzt und das Fab-Lab-Personal verständigt werden.
+If operated properly, there is no immediate danger to humans. However, in case of improper operation, e.g. due to damage of the housing, in case of modification and bypassing of the safety technology or due to unusual reflection and scattering of the laser light, the laser radiation can become very dangerous, especially for the eyes, but also for the skin. The laser radiation of a laser cutter is invisible, which increases the danger even more. Special care should be taken if you are unsure. In case of defects or unusual behavior, a machine should not be used and fab lab personnel should be notified.
 
-Während des Lasercuttings entsteht oft ein hell leuchtender Punkt auf der bearbeiteten Platte. Man sollte es möglichst vermeiden, direkt in dieses helle Licht zu blicken, da es die Augen schädigen kann.
+During laser cutting, a brightly shining spot often appears on the processed plate. You should avoid looking directly into this bright light if possible, as it can damage your eyes.
 
-Neben der Gefahr durch Laserstrahlung selbst besteht auch eine Brandgefahr. Es ist wichtig, darauf zu achten, dass während des Laserns die Belüftung eingeschaltet ist und der Filter regelmäßig gewechselt wird, vor allem bei unüblicher Geruchs- oder Rauchbildung.
+In addition to the danger from laser radiation itself, there is also a fire hazard. It is important to make sure that the ventilation is switched on during lasering and that the filter is changed regularly, especially if there is any unusual odor or smoke.
 
-Ein Lasercutter sollte während des Betriebs nie unbeaufsichtigt gelassen werden. Man sollte stets in der Nähe bleiben und im Blick behalten, ob sich unübliche Flammen bilden. Im Zweifel sollte der Betrieb gestoppt werden. Man sollte wissen, wo sich der Notausschalter des Geräts befindet. Viele Lasercutter sind auch so konstruiert, dass sie beim Öffnen der oberen Abdeckung automatisch den Betrieb stoppen.
+A laser cutter should never be left unattended during operation. You should always stay nearby and keep an eye out for unusual flames. If in doubt, stop operation. One should know where the emergency stop switch of the machine is located. Many laser cutters are also designed to automatically stop operation when the top cover is opened.
 
-Für den unwahrscheinlichen Fall, dass ein Brand entsteht, sollte stets ein CO2-Feuerlöscher verwendet werden. Man sollte den Aufenthaltsort des CO2-Feuerlöschers kennen und sich mit seiner Bedienung vertraut machen.
+In the unlikely event of a fire, a CO2 fire extinguisher should always be used. One should know the location of the CO2 fire extinguisher and become familiar with its operation.
 
-Schließlich ist es wichtig zu wissen, welche Materialien man lasern darf und welche nicht. Dies ist stets mit dem Personal zu klären. Einige Kunststoffe, z.B. PVC, dürfen auf keinen Fall gelasert werden, da sie dabei gesundheitsgefährdende bis lebensgefährliche Dämpfe erzeugen.
+Finally, it is important to know which materials you may and may not laser. This must always be clarified with the personnel. Some plastics, e.g. PVC, must not be lasered under any circumstances, as they produce vapors that are hazardous to health or even life.
 
 ### Laser cut file
-Wie in den oberen Abschnitten beschrieben, benötigt man für das Lasercutting eine Grafikdatei - Schnittlinien als Vektorgrafik, Gravuren als Rastergrafik. Wie die Daten an den Lasercutter übertragen werden, ist bei jedem Lasercutter anders. Oft wird eine spezielle Software benötigt. Viele Programme bieten eine Funktion an, die eine Schätzung der Betriebsdauer - aufgeschlüsselt nach Schneiden und Gravieren - berechnet. Bevor man den Betrieb startet, empfiehlt es sich, anhand der Werte zu prüfen, ob der Auftrag wie gewünscht durchgeführt wird. Ist etwa die berechnete Zeitdauer für Gravur unüblich hoch und die Dauer für das Schneiden gleich null, so wurde die Vektorgrafik evtl. nicht erkannt.  
+As described in the sections above, you need a graphic file for lasercutting - cutting lines as vector graphics, engravings as raster graphics. How the data is transferred to the laser cutter is different for each model. Special software is often required. Many programs offer a function that calculates an estimate of the operating time - broken down into cutting and engraving. Before starting operation, it is advisable to use the values to check whether the job is being performed as desired. For example, if the calculated duration for engraving is unusually high and the duration for cutting is zero, the vector graphic may not have been recognized.
 
 ### Preparation
-Die wichtigsten Schritte, an die man beim Start eines Lasercutting-Auftrags denken sollte, sind:
-- Platte in den Lasercutter legen
-- Ggf. Höhe verstellen und fokussieren (oder, falls vorhanden, Autofokus einschalten)
-- Laser an die richtige Position fahren
-- Richtiges Profil einstellen (Material und Plattendicke - daraus abgeleitet die Leistung und Geschwindigkeit)
-- Grafikdatei übertragen
-- Zeit berechnen lassen und auf Plausibilität prüfen
-- Ggf. prüfen, ob Belüftung eingeschaltet ist
-- Laserbetrieb starten
-- Aufmerksam sein und in der Nähe bleiben, gelegentlich den Prozess beobachten
+The most important steps to remember when starting a laser cutting job are:
+- Place the plate in the laser cutter
+- If necessary, adjust height and focus (or, if available, turn on autofocus)
+- Move laser to the correct position
+- Set the correct profile (material and plate thickness - derived from this the power and speed)
+- Transfer graphic file
+- Calculate time and check for plausibility
+- If necessary, check whether ventilation is switched on
+- Start laser operation
+- Be attentive and stay close, occasionally observe the process
 
-Je nach Lasercutter-Modell können manche Schritte von der obigen Liste abweichen.
+Depending on the laser cutter model, some steps may differ from the list above.
 
 ### Laser cutting process
-Üblicherweise beginnt ein Lasercutter zunächst mit den Gravuren. Der Grund liegt darin, dass ein einmal ausgeschnittenes Teil unter Umständen leicht kippen kann - nachträgliche Gravuren würden somit auf eine schräge Oberfläche treffen und nicht korrekt ausgeführt werden.
+Usually, a laser cutter starts with the engravings first. The reason is that once a part has been cut out, it may tilt slightly - subsequent engravings would thus hit a slanted surface and not be performed correctly.
 
-Anschließend werden die Schnittlinien ausgeführt. Das Schneiden geht für gewöhnlich deutlich schneller als das Gravieren.
+Then the cutting lines are executed. The cutting process is usually much faster than the engraving process.
 
-Nach abgeschlossenem Lasercutting empfiehlt es sich, noch kurz zu warten, damit die Belüftungsanlage Rauch und Dämpfe absaugen kann. Danach kann die Klappe geöffnet und die Teile können entnommen werden.
-Falls ein Schnitt nicht richtig durchgegangen ist, liegt dies entweder an einem falsch eingestellten Profil (falsche Parametereinstellungen), an einer Unebenheit der Platte oder an anderen Ursachen. Oft kann es helfen, einen Lasercut-Auftrag einfach ein zweites Mal auszuführen, sodass die halbfertigen Schnitte beim erneuten Durchgang ganz durchgeschnitten werden. Dabei muss die Platte exakt an die gleiche Position gelegt werden (möglichst mit Hilfe des Anschlags am Rand) oder gleich liegen gelassen werden. Es ist auch möglich, direkt am Computer einzustellen, dass der Laser zwei Durchgänge schneiden soll.
+After laser cutting has been completed, it is recommended to wait a short time so that the ventilation system can extract smoke and fumes. After that, the lid can be opened and the parts can be removed.
+If a cut has not gone through correctly, this is either due to an incorrectly set profile (incorrect parameter settings), an unevenness of the plate or other causes. It can often help to simply run a laser cut job a second time so that the half-finished cuts are cut all the way through on the next pass. When doing this, the plate must be placed in exactly the same position (using the fence on the edge if possible) or left the same. It is also possible to set directly on the computer that the laser should cut two passes.
 
 # License information
 
