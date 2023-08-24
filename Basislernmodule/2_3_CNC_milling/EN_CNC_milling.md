@@ -261,9 +261,9 @@ For the cutting depth, it is often assumed as a guideline that it should be no m
 
 ### Safety height
 
-Es gibt bestimmte Bereiche, in denen das Fräswerkzeug mit einer anderen Geschwindigkeit fährt als in anderen. Oberhalb der Sicherheitshöhe fährt der Fräser relativ schnell, sobald er an der zu fräsenden Stelle am Werkstück angekommen ist, senkt er sich langsam ab und fährt ab da nur noch mit verringerter Geschwindigkeit. Während des Fräsens im Werkstück bewegt er sich mit der Vorschubgeschwindigkeit. Hintergrund ist, dass ein Fräswerkzeug, dass mit sehr hoher Geschwindigkeit in das Material taucht, beschädigt werden oder sogar abbrechen kann, daher müssen die Bewegungen unterhalb der Sicherheitshöhe deutlich langsamer ablaufen als darüber.
+There are certain areas in which the milling tool travels at a different speed than in others. Above the safety height, the milling cutter travels relatively fast; as soon as it arrives at the point to be milled on the workpiece, it lowers slowly and from then on travels only at reduced speed. While milling in the workpiece, it moves at the feed rate. The reason for this is that a milling tool that plunges into the material at very high speed can be damaged or even break off, so the movements below the safety height must be much slower than above it.
 
-Ab welcher Höhe die Sicherheitshöhe beginnt und mit welcher Geschwindigkeit sich der Fräser oberhalb dieser Höhe bewegen soll, kann in der CAM-Software eingestellt werden.
+The height at which the safety height starts and the speed at which the cutter should move above this height can be set in the CAM software.
 
 <p align="center">
 <img height="400" src="images/20_FreeCAD_Path_workbench_Visual_reference_for_Depth_properties.png">
@@ -271,7 +271,7 @@ Ab welcher Höhe die Sicherheitshöhe beginnt und mit welcher Geschwindigkeit si
 
 
 <p align="center">
-<a href="#s20">[20]</a> <i> Sicherheitshöhe und einige weitere Parameter, wie sie in der CAD/CAM-Software FreeCAD verwendet werden. Oberhalb der Sicherheitshöhe bewegt sich das Fräswerkzeug ("tool" im Bild) mit erhöhter Geschwindigkeit. Mit "step down" ist hier die Schnitttiefe bezeichnet (mehr zu CAM in FreeCAD: https://wiki.freecad.org/Path_Workbench ). </i>
+<a href="#s20">[20]</a> <i> Safety height and some other parameters as used in the CAD/CAM software FreeCAD. Above the safety height the milling tool ("tool" in the picture) moves with increased speed. "Step down" here means the depth of cut (more about CAM in FreeCAD: https://wiki.freecad.org/Path_Workbench ). </i>
 </p>
 
 
