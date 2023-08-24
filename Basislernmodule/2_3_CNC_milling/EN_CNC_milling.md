@@ -1,12 +1,5 @@
-**Translation note:**
-
-This article is still being translated into **English**.
-
-To do:
-- Edit file
-- Replace text by English translation
-- Commit changes
-- When done, remove this note
+> **Translation note:**
+> This article was translated from German. The original German article can be found [here](CNC-Fraesen.md).
 
 > Back to [basic learning modules overview](../../translations/EN_Readme.md)
 
@@ -374,23 +367,23 @@ Finally, the CAM program must be exported as a G-code file using a post-processo
 
 ### Workpiece
 
-Das Werkstück, beispielsweise eine Holzplatte oder ein Metallblock, muss sicher am Frästisch befestigt werden. In den meisten Fällen kann das Werkstück mit einigen Schrauben einfach an die Opferplatte geschraubt werden, vorzugsweise mit Senkkopfschrauben, um die Gefahr von Kollisionen mit dem Fräswerkzeug zu verringern. Dennoch sollte man stets aufpassen, dass die Maschine nicht in die Schraube hineinfräst.
+The workpiece, for example a wooden plate or a metal block, must be securely fastened to the milling table. In most cases, the workpiece can simply be screwed to the sacrificial plate with a few screws, preferably countersunk screws to reduce the risk of collisions with the milling tool. Nevertheless, one should always be careful that the machine does not mill into the screw.
 
-Eine weitere Möglichkeit besteht darin, das Werkstück einzuspannen, sofern die CNC-Fräsmaschine über eine Spannvorrichtung verfügt.
+Another option is to clamp the workpiece if the CNC milling machine has a clamping device.
 
 ### Set zero point
 
-CNC-Maschinen können über Pfeiltasten - je nach Modell am Gerät selbst oder über die Tastatur eines angeschlossenen Computers - gesteuert werden. Dies kann man beispielsweise zum Anfahren des Nullpunkts nutzen.
+CNC machines can be controlled via arrow keys - depending on the model on the machine itself or via the keyboard of a connected computer. This can be used, for example, to approach the zero point (origin).
 
-Der Maschine muss mitgeteilt werden, wo sie mit dem Fräsauftrag beginnen soll, man muss also den sogenannten Nullpunkt definieren. Hierfür gibt es unterschiedliche Methoden, z.B. durch das Anfahren des Nullpunkts an der Werkstückoberfläche bei drehender Spindel (sogenanntes "Ankratzen"). An dieser Stelle wird über die Bedienung der CNC-Fräse der Nullpunkt gesetzt. Die Maschine speichert also die X-, Y- und Z-Koordinaten dieses Punktes ab und wird das CNC-Programm an diesem Punkt starten.
+The machine must be told where to start the milling job, so you have to define the so-called zero point. There are different methods for this, e.g. by approaching the zero point on the workpiece surface while the spindle is rotating (scratching the material, so to speak). At this point, the zero point is set via the operation of the CNC milling machine. The machine thus stores the X, Y and Z coordinates of this point and will start the CNC program at this point.
 
 ### CNC milling process
 
-Ist der Nullpunkt gesetzt, muss zu Beginn eines CNC-Auftrags die G-Code-Datei über eine Steuersoftware an die CNC-Steuerung der Maschine übergeben und der Betrieb gestartet werden. Während des Fräsens sollte man stets in der Nähe bleiben und bei ungewöhnlichem Verhalten oder drohenden Schäden den Fräsvorgang stoppen - über die Steuersoftware oder über den Notausschalter.
+Once the zero point has been set, the G-code file must be transferred to the CNC control of the machine via control software at the start of a CNC job and operation must be started. During milling, one should always stay close by and stop the milling process in case of unusual behavior or imminent damage - via the control software or via the emergency stop switch.
 
 ### Post-processing
 
-Nach abgeschlossener Fertigung kann das Werkstück bzw. das gefertigte Teil entnommen werden. Vor allem bei Metallteilen sollte man vorsichtig sein, da wegen der scharfen Kanten Verletzungsgefahr besteht. Die Kanten sollten entgratet und gefeilt werden, zudem können Oberflächen geschliffen werden.
+Once production is complete, the workpiece or the finished part can be removed. Particular care should be taken with metal parts, as there is a risk of injury due to the sharp edges. The edges should be deburred and filed, and surfaces can also be ground.
 
 # License information
 
