@@ -294,18 +294,18 @@ Before going to the trouble of drawing a pluggable box yourself, it is advisable
 - Another tool is called "Boxes.py (https://www.festi.info/boxes.py/). No software installation is required for this, the application runs in the browser. This open source project offers a variety of different push-fit laser cut kits, e.g. boxes, drawers, compartments or chests with lids. Parameters like length, width, height and cutting width offset (kerf) can be entered, finally a downloadable SVG vector graphic is generated, which can be used directly for lasercutting or edited before. Some kits also include "living hinges", more about that [below](#living-hinge).
 
 ### 3D CAD and projection
-Statt Lasercut-Projekte in 2D zu zeichnen, kann man auch eine 3D-CAD-Software verwenden (mehr dazu im [Basislernmodul 3D-Design und CAD](../1_1_3D_design/3D-Design.md)). Auf diese Weise kann man ein aus mehreren Lasercut-Teilen bestehendes Produkt entwerfen und in 3D darstellen. Vorteil an dieser Methode ist, dass man direkt sehen kann, wie das fertige, zusammengesteckte Produkt aussehen wird - beim Design in 2D sieht man die einzelnen Teile nur nebeneinander und benötigt etwas Vorstellungskraft, um sich ein Bild vom fertigen 3D-Produkt zu machen.
+Instead of drawing lasercut projects in 2D, you can also use 3D CAD software (more on this in the [3D design and CAD basic learning module](../1_1_3D_design/EN_3D_design.md)). In this way, you can design a product consisting of several laser cut parts and display it in 3D. The advantage of this method is that you can directly see how the finished, assembled product will look - when designing in 2D, you only see the individual parts next to each other and need some imagination to get an idea of the finished 3D product.
 
-Zudem lassen sich auf diese Weise Produkte entwerfen, die nicht nur Lasercut-Teile, sondern beispielsweise auch 3D-gedruckte oder CNC-gefräste Teile, Schrauben oder andere Elemente enthalten.
+In addition, products can be designed in this way that contain not only laser-cut parts but also, for example, 3D-printed or CNC-milled parts, screws or other elements.
 
-Viele CAD-Programme (z.B. FreeCAD) verfügen über Tools, mit denen man die 3D-modellierten Teile für das Lasercutting auf eine 2D-Ebene projizieren und als Vektorgrafik exportieren kann, die man dann für Lasercutting verwenden kann.
+Many CAD programs (e.g. FreeCAD) have tools to project 3D modeled parts onto a 2D plane for lasercutting and export them as vector graphics, which can then be used for lasercutting.
 
 <p align="center">
 <img height="400" src="images/19_3D_CAD_designed_product_laser_cutting_3D_printing_FreeCAD_orcuCar_Orcular.png">
 </p>
 
 <p align="center">
-<a href="#s19">[19]</a> <i> In einer 3D-CAD-Software (FreeCAD) modelliertes Spielzeugauto mit 3D-Druck- und Lasercut-Teilen. Letztere können in eine 2D-Vektorgrafik projiziert werden (siehe <a href="#abb15">Abbildung 15</a> oben). </i>
+<a href="#s19">[19]</a> <i> Toy car modeled in 3D CAD software (FreeCAD) with 3D printed and laser cut parts. The latter can be projected into a 2D vector graphic (see <a href="#abb15">image 15</a> above). </i>
 </p>
 
 
