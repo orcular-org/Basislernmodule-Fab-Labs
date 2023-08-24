@@ -96,14 +96,14 @@ Basically, it is very important to clarify before laser cutting whether the mate
 Here is an overview of some popular and well-suited materials for laser cutting and engraving:
 
 - **Plywood sheet:** Plywood is a cheap and very easy to laser-cut material and well suited for beginners. Panels with thicknesses around 4 millimeters are good to use. When engraving, the inner structure of the wood becomes visible, which often leads to an interesting look. Craft plywood is also popular for sawing and can be purchased at many hardware stores or online. Disadvantages are: It is very light and therefore not very stable and breaks quickly. In addition, the boards are often somewhat uneven. In projects where precision is important (e.g. [push-fit systems](#push-fit-systems)), this can lead to problems - in which case it is advisable to switch to MDF.
-- **MDF:** MDF steht für "Mitteldichte Holzfaserplatte". MDF besteht aus feinen Holzfasern (meist zu ca. 80%) sowie Leim, Wasser und weiteren Zusatzstoffen; dieses Gemisch wird zu dichten Platten verpresst. Durch diese Herstellungsmethode sind MDF-Platten schwerer und stabiler als Sperrholzplatten, zudem sind sie sehr eben und haben eine gleichmäßige Dicke. MDF-Platten mit 2 bis 5 Millimeter Stärke lassen sich sehr gut laserschneiden und -gravieren. MDF ist z.B. in Onlineshops erhältlich und etwas teurer als Sperrholz.
-- **Acrylglas:** Acrylglas, auch bekannt als "Plexiglas", ist ein durchsichtiger Kunststoff, der sich sehr gut laserschneiden lässt. Es gibt sowohl farbloses (volltransparentes) als auch farbiges (halbtransparentes) Acrylglas. Damit ist es sehr gut für Sichtfenster, Dekoration, Lampen, mit LED beleuchtete Aufsteller u.ä. geeignet. Im Hinblick auf Nachhaltigkeit lässt sich anmerken, dass Acrylglas nicht gut recyclebar ist - im Gegensatz zu einigen anderen Kunststoffen.
-- **Pappe:** Nicht jede Pappe lässt sich gleich gut mit dem Lasercutter bearbeiten, daher sollte man beim Kauf auf gut für Lasercutting geeignetes Material achten. Da Pappe sehr leicht und instabil ist, eignet sie sich eher für dekorative Produkte. Zudem ist Pappe leicht entflammbar, weswegen man auf ein gutes Lüftungssystem im Lasercutter achten, den Lasercut-Prozess besonders gut beaufsichtigen und bei Flammenbildung stoppen sollte.
-- **Textilien** 
-- **Leder** 
-- **Kork**
-- **Kunststoffe (Plastik):** Bei Kunststoffen ist besondere Vorsicht geboten, da es viele Kunststoffsorten gibt, die beim Laserschneiden gesundheits- und lebensgefährliche Dämpfe erzeugen können, z.B. PVC. Es gibt jedoch auch Kunststoffe, die man relativ sicher schneiden und gravieren kann, z.B. Polypropylen (PP). Doch auch hier sollte man vorsichtig vorgehen und das Vorhaben mit dem Fab Lab bzw. den Inhaber:innen der Maschine absprechen. Manche Kunststoffe, z.B. HDPE, neigen dazu, nach dem Schneiden schnell wieder zusammenzuschmelzen - Laserschneiden von Kunststoff ist also herausfordernd, aber nicht unmöglich.
-- **Metalle:** In Industrie- und Handwerksbetrieben gibt es Maschinen, die Metallbleche laserschneiden können. Da Lasercutter dieser Art sehr teuer sind, findet man sie eher selten in Fab Labs. Ein typischer Fab-Lab-Lasercutter kann jedoch durchaus Gravuren in Metall (z.B. Aluminium oder Stahl) einbringen.
+- **MDF:** MDF stands for "medium-density fiberboard". MDF consists of fine wood fibers (usually about 80%) plus glue, water and other additives; this mixture is pressed into dense boards. Due to this manufacturing method, MDF boards are heavier and more stable than plywood boards, and they are also very flat and have a uniform thickness. MDF sheets with a thickness of 2 to 5 millimeters can be laser cut and engraved very well. MDF is available in online stores, for example, and is a bit more expensive than plywood.
+- **Acrylic glass:** Acrylic glass is a transparent plastic that can be laser cut very well. There are both colorless (fully transparent) and colored (semi-transparent) acrylic glass. This makes it very suitable for viewing windows, decoration, lamps, LED-lit displays and the like. In terms of sustainability, it can be noted that acrylic glass is not well recyclable - unlike some other plastics.
+- **Cardboard:** Not all cardboard can be processed equally well with the laser cutter, so you should look for material that is well suited for lasercutting when buying it. Since cardboard is very light and unstable, it is more suitable for decorative products. In addition, cardboard is highly flammable, which is why you should ensure a good ventilation system in the laser cutter, supervise the laser cutting process particularly well and stop it if flames form.
+- **Textiles** 
+- **Leather** 
+- **Cork**
+- **Plastics:** Special care is required with plastics, as there are many types of plastic that can generate health- and life-threatening fumes during laser cutting, e.g. PVC. However, there are plastics that can be cut and engraved relatively safely, e.g. polypropylene (PP). But here, too, care should be taken and the project should be discussed with the fab lab or the owner of the machine. Some plastics, e.g. HDPE, tend to melt back together quickly after cutting - so laser cutting of plastic is challenging, but not impossible.
+- **Metals:** In industrial and craft companies there are machines that can laser cut metal sheets. Since laser cutters of this type are very expensive, they are rarely found in fab labs. However, a typical fab lab laser cutter can quite possibly engrave metal (e.g. aluminum or steel).
 
 <p align="center">
 <img height="350" src="images/6_Laser_cut_and_engraved_acrylic_and_wood.png">
@@ -111,8 +111,8 @@ Here is an overview of some popular and well-suited materials for laser cutting 
 </p>
 
 <p align="center">
-<a href="#s6">[6]</a> <i> Lasercutting und -gravur von Acrylglas und MDF-Holzplatte - </i>
-<a href="#s7">[7]</a> <i> Lasergravur in Sperrholzplatte; durch verschiedene Gravurtiefen wird die innere Holzstruktur sichtbar </i>
+<a href="#s6">[6]</a> <i> Laser cutting and engraving of acrylic glass and MDF wood sheet - </i>
+<a href="#s7">[7]</a> <i> Laser engraving in plywood sheet; different engraving depths make the inner wood structure visible </i>
 </p>
 
 <p align="center">
@@ -120,41 +120,41 @@ Here is an overview of some popular and well-suited materials for laser cutting 
 </p>
 
 <p align="center">
-<a href="#s8">[8]</a> <i> Lasercutting von Metallblech - typische Mittelklasse-Lasercutter in Fab Labs können Metalle oft nur gravieren, zum Schneiden von Metallen braucht es hingegen teure Industrie-Lasercutter. </i>
+<a href="#s8">[8]</a> <i> Laser cutting of sheet metal - typical mid-range laser cutters in fab labs can often only engrave metals, but cutting metals requires expensive industrial laser cutters. </i>
 </p>
 
 
 
 
 ### Components of a laser cutter
-Gute Lasercutter verfügen über ein geschlossenes Gehäuse und ein Abluftsystem. Es gibt auch günstige Lasercutter bzw. Lasergravierer mit offenem Aufbau. Bei diesen ist jedoch besondere Vorsicht geboten, da es leicht zu Unfällen kommen kann. In Fab Labs finden sich üblicherweise geschlossene Lasercutter mit Abluftsystem.
+Good laser cutters have a closed housing and an ventilation system. There are also inexpensive laser cutters or laser engravers with an open structure. However, special care must be taken with these, as accidents can easily occur. In fab labs, closed laser cutters with an exhaust air system are usually found.
 
-Die obere, aufklappbare Abdeckung ist in der Regel durchsichtig, sodass man den Lasercutprozess beobachten kann. Im Inneren befindet sich die gitterförmige Arbeitsfläche, auf die man die zu schneidende Platte legt. Die Arbeitsfläche lässt sich in der Höhe verstellen, was für die sogenannte Fokussierung des Lasers (Einstellung des Brennpunktes) sehr wichtig ist. Der Laser ist so kalibriert, dass er einen ganz bestimmten Abstand zum Werkstück haben muss, um ideal schneiden zu können. Jedes Mal, wenn man eine Platte einlegt, die eine andere Dicke als die vorherige Platte hat, sollte man den Lasercutter neu fokussieren. Manche Lasercutter können dies über eine Autofokus-Funktion automatisch durchführen, bei anderen muss man eine mitgelieferte oder eingebaute Fokussierhilfe als Abstandsmesser verwenden, um den Lasercutter manuell einzustellen.
+The upper, hinged cover is usually transparent so that you can observe the laser cutting process. Inside is the grid-shaped work surface, on which you place the plate to be cut. The working surface can be adjusted in height, which is very important for the so-called focusing of the laser (setting the focal point). The laser is calibrated so that it must be at a very specific distance from the workpiece in order to cut ideally. Each time you insert a sheet that is a different thickness than the previous sheet, you should refocus the laser cutter. Some laser cutters can do this automatically via an auto-focus function, others require you to use a supplied or built-in focusing aid as a distance gauge to manually adjust the laser cutter.
 
-Der Laserstrahl selbst wird oft im Inneren des Geräts erzeugt, über mehrere Spiegel umgeleitet und über Linsen fokussiert, sozusagen "scharf gestellt", ähnlich wie bei einer Brille. Der Laseraustritt ist so verbaut, dass er sich in zwei Achsen bewegen kann: in X-Richtung (nach links und rechts) und in Y-Richtung (nach vorne und hinten).
+The laser beam itself is often generated inside the device, redirected via several mirrors and focused via lenses, similar to glasses. The laser exit is built in such a way that it can move in two axes: in the X direction (to the left and right) and in the Y direction (to the front and back).
 
-Einige Lasercutter verfügen über ein kompressorbetriebenes System, das Luft auf den Laserschneidepunkt bläst. Damit wird die Gefahr von Flammenbildung reduziert.
+Some laser cutters have a compressor-driven system that blows air onto the laser cutting point. This reduces the risk of flame formation.
 
-Eine Lüftungsanlage saugt während des Lasercuttings Luft aus dem Arbeitsraum des Gerätes ab und führt die Abluft über ein Filtersystem und einen Schlauch nach draußen. Damit werden unangenehme Gerüche verhindert und gesundheitsschädliche Dämpfe gefiltert und abgeführt.
+During laser cutting, a ventilation system extracts air from the working area of the unit and leads the exhaust air outside via a filter system and a hose. This prevents unpleasant odors, and filters and discharges harmful vapors.
 
 ### Parameters: Power and speed
-Beim Lasercutten gibt es vor allem zwei Parameter, die für den Prozess maßgeblich sind und vor jedem Betrieb richtig eingestellt werden müssen:
+In laser cutting, there are two parameters in particular that are crucial to the process and must be set correctly before each operation:
 
-- **Leistung (in Watt oder %):** Die Leistung steht, vereinfacht gesagt, für die Energie oder Stärke des Laserstrahls.
-- **Geschwindigkeit (in Millimeter pro Sekunde):** Gibt an, wie schnell sich der Laser über das Werkstück bewegt.
+- **Power (in watts or %):** In simple terms, power represents the energy or strength of the laser beam.
+- **Speed (in millimeters per second):** Indicates how fast the laser moves over the workpiece.
 
-Bewegt sich der Laser langsam, hat er mehr Zeit, in das Material einzuwirken - er schneidet somit tiefer in die Platte. Bewegt er sich schnell, brennt er womöglich nur die Oberfläche des Werkstücks ab. Gleichzeitig hängt dies natürlich auch von der Leistung des Lasers ab. Durch das Zusammenspiel von Leistung und Geschwindigkeit lassen sich also unterschiedliche Ergebnisse erzeugen.
+If the laser moves slowly, it has more time to affect the material - it thus cuts deeper into the plate. If it moves quickly, it may only burn off the surface of the workpiece. At the same time, of course, this also depends on the power of the laser. The interaction of power and speed can therefore produce different results.
 
-Je nachdem, was und wie man lasern möchte, muss man diese beiden Parameter unterschiedlich einstellen. Es gilt also, zunächst die Bedingungen zu klären:
-- **Material:** Materialien wie z.B. Pappe benötigen eine geringere Laserleistung als z.B. Holz oder Kunststoffe.
-- **Plattendicke:** Dickere Platten benötigen mehr Laserleistung, um geschnitten zu werden, bei dünneren Platten reicht weniger Leistung.
-- **Schneiden vs. Gravieren und Gravurtiefe**: Bei hoher Leistung bzw. geringer Geschwindigkeit geht der Laserstrahl durch das gesamte Material, d.h. es wird geschnitten. Bei geringer Leistung und hoher Geschwindigkeit wird nur die Oberfläche bearbeitet, es entsteht eine Gravur. Die Tiefe (und somit auch Sichtbarkeit bzw. Deutlichkeit) der Gravur lässt sich ebenfalls über die Parametereinstellung variieren. Durch tiefere und flachere Gravurflächen lässt sich eine Art Graustufeneffekt erzielen.
+Depending on what and how you want to laser, you have to set these two parameters differently. So the first thing to do is to clarify the conditions:
+- **Material:** Materials such as cardboard require less laser power than wood or plastics, for example.
+- **Plate Thickness:** Thicker plates need more laser power to be cut, thinner plates need less power.
+- **Cutting vs. engraving and engraving depth**: At high power or low speed, the laser beam passes through the entire material, i.e., it is cut. At low power and high speed, only the surface is processed, resulting in engraving. The depth (and thus visibility or clarity) of the engraving can also be varied via the parameter setting. A kind of grayscale effect can be achieved by deeper and shallower engraving areas.
 
-Oft finden sich in der Lasercutter-Software voreingestellte Profile, in denen man nur auswählen muss, welches Material und welche Plattenstärke man verwendet und ob man schneiden oder gravieren möchte - die idealen Werte für Leistung und Geschwindigkeit sind in den Profilen abgespeichert und werden bei Auswahl richtig eingestellt. In manchen Werkstätten oder Betriebsanleitungen finden sich auch Tabellen mit empfohlenen Werten für Leistung und Geschwindigkeit.
+Often you will find preset profiles in the laser cutter software where you only have to select which material and plate thickness you are using and whether you want to cut or engrave - the ideal values for power and speed are stored in the profiles and are set correctly when selected. In some workshops or operating manuals you can also find tables with recommended values for power and speed.
 
-Möchte man jedoch davon abweichen oder ein bisher unerprobtes Material (für das noch kein Profil angelegt wurde) ausprobieren, muss man in der Regel mehrere Versuche durchführen, dabei die Werte Leistung und Geschwindigkeit variieren und sich so an das ideale Ergebnis herantasten.
+However, if you want to deviate from this or try out a previously untried material (for which no profile has yet been created), you usually have to carry out several tests, varying the values of power and speed, and thus approaching the ideal result.
 
-Im Internet finden sich auch Testkarten, die für solche Materialtests entwickelt wurden. Dabei testet der Lasercutter in einem Durchlauf unterschiedliche Einstellungen aus. Anhand der fertig gelaserten Testkarte kann man dann das Ergebnis begutachten und die idealen Werte ablesen.
+Test cards developed for such material tests can also be found on the internet. The laser cutter tests different settings in a single run. The finished lasered test card can then be used to examine the result and read off the ideal values.
 
 <p align="center">
 <img height="350" src="images/9_Laser_cutting_test_card.png">
@@ -163,7 +163,7 @@ Im Internet finden sich auch Testkarten, die für solche Materialtests entwickel
 
 <p align="center">
 <a href="#s9">[9]</a> <i>  - </i>
-<a href="#s10">[10]</a> <i> Testkarten zum Ermitteln der richtigen Parameterwerte für Leistung und Geschwindigkeit - für Laserschnitt und -gravur </i>
+<a href="#s10">[10]</a> <i> Test cards for determining the correct parameter values for power and speed - for laser cutting and engraving </i>
 </p>
 
 
