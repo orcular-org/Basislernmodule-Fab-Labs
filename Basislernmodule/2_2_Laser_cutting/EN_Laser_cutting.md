@@ -271,7 +271,7 @@ There are also typical differences between **Lasercutting and CNC milling**. Whi
 ## Design tips
 
 ### Push-fit systems
-Eine beliebte Anwendung von Lasercutting besteht in Stecksystemen - vor allem für Holzplatten. Dabei werden mehrere Teile so geformt, dass sie rechtwinklig zueinander gesteckt werden können. Eine Möglichkeit besteht darin, einen Zapfen in ein eckiges Loch zu stecken. Eine andere Methode ist der Einsatz von zinnenartigen Rändern, womit sich ganze Boxen oder ähnliche Strukturen zusammenstecken lassen.
+A popular application of lasercutting is in push-fit systems - especially for wooden sheets. In this process, several parts are shaped so that they can be plugged at right angles to each other. One way is to insert a tenon into a square hole. Another method is to use merlon-like edges, which can be used to plug together entire boxes or similar structures (often called "tabbed box").
 
 <p align="center">
 <img height="300" src="images/17_Laser_cut_box_push-fit_system.png">
@@ -279,19 +279,19 @@ Eine beliebte Anwendung von Lasercutting besteht in Stecksystemen - vor allem f�
 </p>
 
 <p align="center">
-<a href="#s17">[17]</a> <i> Beispiel für eine Box mit Schubladen als Stecksystem aus 3 mm dicken, lasergeschnittenen Holzplatten - </i>
-<a href="#s18">[18]</a> <i> Eine dazugehörige Vektorgrafik </i>
+<a href="#s17">[17]</a> <i> Example of a box with drawers as a push-fit system made of 3 mm thick laser-cut wooden sheets - </i>
+<a href="#s18">[18]</a> <i> A corresponding vector graphic </i>
 </p>
 
 
-Dabei muss sichergestellt werden, dass die Zapfen nicht zu locker stecken, sondern einen festen Sitz haben. Andererseits darf die Lücke auch nicht zu eng sein, da man den Zapfen sonst nicht hineingedrückt bekommt. Hierbei muss auch die Schnittbreite (kerf) berücksichtigt werden.
+It must be ensured that the tenons are not too loosely inserted, but have a tight fit. On the other hand, the gap must not be too narrow either, otherwise the tenon cannot be pressed in. The cutting width (kerf) must also be taken into account here.
 
-Eine oft gut funktionierende Daumenregel lautet, dass Lücke und Zapfen in gleichen Dimensionen gezeichnet werden - also die gleiche Breite für Lücke und Zapfen. Die Höhe des Zapfens hingegen ergibt sich durch die Plattendicke, demnach wird die Höhe der Lücke gleich der Plattendicke gezeichnet. Bedingt durch die Schnittbreite (kerf) des Lasers werden Lücken ohnehin etwas weiter und Zapfen etwas schmaler ausfallen als in der Zeichnung, womit der Sitz oft relativ gut ist, manchmal aber etwas zu locker. Man kann die Verbindung auch etwas enger gestalten und die Steckverbindungen vorsichtig mit einem Gummihammer einschlagen. Steckverbindungen können in der Regel auch mehrmals gelöst und wieder zusammengesteckt werden, dabei nutzt sich das Material jedoch jedesmal etwas ab, sodass die Verbindung evtl. nicht mehr fest sitzt. Auch die Verwendung von Klebstoff oder Leim ist möglich.
+A rule of thumb that often works well is that gap and tenon are drawn in the same dimensions - i.e. the same width for gap and tenon. The height of the tenon, on the other hand, is determined by the plate thickness, so the height of the gap is drawn equal to the plate thickness. Due to the cutting width (kerf) of the laser, gaps will be a little wider and tenons a little narrower than in the drawing anyway, so the fit is often relatively good, but sometimes a little too loose. You can also make the connection a little tighter and carefully tap the plug-in connections with a rubber mallet. Connections can usually be loosened and put back together several times, but the material will wear a little each time, so the connection may no longer be tight. It is also possible to use glue.
 
-Bevor man sich die Mühe macht und eine steckbare Box aufwendig selbst zeichnet, empfiehlt es sich, auf bestehende **Software-Hilfsmittel** zurückzugreifen:
+Before going to the trouble of drawing a pluggable box yourself, it is advisable to use existing **software aids**:
 
-- Für Inkscape gibt es die kostenlose Erweiterung [Lasercut tabbed box](https://inkscape.org/de/~Neon22/%E2%98%85lasercut-tabbed-box). Damit lassen sich Länge, Breite und Höhe sowie Zapfenlänge und Schnittbreiten-Versatz (kerf) für verschiedene boxartige Produkte als Vektorgrafik generieren. Diese Vektorgrafik kann auch nachträglich in Inkscape bearbeitet werden.
-- Ein weiteres Tool heißt "Boxes.py" (https://www.festi.info/boxes.py/). Hierfür ist keine Softwareinstallation notwendig, die Anwendung läuft im Browser. Dieses Open-Source-Projekt bietet eine Vielzahl von verschiedenen steckbaren Lasercut-Bausätzen, z.B. Kisten, Schubladen, Fächer oder Truhen mit Deckeln. Es können Parameter wie Länge, Breite, Höhe und Schnittbreitenversatz eingegeben werden, abschließend wird eine downloadbare SVG-Vektorgrafik erzeugt, die man direkt für Lasercutting verwenden oder vorher noch bearbeiten kann. Einige Bausätze enthalten auch "living hinges", mehr dazu [unten](#living-hinge).
+- For Inkscape there is the free extension [Lasercut tabbed box](https://inkscape.org/de/~Neon22/%E2%98%85lasercut-tabbed-box). This can be used to generate various box-like products as vector graphics when specifying length, width and height as well as tenon length and cutting width offset (kerf). This vector graphic can also be edited afterwards in Inkscape.
+- Another tool is called "Boxes.py (https://www.festi.info/boxes.py/). No software installation is required for this, the application runs in the browser. This open source project offers a variety of different push-fit laser cut kits, e.g. boxes, drawers, compartments or chests with lids. Parameters like length, width, height and cutting width offset (kerf) can be entered, finally a downloadable SVG vector graphic is generated, which can be used directly for lasercutting or edited before. Some kits also include "living hinges", more about that [below](#living-hinge).
 
 ### 3D CAD and projection
 Statt Lasercut-Projekte in 2D zu zeichnen, kann man auch eine 3D-CAD-Software verwenden (mehr dazu im [Basislernmodul 3D-Design und CAD](../1_1_3D_design/3D-Design.md)). Auf diese Weise kann man ein aus mehreren Lasercut-Teilen bestehendes Produkt entwerfen und in 3D darstellen. Vorteil an dieser Methode ist, dass man direkt sehen kann, wie das fertige, zusammengesteckte Produkt aussehen wird - beim Design in 2D sieht man die einzelnen Teile nur nebeneinander und benötigt etwas Vorstellungskraft, um sich ein Bild vom fertigen 3D-Produkt zu machen.
