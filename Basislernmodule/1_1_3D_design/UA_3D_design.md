@@ -10,30 +10,30 @@ To do:
 
 > Zurück zur [Übersicht Basislernmodule](../../README.md)
 
-# 3D-Design
+# 3D-дизайн
 ## Inhalt
 
-1. [Einführung](#einf%C3%BChrung)
-2. [CAD-Software](#cad-software)
-   - [Dateiformate für CAD-Modelle](#dateiformate-f%C3%BCr-cad-modelle)
-   - [Beispiele für CAD-Software](#beispiele-f%C3%BCr-cad-software)
+1. [Вступ](#einf%C3%BChrung)
+2. [Програмне забезпечення CAD / АСП](#cad-software)
+   - [Формати файлів для моделей з CAD](#dateiformate-f%C3%BCr-cad-modelle)
+   - [Приклади програмного забезпечення з CAD](#beispiele-f%C3%BCr-cad-software)
      - [FreeCAD](#freecad)
      - [Autodesk Fusion 360](#autodesk-fusion-360)
-3. [3D-Grafik- und Modellierungsprogramme](#3d-grafik--und-modellierungsprogramme)
-   - [Beispiele für 3D-Grafik- und 3D-Modellierungsprogramme](#beispiele-f%C3%BCr-3d-grafik--und-3d-modellierungsprogramme)
+3. [Програми для 3D-графіки та моделювання](#3d-grafik--und-modellierungsprogramme)
+   - [Приклад програм для 3D-графіки та 3D-моделюванн](#beispiele-f%C3%BCr-3d-grafik--und-3d-modellierungsprogramme)
      - [Blender](#blender)
      - [Tinkercad](#tinkercad) 
 
-[Lizenzinformationen](#lizenzinformationen)
+[Інформація про ліцензію](#lizenzinformationen)
 
-[Bildnachweise](#bildnachweise)
+[Джерела ілюстрацій](#bildnachweise)
 
 
-## Einführung
+## Вступ
 
-Es gibt verschiedene Software, mit denen man digitale 3D-Modelle zeichnen bzw. modellieren kann. Diese 3D-Modelle können anschließend z.B. für 3D-Druck, Lasercutting oder CNC-Fräsen genutzt werden.
+Існує різноманітне програмне забезпечення, з допомогою якого можна малювати, точніше створювати цифрові 3D-моделі. Відтак ці 3D-моделі можна використати, наприклад, для 3D-друку, лазерного різання або фрезерування з ЧПК. 
 
-Je nach Anwendungszweck gibt es Programme mit unterschiedlichen Schwerpunkten und Funktionen. Zum Modellieren von Bauteilen für technische Produkte wird in der Regel CAD-Software benutzt (CAD = Computer Aided Design; engl. für „Computergestütztes Entwerfen“). Andererseits gibt es auch 3D-Grafikprogramme, die einen eher künstlerischen Schwerpunkt haben, z.B. für komplex geformte Figuren, die für 3D-Druck, Produktdesign, aber auch z.B. für 3D-Animationsfilme verwendet werden können.
+Залежно від цілей, є програми з різними спеціалізаціями та функціями. Для моделювання деталей для технічних виробів зазвичай використовується програмне забезпечення CAD (англ. CAD — Computer Aided Design). Українським аналогом цього терміну є АСП (автоматизована система проєктування). З іншого боку, існують також тривимірні графічні редактори, розраховані передусім на створення арт-продуктів, напр. фігур складної форми, які можуть використовуватися для 3D-друку, дизайну продукції, але також, напр., для 3D- анімації.
 
 <p align="center">									
 <img height="300" src="images/1_CAD_FreeCAD_Example.png">									
@@ -41,23 +41,23 @@ Je nach Anwendungszweck gibt es Programme mit unterschiedlichen Schwerpunkten un
 </p>									
 									
 <p align="center">									
-<a href="#s1">[1]</a> <i> Baugruppe in der Software FreeCAD - </i>									
-<a href="#s2">[2]</a> <i> 3D-Modell in der 3D-Modellierungssoftware Blender </i>																	
+<a href="#s1">[1]</a> <i> Конструктивний модуль у ПЗ FreeCAD - </i>									
+<a href="#s2">[2]</a> <i> 3D-модель у програмі для 3D-моделювання Blender </i>																	
 </p>									
 
-Statt eigene 3D-Modelle zu erstellen, kann man auch fertige Modelle aus dem Internet herunterladen, ggf. nachbearbeiten und anschließend z.B. mit einem 3D-Drucker ausdrucken (mehr dazu im [Basislernmodul 3D-Druck](../2_1_3D_printing/3D-Druck.md)). Es gibt eine Vielzahl an Webseiten, von denen man 3D-Modelle beziehen oder auf die man seine eigenen Kreationen hochladen und sie mit anderen teilen kann (mehr dazu im [Basislernmodul zum Thema Download von 3D-Modellen](../1_3_Using_3D_models_from_the_internet/Verwendung_von_3D_Modellen_aus_dem_Internet.md)).
+Замість створення власних 3D-моделей можна також завантажити готові моделі з Інтернету, за потреби додатково їх обробити та зрештою, напр., роздрукувати на 3D-принтері (більше про це у базовому навчальному модулі про 3D-друк)(mehr dazu im [Basislernmodul 3D-Druck](../2_1_3D_printing/3D-Druck.md)). Існує безліч вебсайтів, де можна знайти 3D-моделі або куди завантажити власні розробки, щоб поділитися ними з іншими (більше про це у базовому навчальному модулі про завантаження 3D-моделей)(mehr dazu im [Basislernmodul zum Thema Download von 3D-Modellen](../1_3_Using_3D_models_from_the_internet/Verwendung_von_3D_Modellen_aus_dem_Internet.md)).
 
-Eine weitere Möglichkeit, ein 3D-Modell zu erstellen, besteht im 3D-Scanning. Damit lassen sich Gegenstände, Ersatzteile oder auch Personen einscannen und als 3D-Modell am Rechner abbilden. Mit etwas Nachbearbeitung lassen sich diese Modelle auch 3D-drucken (mehr dazu im [Basislernmodul zu 3D-Scanning](../1_2_3D_scanning/3D-Scanning.md)).
+Ще одна можливість створити 3D-модель полягає у 3D-скануванні. За допомогою цієї технології можна сканувати та відображати на комп’ютері у вигляді 3D-моделей предмети, деталі або навіть осіб. Після невеликої обробки ці моделі можна також роздрукувати на 3D-принтері (більше про це у базовому навчальному модулі про 3D-сканування)(mehr dazu im [Basislernmodul zu 3D-Scanning](../1_2_3D_scanning/3D-Scanning.md)).
 
-## CAD-Software
+## Програмне забезпечення CAD / АСП
 
-CAD-Software wird in der Regel im technischen Bereich eingesetzt, z.B. im Maschinenbau, in der Architektur oder Elektrotechnik – bei Unternehmen für Produktentwicklung, Planung von Gebäuden und ähnlichen Bereichen. Aber auch für Hobby-Anwendungen, z.B. zum Designen von Objekten für 3D-Druck oder CNC-Fräsen, haben sich CAD-Programme bewährt.
+Програмне забезпечення CAD переважно застосовується в технічних галузях, напр. у машинобудуванні, в архітектурі або електротехніці — підприємствами, що займаються розробкою продуктів, плануванням споруд та подібних сферах. Але програмне забезпечення CAD зарекомендувало себе також серед любителів, напр. при розробці дизайну об’єктів для 3D-друку або фрезеруванні з ЧПК. 
 
-Soll ein in CAD entworfenes Modell mithilfe von CNC-Maschinen (fräsen oder drehen) gefertigt werden, muss es in einer CAM-Software (CAM = Computer Aided Manufacturing) bearbeitet werden, um Fräsdurchmesser, Drehzahlen, Arbeitsabläufe etc. zu definieren (mehr dazu im [Basislernmodul zu CNC-Fräsen](../2_3_CNC_milling/CNC-Fraesen.md)). Viele CAD-Programme haben ein integriertes CAM-Modul, man spricht dann von CAD/CAM-Software.
+Якщо розроблена в CAD модель виготовляється з допомогою ЧПК-обладнання (фрезерування або точіння), її треба обробити в програмному забезпеченні з CAM (від англ. CAM — Computer Aided Manufacturing), українським відповідником якого є абревіатура АСВ (автоматизована система виробництва). CAM враховує параметри фрезера, ріжучого інструменту, кількості оборотів, технологічного процесу тощо і генерує код, придатний для зчитування машиною з  ЧПК (більше про це в базовому навчальному модулі про фрезерування з ЧПК)(mehr dazu im [Basislernmodul zu CNC-Fräsen](../2_3_CNC_milling/CNC-Fraesen.md)).
 
-Beim Erstellen eines 3D-Modells – bei CAD spricht man von „modellieren“ oder „konstruieren“ – arbeitet man meistens mit sogenannter geometrischer und generativer Modellierung.
+При створенні 3D-моделі — у контексті CAD це називають «моделюванням» або «конструюванням» — здебільшого працюють з т. зв. геометричним і генеративним моделюванням.
 
-Dabei startet man üblicherweise mit dem Zeichnen einer 2D-Skizze, die aus Punkten, Linien, Kurven und geometrischen Formen wie Kreisen oder Sechsecken besteht. Mit Bemaßungen kann man die Skizzenelemente exakt definieren, z.B. Länge von Linien oder Kreisdurchmesser millimetergenau festlegen. Durch sogenannte Abhängigkeiten kann man beispielsweise festlegen, dass zwei Linien parallel oder gleich lang sein sollen. Als nächster Schritt wird diese 2D-Skizze zu einem 3D-Objekt mit festgelegter Dicke „aufgepolstert“ (engl. "Pad") oder um eine Achse rotiert wird, um einen Drehkörper (engl. "Revolution") zu erstellen. Aufbauend auf diesem Objekt können weitere Elemente hinzugefügt werden, etwa durch weitere 2D-Skizzen und Aufpolsterung/Drehung, durch Abziehen von Teilen (z.B. für Löcher, Bohrungen oder Taschen (engl. "Pocket")), durch Vervielfältigung von Elementen oder Abrundung von Kanten.
+При цьому зазвичай починають із креслення 2D-ескізу, що складається з точок, ліній, кривих і геометричних форм, як-от кола або шестикутники. Встановлюючи розміри, можна точно визначити елементи ескізу, напр. з точністю до міліметра задати довжину ліній або діаметр кола. За допомогою т. зв. залежних можна, наприклад, встановити, щоб дві лінії були паралельними або однакової довжини. Наступним кроком цей 2D-ескіз «наповнюють» (англ. «Pad»), перетворюючи на 3D-об’єкт визначеного об’єму, або обертають навколо осі для створення тіла обертання (англ. «Revolution»). У доповнення до цього об’єкта можуть додаватися інші елементи, зокрема через інші 2D-ескізи та наповнення/обертання, через усунення частин (напр., для отворів, свердлінь або пазів (англ. «Pocket»)), через тиражування елементів або заокруглення країв.
 
 <p align="center">
 [3] <img height="130" src="images/3_FreeCAD_PartDesign_Pad.png"> <br>
@@ -66,9 +66,9 @@ Dabei startet man üblicherweise mit dem Zeichnen einer 2D-Skizze, die aus Punkt
 </p>
 
 <p align="center">
-<a href="#s3">[3]</a> <i> 3D-Aufpolsterung (Pad) aus einer 2D-Skizze - </i>
-<a href="#s4">[4]</a> <i> 3D-Drehkörper (Revolution) aus 2D-Skizze - </i>
-<a href="#s5">[5]</a> <i> Tasche (Pocket) aus 2D-Skizze </i>
+<a href="#s3">[3]</a> <i> 3D-наповнення (Pad) з 2D-ескізу - </i>
+<a href="#s4">[4]</a> <i> 3D-тіло обертання (Revolution) із 2D-ескізу - </i>
+<a href="#s5">[5]</a> <i> паз (Pocket) з 2D-ескізу </i>
 </p>
 
 
@@ -83,46 +83,43 @@ Dabei startet man üblicherweise mit dem Zeichnen einer 2D-Skizze, die aus Punkt
 </p>
 
 
-Viele CAD-Programme enthalten auch Funktionen zum Erstellen von technischen Maßzeichnungen. Dabei wird das Bauteil zunächst in 3D modelliert und anschließend aus verschiedenen Blickrichtungen auf eine 2D-Zeichnung projiziert. Diese Ansichten können auf einem Blatt angeordnet, mit Bemaßungen sowie weiteren Informationen versehen und ausgedruckt werden. Dies ist hilfreich für Teile, die man nicht mit digitalen Fertigungsmethoden herstellen möchte, sondern mit konventionellen Werkzeugen, z.B. Zuschneiden und Bohren von Holzbrettern oder Aluminiumprofilen.
+Багато CAD програм мають також функціонал для створення технічних креслень. При цьому спочатку моделюється тривимірна конструктивна деталь, а потім вона проєктується з різних кутів огляду на двовимірне зображення. Ці проєкції можуть бути розміщені на аркуші, визначені їхні розміри чи інша інформація або бути роздруковані. Це помічно у випадку деталей, які хочеться виготовляти не за допомогою цифрових інструментів, а конвенційним знаряддям, напр. шляхом нарізання та свердління дерев’яних дощок або алюмінієвого профілю.
 
 <p align="center">
 <img height="400" src="images/8_FreeCAD_Drawing_TechDraw.png">
 </p>
 
 <p align="center">
-<a href="#s8">[8]</a> <i> Technische (Maß)zeichnung in FreeCAD </i>
+<a href="#s8">[8]</a> <i> Технічне креслення (з розмірами) у програмі FreeCAD </i>
 </p>
 
-Einige CAD-Programme verfügen über Funktionen für „parametrisches Design“. Dabei werden Bauteile nicht mit exakten Zahlenwerten bemaßt (z.B. 10 mm), sondern mit Parametern (z.B. mit „Länge“ oder „Durchmesser“). Mit einem parametrischen Modell können dann viele unterschiedliche Varianten des Bauteils generiert werden, so muss etwa eine Schraube nicht in jeder beliebigen Variante neu modelliert werden, sondern nur einmal als parametrisches Modell, wobei man z.B. die Parameter „Länge“ und „Durchmesser“ variiert und das jeweils erzeugte Schraubenmodell als Variante abspeichert. Parameter können auch mithilfe von Formeln verknüpft werden (z.B. „Länge = 2 x Durchmesser + 10 mm“).
+Деякі CAD програми мають функції «параметричного проєктування». При цьому розміри конструктивних елементів визначаються не точними цифровими показниками (напр., 10 мм), а параметрами (напр., «довжина» або «діаметр»). За допомогою параметричної моделі можна потім згенерувати багато різних варіантів конструктивного елемента; таким чином, немає необхідності щоразу заново моделювати, наприклад, різні варіанти гвинта, достатньо один раз створити параметричну модель, і потім варіювати такі параметри як «довжина» і «діаметр», зберігаючи кожну нову модель гвинта як варіант. Параметри можна також поєднувати з допомогою формул (напр., «довжина = 2 х діаметр + 10 мм»).
 
-Auf Videoportalen wie YouTube finden sich viele Video-Tutorials für das Erlernen von CAD-Modellierung. Manche Fab Labs bieten auch Workshops an. Grundlagen für einfache Modelle lassen sich relativ schnell erlernen, für komplexere CAD-Projekte und erweiterte Funktionen braucht es jedoch viel Einarbeitung und Übung.
+На відеопорталах, як-от YouTube, можна знайти багато відеоінструкцій для вивчення моделювання з CAD. Деякі фаблаби пропонують також навчальні воркшопи. Основами для створення простих моделей можна оволодіти відносно швидко, однак для складніших проєктів з CAD й опанування розширених функцій потрібно багато вчитися та практикувати. 
 
+### Формати файлів для моделей з CAD
 
-### Dateiformate für CAD-Modelle
+Кожне програмне забезпечення має власний формат файлів для проєктних файлів, напр., файли у програмі «FreeCAD» мають розширення файлу *.FCStd, а файли в програмі «Autodesk Fusion 360» — розширення *.f3d. Проте у сфері CAD є безліч різноманітних форматів файлів, які можуть створюватися та відкриватися різними програмами з CAD.
 
-Jede Software hat ihr eigenes Dateiformat für Projektdateien, z.B. haben Dateien in der Software "FreeCAD" die Dateiendung *.FCStd und Dateien in "Autodesk Fusion 360" die Endung *.f3d.
-Es gibt im CAD-Bereich aber zahlreiche unterschiedliche Dateiformate, die von unterschiedlichen CAD-Programmen erstellt und geöffnet werden können.
+Варто відзначити формат файлів STEP (*.ste, *.step oder *.stp). STEP походить від англійського „STandard for the Exchange of Product model data”, він стандартизований за всесвітньо визнаною нормою ISO. Файли у STEP-форматі добре годяться для обміну між різними CAD/АСП програмами. Якщо ви хочете поділитися CAD-файлом з кимось, хто користується іншим програмним забезпеченням з АСП, гарним рішенням часто стає експортування файлу у форматі STEP, навіть якщо при цьому зберігаються не вся інформація та не всі можливості редагування — принаймні файл можна відкрити, розглянути й проаналізувати в іншій програмі.
 
-Besonders hervorzuheben ist das STEP-Dateiformat (*.ste, *.step oder *.stp). STEP steht für „STandard for the Exchange of Product model data” und ist in einer weltweit anerkannten ISO-Norm standardisiert. STEP-Dateien eignen sich daher gut als Austauschformat zwischen unterschiedlichen CAD-Programmen. Möchte man seine CAD-Datei mit jemandem teilen, der eine andere CAD-Software benutzt, ist das Exportieren im STEP-Format also oft eine gute Lösung, auch wenn nicht alle Informationen und Editierfunktionen erhalten bleiben, aber zumindest kann die Datei in der anderen Software geöffnet, betrachtet und analysiert werden.
+Якщо ви плануєте опублікувати свій продукт як відкрите апаратне забезпечення, рекомендується використовувати програмне забезпечення CAD/АСП, яке є безкоштовним і створене на основі відкритого програмного забезпечення (напр., FreeCAD або Blender, більше про це див. нижче), щоб якомога більше людей могли відкрити, обробити файли та запропонувати покращену версію проєкту.
 
-Plant man sein Produkt als Open Source Hardware zu veröffentlichen, ist es empfehlenswert, eine CAD-Software zu verwenden, die kostenfrei ist und auf Open Source Software basiert (z.B. FreeCAD oder Blender, mehr dazu siehe unten), damit möglichst viele Menschen die Dateien öffnen, bearbeiten und als verbesserte Variante zum Projekt beitragen können.
+Ще один важливий файловий формат, насамперед для 3D-друку, — STL. Практично кожна відома CAD програма або програма для створення тривимірної графіки може експортувати 3D-моделі у форматі STL, щоб зрештою їх можна було надрукувати на 3D-принтері (більше про це в базовому навчальному модулі про 3D-друк)(mehr dazu im [Basislernmodul 3D-Druck](../2_1_3D_printing/3D-Druck.md)).
 
-Ein weiteres wichtiges Dateiformat ist STL, vor allem für 3D-Druck. Praktisch jede bekannte CAD- oder 3D-Grafiksoftware kann 3D-Modelle im STL-Format exportieren, sodass man sie anschließend 3D-drucken kann (mehr dazu im [Basislernmodul 3D-Druck](../2_1_3D_printing/3D-Druck.md)).
+### Приклади програмного забезпечення з CAD
 
-
-### Beispiele für CAD-Software
-
-Hier eine Auswahl einiger beliebter CAD-Programme, die weitestgehend kostenlos nutzbar sind:
+Ось кілька популярних CAD програм, які можна здебільшого використовувати безкоштовно:
 
 #### FreeCAD
 
-FreeCAD ist, wie der Name schon sagt, eine sogenannte „Free and open-source software“, d.h. die Software ist uneingeschränkt kostenlos, also auch für kommerzielle Anwendungen, und ihr Quellcode ist offen. Dies macht FreeCAD zu einer beliebten Softwarelösung in Open-Source-Communities, da garantiert ist, dass mit FreeCAD erstellte Projekte auch langfristig von jedem kostenlos geöffnet und bearbeitet werden können (als Open Source Hardware). Zudem kann FreeCAD von jedem modifiziert oder durch Erweiterungen ergänzt und verbessert werden (Open Source Software), wodurch es schon zahlreiche, von der Nutzer:innen-Community programmierte Bugfixes, Zusatzfunktionen, Workbenches und Makros gibt.
+Як передбачає сама назва, FreeCAD, — це так зване «вільне і відкрите програмне забезпечення», це означає, що ПЗ безкоштовне, не має якихось обмежень, зокрема для комерційних цілей, а її вихідний код відкритий. Це робить FreeCAD улюбленим програмним рішенням у Open-Source-спільнотах, оскільки гарантується, що створені за допомогою FreeCAD проєкти довгостроково знаходитимуться у відкритому доступі та їх можна буде обробляти (як відкрите апаратне забезпечення). До того ж кожен може змінювати або покращувати FreeCAD через додатки (відкрите програмне забезпечення), завдяки чому вже усунено численні недоліки, створено додаткові функції, робочі місця та макроси.
 
-FreeCAD enthält viele unterschiedliche Programm-Module (sogenannte „Workbenches“) und Funktionen für 3D-Modellierung, 3D-Druck, CAM und CNC-Fräsen, Lasercutting, Bewegungssimulationen, Architektur und vieles mehr. Eine besondere Stärke von FreeCAD ist auch das parametrische Designen, wobei mit der „Spreadsheet“-Workbench Kalkulationstabellen erstellt werden können, mit denen man Parameter des CAD-Modells steuern kann. FreeCAD ist nicht cloud-basiert, sondern läuft rein lokal auf dem Rechner (Windows, Mac oder Linux).
+FreeCAD містить багато різних програмних модулів (т.зв. «робочі місця», англ. «Workbenches») і функцій для 3D-моделювання, 3D-друку, CAM/АСВ та фрезерування з ЧПК, лазерного різання, симуляції руху, архітектури тощо. Особливою сильною стороною FreeCAD параметричне проєктування, при цьому через «Spreadsheet»-Workbench можна створити розрахункові таблиці, за допомогою яких можна управляти параметрами CAD-моделі. FreeCAD знаходиться не у хмарі, а працює локально на комп’ютері (Windows, Mac або Linux).
 
-**Download:** https://www.freecad.org/
+**Завантажити:** https://www.freecad.org/
 
-**FreeCAD-Wiki:** https://wiki.freecad.org/ - In deutscher Sprache (teilweise unvollständig): https://wiki.freecad.org/Main_Page/de
+**FreeCAD-Wiki:** https://wiki.freecad.org/ - Українською мовою (неповна версія): https://wiki.freecad.org/Main_Page/uk
 
 <p align="center">
 <img height="300" src="images/9_FreeCAD_UI.png">
@@ -130,20 +127,20 @@ FreeCAD enthält viele unterschiedliche Programm-Module (sogenannte „Workbench
 </p>
 
 <p align="center">
-<a href="#s9">[9]</a> <i> FreeCAD-Benutzeroberfläche - </i>
-<a href="#s10">[10]</a> <i> Baugruppe mit Skizzen in FreeCAD </i>
+<a href="#s9">[9]</a> <i> Користувацький інтерфейс у FreeCAD - </i>
+<a href="#s10">[10]</a> <i> Конструктивний модуль із ескізом у FreeCAD </i>
 </p>
 
 
 #### Autodesk Fusion 360
 
-Fusion 360 ist eine von Autodesk entwickelte Software-Suite für CAD, CAM und weitere technische Anwendungen. Grundsätzlich ist Fusion 360 ein kostenpflichtiges Programm, es lässt sich jedoch unter bestimmten Bedingungen und mit eingeschränkter Funktionalität auch kostenlos nutzen. So muss man bei der Registrierung angeben, dass man Privatanwender:in ist („personal use“). Diese kostenlose „Hobby-Lizenz“ muss regelmäßig erneuert werden. Sobald man Projekte kommerziell nutzen möchte, ist man verpflichtet, eine Lizenz zu kaufen. Zudem stehen unter der kostenlosen Lizenz nicht alle Funktionen zur Verfügung. Die Bedingungen und Funktionen für kostenlose Nutzung können sich noch öfters ändern, die aktuellen Infos hierzu findet man auf der [Fusion-360-Webseite](https://www.autodesk.de/products/fusion-360/).
+Fusion 360 — це розроблений компанією Autodesk програмний комплекс для CAD/АСП, CAM/АСВ та інших технічних цілей. Загалом Fusion 360 є платною програмою, але за певних умов та з обмеженим функціоналом нею можна користуватися також безкоштовно. Для цього під час реєстрації треба вказати, що ви приватний користувач/ка («personal use»). Цю безкоштовну «любительську ліцензію» треба постійно оновлювати. Якщо ви створюєте комерційні проєкти, необхідно придбати ліцензію. До того ж при безкоштовній ліцензії доступні не всі функції. Умови та функціонал безкоштовної версії можуть ще неодноразово змінюватися, актуальна інформація щодо цього знаходиться на [вебсайті Fusion-360](https://www.autodesk.de/products/fusion-360/).
 
-Fusion 360 ist cloud-basiert, d.h. man benötigt eine Verbindung zum Internet und muss sich bei erster Benutzung mit seinen Kontodaten anmelden. Projektdateien werden online in einer Cloud von Autodesk gespeichert, können jedoch auch lokal heruntergeladen werden (z.B. als f3d-Datei). Falls keine Internetverbindung besteht, kann auch zeitweilig offline gearbeitet werden, die Dateien werden bei nächster Verbindung mit dem Internet synchronisiert. Die erstmalige Anmeldung muss jedoch online erfolgen.
+Fusion 360 знаходиться у хмарі, тобто для її використання треба бути підключеним до Інтернету, і при першому використанні слід увійти з даними свого облікового запису. Проєктні файли зберігаються онлайн у хмарі від Autodesk, проте їх можна також завантажити собі на комп’ютер (напр., як f3d-файл). Якщо немає з’єднання з Інтернетом, деякий час можна також працювати офлайн, файли синхронізуються при наступному під’єднанні до Інтернету. Однак перший вхід має відбутися онлайн.
 
-Aufgrund seiner klaren und verständlichen Bedienbarkeit gilt Fusion 360 als vergleichsweise leicht erlernbare CAD-Software, was sie zu einem viel genutzten und beliebten Programm in Maker-Communities macht.
+Завдяки чіткому та зрозумілому управлінні Fusion 360 належить до відносно легкого для опанування ПЗ з CAD, і тому цю програму люблять і часто використовують у мейкерських спільнотах.
 
-**Registrierung und Download für Privatanwender:innen:** https://www.autodesk.de/products/fusion-360/personal
+**Реєстрація та завантаження для приватних користувачів/ок:** https://www.autodesk.de/products/fusion-360/personal
 
 <p align="center">
 <img height="300" src="images/11_Autodesk_Fusion_360_example.png">
@@ -152,18 +149,18 @@ Aufgrund seiner klaren und verständlichen Bedienbarkeit gilt Fusion 360 als ver
 
 <p align="center">
 <a href="#s11">[11]</a> <i> </i>
-<a href="#s12">[12]</a> <i> Autodesk Fusion 360: Benutzeroberfläche</i>
+<a href="#s12">[12]</a> <i> Autodesk Fusion 360: користувацький інтерфейс</i>
 </p>
 
 
 
-## 3D-Grafik- und Modellierungsprogramme
+## Програми для 3D-графіки та моделювання
 
-Im Gegensatz zu CAD-Programmen, die eher für technische Produktentwicklung genutzt werden, richten sich 3D-Grafikprogramme eher an künstlerische oder Design-bezogene Anwendungen, z.B. zum Gestalten von Figuren, Vasen, Gefäßen oder sonstigen, komplex gestalteten Formen.
+На відміну від CAD-програм, які використовуються переважно для розробки технічних продуктів, тривимірні графічні редактори розраховані радше на мистецькі або дизайнерські проєкти, напр. оформлення фігур, ваз, посуд або інших складних форм. 
 
-Dabei kommen oft sogenannte Sculpting-Werkzeuge zum Einsatz, womit sich 3D-Objekte präzise verformen lassen, ähnlich wie beim Töpfern mit Ton. Die millimetergenaue Bemaßung sowie Konstruktion von eher eckigen Teilen, wie bei technischen Bauteilen in CAD-Programmen, steht damit weniger im Vordergrund als die Freiheit in der Form- und Ausgestaltung des 3D-Objekts.
+При цьому часто в хід ідуть так звані інструменти скульптурування, завдяки яким можна надати 3D-об’єктам точнішої форми, приблизно як у гончарстві. На першому місці тут стоїть не так точне до міліметра вимірювання та конструювання елементів із кутами, як у випадку технічних деталей у CAD-програмах, як свобода у формуванні й оформленні 3D-об’єкта. 
 
-Weitere Funktionen von 3D-Grafikprogrammen sind z.B. die Texturierung, Animation (für Animationsfilme oder Videospiele) und Rendering, z.B. zur Inszenierung eines Objekts oder Produkts in einer bestimmten Umgebung und Belichtung in einer sogenannten Szene. Viele 3D-Grafikprogramme können die Modelle als STL-Datei exportieren, womit sie sich 3D-drucken lassen.
+Серед інших функцій тривимірних графічних редакторів — напр., текстурування, анімація (для анімаційних фільмів або відеоігор) і рендеринг (комп’ютерна візуалізація), напр. розташування об’єкта або продукту в певному середовищі й освітленні у так званому кадрі. Багато 3D-редакторів можуть експортувати моделі як STL-файли, завдяки чому їх можна роздрукувати. 
 
 <p align="center">
 <img height="250" src="images/13_Blender_sculpting_example.png">
@@ -171,21 +168,21 @@ Weitere Funktionen von 3D-Grafikprogrammen sind z.B. die Texturierung, Animation
 </p>
 
 <p align="center">
-<a href="#s13">[13]</a> <i> Scultping in der Software Blender - </i>
-<a href="#s14">[14]</a> <i> Rendering von Kochtöpfen in Blender </i>
+<a href="#s13">[13]</a> <i> Скульптурування в програмі Blender - </i>
+<a href="#s14">[14]</a> <i> Рендеринг кухонного посуду в програмі Blender </i>
 </p>
 
 
 
-### Beispiele für 3D-Grafik- und 3D-Modellierungsprogramme
+### Приклад програм для 3D-графіки та 3D-моделюванн
 
-Hier eine Auswahl einiger beliebter 3D-Grafik- und 3D-Modellierungsprogramme, die kostenlos nutzbar sind:
+Нижче представлені деякі популярні безкоштовні програми для 3D-графіки та 3D-моделювання:
 
 #### Blender
 
-Blender ist eine 3D-Grafiksuite, die als „Free and open-source software“, also kostenlos verfügbar und mit offenem Quellcode veröffentlich ist. Die Software-Suite umfasst Funktionen zum modellieren, texturieren und animieren. Blender ist ein im professionellen wie auch im Hobby-Bereich sehr beliebtes Programm, gilt als besonders ausgereifte Open-Source-Software und die Grundlagen lassen sich verhältnismäßig leicht erlernen.
+Blender — це програмний комплекс для тривимірної графіки, доступний як «вільне та відкрите програмне забезпечення», тобто безкоштовне у використанні та з відкритим вихідним кодом. Програмний комплекс об’єднує функції для моделювання, текстурування та анімування. Blender — популярна програма як серед професіоналів, так і серед любителів, вона вважається особливо продуманим відкритим програмним забезпеченням, а її основами можна відносно легко оволодіти.
 
-**Download:** https://www.blender.org/
+**Завантажити** https://www.blender.org/
 
 <p align="center">
 <img height="300" src="images/15_Blender_UI.png">
@@ -193,21 +190,22 @@ Blender ist eine 3D-Grafiksuite, die als „Free and open-source software“, al
 </p>
 
 <p align="center">
-<a href="#s15">[15]</a> <i> Blender-Benutzeroberfläche - </i>
-<a href="#s16">[16]</a> <i> Sculpting in Blender </i>
+<a href="#s15">[15]</a> <i> Користувацький інтерфейс програми Blender - </i>
+<a href="#s16">[16]</a> <i> Скульптурування у Blender </i>
 </p>
 
 
 
 #### Tinkercad
 
-Tinkercad ist eine kostenlose, im Browser ausgeführte Web-App, die man für 3D-Design, aber auch für Elektronik und Programmierung einsetzen kann. Sie ist relativ einfach in der Bedienung und richtet sich in erster Linie an Kinder, Jugendliche und den Einsatz im Schulunterricht. Aber auch für Erwachsene, die sich nicht die Mühe machen wollen, ein komplexes CAD- oder 3D-Grafikdesignprogramm zu erlernen, ist Tinkercad interessant.
+Tinkercad — безкоштовний вебзастосунок, що працює у браузері та використовується для 3D-дизайну, але також для проєктування електронних плат та програмування. У ньому відносно легко працювати, і насамперед він розрахований на дітей, молодь і застосування в школах. Але Tinkercad може також зацікавити дорослих, які не хочуть докладати багато зусиль для вивчення складніших програм із CAD або тривимірних графічних редакторів.
 
-Auch wenn scheinbar "CAD" im Namen "Tinkercad" steckt, wäre es etwas unpassend, Tinkercad als CAD-Programm zu bezeichnen. Tinkercad eignet sich zwar gut für die Erstellung von einfachen 3D-Modellen, das System stößt jedoch schnell an seine Grenzen, sobald man etwas komplexere technische Produkte oder 3D-Figuren entwickeln möchte. Die Software ist eher auf einfache Bedienung als auf Funktionalität ausgerichtet, daher unterscheidet sich der Ablauf im Modellieren auch grundsätzlich von gängigen CAD-Programmen. STL-Export für 3D-Druck ist mit Tinkercad möglich.
+Хоча у назві «Tinkercad» міститься слово «CAD», було б дещо недоречно описувати Tinkercad як програму з АСП. Хоча Tinkercad добре підходить для створення простих 3D-моделей, система швидко досягає своїх меж, якщо ви хочете розробити в ній складніші технічні продукти або 3D-фігури. ПЗ розраховане радше на простоту використання, а не функціонал, тому процес моделювання також принципово відрізняється від відомих CAD-програм. Із Tinkercad можна експортувати STL-файли для 3D-друку. 
 
-Tinkercad gehört, so wie auch Fusion 360, zu dem Unternehmen Autodesk und setzt die Registrierung eines (kostenlosen) Benutzer:innen-Kontos voraus. Es muss jedoch keine Software heruntergeladen oder installiert werden, die Anwendung läuft direkt im Browser.
+Tinkercad, так само як і Fusion 360, належить компанії Autodesk і вимагає створення (безкоштовного) облікового запису. При цьому не потрібно завантажувати або встановлювати жодного програмного забезпечення, застосунок працює прямо в браузері.
 
-**Registrierung und Anwendung:** https://www.tinkercad.com/
+
+**Реєстрація та використання:** https://www.tinkercad.com/
 
 <p align="center">
 <img height="250" src="images/17_Tinkercad_UI_Browser.png">
@@ -215,22 +213,21 @@ Tinkercad gehört, so wie auch Fusion 360, zu dem Unternehmen Autodesk und setzt
 </p>
 
 <p align="center">
-<a href="#s17">[17]</a> <i> Tinkercad-Benutzeroberfläche (im Browser) - </i>
-<a href="#s18">[18]</a> <i> 3D-Design eines Messschiebers in Tinkercad </i>
+<a href="#s17">[17]</a> <i> Користувацький інтерфейс програми Tinkercad (у браузері) - </i>
+<a href="#s18">[18]</a> <i> 3D-дизайн штангенциркуля в Tinkercad </i>
 </p>
 
-# Lizenzinformationen
+# Інформація про ліцензію
 
-**Author:** Oskar Lidtke, https://github.com/orcular-org/
+**Автор:** Оскар Лідтке (Oskar Lidtke), https://github.com/orcular-org/
 
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />Except where otherwise noted, this work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0)</a>.
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />Якщо не зазначено інакше, цей твір ліцензовано в рамках міжнародної <a rel="ліцензії" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0)</a>.
 
-See best practices for [attribution](https://wiki.creativecommons.org/wiki/Best_practices_for_attribution) and [marking your own work](https://wiki.creativecommons.org/wiki/Marking_your_work_with_a_CC_license) with a CC license.
+Див. кращі приклади [зазначення Авторства](https://wiki.creativecommons.org/wiki/Best_practices_for_attribution) та [створення власного твору](https://wiki.creativecommons.org/wiki/Marking_your_work_with_a_CC_license) з ліцензією Creative Commons.
 
-For attribution and licenses of the images used, see the section below.
+Щодо зазначення Авторства та ліцензії використаних зображень, див. розділ нижче.
 
-
-# Bildnachweise
+# Джерела ілюстрацій
 
 <a name="s1"></a>
 **[1]** Gsuter.png (cropped) - **Image license:** [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/) - **Source:** https://wiki.freecad.org/File:Gsuter.png
