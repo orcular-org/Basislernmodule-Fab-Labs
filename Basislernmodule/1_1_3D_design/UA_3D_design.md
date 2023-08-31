@@ -11,16 +11,16 @@ To do:
 > Zurück zur [Übersicht Basislernmodule](../../README.md)
 
 # 3D-дизайн
-## Inhalt
+## Зміст
 
-1. [Вступ](#einf%C3%BChrung)
-2. [Програмне забезпечення CAD / АСП](#cad-software)
-   - [Формати файлів для моделей з CAD](#dateiformate-f%C3%BCr-cad-modelle)
+1. [Вступ](#Вступ)
+2. [Програмне забезпечення CAD / АСП](#Програмне-забезпечення-CAD-/-АСП)
+   - [Формати файлів для моделей з CAD](#Формати-файлів-для-моделей-з-CAD)
    - [Приклади програмного забезпечення з CAD](#beispiele-f%C3%BCr-cad-software)
      - [FreeCAD](#freecad)
      - [Autodesk Fusion 360](#autodesk-fusion-360)
-3. [Програми для 3D-графіки та моделювання](#3d-grafik--und-modellierungsprogramme)
-   - [Приклад програм для 3D-графіки та 3D-моделюванн](#beispiele-f%C3%BCr-3d-grafik--und-3d-modellierungsprogramme)
+3. [Програми для 3D-графіки та моделювання](#Програми-для-3D-графіки-та-моделювання)
+   - [Приклад програм для 3D-графіки та 3D-моделюванн](#Приклад-програм-для-3D-графіки-та-3D-моделюванн)
      - [Blender](#blender)
      - [Tinkercad](#tinkercad) 
 
