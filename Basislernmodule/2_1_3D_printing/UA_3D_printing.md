@@ -14,34 +14,34 @@ To do:
 
 ## Зміст
 
-1. [Einführung](#einführung)
-2. [Grundlagen](#grundlagen)
-   - [Filament](#filament)
-   - [Komponenten eines 3D-Druckers](#komponenten-eines-3d-druckers)
-   - [Kalibrierung](#kalibrierung)
-3. [Vorbereitung eines 3D-Drucks](#vorbereitung-eines-3d-drucks)
-   - [Digitales 3D-Modell](#digitales-3d-modell)
-   - [Slicer-Software](#slicer-software)
-   - [Slicing, Prüfung und Export](#slicing-prüfung-und-export)
+1. [Вступ](#Вступ)
+2. [Базові поняття](#Базові поняття)
+   - [Філамент](#Філамент)
+   - [Складові 3D-принтера](#Складові 3D-принтера)
+   - [Калібрування](#Калібрування)
+3. [Підготовка до 3D-друку](#Підготовка-до-3D-друку)
+   - [Цифрова 3D-модель](#Цифрова-3D-модель)
+   - [Програмне забезпечення для слайсингу](#Програмне-забезпечення-для-слайсингу)
+   - [Слайсинг, тестування та експорт](#Слайсинг,-тестування-та-експорт)
    - [G-Code](#g-code)
-   - [Stützmaterial und Brücken](#stützmaterial-und-brücken)
-   - [Infill](#infill)
-4. [Ablauf eines 3D-Drucks](#ablauf-eines-3d-drucks)
-   - [Vor dem Drucken](#vor-dem-drucken)
-   - [Leveling, Schürze und Rand](#leveling-schürze-und-rand)
-   - [Die erste Schicht](#die-erste-schicht)
-   - [Weitere Schichten](#weitere-schichten)
-   - [Nach dem Druck](#nach-dem-druck)
+   - [Матеріал підтримки та мости](#Матеріал-підтримки-та-мости)
+   - [Заповнення](#Заповнення)
+4. [Перебіг 3D-друку](#Перебіг-3D-друку)
+   - [Перед друком](#Перед-друком)
+   - [Левелінг, рамка та край](#Левелінг,-рамка-та-край)
+   - [Перший шар](#Перший-шар)
+   - [Наступні шари](#Наступні-шари)
+   - [Після друку](#Після-друку)
 
-[Lizenzinformationen](#lizenzinformationen)
+[Інформація про ліцензію](#Інформація-про-ліцензію)
 
-[Bildnachweise](#bildnachweise)
+[Джерела ілюстрацій](#bildnachweise)
 
-## Einführung
+## Вступ
 
-Mit 3D-Druck bezeichnet man viele unterschiedliche Verfahren, bei denen ein Gerät (3D-Drucker) materielle, dreidimensionale Objekte erschafft. Dabei werden die Objekte meistens zunächst in einer Software als 3D-Modell entworfen und anschließend an den 3D-Drucker gesendet.
+3D-друк — це термін, який використовується для опису багатьох різноманітних процесів, під час яких 3D-принтер створює матеріальні тривимірні об’єкти. Зазвичай об’єкти спочатку проектуються програмним забезпеченням як 3D-модель, а потім надсилаються на 3D-принтер.
 
-Es gibt kleine, relativ günstige 3D-Drucker für zu Hause oder für Fab Labs, die meistens aus Kunststoff drucken, aber auch größere Drucker bis hin zu großen Anlagen, die ganze Gebäude, zumindest die Grundstruktur aus Wänden, aus Beton drucken können. Manche 3D-Drucker können auch Metall oder Lebensmittel wie Schokolade drucken – die Bandbreite an 3D-Druckverfahren ist sehr groß.
+Існують невеликі, відносно недорогі 3D-принтери для дому або для фаблабів, які здебільшого друкують предмети із пластику, а також є більші принтери та великі 3D друкарські системи, які можуть друкувати цілі будівлі з бетону, принаймні основні стіни будівлі. Деякі 3D-принтери також можуть друкувати метал або їжу, наприклад шоколад, тож діапазон можливостей 3D-друку дуже широкий.
 
 
 <p align="center">
@@ -50,8 +50,8 @@ Es gibt kleine, relativ günstige 3D-Drucker für zu Hause oder für Fab Labs, d
 </p>
 
 <p align="center">
-       <a href="#s1">[1]</a> <i> DIY-3D-Drucker mit Open-Hardware-Lizenz - </i>
-       <a href="#s2">[2]</a> <i> 3D-Drucker von Prusa </i>
+       <a href="#s1">[1]</a> <i> 3D-принтер, побудований власноруч, руками з відкритою ліцензією на обладнання – </i>
+       <a href="#s2">[2]</a> <i> 3D-принтер від Prusa </i>
 </p>
 
 
@@ -61,16 +61,15 @@ Es gibt kleine, relativ günstige 3D-Drucker für zu Hause oder für Fab Labs, d
 </p>
 
 <p align="center">
-       <a href="#s3">[3]</a> <i> BigFDM-3D-Drucker für große Modelle bis zu 80 x 80 x 90 cm - </i>
-       <a href="#s4">[4]</a> <i> 3D-Druck von Häusern </i>
+       <a href="#s3">[3]</a> <i> Великий 3D-принтер FDM для великих моделей розміром до 80 x 80 x 90 см – </i>
+       <a href="#s4">[4]</a> <i> 3D-друк будинків </i>
 </p>
 
-Am weitesten verbreitet und am beliebtesten sind 3D-Drucker, die nach dem sogenannten FDM-Verfahren arbeiten. In diesem Basislernmodul wird es daher zunächst nur um FDM-Drucker gehen.
+Найбільш поширеними і популярними є 3D-принтери, які працюють за технологією FDM. Тому цей основний навчальний модуль спочатку стосується лише принтерів, які працюють за даною технологією.
 
-Die zweithäufigste Art von 3D-Druckern in Fab Labs neben dem FDM-Verfahren sind wohl die SLA-Drucker. Diese sind jedoch schwieriger in der Anwendung und damit weniger gut für Einsteiger:innen geeignet als FDM-Drucker, es empfiehlt sich also, zunächst mit FDM anzufangen.
+Другим найпоширенішим типом 3D-принтерів у фаблабах після технології FDM є принтери SLA. Однак ними важче користуватися, і тому вони менш підходять для початківців, ніж принтери FDM, тому бажано почати саме з FDM.
 
-FDM steht für "Fused Deposition Modeling". Das bedeutet, ein Stoff, meistens ein Kunststoff/Plastik, wird von dem 3D-Drucker erhitzt, dabei geschmolzen und anschließend schichtweise aufgetragen. Die Schichten kühlen kurz darauf ab, wodurch sie sich zu einem festen Objekt zusammenfügen. Mit FDM gedruckte Objekte lassen sich gut an den typischen Schichten erkennen, die meist nur einen Bruchteil eines Millimeters dick sind.
-  
+Технологія FDM («Fused Deposition Modeling») означає, що наявний матеріал (зазвичай це пластик) нагрівається 3D-принтером, розплавляється, а потім наноситься шарами. Потім шари охолоджуються і створюють твердий об’єкт. Об’єкти, надруковані за допомогою технології FDM, можна легко розпізнати за типовими шарами, які зазвичай мають товщину лише частки міліметра.
 
 
 <p align="center">
@@ -79,14 +78,14 @@ FDM steht für "Fused Deposition Modeling". Das bedeutet, ein Stoff, meistens ei
 </p>
 
 <p align="center">
-       <a href="#s5">[5]</a> <i> 3D-Druck - </i>
-       <a href="#s6">[6]</a> <i> 3D-gedrucktes Objekt mit sichtbaren Schichten </i>
+       <a href="#s5">[5]</a> <i> 3D-друк – </i>
+       <a href="#s6">[6]</a> <i> Об'єкт, надрукований у 3D, із видимими шарами </i>
 </p>
 
 
-Daher zählt man 3D-Druck auch zu den sogenannten "additiven Verfahren", da Objekte entstehen, indem neues Material hinzugefügt ("addiert") wird. Im Gegensatz dazu gibt es auch "subtraktive Verfahren", d.h. Fertigungsverfahren, bei denen ein bestehendes Material getrennt wird bzw. etwas "weggenommen" wird, z.B. durch [Lasercutting](../2_2_Laser_cutting/Lasercutting.md) oder [CNC-Fräsen](../2_3_CNC_milling/CNC-Fraesen.md).
+Тому 3D-друк відноситься до так званих «адитивних процесів», оскільки об’єкти створюються шляхом додавання нового матеріалу. На противагу цьому існують також «субтрактивні процеси», тобто процеси виробництва, під час яких існуючий матеріал відокремлюється або щось «забирається», наприклад, за допомогою [лазерного різання](../2_2_Laser_cutting/Lasercutting.md) або [фрезерування з ЧПК](../2_3_CNC_milling/CNC-Fraesen.md).
 
-Mit FDM-3D-Druckern können z.B. dekorative Objekte wie Figuren oder Vasen, kleine Spielzeuge, personalisierte Namensschilder und Schlüsselanhänger, Modelle für Demonstrationszwecke (z.B. von Maschinen oder Gebäuden), Ersatzteile für bestehende Produkte (z.B. Schubladengriffe oder drehbare Knöpfe für Musikanlagen), Alltagshelfer wie Handtuchhaken oder Funktionsteile wie Gehäuse für Elektronikgeräte, Flaschenöffner oder sogar Bauteile für 3D-Drucker gedruckt werden.
+За допомогою 3D-принтерів FDM можна надрукувати декоративні предмети, такі як статуетки або вази, невеликі іграшки, персоналізовані ярлики з іменами та брелки, різні моделі для демонстраційних цілей (наприклад, машин або будівель), запасні частини для існуючих предметів (наприклад, ручки ящиків або поворотні ручки для музичних систем), різні речі для побуту, такі як гачки для рушників, або ж функціональні деталі як, наприклад, корпус для електронних пристроїв, відкривачки для пляшок або навіть компоненти для 3D-принтерів.
 
 <p align="center">
 <img height="300" src="images/7_3D_printed_speaker_casing.png">
@@ -94,8 +93,8 @@ Mit FDM-3D-Druckern können z.B. dekorative Objekte wie Figuren oder Vasen, klei
 </p>
 
 <p align="center">
-<a href="#s7">[7]</a> <i> 3D-gedrucktes Lautsprechergehäuse - </i>
-<a href="#s8">[8]</a> <i> 3D-gedrucktes Modell einer Turbine</i>
+<a href="#s7">[7]</a> <i> Корпус гучномовця, надрукований у 3D – </i>
+<a href="#s8">[8]</a> <i> Модель турбіни, надрукована у 3D</i>
 </p>
 
 <p align="center">
@@ -104,8 +103,8 @@ Mit FDM-3D-Druckern können z.B. dekorative Objekte wie Figuren oder Vasen, klei
 </p>
 
 <p align="center">
-<a href="#s9">[9]</a> <i> 3D-gedruckte Schale - </i>
-<a href="#s10">[10]</a> <i> Verschiedene 3D-gedruckte Objekte</i>
+<a href="#s9">[9]</a> <i> Ваза, надрукована у 3D – </i>
+<a href="#s10">[10]</a> <i> Різні предмети, надруковані у 3D</i>
 </p>
 
 <p align="center">
@@ -117,16 +116,16 @@ Mit FDM-3D-Druckern können z.B. dekorative Objekte wie Figuren oder Vasen, klei
 <p align="center">
 <a href="#s11">[11]</a> <i>  - </i>
 <a href="#s12">[12]</a> <i>  - </i>
-<a href="#s13">[13]</a> <i> Verschiedene 3D-gedruckte Objekte</i>
+<a href="#s13">[13]</a> <i> Різні предмети, надруковані у 3D</i>
 </p>
 
 
 
 
-## Grundlagen
-### Filament
+## Базові поняття
+### Філамент
 
-Das Grundmaterial, das man für einen FDM-3D-Drucker benötigt, nennt sich Filament. Ein Filament ist ein dünner Kunststoffdraht, der auf eine Rolle gewickelt ist.
+Основний матеріал, що необхідний для друку на 3D-принтері FDM – це філамент. Це тонка пластикова нитка, яка намотана на котушку.
 
 <p align="center">
 <img height="300" src="images/14_Filament_for_3D_printing.png">
@@ -134,52 +133,51 @@ Das Grundmaterial, das man für einen FDM-3D-Drucker benötigt, nennt sich Filam
 </p>
 
 <p align="center">
-<a href="#s14">[14]</a> <i> Verschiedene Filamentrollen - </i>
-<a href="#s15">[15]</a> <i> Filamentrolle</i>
+<a href="#s14">[14]</a> <i> Різні котушки з філаментом – </i>
+<a href="#s15">[15]</a> <i> Котушка з філаментом</i>
 </p>
 
-Filamente gibt es in verschiedensten Farben und Materialien.
-Das gängigste 3D-Druck-Material ist PLA. Es ist günstig, einfach zu drucken, ist für die allermeisten Anwendungen und damit auch für Einsteiger:innen gut geeignet.
+Філаменти бувають різних кольорів та з різних матеріалів. Найпоширенішим матеріалом для 3D-друку є пластик PLA. 
 
-PLA ist eine Kunststoff- bzw. Plastiksorte und steht für "polylactic acid" (englisch für "Polylactide").
+Він дешевий, ним легко друкувати, він підходить для більшості виробів, і тому пасує для початківців. PLA є різновидом пластику і розшифровується як «полімолочна кислота».
 
-Hier eine Kurzübersicht der gängigsten Materialien für FDM-3D-Drucker und die wichtigsten Vor- und Nachteile:
+Нижче короткий огляд найпоширеніших матеріалів для 3D-принтерів FDM, а також їхні основні переваги та недоліки:
 
-- **PLA:** Günstig, einfach zu drucken, gut für Einsteiger:innen, ideal für dekorative Objekte oder Bauteile mit niedrigen Belastungen; gut recyclebar
-- **PETG / PET-G:** Robuster als PLA, gut für Funktionsbauteile, die hohe Kräfte/Belastungen aushalten sollen; leichter zu drucken als ABS; etwas fester als ABS
-- **PET:** Eher selten als 3D-Druck-Filament zu finden, weniger geeignet als PET-G; sehr gut recyclebar; lässt sich z.B. aus PET-Flaschen herstellen
-- **ABS:** Ähnlich gut belastbar wie PETG, höhere Hitzebeständigkeit als PETG; dünstet beim Drucken ungesunde Dämpfe aus, gut belüfteter Raum notwendig; schwierig zu drucken, Gehäuse und hohe Heizbetttemperatur empfehlenswert
-- **ASA:** Gilt als „Nachfolger“ von ABS; verzieht weniger und dünstet weniger aus als ABS
-- **Nylon:** Besonders hohe mechanische und thermische Beständigkeit; schwierig zu drucken, eher für Fortgeschrittene; teurer als andere Filamentsorten; anfällig für Feuchte
-- **TPU:** Flexibles, „gummiartiges“ Material; lässt sich nach dem Druck leicht verformen; ideal für kleine Reifen, Stempel u.ä.; relativ schwierig zu drucken; teurer als andere Filamentsorten
+- **PLA:** недорогий матеріал, можна легко друкувати, підходить для початківців, ідеально підходить для друку декоративних об'єктів або деталей з низьким навантаженням; легко переробляється
+- **PETG / PET-G:** міцніший, ніж PLA, підходить для функціональних деталей, які мають витримувати високі навантаження; легше друкувати ніж ABS та трохи міцніше, ніж ABS
+- **PET:** рідко зустрічається як філамент для 3D-друку, менш підходить, ніж PET-G; дуже легко переробляти; можна виробити нитку PET, наприклад, з ПЕТ-пляшок
+- **ABS:** такий же пружний, як PETG, aле має більш високу термостійкість, ніж PETG; під час друку виділяє шкідливі для здоров’я пари, тому необхідно гарно провітрювати приміщення; важко друкувати, рекомендовано мати закритий корпус та дотримуватись високої температури нагрівальної поверхні
+- **ASA:** вважається «наступником» ABS; менше деформується та випускає менше шкідливих парів ніж ABS
+- **Нейлон:** має надзвичайно високу механічну та термічну стійкість; важко друкувати, більше підходить для досвідчених користувачів; дорожче інших видів нитки; чутливий до вологи
+- **ТПУ:** гнучкий подібний до ґуми матеріал; може легко деформуватися після друку; ідеально підходить для невеликих шин, штампів тощо; відносно важко друкувати; дорожче, ніж інші типи ниток
 
-Da jedes Material eine andere Schmelztemperatur hat, ist es wichtig, diese im Druckprozess korrekt einzustellen. Der 3D-Drucker erhitzt im sogenannten Extruder das Filament auf eine Temperatur, mit der es sich gut verflüssigen und drucken lässt, während das Heizbett auf eine Temperatur eingestellt wird, die sicherstellt, dass das Filament gut darauf haftet. So verwendet man z.B. für PLA üblicherweise eine Extrudertemperatur von 200-230 °C und eine Heizbetttemperatur von 60 °C. Diese Temperaturempfehlungen können aber je nach Hersteller auch abweichen. Am besten prüft man die Angaben auf der Filamentrolle bzw. in beigelegten Datenblättern und gleicht sie mit den Einstellungen in der Slicer-Software ab (mehr [zum Thema Slicing später](#slicer-software)).
+Оскільки кожен матеріал має різну температуру плавлення, важливо правильно встановити її в процесі друку. 3D-принтер нагріває в екструдері нитку до температури, за якої її можна легко розрідити та використовувати для друку, тоді як для нагрівальної поверхні встановлюється така температуру, щоб філамент добре до неї прилягав. Наприклад, для PLA зазвичай використовується температура екструдера 200-230 °C, а температура нагрівальної поверхні становить 60 °C. Однак ці рекомендації щодо температури можуть відрізнятися залежно від виробника матеріалу. Слід перевірити інформацію на рулоні філамента або в доданих таблицях даних і порівняти їх із налаштуваннями програмного забезпечення для слайсингу [докладніше про слайсинг див. нижче](#slicer-software)).
 
-Filamente werden meistens in den Durchmesser-Varianten 1,75 mm und 2,85 mm verkauft, wobei 1,75 mm die deutlich verbreitete Variante ist. Für größere 3D-Drucker bzw. für solche, bei denen die Düse entsprechend getauscht wurde, wird das dickere 2,85-mm-Filament verwendet.
+Філамент в основному продається у діаметрі 1,75 мм та 2,85 мм, причому 1,75 мм є найбільш поширеним. Товстіший філамент діаметром 2,85 мм використовується на більших 3D-принтерах або на тих, у яких сопло було відповідним чином замінено.
 
-Gewöhnliche 3D-Drucker können nur mit einem Filament zurzeit drucken, d.h. wenn man in einer anderen Farbe oder mit einem anderen Material drucken möchte, muss man die Filamentrolle wechseln. Es gibt aber auch 3D-Drucker, die mit zwei oder mehr Filamenten auf einmal drucken können. So können mehrfarbige Objekte oder auch Objekte aus verschiedenen Materialien gedruckt werden, z.B. indem das Stützmaterial (mehr dazu siehe unten, Abschnitt [Stützmaterial](#stützmaterial-und-brücken)) aus einem leicht entfernbaren Material und das eigentliche Objekt aus einem stabilen Material gedruckt wird.
+Звичайні 3D-принтери можуть друкувати лише з одним філаментом за раз, тобто якщо ви хочете друкувати іншим кольором або використовуючи інший матеріал, вам доведеться щоразу змінювати котушку. Але є також 3D-принтери, які можуть друкувати за допомогою двох або більше ниток одночасно. Таким чином, різнокольорові об’єкти або об’єкти з різних матеріалів можна друкувати наступним чином: підтримуючий матеріал (докладніше про це нижче, див. розділ [Підтримуючий матеріал](#stützmaterial-und-brücken), друкується з матеріалу, який легко знімається, а фактичний об’єкт – з більш стійкого матеріалу. 
 
 <p align="center">
 <img height="400" src="images/16_3D_printing_color_mixing.png">
 </p>
 
 <p align="center">
-<a href="#s16">[16]</a> <i> Mehrfarbiger 3D-Druck</i>
+<a href="#s16">[16]</a> <i> Багатокольоровий 3D-друк</i>
 </p>
 
-### Komponenten eines 3D-Druckers
+### Складові 3D-принтера
 
-Zunächst sollte man sich mit dem grundlegenden Aufbau eines FDM-3D-Druckers vertraut machen. Hier wird beispielhaft ein typischer FDM-3D-Drucker beschrieben. Die meisten FDM-Drucker sind auf diese oder ähnliche Weise aufgebaut. Je nach Hersteller und Modell kann dieser Aufbau auch abweichen, aber die Grundprinzipien bleiben die gleichen.
+Спочатку вам слід ознайомитися з базовою структурою 3D-принтера FDM. Тут як приклад описано типовий 3D-принтер FDM. Більшість принтерів FDM побудовані таким або схожим чином. Залежно від виробника та моделі ця структура може відрізнятися, але основні принципи залишаються незмінними.
 
 <p align="center">
        <img height="500" src="images/17_Die_wichtigsten_Komponenten_eines_3D-Druckers.png">
 </p>
 
 <p align="center">
-       <a href="#s17">[17]</a> <i> Die wichtigsten Komponenten eines 3D-Druckers </i>
+       <a href="#s17">[17]</a> <i> Найвіажливіші складові 3D-принтера </i>
 </p>
 
-Die wichtigste Komponente ist der Extruder, den man sich ähnlich wie einen "Druckkopf" bei Tintenstrahldruckern vorstellen kann.
+Найважливішим компонентом є екструдер, його можна уявити собі як друкуючу головку у струменевому принтері.
 
 <p align="center">
 <img height="300" src="images/18_Extruder.png">
@@ -187,23 +185,20 @@ Die wichtigste Komponente ist der Extruder, den man sich ähnlich wie einen "Dru
 </p>
 
 <p align="center">
-<a href="#s18">[18]</a> <i> Vereinfachte Schnittdarstellung eines Extruders mit: (1) Filament - (2) Extruder mit Zahnrädern für den Filamentvorschub - (3) Beheizte Düse (Nozzle) - </i>
-<a href="#s19">[19]</a> <i> Foto eines Extruders </i>
+<a href="#s18">[18]</a> <i> Спрощений розріз екструдера: (1) філамент, (2) екструдер із шестернями для подачі філамента, (3) насадка з підігрівом – </i>
+<a href="#s19">[19]</a> <i> фото екструдера </i>
 </p>
 
+У верхній частині екструдера є отвір, у який вставляється філамент. Всередині екструдера є дві шестерні, які "проштовхують" філамент вниз та контролюють його подачу.
+Після цього філамент проходить через секцію охолодження. За допомогою вентилятора філамент охолоджується. Це убезпечує від проведення тепла вверх, що могло б призвести до плавлення філамента ще в області шестерень. Якби він почав полавитися вище, шестерні не могли б проштовхувати рідкий філамент. У процесі 3D-друку вентилятор може самостійно вмикатися та вимикатися.
 
+Після охолоджувальної частини екструдера філамент просувається далі вниз через так званий «гарячий кінець» ("Hotend"). Там філамент нагрівається до температури плавлення. Врешті-решт в’язкий філамент продавлюється через сопло. Наприклад, філамент товщиною 1,75 мм продавлюється через сопло значно меншого діаметру, зазвичай приблизно 0,4 мм. Оцей тонкий філамент тепер можна використовувати для пошарового нанесення, тобто для 3D-друку.
 
-Oben am Extruder befindet sich eine Öffnung, in die der Filamentdraht eingeführt wird. Im Inneren des Extuders wird das Filament von zwei Zahnrädern, die den "Vorschub" des Filaments steuern, eingezogen bzw. nach unten weitergeschoben.
+Щоб екструдер міг створювати об’єкти в тривимірному просторі, він повинен рухатися в усіх напрямках. Для цього 3D-принтери мають три керовані двигуном осі: X, Y і Z.
 
-Danach geht das Filament durch einen Kühlteil. Ein Ventilator bläst Luft gegen die Kühlrippen, um das Filament in diesem Bereich zu kühlen. Auf diese Weise verhindert man, dass das Filament Wärme nach oben leitet und bereits im Bereich der Zahnräder schmilzt. Flüssiges Filament ließe sich dann nicht mehr von den Zahnrädern vorschieben. Im Laufe eines 3D-Druck-Vorgangs kann es sein, dass der Ventilator mal anspringt und mal wieder ausgeht.
-
-Nach dem Kühlteil des Extruders bewegt sich das Filament weiter nach unten durch das sogenannte "Hotend" (von engl. „hot end“ = „heißes Ende“). Dort wird das Filament erhitzt, geschmolzen und ein Stück weit verflüssigt. Abschließend wird das zähflüssige Filament durch eine Düse (sogenannte "Nozzle") gedrückt. Das z.B. 1,75 mm dicke Filament wird durch die Düse/Nozzle auf einen deutlich kleineren Durchmesser gepresst (meistens ca. 0,4 mm). Das austretende Filament kann nun zum schichtweisen Auftragen, also 3D-Drucken, verwendet werden.
-
-Damit der Extruder Objekte im dreidimensionalen Raum erschaffen kann, muss er sich in alle Richtungen bewegen können. Dafür gibt es bei 3D-Druckern die drei motorgesteuerten Achsen: X-, Y- und Z-Achse.
-
-Die X- und Y-Achse beziehen sich in der Regel auf Bewegungen in der horizontalen bzw. waagerechten Grundfläche:
-- X-Achse: "links und rechts"
-- Y-Achse: "vorne und hinten"
+Осі X і Y зазвичай відповідають за рухи у горизонтальній поверхні:
+- Вісь X: «ліворуч і праворуч»
+- Вісь Y: «спереду і ззаду»
 
 <p align="center">
        <img height="400" src="images/20_X-_Y-_and_Z-axis_3D_printer.png">
@@ -211,14 +206,14 @@ Die X- und Y-Achse beziehen sich in der Regel auf Bewegungen in der horizontalen
 </p>
 
 <p align="center">
-       <a href="#s20">[20]</a> <i> X-, Y- und Z-Achse eines 3D-Druckers - </i>
-       <a href="#s21">[21]</a> <i> Draufsicht eines 3D-Druckers mit X- und Y-Achse </i>
+       <a href="#s20">[20]</a> <i> Осі X, Y і Z 3D-принтера - </i>
+       <a href="#s21">[21]</a> <i> Вид згори на 3D-принтер з осями X і Y </i>
 </p>
 
 <br>
 
-Die Z-Achse hingegen bezieht sich auf die vertikale (senkrechte) Bewegung:
-- Z-Achse: "oben und unten"
+Натомість вісь Z відноситься до вертикального (перпендикулярного) руху:
+- Вісь Z: «вгору і вниз»
 
 <br>
 
@@ -227,77 +222,76 @@ Die Z-Achse hingegen bezieht sich auf die vertikale (senkrechte) Bewegung:
 </p>
 
 <p align="center">
-       <a href="#s22">[22]</a> <i> Frontansicht eines 3D-Druckers mit X- und Z-Achse </i>
+       <a href="#s22">[22]</a> <i> Фронтальний вид на 3D-принтер з осями X та Z </i>
 </p>
 
-Der Extruder sitzt oft auf einer Stange, auf der er sich nach links und rechts (also in X-Richtung) bewegen kann. Angesteuert wird dies über einen Motor und einen Riemen.
+Екструдер часто фіксується на стрижні, на якому він може рухатися вліво і вправо (тобто в напрямку X). Рух відбувається за допомогою двигуна та ремінної передачі. Для руху по осі Y найчастіше переміщується не сам екструдер, а горизонтальна нагрівальна плита, також за домогою двигуна та ременя.
 
-Für Bewegungen in der Y-Achse wird oft gar nicht der Extruder bewegt, sondern das Heizbett – auch hier durch einen Motor und ein Riemen.
+Для осі Z як правило використовуються шпинделі з моторним керуванням, які переміщують увесь стрижень осі X вгору та вниз. У деяких 3D-принтерах переміщується вгору або вниз не екструдер (тобто вісь Х), а нагрівальна поверхня.
 
-Für die Z-Achse wiederum gibt es meist motorgesteuerte Spindeln, die die gesamte X-Achsen-Stange nach oben und unten verschiebt. Bei manchen 3D-Druckern wird nicht der Extruder (bzw. die x-Achse), sondern das Heizbett nach oben bzw. unten bewegt.
-
-Den Druckablauf kann man sich nun so vorstellen, dass ein 3D-Drucker zunächst wie ein „2D-Drucker“ funktioniert. Geschmolzenes Filament wird durch die Düse/Nozzle des Extruders gedrückt, während sich gleichzeitig die X- und Y-Achsen bewegen. Somit „zeichnet“ der Drucker die erste, unterste Schicht auf das Heizbett, sozusagen „in 2D“. Sobald die erste Schicht fertig ist, fährt der Extruder ein kleines Stück weit (oft nur einen Bruchteil eines Millimeters) in z-Richtung hoch und „zeichnet“ darauf dann die zweite Schicht. So wird fortgefahren, bis die oberste Schicht und damit das ganze dreidimensionale Objekt fertig ist.
-
-### Kalibrierung
-
-Ein neu gekaufter oder neu zusammengebauter 3D-Drucker muss zunächst kalibriert werden. Die meisten 3D-Drucker haben dafür ein Programm, das man über die Einstellungen starten kann. Beim Kalibrieren fährt der Extruder verschiedene Punkte an, fährt die x-, y- und z-Achse jeweils einmal in gesamter Länge ab und „tastet“ das Heizbett ab. Die Messwerte und Koordinaten werden gespeichert und es wird sichergestellt, dass der 3D-Drucker korrekt ausgerichtet ist.
-
-Manchmal kann es notwendig sein, einen 3D-Drucker erneut zu kalibrieren, z.B. nachdem man ihn transportiert hat oder wenn Fehler in den Druckergebnissen auffallen.
+Процес друку можна уявити таким чином: 3D-принтер спочатку працює як 2D-принтер. Розплавлений філамент проштовхується через сопло екструдера, а осі X і Y рухаються одночасно. Таким чином, принтер «малює» перший, найнижчий шар на нагрівальній поверхні, тобто, як під час 2D друку. Як тільки перший шар закінчено, екструдер переміщується на невелику відстань (йдеться про частки міліметра) у напрямку осі Z, а потім «малює» другий шар поверх першого. Це продовжується допоки не буде створено найвищий шар запланованого виробу, тобто поки не буде створено весь тривимірний об'єкт.
 
 
-## Vorbereitung eines 3D-Drucks
-### Digitales 3D-Modell
+### Калібрування
 
-Zunächst braucht man ein digitales 3D-Modell des Objekts, das man drucken möchte. Solche 3D-Modelle kann man entweder selbst modellieren/designen (z.B. mit einer CAD-Software) oder man lädt sich ein fertiges Modell aus dem Internet. Die meisten Modelldateien sind auch klein genug, um z.B. per E-Mail verschickt zu werden. Eine weitere Möglichkeit, ein 3D-Modell zu erstellen, besteht im 3D-Scannen eines realen Objekts oder einer Person.
+Щойно придбаний або щойно зібраний 3D-принтер спочатку потрібно відкалібрувати. Більшість 3D-принтерів мають для цього програму, яку можна запустити через налаштування. При калібруванні екструдер рухається в різні точки, в т.ч. рухається по осях X, Y і Z один раз по всій їхній довжині і «сканує» нагрівальну плиту поля задруку. 3D-принтер запам'ятовує всі виміри та координати, тож, таким чином, гарантується правильне калібрування. 
+
+Щоправда, іноді може знадобитися повторно відкалібрувати 3D-принтер, наприклад, після транспортування або якщо в результаті друку помічено помилки.
+
+
+
+## Підготовка до 3D друку
+### Цифрова 3D модель
+
+Для 3D друку спочатку необхідна цифрова 3D модель об’єкта. Можна змоделювати або спроектувати такі 3D-моделі самостійно (наприклад, за допомогою програмного забезпечення CAD) або завантажити готову модель з Інтернету. Більшість файлів моделей мають доволі малий об'єм, тож їх можна надсилати в т.ч. електронною поштою. Ще один спосіб створення 3D-моделі — це 3D-сканування реального об’єкта або людини.
 
 <p align="center">
 <img height="400" src="images/23_3D_CAD_model_part_FreeCAD.png">
 </p>
 
 <p align="center">
-<a href="#s23">[23]</a> <i> 3D-Modell eines Bauteils, erstellt in FreeCAD </i>
+<a href="#s23">[23]</a> <i> 3D модель деталі, створена у FreeCAD </i>
 </p>
 
+Інші базові навчальні модулі стосуються [3D-моделювання CAD](../1_1_3D_design/3D-Design.md), [3D-сканування]((../1_2_3D_scanning/3D-Scanning.md)) та [завантаження моделей з веб-сайтів](../1_3_Using_3D_models_from_the_internet/Verwendung_von_3D_Modellen_aus_dem_Internet.md).
+
+Для більшості 3D-принтерів потрібні файли у форматі STL (або іноді у форматі OBJ), тобто файл повинен мати розширення .stl або .obj. STL є більш поширеним форматом. Майже кожна програма САD може експортувати 3D-моделі у формат STL. Завантажуючи файли з Інтернету, спочатку слід перевірити, чи вони мають формат STL.
+
+Перш ніж друкувати файл STL, його слід відредагувати у так званому програмному забезпеченні для слайсингу, яке на основі 3D-моделі створює багато маленьких шарів або зрізів, що накладаються одне на одного, та обчислює команди керування для 3D-принтера, який потім друкуватиме модель шар за шаром [докладний опис процесу слайсингу наведено нижче](#Слайсинг,-тестування-та-експорт). 
 
 
-Mit den Themen [3D-CAD-Modellierung](../1_1_3D_design/3D-Design.md) (CAD = Computer Aided Design), [3D-Scanning](../1_2_3D_scanning/3D-Scanning.md) und [Modell-Download von Webseiten](../1_3_Using_3D_models_from_the_internet/Verwendung_von_3D_Modellen_aus_dem_Internet.md) befassen sich andere Basislernmodule.
+### Програмне забезпечення для слайсингу
 
-Für die meisten 3D-Drucker benötigt man Dateien im STL-Format (oder manchmal auch OBJ-Format) - also mit der Dateiendung „.stl“ oder „.obj“. STL ist aber das üblichere Dateiformat. Fast jede CAD-Software ist in der Lage, 3D-Modelle im STL-Format zu exportieren. Bei heruntergeladenen Dateien aus dem Internet sollte man zunächst prüfen, ob es im STL-Format vorliegt.
-
-Bevor man die STL-Datei drucken kann, muss man sie noch in einer sogenannten Slicer-Software bearbeiten. Kurz gesagt, erzeugt die Slicer-Software auf Basis des 3D-Modells viele kleine, übereinanderliegende Schichten oder Scheiben und berechnet die Steuerbefehle für den 3D-Drucker, der das Modell dann Schicht für Schicht aufeinander druckt (eine genauere [Beschreibung des Slicings weiter unten](#slicing-prüfung-und-export)).
-
-### Slicer-Software
-
-Es gibt viele verschiedene Slicer-Programme. Viele große und bekannte Hersteller von 3D-Druckern haben ihre eigene Slicer-Software und bieten diese über ihre Website in der Regel kostenlos zum Download an. Zwei Beispiele (mit Download-Links):
+Існує багато різних програм для слайсингу. Багато відомих виробників 3D-принтерів мають власне програмне забезпечення для слайсерів і зазвичай пропонують його для безкоштовного завантаження на своєму веб-сайті. Ось два приклади, з посиланнями для завантаження:
 
 - PrusaSlicer		https://www.prusa3d.com/de/page/prusaslicer_424/ 
 - UltiMaker Cura 	https://ultimaker.com/de/software/ultimaker-cura 
 
-Viele Slicer-Programme basieren auf Open-Source-Software, z.B. wurde der PrusaSlicer auf Basis der Open-Source-Software „Slic3r“ entwickelt und der PrusaSlicer selbst ist damit auch Open Source.
+Багато програм для слайсерів базуються на програмному забезпеченні з відкритим вихідним кодом, наприклад, PrusaSlicer було розроблено на основі програмного забезпечення з відкритим кодом "Slic3r", тому сам PrusaSlicer також є відкритим кодом.
 
-Manche kleinere Hersteller von 3D-Druckern nutzen auch Slicer-Programme der größeren Hersteller und liefern dazu nur eine Konfigurationsdatei, die die Slicer-Software auf den 3D-Drucker anpasst.
+Деякі менші виробники 3D-принтерів також використовують програми для слайсингу від великих виробників і надають лише файл конфігурації, який адаптує програмне забезпечення для слайсингу до конкретного 3D-принтера.
 
-In der Slicer-Software sieht man eine Vorschau des Heizbetts sowie der importierten 3D-Objekte. Mit der Software lassen sich die zu druckenden 3D-Objekte vervielfältigen (um ein Objekt gleich mehrmals zu drucken), virtuell im Raum bewegen, drehen, skalieren (vergrößern/verkleinern), und in gewünschte Positionen auf dem Heizbett platzieren.
+Програмне забезпечення слайсера надає можливість попереднього перегляду поля задруку та імпортованих 3D об’єктів. За допомогою програмного забезпечення 3D об’єкти, які потрібно надрукувати, можна розмножувати (у разі якщо треба кілька разів надрукувати однаковий об’єкт), переміщувати віртуально в просторі, обертати, масштабувати (збільшувати/зменшувати) та розміщувати в бажаних положеннях на полі для друку.
+
 
 <p align="center">
 <img height="400" src="images/24_Slicing_in_PrusaSlicer.png">
 </p>
 
 <p align="center">
-<a href="#s24">[24]</a> <i> Vorbereitung mehrerer Objekte für den 3D-Druck in einer Slicer-Software (PrusaSlicer) </i>
+<a href="#s24">[24]</a> <i> Підготовка кількох об’єктів до 3D-друку в програмному забезпеченні для слайсингу (PrusaSlicer) </i>
 </p>
 
 
 
-### Slicing, Prüfung und Export
+### Слайсинг, тестування та експорт
 
-Es gibt zahlreiche Einstellungen im Slicer, wobei in diesem Basislernmodul nicht auf alle Einstellungen im Detail eingegangen wird. Für einen ersten, einfachen 3D-Druck reichen meistens die Standard-Einstellungen aus.
+Слайсер має багато параметрів, хоча не всі параметри будуть детально розглянуті в цьому базовому навчальному модулі. Для перших кроків у 3D-друці зазвичай достатньо стандартних налаштувань.
 
-Die wichtigste Einstellung ist das Material. Möchte man z.B. mit PLA drucken, wählt man in der Materialeinstellung „PLA“ aus oder gibt die empfohlenen Temperaturen des Filamentherstellers an.
+Найважливішим параметром є матеріал. Наприклад, якщо ви хочете друкувати за допомогою PLA, виберіть «PLA» у налаштуваннях матеріалу або введіть температуру згідно рекомендацій виробника філаменту.
 
-Nachdem man die STL-Datei(en) im Slicer importiert, korrekt gedreht, ausgerichtet und die [Stützmaterialien](#stützmaterial-und-brücken) eingestellt hat, muss man das Slicing starten.
-
-Slicing (von englisch „slice“ = Scheibe) ist ein Ablauf in der Software, der das 3D-Objekt in viele dünne Scheiben (slices) unterteilt, die übereinander geschichtet sind. Die Scheiben haben dabei genau die Höhe bzw. Dicke, die man eingestellt hat, z.B. 0,15 mm (dieser Parameter wird meistens als „Schichthöhe“ oder englisch „layer height“ bezeichnet). Eine Schicht ist also quasi nur „2D“, während die aufeinandergestapelten Schichten zusammen ein 3D-Objekt ergeben.
+Для початку процесу слайсингу необхідно імпортувати файл (або файли) STL у програмне забезпечення, правильно повернути та вирівняти деталь, а також встановити [параметри матеріалу](#Матеріал-підтримки-та-мости) підтримки.
+Слайсинг — це програмний процес, який ділить 3D-об’єкт на багато тонких шарів, що накладаються одне на одного. Ці шари мають однакову встановлену вами висоту або товщину, наприклад 0,15 мм; цей параметр зазвичай називають «висотою шару». Загалом кожен шар – це лише 2D, тоді як накладені одне на одного шари створюють тривимірний об’єкт.
   
 <p align="center">
 <img height="340" src="images/25_Slicing_in_PrusaSlicer.png">
@@ -305,15 +299,15 @@ Slicing (von englisch „slice“ = Scheibe) ist ein Ablauf in der Software, der
 </p>
 
 <p align="center">
-<a href="#s25">[25]</a> <i> Slicing eines 3D-Objekts für den 3D-Druck (Software: PrusaSlicer) - </i>
-<a href="#s26">[26]</a> <i> Schichten (slices) in Seitenansicht </i>
-   <br> <i> (Bilder anklicken zum Vergrößern) </i>
+<a href="#s25">[25]</a> <i> Слайсинг 3D-об’єкта для 3D-друку (програмне забезпечення: PrusaSlicer) - </i>
+<a href="#s26">[26]</a> <i> Зрізи (шари), вигляд збоку </i>
+   <br> <i> (натисніть на зображення для збільшення) </i>
 </p>
 
-Die Slicer-Software macht an der Stelle aber noch viel mehr als nur das eigentliche Slicing. Sie generiert auch den genauen Verlaufsweg des Extruders, also auch den Weg, den der Extruder in jeder Schicht in x- und y-Richtung und anschließend auch in Höhenrichtung (z) nimmt.
-Außerdem werden beim Slicing auch Stützmaterialien generiert, sofern man welche eingestellt hat (mehr dazu siehe unten, Abschnitt „Stützmaterial“).
+Але програмне забезпечення для слайсингу має набагато більше можливостей. Воно розраховує точний хід екструдера, тобто шлях, який екструдер проходить у кожному шарі в осях X та Y, а потім також у осі Z. Крім того, під час слайсингу створюється матеріал підтримки, якщо були відповідні попередні налаштування (докладніше про це див. розділ "Матеріали підтримки".)
 
-Nach ausgeführtem Slicing empfiehlt es sich, den Druckablauf zu prüfen. Die meisten Slicer bieten eine Vorschau- bzw. Simulationsfunktion an. Damit kann man sich die verschiedenen Schichten (von der ersten, untersten Schicht bis zur letzten ganz oben) einzeln ansehen und auch den Verlaufsweg des Extruders innerhalb einer jeden Schicht anzeigen lassen.
+Після виконання слайсингу бажано перевірити перебіг друку. Більшість слайсерів мають функцію моделювання або симуляції. Це дозволяє переглядати різні шари (від першого нижнього до останньої верхнього) окремо, а також відображати шлях екструдера у кожному шарі.
+
 
 <p align="center">
 <img height="350" src="images/27_Slicing_simulation_infill_in_PrusaSlicer.png">
@@ -322,27 +316,27 @@ Nach ausgeführtem Slicing empfiehlt es sich, den Druckablauf zu prüfen. Die me
 
 <p align="center">
 <a href="#s27">[27]</a> <i>  - </i>
-<a href="#s28">[28]</a> <i> Simulation des 3D-Druckablaufs mit sichtbarer Infill-Struktur (Software: PrusaSlicer) </i>
+<a href="#s28">[28]</a> <i> Моделювання процесу 3D-друку з видимою структурою заповнення (програмне забезпечення: PrusaSlicer) </i>
 </p>
 
 
-Hat man das Slicing überprüft, kann man die Datei als sogenannte „G-Code“-Datei exportieren.
+Після перевірки слайсингу можна експортувати файл як так званий файл „G-code".
 
 ### G-Code
 
-G-Code ist ein standardisiertes Dateiformat, das nicht nur im 3D-Druck, sondern auch in anderen Fertigungsverfahren (z.B. [CNC-Fräsen](../2_3_CNC_milling/CNC-Fraesen.md) oder [Lasercutting](../2_2_Laser_cutting/Lasercutting.md)) verwendet wird. Grundsätzlich ist der G-Code dafür da, der Maschine „mitzuteilen“, was sie machen soll, und zwar ganz genau in vielen kleinen Einzelschritten und Werten. Beispielsweise steht im G-Code, dass das Hotend sowie das Heizbett auf eine bestimmte Temperatur aufheizen sollen, dass der Extruder des 3D-Druckers an eine bestimmte Position fahren soll (angegeben in X-, Y-, und Z-Koordinaten) und wann das Filament, angetrieben durch die Zahnräder, vorgeschoben und aus der Nozzle gedrückt werden soll.
+G-код — це стандартизований формат файлу, який використовується не лише у 3D-друці, але й в інших виробничих процесах (наприклад, фрезерування з ЧПК або лазерне різання)(z.B. [CNC-Fräsen](../2_3_CNC_milling/CNC-Fraesen.md) oder [Lasercutting](../2_2_Laser_cutting/Lasercutting.md)). По суті, G-код використовується для того, щоб маючи численні окремі кроки та багато значень, точно «вказувати» машині, що робити. Наприклад, у G-коді зазначено: температуру, до якої повинні нагріватися сопло та нагрівальна поверхня; положення, у яке має рухатися екструдер 3D-принтера (що зазначено у координатах X, Y і Z); момент, коли саме шестерні повинні просувати філамент та виштовхувати його із сопла.
 
-Der von der Slicer-Software generierte G-Code muss an den 3D-Drucker übertragen werden, wobei es je nach 3D-Drucker-Modell verschiedene Möglichkeiten gibt. Viele 3D-Drucker verfügen über einen SD-Karten-Slot oder USB-Eingang. Der G-Code muss dann auf eine SD-Karte oder einen USB-Stick kopiert werden, anschließend wird das Speichermedium in den 3D-Drucker gesteckt. Es gibt aber auch 3D-Drucker, die per Kabel direkt mit dem PC verbunden werden können. Der Druckvorgang wird dann direkt vom PC aus gestartet.
+G-код, згенерований програмним забезпеченням слайсингу, має бути передано на 3D-принтер. В залежності від моделі 3D-принтера існують різні можливості його передачі. Багато 3D-принтерів мають слот для SD-карти або USB-вхід. Тож G-код потрібно скопіювати на SD-карту або USB-накопичувач, після чого носій даних вставляється в 3D-принтер. Але є також 3D-принтери, які можна підключити безпосередньо до ПК за допомогою кабелю. У такому разі процес друку запускається безпосередньо з ПК.
 
-### Stützmaterial und Brücken
-Da beim 3D-Druck stets Material aufeinandergeschichtet werden muss, kann es Probleme geben, wenn ein Objekt sogenannte Überhänge hat. Ein 3D-Drucker kann nicht „in der Luft“ drucken. Eine zu druckende Wand muss daher idealerweise im 90°-Winkel nach oben ragen, wobei je nach Material auch Schrägen möglich sind (meistens in Winkeln von mindestens 45°). Die Ränder der Schichten überlappen sich dann ein wenig.
+### Матеріал підтримки та мости
+Оскільки під час 3D-друку матеріал завжди потрібно накладати одне на одного, то можуть виникнути проблеми, якщо об’єкт матиме так звані від’ємні ухили. 3D-принтер не може друкувати «в повітрі». Тому, наприклад, стінка, яку слід надрукувати, в ідеалі повинна йти вверх під кутом 90°, хоча в залежності від матеріалу можна робити стіну нахиленою, зазвичай під кутом до 45°. У такому разі край різних шарів трохи перекриватиметься. 
 
 <p align="center">
 <img height="400" src="images/29_Layer_angle_minimum_45_degrees_3D_printing.png">
 </p>
 
 <p align="center">
-<a href="#s29">[29]</a> <i> Der Schichtwinkel sollte mindestens 45° betragen </i>
+<a href="#s29">[29]</a> <i> Кут нахилу повинен бути не менше 45° </i>
 </p>
 
 <p align="center">
@@ -352,49 +346,52 @@ Da beim 3D-Druck stets Material aufeinandergeschichtet werden muss, kann es Prob
 
 <p align="center">
 <a href="#s30">[30]</a> <i>  - </i>
-<a href="#s31">[31]</a> <i> Objekt mit 45°-Schräge im PrusaSlicer </i>
+<a href="#s31">[31]</a> <i> Об’єкт із нахилом 45° у PrusaSlicer </i>
 </p>
 
 
 
-Größere Überhänge sind jedoch nicht möglich. Oft lässt sich dieses Problem lösen, indem man das Objekt in der Slicer-Software in eine günstigere Position dreht. Viele Slicer verfügen über eine Funktion, bei der man nur eine Oberfläche des Objekts anklicken muss, auf die es „gelegt“ werden soll.
+Більш гострі звисання неможливі. Ця проблема часто вирішується повертанням об’єкта у програмному забезпеченні слайсингу в більш вигідне положення. Багато слайсерів мають функцію, коли вам потрібно клацнути лише на тій поверхні об’єкта, на яку його потрібно, так би мовити, «покласти».
 
 <p align="center">
 <img height="400" src="images/32_Flipping_object_in_PrusaSlicer_for_better_3D_printing.png">
 </p>
 
 <p align="center">
-<a href="#s32">[32]</a> <i> Oben: Nur die Beine des Tisches lassen sich drucken, die Tischplatte hingegen müsste "in der Luft gedruckt" werden (funktioniert nicht). <br> Unten: Einfache Lösung: Den Tisch so umdrehen, dass er frei von Überhängen ist und sich gut drucken lässt. </i>
+<a href="#s32">[32]</a> <i> Верхня картинка: можна надрукувати лише ніжки столу, але стільницю потрібно було б «надрукувати в повітрі» (так не вийде). Нижня картинка: просте рішення: переверніть стіл, щоб на ньому не було звисань, і щоб можна було здійснити 3D-друк </i>
 </p>
 
 
-Bei komplexer geformten Objekten kann es sein, dass es keine überhangfreie Drehposition gibt. In dem Fall kann man in der Slicer-Software automatisch sogenanntes Stützmaterial generieren lassen. Dieses Stützmaterial ist größtenteils hohl und lässt sich nach dem 3D-Druck meistens relativ leicht entfernen, z.B. mit den Fingern oder mit einer Zange.
+Для об’єктів складнішої форми може не бути положення обертання без звисань; у такому випадку у програмному забезпеченні слайсера можна створити опорний матеріал підтримки. Він здебільшого порожнистий, і зазвичай його можна відносно легко видалити після 3D-друку.
 
 <p align="center">
 <img height="400" src="images/33_Support_material_3D_printing.png">
 </p>
 
 <p align="center">
-<a href="#s33">[33]</a> <i> 3D-gedrucktes Objekt mit (entfernbarem) Stützmaterial: <br> Diese Dino-Figur ist ein gutes Beispiel für ein Modell, das sich nicht überhangfrei drucken lässt, egal wie man es dreht - daher ist Stützmaterial notwendig. </i>
+<a href="#s33">[33]</a> <i> Предмет, надрукований у 3D, зі знімним опорним матеріалом: Ця статуетка динозавра є гарним прикладом моделі, яку, незалежно від того, як ви її обертаєте, не можна надрукувати без звисань, тому потрібен додатковий опорний матеріал. </i>
 </p>
 
 
-Zudem können manche 3D-Drucker und Slicer auch sogenannte Brücken drucken, wenn die Voraussetzungen stimmen. Bei einer Brücke spannt der Extruder Fäden von einer Seite eines Sockels zur anderen. Eine nur einseitig befestigte und am anderen Ende frei in der Luft hängende "Brücke" ist nicht möglich. Zudem darf eine Brücke nicht zu lang bzw. der Abstand zwischen den Sockeln nicht zu groß sein, da der Faden beim Drucken sonst zu wenig Spannung hat und herunterhängt. Für kurze Distanzen sind Brücken aber eine sehr gute Möglichkeit, um ohne Stützmaterial „in der Luft“ zu drucken.
+Крім того, деякі 3D-принтери та слайсери також можуть друкувати так звані мости, якщо є відповідні для цього умови. Для створення моста экструдер протягує філамент з однієї основи до іншої. Неможливо створити міст, якщо його закріплено лише з одного боку, а з іншого боку він звисатиме у повітрі. 
+Міст не повинен бути задовгим або відстань між основами не повинна бути надто великою, інакше філамент під час друку не матиме натяжіння та звисатиме. Однак для короткої відстані мости є підходящою можливістю, щоб друкувати «в повітрі» без опорного матеріалу.
+
 
 <p align="center">
 <img height="400" src="images/34_Bridging_3D_printing_PrusaSlicer.png">
 </p>
 
 <p align="center">
-<a href="#s34">[34]</a> <i> Brücke in einer Slicer-Software (PrusaSlicer) </i>
+<a href="#s34">[34]</a> <i> Міст у програмному забезпеченні для слайсингу (ПЗ: PrusaSlicer) </i>
 </p>
 
 
 
-### Infill
-Meistens ist es gar nicht notwendig, ein komplett massives Kunststoffteil zu drucken. Nur die äußere Hülle des 3D-gedruckten Objekts ist massiv, innen ist das Objekt jedoch zum Teil hohl und zum Teil mit einer Art Gitterstruktur gefüllt. Wie viel Prozent des Inneren eines Objekts mit Material gefüllt ist, lässt sich in Slicern über den Parameter „Infill“ einstellen.
+### Заповнення
 
-Ein Infill von z.B. 15 % (üblicher Standardwert) bedeutet, dass das Objekt zu 15% mit Material gefüllt ist, während die restlichen 85 % hohl bzw. mit Luft gefüllt sind. Für die meisten 3D-Druck-Vorhaben reicht das vollkommen aus. Somit wiegt das Objekt weniger, es wird in kürzerer Zeit gedruckt und es wird weniger Material verbraucht als bei einem massiven Objekt (Infill 100%). Je nach Bedarf kann ein niedriger oder auch ein höherer Infill-Wert eingestellt werden, z.B. wenn das Objekt starke Belastungen aushalten soll.
+У більшості випадків не потрібно друкувати повністю тверду пластикову деталь. Лише зовнішня оболонка тривимірного надрукованого об’єкта має бути твердим, а всередині об’єкт частково порожнистий, а частково заповнений решітчастою структурою. Відсоток внутрішньої частини об'єкта, який заповнюється матеріалом, можна встановити в слайсерах за допомогою параметра «Заповнення» («Infill»).
+
+Наприклад, заповнення 15% (звичайне значення за замовчуванням) означає, що об’єкт на 15% заповнений матеріалом, тоді як решта 85% порожниста, тобто заповнена повітрям. Цього цілком достатньо для більшості предметів, що надруковані у 3D. Тобто, предмет важить менше, він друкується за менший час і витрачається менше матеріалу, ніж коли він на 100% заповнений. За потреби можна встановити нижчі або вищі значення заповнення, наприклад, у разі, якщо об’єкт має витримувати великі навантаження.
 
 <p align="center">
 <img height="350" src="images/35_Infill_3D_printing_UltiMaker_Cura_slicer.png">
@@ -402,51 +399,52 @@ Ein Infill von z.B. 15 % (üblicher Standardwert) bedeutet, dass das Objekt zu 1
 </p>
 
 <p align="center">
-<a href="#s35">[35]</a> <i> Sichtbares Infill (gelb) in unterschiedlich eingestellten Füllraten (Slicer-Software: UltiMaker Cura) - </i> <br>
-<a href="#s36">[36]</a> <i> Halbfertig ausgedruckte Figur mit sichtbarer Infill-Struktur </i>
+<a href="#s35">[35]</a> <i> Видиме заповнення (жовте) при різних рівнях заповнення (програмне забезпечення для слайсингу: UltiMaker Cura) – </i> <br>
+<a href="#s36">[36]</a> <i> Напівготова друкована фігура з видимою структурою заповнення </i>
 </p>
 
 
-## Ablauf eines 3D-Drucks
-### Vor dem Drucken
+## Перебіг 3D-друку
+### Перед друком
 
-Vor Beginn eines 3D-Drucks sollte man überprüfen, ob das richtige Filament eingesetzt und ob genügend Filament auf der Rolle vorhanden ist. Zudem empfiehlt es sich, das Heizbett zu reinigen, z.B. mit Isopropanol oder Glasreiniger. Damit werden unsichtbare Fettreste entfernt, die z.B. durch Berühren des Druckbetts mit den Fingern entstehen können. Fettreste können dazu führen, dass das Filament nicht richtig auf dem Druckbett haftet.
+Перед початком 3D-друку треба перевірити, чи обрано правильний філамент та чи достатньо нитки на котушці. До того ж рекомендується очистити нагрівальну поверхню, напр. ізопропіловим спиртом або засобом для очищення скла. Це усуває невидимі залишки жиру, які можуть з’явитися, наприклад, через торкання поверхні для друку пальцями. Через рештки жиру філамент може некоректно лягати на поверхню. 
 
-Hat man den fertigen G-Code an den 3D-Drucker übertragen und den 3D-Druck gestartet, sollte man den Beginn des Drucks eine Weile beobachten und bei Problemen den 3D-Druck pausieren oder abbrechen. 
+Після перенесення готового G-коду на 3D-принтер і запуску принтера варто поспостерігати певний час за процесом друку і в разі виникнення проблем призупинити або відмінити його.
 
 
-### Leveling, Schürze und Rand
-Beim Start eines 3D-Druck-Auftrags wird der 3D-Drucker üblicherweise zunächst das Heizbett an verschiedenen Stellen abtasten, um nochmals die Z-Positionen zu kalibrieren (sogenanntes „Leveling“).
+### Левелінг, рамка та край 
+На початку 3D-друку зазвичай 3D-принтер спочатку сканує нагрівальну поверхню в різних місцях, щоб ще раз відкалібрувати Z-позиції (т. зв. «левелінг»).
 
-Danach wird eine wenige Zentimeter lange Linie am Rand des Heizbetts gedruckt, die sogenannte „intro line“ oder „purge line“ (engl. purge = reinigen). Dieser Vorgang dient der „Spülung“ der Düse und stellt sicher, dass die Düse voll mit zähflüssigem Filament gefüllt, gut durchflutet und bereit zum Drucken ist. Würde der 3D-Drucker die purge line weglassen und direkt mit dem Druck des Objekts beginnen, könnte es sein, dass zu Beginn noch kein Filament herauskommt oder dass es nur sehr ungleichmäßig heraustritt.
+Після цього на краю нагрівальної поверхні друкується смужка довжиною в кілька сантиметрів, т. зв. «пробна лінія» або «очисна лінія». Це необхідно для «очищення» сопла та щоб переконатися, що сопло повністю заповнене в’язким філаментом, добре пропускає матеріал і готове до друку. Якщо 3D-принтер пропускає очисну лінію та відразу починає друкувати об’єкт, може бути, що на початку нитка не виходить або виходить нерівномірно.
+
 
 <p align="center">
 <img height="400" src="images/37_Purge_line_3D_printing.png">
 </p>
 
 <p align="center">
-<a href="#s37">[37]</a> <i> Purge line am Rand des Heizbetts: Diese Linie wird vor Beginn des eigentlichen 3D-Drucks gezogen, um die Düse zu spülen und für einen gleichmäßigen Filamentfluss zu sorgen. </i>
+<a href="#s37">[37]</a> <i> Очисна лінія на краю нагрівальної поверхні: ця лінія наноситься перед початком 3D-друку, щоб прочистити сопло та забезпечити рівномірний витік філаменту. </i>
 </p>
 
 
 
-Anschließend wird meist, falls so eingestellt, eine Außenlinie um die Fläche herum gedruckt, wo die Objekte entstehen sollen. Diese sogenannte „Schürze“ (engl. „skirt“) vermittelt gleich zu Beginn des Drucks einen Eindruck von der Größe der zu druckenden Objekte. Zudem kann man an der Schürze bereits früh erkennen, ob das Material gut haftet und ob keine Probleme in der Qualität erkennbar sind, um den Druck an der Stelle im Zweifel noch abbrechen zu können.
+Потім зазвичай друкується зовнішня лінія навколо площини, на якій мають з’явитися об’єкти. Ця так звана «рамка» , яка вже на початку друку дає уявлення про розмір об’єкта. До того ж по рамці можна відразу зрозуміти, чи добре лягає матеріал і чи не має проблем з його якістю — у разі сумнівів ще можна відмінити процес друку. 
 
 <p align="center">
 <img height="400" src="images/38_Skirt_3D_printing.png">
 </p>
 
 <p align="center">
-<a href="#s38">[38]</a> <i> Schürze (skirt) am Rand eines 3D-gedruckten Objekts: Die Schürze dient dazu, vor Beginn des eigentlichen Drucks den Umriss zu erkennen, zudem wird der Durchfluss in der Düse stabilisiert. </i>
+<a href="#s38">[38]</a> <i> Рамка об’єкта, роздрукованого в 3D об’єкта: це допомагає упізнати обриси об’єкта ще до початку самого друку, до того ж стабілізує подачу матеріалу в форсунці. </i>
 </p>
 
 
 
-Bei manchen Materialien kann es hilfreich sein, zusätzlich einen Rand (engl. „brim“) zu drucken, um das Objekt während des Drucks zu stabilisieren. Die Rand-Funktion kann bei Bedarf in den Einstellungen des Slicers aktiviert und eingestellt werden.
+При роботі з деякими матеріалами може бути корисним додатково ще роздрукувати т. зв. "край" (Brim), щоб стабілізувати об’єкт під час друку. За потреби функцію друку краю можна активувати та встановити в налаштуваннях слайсера.
 
-### Die erste Schicht
+### Перший шар
 
-Nach dem Drucken von Schürze und Rand wird die erste Schicht des Objekts gedruckt. Diese sollte man genau beobachten. Stellt man fest, dass die erste Schicht unsauber ausgeführt ist, z.B. wenn das Filament an einigen Stellen nicht richtig haftet (zu erkennen an kleinen Erhebungen in der Schicht), sollte man den Druck an dieser Stelle abbrechen, das bereits gedruckte Material entfernen, das Heizbett reinigen bzw. die Z-Achse neu kalibrieren und den Druck neu starten.
+Після друку рамки та краю друкується перший шар об’єкта. За цим треба пильно спостерігати. Якщо виявиться, що перший шар виходить нечистим, напр. якщо нитка некоректно лягає в певних місцях (це можна визначити за невеличкими виступами на шарі), слід відмінити на цьому етапі друк, видалити вже роздрукований матеріал, очистити нагрівальну поверхню, заново відкалібрувати Z-вісь і перезапустити друк.
 
 <p align="center">
 <img height="300" src="images/39_First_layer_3D_printing.png">
@@ -455,22 +453,24 @@ Nach dem Drucken von Schürze und Rand wird die erste Schicht des Objekts gedruc
 
 <p align="center">
 <a href="#s39">[39]</a> <i>  - </i>
-<a href="#s40">[40]</a> <i> Gelungene erste Schicht eines 3D-Drucks: Der Druck der ersten Schicht sollte stets genau beobachtet und bei Qualitätsmängeln ggf. neu gestartet werden. </i>
+<a href="#s40">[40]</a> <i> Вдалий перший шар 3D-друку: треба пильно спостерігати за друкуванням першого шару та в разі незадовільної якості перезапустити процес. </i>
 </p>
 
-Eine misslungene erste Schicht kann sonst dazu führen, dass das gesamte Objekt im späteren Verlauf unsauber wird oder gänzlich misslingt. Da ein 3D-Druck mehrere Minuten oder oft sogar Stunden dauern kann, lohnt es sich, eine gute erste Schicht sicherzustellen, bevor man viel Zeit und Material verschwendet.
+Якщо перший шар роздрукується погано, весь об’єкт у подальшому може вийти неточним або взагалі бракованим. Оскільки 3D-друк триває багато хвилин або часто навіть годин, є сенс переконатися в гарній якості першого шару, перш ніж марно витрачати час і матеріал.
 
-### Weitere Schichten
+### Наступні шари
 
-Im Laufe des 3D-Drucks kann man beobachten, wie die weiteren Schichten aufgetragen werden. Dabei wird man auch das Innere des Objekts mit der Infill-Gitterstruktur erkennen.
+У процесі 3D-друку можна спостерігати, як накладаються подальші шари. При цьому можна також побачити середину об’єкта з його сітчастою структурою. 
 
-Wenn die erste Schicht gut gelungen ist, kann man den 3D-Drucker problemlos unbeobachtet lassen. Ob man auch den Raum verlassen oder gar über Nacht drucken darf, muss man im Zweifel mit dem/der Besitzer:in des Druckers bzw. mit dem Fab Lab absprechen.
+Якщо перший шар добре вдався, можна лишити 3D-принтер без нагляду. У разі сумнівів щодо того, чи можна вийти з приміщення або залишити процес друку на ніч, необхідно це обговорити з власником принтера або представником фаблаба. 
 
-### Nach dem Druck
 
-Sobald der 3D-Druck fertig ist, fährt der Extruder in eine Position, wo er nicht stört, sodass man das Objekt entnehmen kann. Viele 3D-Drucker haben eine entnehmbare Platte (z.B. aus Federstahlblech) auf dem Druckbett. Dies erleichtert die Entnahme der Objekte, da man erst die Platte als Ganzes entnehmen, danach leicht biegen und die Objekte einfach von der Platte lösen kann.
+### Після друку
 
-Abschließend muss man ggf. vorhandenes Stützmaterial entfernen. Zudem kann man das Objekt auf verschiedene Arten nachbearbeiten, z.B. schleifen oder mit Epoxidharz behandeln, um die Oberflächenoptik zu verschönern.
+Після завершення процесу 3D-друку екструдер переходить у положення, що дозволяє безпроблемно вийняти об’єкт. Багато 3D-принтерів мають знімну панель (напр., з ресорно-пружинної сталі) на поверхні для друку. Це полегшує діставання об’єкта, бо спочатку можна вийняти всю панель, потім злегка її зігнути та зняти об’єкти з панелі.
+
+Насамкінець слід за потреби видалити наявний допоміжний матеріал підтримки. Крім того, об’єкт можна по-різному доопрацьовувати, наприклад, зашліфувати або обробити епоксидною смолою щоб покращити зовнішній вигляд поверхні.  
+
 
 # Інформація про ліцензію
 
