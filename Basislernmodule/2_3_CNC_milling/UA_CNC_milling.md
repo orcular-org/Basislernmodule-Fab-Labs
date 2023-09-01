@@ -392,17 +392,18 @@ Ist der Nullpunkt gesetzt, muss zu Beginn eines CNC-Auftrags die G-Code-Datei ü
 
 Nach abgeschlossener Fertigung kann das Werkstück bzw. das gefertigte Teil entnommen werden. Vor allem bei Metallteilen sollte man vorsichtig sein, da wegen der scharfen Kanten Verletzungsgefahr besteht. Die Kanten sollten entgratet und gefeilt werden, zudem können Oberflächen geschliffen werden.
 
-# Lizenzinformationen
+# Інформація про ліцензію
 
-**Author:** Oskar Lidtke, https://github.com/orcular-org/
+**Автор:** Оскар Лідтке (Oskar Lidtke), https://github.com/orcular-org/
 
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />Except where otherwise noted, this work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0)</a>.
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />Якщо не зазначено інакше, цей твір ліцензовано в рамках міжнародної <a rel="ліцензії" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0)</a>.
 
-See best practices for [attribution](https://wiki.creativecommons.org/wiki/Best_practices_for_attribution) and [marking your own work](https://wiki.creativecommons.org/wiki/Marking_your_work_with_a_CC_license) with a CC license.
+Див. кращі приклади [зазначення Авторства](https://wiki.creativecommons.org/wiki/Best_practices_for_attribution) та [створення власного твору](https://wiki.creativecommons.org/wiki/Marking_your_work_with_a_CC_license) з ліцензією Creative Commons.
 
-For attribution and licenses of the images used, see the section below.
+Щодо зазначення Авторства та ліцензії використаних зображень, див. розділ нижче.
 
-# Bildnachweise
+
+# Джерела ілюстрацій
 
 <a name="s1"></a>
 **[1]** fräser-schaftfräser-fräsen-3203969 (cropped) - **Image license:** [Pixabay Inhaltslizenz](https://pixabay.com/de/service/terms/) - **Source:** https://pixabay.com/de/photos/fr%C3%A4ser-schaftfr%C3%A4ser-fr%C3%A4sen-3203969/
