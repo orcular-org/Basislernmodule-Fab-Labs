@@ -10,32 +10,33 @@ To do:
 
 > Zurück zur [Übersicht Basislernmodule](../../README.md)
 
-# 3D-Scanning
+# 3D-сканування
 
 ## Inhalt
 
-1. [Einführung](#einführung)
-2. [Verfahren und Technologien](#verfahren-und-technologien)
-   - [Laserscanning](#laserscanning)
-   - [Photogrammetrie](#photogrammetrie)
-   - [Gerätetypen](#gerätetypen)
-3. [Verarbeitung eines gescannten 3D-Modells](#verarbeitung-eines-gescannten-3d-modells)
-   - [Nachbearbeitung](#nachbearbeitung)
-   - [Software](#software)
-   - [Hardware](#hardware)
-   - [3D-Druck von 3D-gescannten Modellen](#3d-druck-von-3d-gescannten-modellen)
+1. [Вступ](#Вступ)
+2. [Методи і технології](#Методи-і-технології)
+   - [Лазерне сканування](#Лазерне-сканування)
+   - [Фотограмметрія](#Фотограмметрія)
+   - [Типи приладів](#Типи-приладів)
+3. [Обробка відсканованої 3D-моделі](#Обробка-відсканованої-3D-моделі)
+   - [Постобробка](#nachbearbeitung)
+   - [Програмне забезпечення](#Програмне-забезпечення)
+   - [Апаратне забезпечення](#Апаратне-забезпечення)
+   - [3D-друк моделей, відсканованих у 3D](#3D-друк-моделей,-відсканованих-у-3D)
 
-[Lizenzinformationen](#lizenzinformationen)
+[Інформація про ліцензію](#Інформація-про-ліцензію)
 
-[Bildnachweise](#bildnachweise)
+[Джерела ілюстрацій](#Джерела-ілюстрацій)
 
-## Einführung
+## Вступ
 
-3D-Scanning bezeichnet verschiedene Verfahren, bei denen die Oberflächen von real vorhandenen Objekten, Personen oder Umgebungen mit speziellen Geräten derart erfasst werden, dass ein digitales 3D-Modell davon entsteht. 3D-Scanning wird in vielen Bereichen eingesetzt, z.B. in der Filmindustrie, in der Gelände- und Gebäudevermessung oder in Form von Reverse Engineering, d.h. Reproduktion von vorhandenen technischen Bauteilen.
+Під 3D-скануванням розуміють такий процес отримання інформації про поверхні реальних об’єктів, осіб або середовищ за допомогою спеціальних приладів, при якому створюється їх 3D-модель. 3D-сканування використовується в багатьох сферах, напр. у кіноіндустрії, при вимірюванні ділянок і будівель або у зворотній інженерії, тобто відтворенні наявних технічних деталей.
 
-Im Kontext von Fab Labs und Maker-Communities werden 3D-Scanning-Methoden vor allem zum Erstellen von dreidimensionalen Personenmodellen (sogenannte "3D-Selfies"), zum Nachbilden von Figuren, Spielzeugen u.ä. sowie zur Reproduktion von Ersatzteilen eingesetzt. Aus den 3D-gescannten Modellen lassen sich in Fab Labs wieder reale Objekte fertigen, beispielsweise mit 3D-Druckern.
+У контексті майстерень фаблаб і мейкерських спільнот методи 3D-сканування застосовуються насамперед для виготовлення тривимірних моделей осіб (т. зв. «3D-селфі»), для відтворення фігур, іграшок тощо, а також для репродукції запчастин. З відсканованих тривимірних моделей у фаблабах виготовляють нові реальні об’єкти, наприклад за допомогою 3D-друку.
 
-Je nach eingesetztem 3D-Scanning-Verfahren entstehen entweder farblose bzw. einfarbige 3D-Modelle - d.h. es wird nur die Oberfläche des Objekts erfasst - oder farbige Modelle, die die Farben und Struktur des Objekts bzw. der Person miterfassen und als Textur über das 3D-Modell legen, womit ein relativ realistisches Abbild des realen Objekts entsteht.
+Залежно від налаштувань процесу 3D-сканування створюються або безколірні, точніше одноколірні 3D-моделі — це означає, що охоплюється лише поверхня об’єкта, — або кольорові моделі, які охоплюють також кольори та структуру об’єкта чи особи та передають через 3D-модель текстуру, завдяки чому ми отримуємо досить реалістичне відображення реального об’єкта.
+
 
 <p align="center">
 <img height="300" src="images/1_3D_selfie.png">
@@ -43,8 +44,8 @@ Je nach eingesetztem 3D-Scanning-Verfahren entstehen entweder farblose bzw. einf
 </p>
 
 <p align="center">
-<a href="#s1">[1]</a> <i> 3D-Selfie: Personenmodell, erstellt über 3D-Scanning und 3D-Druck - </i>
-<a href="#s2">[2]</a> <i> 3D-gescanntes Modell einer Statue, dargestellt in der Software MeshLab </i>
+<a href="#s1">[1]</a> <i> 3D-селфі: модель особи, створена за допомогою 3D-сканування та 3D-друку - </i>
+<a href="#s2">[2]</a> <i> Відсканована у 3D модель статуї, представлена у програмі MeshLab </i>
 </p>
 
 <p align="center">
@@ -52,33 +53,33 @@ Je nach eingesetztem 3D-Scanning-Verfahren entstehen entweder farblose bzw. einf
 </p>
 
 <p align="center">
-<a href="#s3">[3]</a> <i> Photogrammetrie: Eine 3D-Scanning-Methode unter Verwendung einer Fotokamera </i>
+<a href="#s3">[3]</a> <i> Фотограмметрія: Метод 3D-сканування з використанням фотокамери </i>
 </p>
 
 
 
 
-## Verfahren und Technologien
+## Методи і технології
 
-Es gibt unterschiedliche 3D-Scanning-Verfahren, wovon im Hobby-Bereich und in Fab Labs vor allem zwei hervorzuheben sind:
-- Laserscanning
-- Photogrammetrie
+Існують різні методи 3D-сканування, серед яких для хобі та фаблабів відзначають насамперед такі дві:
+- лазерне сканування
+- фотограмметрія
 
-Zudem gibt es auch Geräte, die eine Kombination aus Laserscanning und Photogrammetrie oder noch weiteren Methoden einsetzen.
+До того ж існують прилади, які поєднують лазерне сканування та фотограмметрію або ще й інші методи.
 
-### Laserscanning
+### Лазерне сканування
 
-Beim Laserscanning werden die zu erfassenden Oberflächen zeilen- oder rasterartig mit einem Laserstrahl abgefahren. Die von der Oberfläche reflektierte Laserstrahlung trifft auf Sensoren, woraufhin aus den so gewonnenen Messdaten die jeweilige Entfernung und Position der gescannten Punkte berechnet wird. Aus diesen Daten erzeugt eine Software ein dreidimensionales Modell der Oberfläche.
+При лазерному скануванні поверхні зчитуються лазерним променем у вигляді ліній або сітки. Лазерне випромінювання, що відбивається від поверхні, потрапляє на сенсори, після чого з отриманих даних обраховується відстань і позиція відсканованих точок. На основі цих даних програмне забезпечення створює тривимірну модель поверхні.
 
-### Photogrammetrie
+### Фотограмметрія
 
-Bei der Photogrammetrie wird das zu erfassende Objekt zunächst aus vielen verschiedenen Winkeln fotografiert, entweder mit einer einzelnen Kamera oder mit vielen Kameras gleichzeitig.
+Під час фотограмметрії об’єкт спочатку фотографується з багатьох різних кутів — або однією камерою, або кількома камерами одночасно.
 
-Wird nur eine einzelne Kamera verwendet, muss man sie um das Objekt herumführen - von Hand oder maschinell mit einem Roboterarm - und möglichst viele Fotos aus vielen verschiedenen Perspektiven aufnehmen. Dabei sollte sich das Objekt bzw. die Person möglichst nicht bewegen. Möglich ist auch die Verwendung eines Drehtellers, auf dem das Objekt platziert und gedreht wird, sodass die Kamera nur noch in vertikaler Position verschoben werden muss.
+Якщо використовується одна камера, її треба обертати навколо об’єкта — вручну або механічно за допомогою роботизованої руки — та робити якомога більше світлин з багатьох різних перспектив. При цьому бажано, щоб об’єкт або особа не рухались. Можливо також використовувати основу, яка обертається, на якій розміщується та повертається об’єкт, а камеру при цьому переміщують лише по вертикалі. 
 
-Beim Einsatz mehrerer Kameras können diese in verschiedenen Winkeln um das Objekt bzw. die Person herum platziert werden. Die Kameras werden dann alle gleichzeitig ausgelöst.
+При використанні кількох камер їх можна розмістити під різними кутами навколо об’єкта або особи. Камери працюють тоді одночасно.
 
-Eine Software erkennt Unterschiede und Gemeinsamkeiten in den Bildern, findet die gleichen Punkte auf verschiedenen Bildern wieder und berechnet die jeweilige Position eines jeden Punktes im dreidimensionalen Raum. Aus diesen Positionsdaten wird ein 3D-Modell der Oberfläche generiert, zudem können die Farbpunkte (Pixel) der einzelnen Fotografien als Textur über das 3D-Modell gelegt werden.
+Програмне забезпечення розпізнає спільні та відмінні риси на зображеннях, знаходить однакові точки на різних зображеннях та обраховує відповідне положення кожної точки у тривимірному просторі. На основі цих положень генерується 3D-модель поверхні, до того ж можна накласти кольорові елементи (пікселі) окремих фотографій як текстуру на 3D-модель.
 
 <p align="center">
 <img height="300" src="images/4_Photogrammetry_Meshroom.png">
@@ -86,16 +87,16 @@ Eine Software erkennt Unterschiede und Gemeinsamkeiten in den Bildern, findet di
 </p>
 
 <p align="center">
-<a href="#s4">[4]</a> <i> Photogrammetrie mit der Software Meshroom - </i>
-<a href="#s5">[5]</a> <i> Meshroom2Blender - eine Erweiterung für die 3D-Grafiksoftware Blender </i>
+<a href="#s4">[4]</a> <i> Фотограмметрія у програмі Meshroom - </i>
+<a href="#s5">[5]</a> <i> Meshroom2Blender – розширення для тривимірного графічного редактора Blender </i>
 </p>
 
 
-### Gerätetypen
+### Типи приладів
 
-Geräte für 3D-Scanning gibt es in unterschiedlichen Ausführungen, z.B. als handgeführte Geräte, die man um das Objekt herumträgt, um es aus verschiedenen Winkeln zu erfassen. Es gibt auch Smartphone-Apps, mit denen man die Handykamera für Photogrammetrie-3D-Scanning nutzen kann. Die meisten guten Apps sind in der Regel kostenpflichtig oder nur in eingeschränktem Umfang kostenlos nutzbar.
+Прилади для 3D-сканування бувають різних видів, напр. прилади з ручним управлінням, які обертають навколо об’єкта, щоб охопити його з різних боків. Існують також застосунки для смартфонів, з допомогою яких можна використовувати камеру телефона для 3D-сканування-фотограмметрії. Більшість хороших застосунків є платними, а безкоштовні версії мають обмежені можливості.
 
-Vor allem für 3D-Selfies von Personen oder Menschengruppen gibt es Kabinen, die mit einer großen Anzahl an Kameras ausgestattet sind, die die Personen aus allen Richtungen erfassen. Da alle Kameras gleichzeitig ausgelöst werden, geht diese Methode sehr schnell und die abgelichteten Personen müssen nur sehr kurz still halten. 
+Насамперед для 3D-селфі окремих осіб або груп осіб є кабіни, обладнані численними камерами, що знімають осіб з різних боків. Оскільки всі камери працюють одночасно, цей метод зйомки дуже швидкий, і зображувані особи мають стояти непорушно лише дуже коротко.
 
 <p align="center">
 <img height="400" src="images/6_Handheld_3D_Scanner.png">
@@ -103,20 +104,20 @@ Vor allem für 3D-Selfies von Personen oder Menschengruppen gibt es Kabinen, die
 </p>
 
 <p align="center">
-<a href="#s6">[6]</a> <i> Handgeführter 3D-Scanner mit Laserscanner und integrierter Kamera für Texturierung - </i>
-<a href="#s7">[7]</a> <i> 3D-Selfie-Kabine: In der Wand befinden sich viele Kameras, die alle gleichzeitig ausgelöst werden und damit die Person in der Mitte aus verschiedenen Winkeln fotografieren. 
+<a href="#s6">[6]</a> <i> 3D-сканер з ручним управлінням та інтегрованою камерою для текстурування  - </i>
+<a href="#s7">[7]</a> <i> Кабіна для 3D-селфі: у стіні знаходиться багато камер, які спрацьовують одночасно і з різних кутів фотографують людей, що стоять посередині. 
  </i>
 </p>
 
 
 
-## Verarbeitung eines gescannten 3D-Modells
+## Обробка відсканованої 3D-моделі
 
-### Nachbearbeitung
+### Постобробка
 
-Bei vielen 3D-Scanning-Methoden muss das 3D-Modell noch in einer Software nachbearbeitet werden, bevor es z.B. für 3D-Druck verwendet werden kann.
+При використанні багатьох методів 3D-сканування 3D-модель потребує подальшої обробки в програмному забезпеченні, перед тим як, наприклад, здійснити її 3D-друк.
 
-Je nach Verfahren liegt das Modell zunächst entweder als Polygonnetz oder als Punktwolke vor und muss mit Software zu einem sauberen Modell zusammengefügt, bereinigt und geglättet werden.
+Залежно від методу спочатку модель зображується у вигляді полігональної сітки або хмари точок, і за допомогою ПЗ її збирають, очищають і розгладжують.
 
 <p align="center">
 <img height="250" src="images/8_Polygon_Mesh_Dolphin_example.png">
@@ -124,57 +125,57 @@ Je nach Verfahren liegt das Modell zunächst entweder als Polygonnetz oder als P
 </p>
 
 <p align="center">
-<a href="#s8">[8]</a> <i> Beispiel für ein Polygonnetz - </i>
-<a href="#s9">[9]</a> <i> Beispiel für eine Punktwolke (erstellt per Photogrammetrie) </i>
+<a href="#s8">[8]</a> <i> Приклад полігональної сітки - </i>
+<a href="#s9">[9]</a> <i> Приклад хмари точок (створеної шляхом фотограмметрії) </i>
 </p>
 
 
-### Software
+### Програмне забезпечення
 
-Im Bereich 3D-Scanning gibt es u.a. folgende **Software**:
+У сфері 3D-сканування існує, зокрема, таке **програмне забезпечення**:
 
-- [Meshroom](https://alicevision.org/#meshroom): Kostenlose Open-Source-Software für 3D-Rekonstruktion, basierend auf dem [AliceVision Framework](https://alicevision.org/), einem Software-Paket für Photogrammetrie-Anwendungen.
-- [MeshLab](https://www.meshlab.net/): Kostenlose Open-Source-Software zum Bearbeiten, Bereinigen, Rendering, Texturieren und Konvertieren von 3D-gescannten Polygonnetz-3D-Modellen.
-- [3DF Zephyr](https://www.3dflow.net): Ein Programm mit einer [kostenlosen](https://www.3dflow.net/3df-zephyr-free/) und mehreren kostenpflichtigen Versionen für Photogrammetrie, also für die Generierung von 3D-Modellen aus mehreren 2D-Einzelbildern.
-- [ReconstructMe](https://www.reconstructme.net): Software zum Erstellen von 3D-Selfies mit eigener Kamera - verfügbar sind sowohl eine kostenlose als auch eine kostenpflichtige Version.
+- [Meshroom](https://alicevision.org/#meshroom): Безкоштовне відкрите програмне забезпечення для 3D-реконструкції, на основі  [AliceVision Framework](https://alicevision.org/), програмного пакету для фотограмметрії.
+- [MeshLab](https://www.meshlab.net/): Безкоштовне відкрите програмне забезпечення для обробки, очищення, рендерингу, текстурування та конвертації відсканованих у 3D моделей у вигляді полігональної сітки.
+- [3DF Zephyr](https://www.3dflow.net): Програма з [безкоштовною](https://www.3dflow.net/3df-zephyr-free/) та низкою платних версій для фотограмметрії, тобто генерування 3D-моделей із багатьох окремих 2D-зображень.
+- [ReconstructMe](https://www.reconstructme.net): Програмне забезпечення для створення 3D-селфі за допомогою власної камери — доступні як безкоштовна, так і платні версії.
 
-### Hardware
+### Апаратне забезпечення
 
-Für Fab Labs und Maker gibt es u.a. folgende **Geräte und Hardware-Projekte** (teilweise Open-Source-Hardware):
-- [OpenScan](https://www.openscan.eu/) - ([GitHub-Seite](https://openscan-org.github.io/OpenScan-Doc/))
+Для фаблабів і мейкерів існують, зокрема, такі **прилади й апаратне забезпечення** (частково відкрите апаратне забезпечення):
+- [OpenScan](https://www.openscan.eu/) - ([сторінка](https://openscan-org.github.io/OpenScan-Doc/))
 - [FabScan](https://fabscan.org)
 - [MakerScanner](http://www.makerscanner.com/)
 
-Zudem gibt es auch professionelle Geräte, die jedoch sehr teuer sind und in der Regel nur von Unternehmen genutzt werden, doch auch manche Fab Labs verfügen über solche Geräte.
+До того ж існують і професійні прилади, але вони дуже дорогі та зазвичай використовуються лише підприємствами, проте деякі фаблаби теж мають такі прилади.
 
-### 3D-Druck von 3D-gescannten Modellen
+### 3D-друк моделей, відсканованих у 3D
 
-Hat man ein 3D-gescanntes Modell bereinigt und in ein 3D-druckbares Format überführt, z.B. STL (mehr dazu im [Basislernmodul 3D-Druck](../2_1_3D_printing/3D-Druck.md)), kann man es einfach mit einem FDM-3D-Drucker als einfarbiges Objekt ausdrucken. Bei Verwendung eines Mehrfarben-3D-Druckers kann auch eine mehrfarbige Figur gedruckt werden - mit einigen wenigen Farben und beschränkter Genauigkeit.
+Після очищення відсканованої у 3D моделі та переведення її у формат, придатний для 3D-друку, напр. STL (більше про це у [базовому навчальному модулі про 3D-друк] [Basislernmodul 3D-Druck](../2_1_3D_printing/3D-Druck.md)), цю модель можна легко роздрукувати на FDM 3D-принтері як одноколірний об’єкт. При використанні багатоколірного 3D-принтера можна роздрукувати також багатоколірну фігуру — з невеликою кількістю кольорів і обмеженою точністю.
 
-Möchte man eine sehr detaillierte 3D-Druck-Figur mit vielen Farben und hoher Genauigkeit der Oberflächenoptik erhalten, reicht ein einfacher FDM-3D-Drucker (FDM = Fused Deposition Modeling, mehr dazu [hier](../2_1_3D_printing/3D-Druck.md)) nicht aus. Kommerzielle Anbieter von 3D-Selfies nutzen meist eine andere 3D-Druck-Technologie: Binder Jetting, auch als Freistrahl-Bindemittelauftrag bezeichnet. Bei diesem 3D-Druck-Verfahren wird ein Pulver mit flüssigem Bindemittel aufgetragen und verbunden. Die entstehenden Figuren haben oft eine an Sandstein erinnernde Optik, zudem eine große Farbenvielfalt und Detailtreue.
+Якщо ви бажаєте отримати дуже детальну фігуру для 3D-друку з багатьма кольорами та високою точністю зовнішнього вигляду поверхні, звичайного 3D-принтера (англ. FDM — Fused Deposition Modeling, більше про це [тут](../2_1_3D_printing/3D-Druck.md)) буде недостатньо. Комерційні надавачі послуг 3D-селфі використовують здебільшого іншу технологію 3D-друку — Binder Jetting, або струменевий тривимірний друк. У цій технології 3D-друку використовується порошок, який з’єднується із рідкою сполучною рідиною. Поверхня фігур, які створюються у такий спосіб, часто нагадує піщаник, до того ж може мати велике різноманіття кольорів, і точно передаються деталі.
 
 <p align="center">
 <img height="300" src="images/10_3D_printed_3D_selfie.png">
 </p>
 
 <p align="center">
-<a href="#s10">[10]</a> <i> 3D-gedrucktes Modell eines 3D-Selfies </i>
+<a href="#s10">[10]</a> <i> Модель 3D-селфі, роздрукована на 3D-принтері </i>
 </p>
 
 
-Schließlich gibt es auch die Möglichkeit, eine einfarbig (möglichst weiß) gedruckte Figur aus dem FDM-3D-Drucker nachträglich zu bearbeiten und zu bemalen.
+Зрештою існує також можливість додатково обробити та розмалювати одноколірну (бажано білу) фігуру, роздруковану на FDM 3D-принтері.
 
-# Lizenzinformationen
+# Інформація про ліцензію
 
-**Author:** Oskar Lidtke, https://github.com/orcular-org/
+**Автор:** Оскар Лідтке (Oskar Lidtke), https://github.com/orcular-org/
 
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />Except where otherwise noted, this work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0)</a>.
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />Якщо не зазначено інакше, цей твір ліцензовано в рамках міжнародної <a rel="ліцензії" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0)</a>.
 
-See best practices for [attribution](https://wiki.creativecommons.org/wiki/Best_practices_for_attribution) and [marking your own work](https://wiki.creativecommons.org/wiki/Marking_your_work_with_a_CC_license) with a CC license.
+Див. кращі приклади [зазначення Авторства](https://wiki.creativecommons.org/wiki/Best_practices_for_attribution) та [створення власного твору](https://wiki.creativecommons.org/wiki/Marking_your_work_with_a_CC_license) з ліцензією Creative Commons.
 
-For attribution and licenses of the images used, see the section below.
+Щодо зазначення Авторства та ліцензії використаних зображень, див. розділ нижче.
 
-# Bildnachweise
+# Джерела ілюстрацій
 
 <a name="s1"></a>
 **[1]** 3D selfie in 1-20 scale as received from Shapeways, the printer company for Madurodam's Fantasitron IMG 4557 FRD.jpg - **Image license:** [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/deed.en) - **Source:** https://commons.wikimedia.org/wiki/File:3D_selfie_in_1-20_scale_as_received_from_Shapeways,_the_printer_company_for_Madurodam%27s_Fantasitron_IMG_4557_FRD.jpg
