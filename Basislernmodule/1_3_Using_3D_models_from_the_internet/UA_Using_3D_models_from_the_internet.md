@@ -10,83 +10,86 @@ To do:
 
 > Zurück zur [Übersicht Basislernmodule](../../README.md)
 
-# Verwendung von 3D-Modellen aus dem Internet
+# Використання 3D-моделей з Інтернету
 
-## Inhalt
+## Зміст
 
-1. [Download fertiger 3D-Modelle](#download-fertiger-3d-modelle)
-   - [Vektorgrafiken für Lasercutting und bearbeitbare 3D-/CAD-Modelle](#vektorgrafiken-f%C3%BCr-lasercutting-und-bearbeitbare-3d-cad-modelle)
-2. [Offene Lizenzen und Creative Commons](#offene-lizenzen-und-creative-commons)
-   - [Verschiedene Typen von CC-Lizenzen](#verschiedene-typen-von-cc-lizenzen)
-   - [Warum die Erlaubnis für kommerzielle Nutzung wichtig ist](#warum-die-erlaubnis-f%C3%BCr-kommerzielle-nutzung-wichtig-ist)
+1. [Завантаження готових 3D-моделей](#Завантаження-готових-3D-моделей)
+   - [Векторні зображення для лазерного різання та 3D-/АСП-моделей, які піддаються обробці](#Векторні-зображення-для-лазерного-різання-та-3D-/АСП-моделей,-які-піддаються-обробці)
+2. [Відкриті ліцензії та Creative Commons](#Відкриті-ліцензії-та-Creative-Commons)
+   - [Різні види ліценцій Creative Commons](#Різні-види-ліценцій-Creative-Commons)
+   - [Чому важливий дозвіл на комерційне використання](#Чому-важливий-дозвіл-на-комерційне-використання)
 
-[Lizenzinformationen](#lizenzinformationen)
+[Інформація щодо ліцензій](#Інформація-щодо-ліцензій)
 
-## Download fertiger 3D-Modelle
+## Завантаження готових 3D-моделей
 
-Statt eigene 3D-Modelle zu erstellen, kann man auch fertige Modelle aus dem Internet herunterladen, ggf. nachbearbeiten und anschließend z.B. für 3D-Druck benutzen. Verschiedene Webseiten bieten eine riesige Auswahl von einfachen Objekten bis hin zu komplexen mehrteiligen Produkten.
+Замість того щоб створювати власні 3D-моделі, можна завантажити готові моделі з Інтернету, за потреби обробити їх та зрештою використати для 3D-друку. Різні вебсайти пропонують величезний вибір — від простих об’єктів до складних багатокомпонентних продуктів.
 
-Zwei bekannte und beliebte Webseiten für downloadbare 3D-Druck-Modelle sind:
+Ось два відомі та улюблені багатьма вебсайти з доступними для завантаження та друку 3D-моделями:
 - Thingiverse https://www.thingiverse.com
 - Printables https://www.printables.com
 
-Beim Download von 3D-Modellen von derartigen Plattformen sollte man darauf achten, welche Lizenz verwendet wurde. Für den privaten Gebrauch ist dies nicht so wichtig, aber falls man ein Objekt z.B. kommerziell nutzen oder in abgewandelter Form veröffentlichen möchte, sollte man sich unbedingt mit dem Thema „Creative-Commons-Lizenzen“ vertraut machen und prüfen, unter welcher Lizenz die Datei veröffentlich wurde - oder ob sie vielleicht gar keine Lizenz hat. In der Regel wird die Lizenz direkt auf der jeweiligen Downloadwebseite des Modells angegeben (mehr zum Thema Lizenzen unten).
+При завантаженні 3D-моделей з таких платформ слід звертати увагу, яку застосовано ліцензію. Для приватного використання це не так важливо, але якщо ви хочете використати об’єкт, напр., у комерційних цілях або оприлюднити його у зміненому вигляді, треба обов’язково ознайомитися з темою «Ліцензії Creative-Commons» та перевірити, під якою ліцензією опубліковано файл — або, можливо, він зовсім не має ліцензії. Як правило ліцензія вказується прямо на відповідній сторінці для завантаження об’єкта (більше на тему ліцензій — див. внизу).
 
-### Vektorgrafiken für Lasercutting und bearbeitbare 3D-/CAD-Modelle
+### Векторні зображення для лазерного різання та 3D-/CAD-моделі, які піддаються обробці
 
-Die oben genannten Plattformen sind üblicherweise für das Teilen von 3D-Modellen für den 3D-Druck gedacht, d.h. in der Regel findet man STL-Dateien. Der Nachteil von STL-Dateien ist, dass sie nicht einfach bearbeitbar und veränderbar sind. Manche Designer:innen veröffentlichen auch bearbeitbare Dateien, die sich in der entsprechenden CAD- oder 3D-Modellierungssoftware öffnen und bearbeiten lassen (mehr zum Thema im [Basislernmodul CAD- und 3D-Designsoftware](../1_1_3D_design/3D-Design.md)).
+Згадані вище платформи зазвичай призначені для поширення 3D-моделей для 3D-друку, тобто як правило там можна знайти STL-файли. Недолік STL-файлів полягає у тому, що їх не так просто обробити та змінити. Деякі дизайнери/ки розміщують також файли, які можна обробляти, і які можна відкрити й обробити у відповідному програмному забезпеченні CAD/АСП або ПЗ для 3D-моделювання (більше на цю тему в [базовому навчальному модулі про АСП та програми для 3D-дизайну]()[Basislernmodul CAD- und 3D-Designsoftware](../1_1_3D_design/3D-Design.md).
 
-Sucht man gezielt nach solchen Projekten, empfiehlt es sich, einfach den Namen der Software in die Suchleiste der Plattform einzugeben, z.B. "FreeCAD", "Blender", "Fusion 360" o.ä. - auf diese Weise findet man oft Projekte, die gleich die Ursprungsdatei mitliefern.
+Якщо ви шукаєте саме такі проєкти, рекомендується просто ввести ім’я програми у рядок пошуку платформи, напр. «FreeCAD», «Blender», «Fusion 360» тощо — у такий спосіб можна часто знайти проєкти відразу з оригінальним файлом. 
 
-Auch wenn die Plattformen eigentlich auf 3D-Druck ausgerichtet sind, finden sich dort auch Lasercut-Dateien oder Projekte, die aus Lasercutting und 3D-Druck kombiniert bestehen. Gibt man "lasercut" oder "lasercutting" in die Suchleiste ein, findet man viele solcher Projekte, also auch Vektorgrafik-Dateien (mehr zum Thema im [Basislernmodul Lasercutting](../2_2_Laser_cutting/Lasercutting.md)).
+Навіть якщо платформи насправді розраховані для 3D-друку, там можна знайти також файли для лазерного різання або проєкти, що поєднують лазерне різання та 3D-друк. Якщо ввести у рядок пошуку «lasercut» або «lasercutting» (англ. — лазерне різання), можна знайти багато таких проєктів, зокрема у вигляді файлів векторної графіки (більше на цю тему в [базовому навчальному модулі про лазерне різання]()(mehr zum Thema im [Basislernmodul Lasercutting](../2_2_Laser_cutting/Lasercutting.md).
 
-## Offene Lizenzen und Creative Commons
 
-Creative Commons (CC) ist eine gemeinnützige Organisation mit Sitz in den USA, die verschiedene Standard-Lizenzverträge veröffentlicht, die weltweit Gültigkeit haben. Grundsätzlich lassen sich CC-Lizenzen auf alle Werke, die üblicherweise dem Urheberrecht unterliegen, anwenden – z.B. Texte, Bilder, Musikstücke, Videos oder eben auch 3D-Modelle. Viele 3D-Modelle auf den oben genannten Plattformen verfügen über eine CC-Lizenz.
+## Відкриті ліцензії та Creative Commons
 
-Wer ein Werk erstellt, also Urheber:in ist, kann beim Veröffentlichen (z.B. auf einer Webseite) bestimmen, ob und mit welcher Lizenz das Werk versehen wird. In der Regel findet sich die entsprechende Lizenzinformation auf der gleichen Webseite, auf der sie veröffentlicht ist.
+Creative Commons (CC) — це громадська організація зі штаб-квартирою у США, що публікує різні стандартні договори ліцензій, які дійсні по всьому світу. Загалом CC-ліцензії розповсюджуються на всі твори, що зазвичай підлягають авторському праву — напр. тексти, зображення, музичні твори, відео чи навіть 3D-моделі. Багато 3D-моделей на вищезгаданих платформах мають CC-ліцензію.
 
-Die Lizenz räumt dabei allen Menschen, die das Werk herunterladen, bestimmte Rechte ein. Wird das Werk ohne Lizenz veröffentlicht, bestehen diese Rechte nicht bzw. es gelten die jeweiligen Gesetze nach dem Urheberrecht.
+Якщо ви створюєте творчі доробки, тобто є автором/кою, то при оприлюдненні (напр. на вебсайті) можете визначати, чи присвоювати твору ліцензію і якщо так, то яку. Зазвичай відповідна інформація про ліцензію знаходиться на тому самому вебсайті, на якому оприлюднюється твір.
 
-CC-Lizenzen sind nur eine Möglichkeit – es gibt auch andere Lizenzmodelle, z.B. GNU General Public License (GNU GPL). Aufgrund ihrer Einfachheit, klaren Verständlichkeit und weiten Bekanntheit haben sich CC-Modelle jedoch bewährt.
+При цьому ліцензія обмежує певні права всіх людей, які завантажують твір. Якщо твір публікується без ліцензії, такі права не виникають або ж діють відповідні закони у сфері авторського права.
 
-### Verschiedene Typen von CC-Lizenzen
+Ліцензії CC є лише однією з можливостей — існують також інші моделі ліцензій, напр. GNU General Public License (GNU GPL, Загальна публічна ліцензія GNU — ліцензія на вільне програмне забезпечення). Проте завдяки своїй простоті, зрозумілості та широкій відомості СС-моделі добре себе зарекомендували.
 
-Je nachdem, welche Rechte man einräumen möchte, gibt es verschiedene CC-Rechtemodule, die man wählen und miteinander kombinierten kann:
+### Різні види ліцензій Creative Commons
 
-| Icon | Kürzel | Name des Moduls | Kurzerklärung |
+Залежно від того, які права ви хочете обмежити, існують різні правові модулі CC, які можна обрати та поєднувати між собою.
+
+| Зображення | Скорочення | Ім’я модуля | Пояснення |
 | - | - | - | - | 
-| ![grafik](images/1_BY.png) | BY | Namensnennung (englisch: Attribution) | Der Name des Urhebers muss genannt werden. |
-| ![grafik](images/2_NC.png) | NC | Nicht kommerziell (Non-Commercial) | Das Werk darf nicht für kommerzielle Zwecke verwendet werden. |
-| ![grafik](images/3_ND.png) | ND | Keine Bearbeitung (No Derivatives) | Das Werk darf nicht verändert werden. |
-| ![grafik](images/4_SA.png) | SA | Weitergabe unter gleichen Bedingungen (Share Alike) | Das Werk muss nach Veränderungen unter der gleichen Lizenz weitergegeben werden. |
+| ![grafik](images/1_BY.png) | BY | Із зазначенням авторства (englisch: Attribution) | Треба зазначати ім’я автора. |
+| ![grafik](images/2_NC.png) | NC | Некомерційна (Non-Commercial) | Das Werk darf nicht für kommerzielle Zwecke verwendet werden. |
+| ![grafik](images/3_ND.png) | ND | Без похідних (No Derivatives) | Твір не можна змінювати. |
+| ![grafik](images/4_SA.png) | SA | Розповсюдження на тих самих умовах (Share Alike) | Змінений наступним співавтором твір має поширюватися на умовах цієї ж ліцензії. |
 
-<p align="center"> <i> Rechtemodule bei Creative Commons - Tabelle von: https://de.wikipedia.org/wiki/Creative_Commons#Die_Rechtemodule - <a href="https://creativecommons.org/licenses/by-sa/3.0/">(CC BY-SA 3.0)</a> </i> </p>
+<p align="center"> <i> Правові модулі Creative Commons – Таблиця - Джерело: https://de.wikipedia.org/wiki/Creative_Commons#Die_Rechtemodule - <a href="https://creativecommons.org/licenses/by-sa/3.0/">(CC BY-SA 3.0)</a> </i> </p>
 
 
-Durch die Zusammenstellung mehrerer Module ergeben sich verschiedene Lizenzen, z.B. bedeutet die Lizenz „CC BY-SA 4.0“, dass das Werk geteilt und auch verändert werden darf, solange der/die Urheber:in genannt wird (BY), inklusive einem Link zur Quelle und zur Lizenz, und das erneut veröffentlichte (oder ggf. veränderte) Werk unter der gleichen Lizenz veröffentlicht wird (also in diesem Fall ebenfalls unter CC BY-SA). Da kein "NC"-Modul enthalten ist, ist auch die kommerzielle Verwendung gestattet. Die „4.0“ zeigt dabei die Version der Lizenz an. Eine vollständige Beschreibung dieser Lizenz findet sich unter https://creativecommons.org/licenses/by-sa/4.0/deed.de
+При об’єднанні кількох модулів виникають різні ліцензії, наприклад, ліцензія «CC BY-SA 4.0» означає, що твій можна поширювати та змінювати, якщо згадується автор/ка (BY), включно з посиланням на джерело та ліцензію, і що заново оприлюднений (або змінений) твір має публікуватися на умовах цієї ж ліцензії (тобто в цьому випадку також CC BY-SA). Оскільки відсутній модуль «NC», дозволяється також комерційне використання. Позначка «4.0» вказує при цьому на версію ліцензії. Повний опис цієї ліцензії можна знайти на сторінці https://creativecommons.org/licenses/by-sa/4.0/deed.uk.
 
-Möchte man als Urheber:in eines 3D-Modells oder sonstigen Werks eine CC-Lizenz für die Veröffentlichung nutzen, geht dies relativ einfach über die Webseite https://creativecommons.org/choose.
-Mit diesem Tool kann man die gewünschten Lizenzeigenschaften auswählen und bekommt anschließend das entsprechende CC-Kürzel sowie einen Link zur Lizenz angezeigt. Diese kann man anschließend an der Stelle, an der man das Werk veröffentlicht, platzieren.
+Якщо автор/ка 3D-моделі або іншого твору може використати для публікації CC-ліцензію, це можна зробити відносно легко через сайт https://creativecommons.org/choose. За допомогою цього інструменту можна обрати бажані характеристики ліцензії та отримати відповідне скорочення, а також посилання на ліцензію. Це можна зрештою розмістити на сторінці публікації твору.
 
-### Warum die Erlaubnis für kommerzielle Nutzung wichtig ist
+### Чому важливий дозвіл на комерційне використання
 
-An dieser Stelle soll noch auf ein weit verbreitetes Problem im Zusammenhang mit Creative-Commons-Lizenzen hingewiesen werden. Viele Urheber:innen veröffentlichen ihre Werke mit einer „Non-commercial“-Lizenz (NC), die die kommerzielle Nutzung des Werkes ausschließt.
+Необхідно зауважити про широко поширену проблему в контексті ліцензій Creative Commons. Багато автор/ок публікують свої твори з ліцензією «Non-commercial» (NC), що виключає комерційне використання твору.
 
-In einer [Broschüre](https://upload.wikimedia.org/wikipedia/commons/5/51/Freies_Wissen_dank_Creative-Commons-Lizenzen_Folgen%2C_Risiken_und_Nebenwirkungen_der_Bedingung_nicht-kommerziell_%E2%80%93_NC.pdf) [(CC BY-SA 3.0 DE)](https://creativecommons.org/licenses/by-sa/3.0/de/) von Wikimedia Deutschland, Creative Commons Deutschland und iRights.info heißt es dazu:
+У брошурі [Broschüre](https://upload.wikimedia.org/wikipedia/commons/5/51/Freies_Wissen_dank_Creative-Commons-Lizenzen_Folgen%2C_Risiken_und_Nebenwirkungen_der_Bedingung_nicht-kommerziell_%E2%80%93_NC.pdf) [(CC BY-SA 3.0 DE)](https://creativecommons.org/licenses/by-sa/3.0/de/) von Wikimedia Deutschland, Creative Commons Deutschland und iRights.info про це пишуть так:
 
-> „Die populärsten Lizenzen (...) tragen das Kürzel NC für "noncommercial – keine kommerzielle Nutzung" (...). Viele, die intuitiv zu den eingeschränkten Lizenzen greifen, tun dies aus dem durchaus nachvollziehbaren Wunsch heraus, der ungewollten und unkontrollierbaren kommerziellen Ausbeutung ihres Schaffens vorzubeugen. Die zahlreichen, ebenfalls ungewollten Nebenwirkungen aber, die das mit sich bringt, kennen nur wenige.“
+> «Найпопулярніші ліцензії (...) мають скорочення NC («noncommercial») —некомерційне використання (...). Багато хто, хто інтуїтивно обирає обмежені ліцензії, робить це зі зрозумілого мотиву уникнути небажаної та безконтрольної експлуатації свого твору. Але численні й також небажані побічні ефекти, які це викликає, відомі лише небагатьом».
 
-Die vollständige Broschüre findet sich [hier](https://upload.wikimedia.org/wikipedia/commons/5/51/Freies_Wissen_dank_Creative-Commons-Lizenzen_Folgen%2C_Risiken_und_Nebenwirkungen_der_Bedingung_nicht-kommerziell_%E2%80%93_NC.pdf). [(CC BY-SA 3.0 DE)](https://creativecommons.org/licenses/by-sa/3.0/de/)
+Повний текст брошури німецькою мовою знаходиться [тут](https://upload.wikimedia.org/wikipedia/commons/5/51/Freies_Wissen_dank_Creative-Commons-Lizenzen_Folgen%2C_Risiken_und_Nebenwirkungen_der_Bedingung_nicht-kommerziell_%E2%80%93_NC.pdf). [(CC BY-SA 3.0 DE)](https://creativecommons.org/licenses/by-sa/3.0/de/)
 
-Die wichtigsten Probleme in Kürze: Vielen Menschen ist nicht bewusst, dass die Verwendung von NC-Lizenzen auch eine Veröffentlichung auf z.B. Wikipedia oder privat betriebenen Webseiten betrifft, auch wenn man im ersten Moment keine kommerzielle Nutzung vermuten würde. Wikipedia ist zwar grundsätzlich gemeinnützig und nicht-kommerziell, da Wikipedia jedoch z.B. in Suchmaschinen integriert wird, die wiederum zu kommerziellen Unternehmen gehören, kann es Schwierigkeiten geben. Auch eine privat oder von einem gemeinnützigen Verein betriebene Webseite, die Werbebanner einsetzt, gilt als kommerziell und darf keine NC-Werke verwenden.
+Коротко про головні проблеми: Багато людей не усвідомлюють, що використання некомерційних ліцензій стосується також публікацій, напр., у Вікіпедії або на приватних сайтах, навіть якщо спочатку не йдеться про комерційне використання. Вікіпедія загалом є публічною та некомерційною платформою, та оскільки вона, напр., інтегрована в пошукові системи, що належать комерційним організаціям, можуть виникати проблеми. Також приватний сайт або сайт громадської організації, що використовує рекламний банер, вважається комерційним і не може використовувати твори, що мають некомерційну ліцензію.
 
-NC-Lizenzen sorgen im Bereich Mediennutzung mit Creative-Commons-Lizenzen sowie bei Open-Source-Software und -Hardware oft für ärgerliche und unerwünschte Einschränkungen, während die Sorgen vor kommerzieller Ausnutzung durch Unternehmen oft unbegründet sind. Bevor man also eine NC-Lizenz in Betracht zieht, lohnt sich die Lektüre der Broschüre.
+Некомерційні ліцензії у сфері використання медіа з ліцензіями Creative-Commons, а також відкритого програмного й апаратного забезпечення, часто викликають неприємні та небажані обмеження, при тому що побоювання щодо комерційного використання підприємствами є часто необґрунтованими. Тож перш ніж розглянути використання некомерційної ліцензії, варто ознайомитися з брошурою.
 
-# Lizenzinformationen
 
-**Author:** Oskar Lidtke, https://github.com/orcular-org/
+# Інформація про ліцензію
 
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />Except where otherwise noted, this work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0)</a>.
+**Автор:** Оскар Лідтке (Oskar Lidtke), https://github.com/orcular-org/
 
-See best practices for [attribution](https://wiki.creativecommons.org/wiki/Best_practices_for_attribution) and [marking your own work](https://wiki.creativecommons.org/wiki/Marking_your_work_with_a_CC_license) with a CC license.
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />Якщо не зазначено інакше, цей твір ліцензовано в рамках міжнародної <a rel="ліцензії" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0)</a>.
+
+Див. кращі приклади [зазначення Авторства](https://wiki.creativecommons.org/wiki/Best_practices_for_attribution) та [створення власного твору](https://wiki.creativecommons.org/wiki/Marking_your_work_with_a_CC_license) з ліцензією Creative Commons.
+
+Щодо зазначення Авторства та ліцензії використаних зображень, див. розділ нижче.
