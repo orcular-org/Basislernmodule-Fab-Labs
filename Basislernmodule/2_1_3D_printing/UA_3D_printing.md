@@ -12,7 +12,7 @@ To do:
 
 # 3D-Druck
 
-## Inhalt
+## Зміст
 
 1. [Einführung](#einführung)
 2. [Grundlagen](#grundlagen)
@@ -472,18 +472,18 @@ Sobald der 3D-Druck fertig ist, fährt der Extruder in eine Position, wo er nich
 
 Abschließend muss man ggf. vorhandenes Stützmaterial entfernen. Zudem kann man das Objekt auf verschiedene Arten nachbearbeiten, z.B. schleifen oder mit Epoxidharz behandeln, um die Oberflächenoptik zu verschönern.
 
-# Lizenzinformationen
+# Інформація про ліцензію
 
-**Author:** Oskar Lidtke, https://github.com/orcular-org/
+**Автор:** Оскар Лідтке (Oskar Lidtke), https://github.com/orcular-org/
 
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />Except where otherwise noted, this work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0)</a>.
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />Якщо не зазначено інакше, цей твір ліцензовано в рамках міжнародної <a rel="ліцензії" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0)</a>.
 
-See best practices for [attribution](https://wiki.creativecommons.org/wiki/Best_practices_for_attribution) and [marking your own work](https://wiki.creativecommons.org/wiki/Marking_your_work_with_a_CC_license) with a CC license.
+Див. кращі приклади [зазначення Авторства](https://wiki.creativecommons.org/wiki/Best_practices_for_attribution) та [створення власного твору](https://wiki.creativecommons.org/wiki/Marking_your_work_with_a_CC_license) з ліцензією Creative Commons.
 
-For attribution and licenses of the images used, see the section below.
+Щодо зазначення Авторства та ліцензії використаних зображень, див. розділ нижче.
 
 
-# Bildnachweise
+# Джерела ілюстрацій
 
 <a name="s1"></a>
 **[1]** DIY-3D-Drucker mit Open-Hardware-Lizenz [(Repository)](https://gitlab.fabcity.hamburg/hardware/interfacer-osh-build-workshops/3-d-printer-hypercuboid) - **Image license:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) - **Author:** Oskar Lidtke, [github.com/orcular-org](https://github.com/orcular-org)
