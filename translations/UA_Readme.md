@@ -10,53 +10,56 @@ To do:
 - Commit changes
 - When done, remove this note
 
-# Basislernmodule für Fab Labs
-Basislernmodule für verschiedene Themen rund um die Nutzung von Fab Labs - veröffentlicht als Open Educational Resources (OER).
+# Базові навчальні модулі для фаблабів
+Базові навчальні модулі на різноманітні теми, пов’язані з роботою фаблабів — опубліковані як Відкриті освітні ресурси (Open Educational Resources, OER).
 
-## Themenfeld 1: 3D-Modelle
+## Тематичний блок 1: 3D-моделі
 
-1. [3D-Design](Basislernmodule/1_1_3D_design/3D-Design.md)
-2. [3D-Scanning](Basislernmodule/1_2_3D_scanning/3D-Scanning.md)
-3. [Verwendung von 3D-Modellen aus dem Internet](Basislernmodule/1_3_Using_3D_models_from_the_internet/Verwendung_von_3D_Modellen_aus_dem_Internet.md)
+1. [3D-дизайн](Basislernmodule/1_1_3D_design/3D-Design.md)
+2. [3D-сканування](Basislernmodule/1_2_3D_scanning/3D-Scanning.md)
+3. [Використання 3D-моделей з Інтернету](Basislernmodule/1_3_Using_3D_models_from_the_internet/Verwendung_von_3D_Modellen_aus_dem_Internet.md)
 
-## Themenfeld 2: Digitale Produktion
+## Тематичний блок 2: Цифрове виробництво
 
-1. [3D-Druck](Basislernmodule/2_1_3D_printing/3D-Druck.md)
-2. [Lasercutting](Basislernmodule/2_2_Laser_cutting/Lasercutting.md)
-3. [CNC-Fräsen](Basislernmodule/2_3_CNC_milling/CNC-Fraesen.md)
+1. [3D-друк](Basislernmodule/2_1_3D_printing/3D-Druck.md)
+2. [Лазерне різання](Basislernmodule/2_2_Laser_cutting/Lasercutting.md)
+3. [Фрезерування з ЧПК](Basislernmodule/2_3_CNC_milling/CNC-Fraesen.md)
 
-## Ziele der Basislernmodule
+## Цілі базових навчальних модулів
 
-Die Basislernmodule sollen an verschiedene Themen rund um die Nutzung von Fab Labs heranführen. Sie dienen vor allem dazu, Interesse an der Nutzung zu wecken, Einsatzpotenziale aufzuzeigen und grundlegende Anwendungskenntnisse zu vermitteln.
+Мета базових навчальних модулів — привернути увагу до різних тем, пов’язаних із роботою фаблабів. Насамперед вони покликані пробудити інтерес до їх використання, показати потенціал їх застосування та передати головні відомості про такі застосування.
 
-Da jedes Fab Lab, jedes Gerät und jede Software unterschiedlich ist, werden keine Geräte- oder Lab-spezifischen Kenntnisse vermittelt, sondern eher allgemeines Grundlagenwissen. Zudem ist es auch kein Ziel, detailliertes Praxiswissen zu vermitteln - vielmehr dient das Basiswissen aus diesen Lernmodulen als Vorbereitung auf Praxis-Workshops, die typischerweise in Fab Labs angeboten werden.
+Оскільки кожен фаблаб, кожен прилад та кожне програмне забезпечення відрізняються одне від одного, тут представлена не специфічна інформація щодо конкретних приладів чи майстерень, а радше загальні основи. До того ж ціллю не є детально передати якісь практичні навички — натомість базова інформація цих навчальних модулів покликана підготувати до практичних воркшопів, які зазвичай проводяться у фаблабах.
 
-## Open Source & Open Education
 
-Die Basislernmodule werden als sogenannte Open Educational Resources (OER), also  als freie Lern- und Lehrmaterialien veröffentlicht. Sie erfüllen damit typische Anforderungen, die man an Open-Source-Projekte stellt:
-- Die Inhalte sind frei und kostenlos für jede:n zugänglich.
-- Sie sind unter einer offenen Lizenz veröffentlicht, die die Verwendung, Kopie und Weiterverarbeitung unter bestimmten Bedingungen (z.B. Angabe der Quelle) gestattet - in diesem Fall unter der [Creative-Commons-Lizenz CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Zudem wurde darauf geachtet, dass verwendetes Bildmaterial ebenfalls unter einer Creative-Commons-Lizenz oder anderen offenen Lizenz veröffentlicht wurde - Details dazu finden sich jeweils am Ende eines jeden Basislernmoduls im Abschnitt "Bildnachweise". Mehr zum Thema Creative-Commons-Lizenzen [in diesem Basislernmodul](Basislernmodule/1_3_Using_3D_models_from_the_internet/Verwendung_von_3D_Modellen_aus_dem_Internet.md).
-- Der Quellcode (in diesem Fall im [Markdown-Format](https://de.wikipedia.org/wiki/Markdown) mit kleinen Ergänzungen in [HTML](https://de.wikipedia.org/wiki/Hypertext_Markup_Language)) wird offengelegt - einsehbar auf [diesem GitHub-Repository](https://github.com/orcular-org/Basislernmodule-Fab-Labs).
-- Die Lernmodule sind offen für Verbesserung und Weiterentwicklung unter Mithilfe der Community, z.B. durch Korrektur von Fehlern oder Ergänzung von weiteren Inhalten.
+## Open Source & Вільна освіта
 
-In diesem Fall heißt dies: Sollten den Leser:innen Fehler auffallen oder Ergänzungsvorschläge vorliegen, wird es wertgeschätzt, wenn diese mitgeteilt werden. Am besten funktioniert dies über das Anlegen eines "Issues" (engl. für "Problem" oder "Fall") oder eines "Pull request" (eine Änderungsanfrage) hier auf GitHub. Hierfür wird ein [GitHub-Account](https://github.com/signup) benötigt.
+Базові навчальні модулі опубліковані як так звані Відкриті освітні ресурси (OER), тобто як навчальні матеріали у вільному доступі. Таким чином, вони відповідають типовим вимогам, які ставляться до Open Source-проєктів: 
+- Інформація є відкритою та безкоштовною для всіх.
+- Вони опубліковані з відкритою ліцензією, що дозволяє використання, копіювання та подальше опрацювання матеріалів за певних умов (напр., зазначення джерела) — у цьому випадку в рамках ліцензії [Creative Commons CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). До того ж зверталась увага на те, щоб використані зображення були також опубліковані з ліцензією Creative Commons або іншою відкритою ліцензією — детальніше про це зазначається в кінці кожного навчального модуля у розділі «Джерела ілюстрацій». Більше про ліцензії Creative Commons — у цьому [навчальному модулі](Basislernmodule/1_3_Using_3D_models_from_the_internet/Verwendung_von_3D_Modellen_aus_dem_Internet.md).
+- Вихідний код (у цьому випадку — у [форматі Markdown](https://de.wikipedia.org/wiki/Markdown) з невеликими доповненням в [HTML](https://de.wikipedia.org/wiki/Hypertext_Markup_Language)) є у вільному доступі — його можна побачити на [платформі GitHub](https://github.com/orcular-org/Basislernmodule-Fab-Labs)).
+- Навчальні модулі відкриті до покращення та подальшого розвитку з боку спільноти, напр. через коригування помилок або доповнення змісту.
 
-## Hintergrund
+Це означає: Якщо читачі/ки помітять помилки або мають пропозиції щодо доповнення інформації, ми будемо вдячні за повідомлення. Найкраще робити це через повідомлення про «Issue» (англ. «проблема» або «питання») або «Pull request» (запит на зміну) тут на платформі GitHub. Для цього потрібен [обліковий запис на GitHub](https://github.com/signup).
 
-Die Basislernmodule wurden im Frühjahr 2023 im Auftrag des [Laboratoriums für Fertigungstechnik](https://www.hsu-hh.de/laft/) der Helmut-Schmidt-Universität Hamburg entwickelt. An dem Institut wird u.a. zu digitaler Fertigung, Open Source Hardware und Fab Labs geforscht, zudem betreibt das Institut selbst ein öffentlich zugängliches Fab Lab, das [OpenLab Hamburg](https://openlab-hamburg.de/). Die Universität ist Gründungsmitglied beim [Fab City Hamburg e.V.](https://www.fabcity.hamburg/de/).
+## Довідка
 
-Autor der Texte ist Oskar Lidtke, freiberuflicher Ingenieur, Produktdesigner und Dozent, ebenfalls Gründungsmitglied beim Fab City Hamburg e.V. und Betreiber des Projektes [Orcular](https://www.orcular.org/) - für weitere Lizenzinformationen siehe unteren Abschnitt.
+Базові навчальні модулі були розроблені на початку 2023 року на замовлення [Лабораторії з технологій виробництва](https://www.hsu-hh.de/laft/) Університету Гельмута Шмідта у Гамбурзі. В цьому інституті, зокрема, досліджують цифрове виробництво, відкрите апаратне забезпечення та фаблаби, до того ж інститут має власну відкриту для загалу майстерню — [OpenLab Hamburg](https://openlab.hamburg/de/). Університет є членом-засновником об’єднання [Fab City Hamburg e.V.](https://www.fabcity.hamburg/de/).
 
-# Lizenzinformationen
+Автор тексту — Оскар Лідтке (Oskar Lidtke), самозайнятий інженер, розробник продуктів та викладач, також член-засновник Fab City Hamburg e.V. та оператор проєкту [Orcular](https://www.orcular.org/) — більше інформації про ліцензію див. нижче.
 
-**Author:** Oskar Lidtke, https://github.com/orcular-org/
+# Інформація про ліцензію
 
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />Except where otherwise noted, this work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0)</a>.
+**Автор:** Оскар Лідтке (Oskar Lidtke), https://github.com/orcular-org/
 
-See best practices for [attribution](https://wiki.creativecommons.org/wiki/Best_practices_for_attribution) and [marking your own work](https://wiki.creativecommons.org/wiki/Marking_your_work_with_a_CC_license) with a CC license.
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />Якщо не зазначено інакше, цей твір ліцензовано в рамках міжнародної <a rel="ліцензії" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0)</a>.
+
+Див. кращі приклади [зазначення Авторства](https://wiki.creativecommons.org/wiki/Best_practices_for_attribution) та [створення власного твору](https://wiki.creativecommons.org/wiki/Marking_your_work_with_a_CC_license) з ліцензією Creative Commons.
+
+Щодо зазначення Авторства та ліцензії використаних зображень, див. розділ нижче.
 
 <p align="left">
-<i> <sub> Logo Open Educational Resources, <a href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>, Jonathas Mello, <a href="https://www.unesco.de/bildung/open-educational-resources">Source</a> </sub></i>
+<i> <sub> Логотип Відкритих освітніх ресурсів (Open Educational Resources), <a href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>, Jonathas Mello, <a href="https://www.unesco.de/bildung/open-educational-resources">Source</a> </sub></i>
 </p>
 
 <p align="left">
