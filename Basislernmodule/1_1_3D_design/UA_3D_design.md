@@ -78,8 +78,8 @@ To do:
 </p>
 
 <p align="center">
-<a href="#s6">[6]</a> <i> Konstruktionsskizze in FreeCAD - </i>
-<a href="#s7">[7]</a> <i> Ein mit geometrischer Modellierung erstelltes Bauteil in FreeCAD </i>
+<a href="#s6">[6]</a> <i> Ескіз конструкції у FreeCAD - </i>
+<a href="#s7">[7]</a> <i> Конструктивна деталь, створена з допомогою геометричного моделювання у FreeCAD </i>
 </p>
 
 
