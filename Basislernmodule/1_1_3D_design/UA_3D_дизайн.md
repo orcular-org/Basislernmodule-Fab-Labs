@@ -1,15 +1,3 @@
-**Translation note:**
-
-This article is still being translated into **Ukrainian**.
-
-To do:
-- Edit file
-- Replace text by Ukrainian translation
-- Commit changes
-- When done, remove this note
-
-> Zurück zur [Übersicht Basislernmodule](../../README.md)
-
 # 3D-дизайн
 ## Зміст
 
