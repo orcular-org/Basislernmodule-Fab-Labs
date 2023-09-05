@@ -10,39 +10,39 @@ To do:
 
 > Zurück zur [Übersicht Basislernmodule](../../README.md)
 
-# CNC-Fräsen
+# Фрезерування з ЧПК
 
-## Inhalt
+## Зміст
 
-1. [Einführung](#einführung)
-2. [Grundlagen](#grundlagen)
-   - [Materialien](#materialien)
-   - [Arten von CNC-Fräsmaschinen](#arten-von-cnc-fräsmaschinen)
-   - [Komponenten einer CNC-Fräsmaschine](#komponenten-einer-cnc-fräsmaschine)
+1. [Вступ](#Вступ)
+2. [Базові основи](#Базові-основи)
+   - [Матеріали](#Матеріали)
+   - [Види фрезерних верстатів з ЧПК](#Види-фрезерних-верстатів-з-ЧПК)
+   - [Складові фрезерного різака з ЧПК](#Складові-фрезерного-різака-з-ЧПК)
    - [CAM](#cam)
-3. [Kenngrößen und Einstellungen](#kenngrößen-und-einstellungen)
-   - [Fräswerkzeug-Formen](#fräswerkzeug-formen)
-   - [Wichtigste Kenngrößen](#wichtigste-kenngrößen)
-   - [Fräsdurchmesser](#fräsdurchmesser)
-   - [Ermittlung von Drehzahl, Vorschub und Schnitttiefe](#ermittlung-von-drehzahl-vorschub-und-schnitttiefe)
-   - [Sicherheitshöhe](#sicherheitshöhe)
-   - [Bearbeitungsarten](#bearbeitungsarten)
-   - [Haltestege](#haltestege)
-4. [Vorbereitung und Ablauf eines CNC-Fräs-Auftrags](#vorbereitung-und-ablauf-eines-cnc-fräs-auftrags)
-   - [Sicherheit](#sicherheit)
-   - [CAM, Simulation, G-Code-Datei](#cam-simulation-g-code-datei)
-   - [Werkstück](#werkstück)
-   - [Nullpunkt setzen](#nullpunkt-setzen)
-   - [Ablauf des CNC-Fräsens](#ablauf-des-cnc-fräsens)
-   - [Nachbearbeitung](#nachbearbeitung)
+3. [Параметри та налаштування](#Параметри-та-налаштування)
+   - [Форми фрезерного інструменту](#Форми-фрезерного-інструменту)
+   - [Найважливіші параметри](#Найважливіші-параметри)
+   - [Діаметр фрези](#Діаметр фрези)
+   - [Визначення швидкості, подачі та глибини різання](#Визначення-швидкості,-подачі-та-глибини-різання)
+   - [Безпечна висота](#Безпечна-висота)
+   - [Режими обробки](#Режими-обробки)
+   - [Крипільні елементи](#Крипільні-елементи)
+4. [Підготовка та виконання фрезерної роботи з ЧПК](#Підготовка-та-виконання-фрезерної-роботи-з-ЧПК)
+   - [Безпека](#Безпека)
+   - [CAM, симуляція, файл GCODE](#CAM,-симуляція,-файл-GCODE)
+   - [Заготовка (виріб)](#Заготовка(виріб))
+   - [Встановлення нульової точки](#Встановлення-нульової-точки)
+   - [Процес фрезерування з ЧПК](#Процес-фрезерування-з-ЧПК)
+   - [Подальша обробка](#Подальша-обробка)
 
-[Lizenzinformationen](#lizenzinformationen)
+[Інформація про ліцензію](#Інформація-про-ліцензію)
 
-[Bildnachweise](#bildnachweise)
+[Джерела ілюстрацій](#Джерела-ілюстрацій)
 
-## Einführung
+## Вступ
 
-Fräsen ist ein Fertigungsverfahren, bei dem ein sich schnell drehendes Fräswerkzeug durch ein Werkstück - z.B. eine Holzplatte oder einen Metallblock - fährt und Material in Form von Spänen abträgt. Somit lassen sich unterschiedliche Formen und Bauteile fertigen.
+Фрезерування – це виробничий процес, у якому фрезерний інструмент, що швидко обертається, проходить через заготовку – наприклад, дерев’яну панель або металевий блок – і видаляє матеріал у формі стружки. Фрезерування дозволяє виготовляти різні форми та деталі.
 
 <p align="center">
 <img height="350" src="images/1_Milling_cutter.png">
@@ -51,8 +51,8 @@ Fräsen ist ein Fertigungsverfahren, bei dem ein sich schnell drehendes Fräswer
 
 
 <p align="center">
-<a href="#s1">[1]</a> <i> Fräswerkzeuge - </i>
-<a href="#s2">[2]</a> <i> Eine Fräsmaschine im Einsatz - rechts im Bild sind abgetragene Späne zu sehen </i>
+<a href="#s1">[1]</a> <i> Фрезерні інструменти – </i>
+<a href="#s2">[2]</a> <i> Фрезерний верстат під час роботи - праворуч на фотографії видно видалену стружку </i>
 </p>
 
 <p align="center">
@@ -61,14 +61,14 @@ Fräsen ist ein Fertigungsverfahren, bei dem ein sich schnell drehendes Fräswer
 
 
 <p align="center">
-<a href="#s3">[3]</a> <i> CNC-Fräsen von Aluminium </i>
+<a href="#s3">[3]</a> <i> Фрезерування з ЧПК алюмінію </i>
 </p>
 
 
+Класичне застосування – фрезерні верстати, в яких вісь обертання фрези повертається за допомогою електродвигуна, а рух фрези здійснюється вручну за допомогою кривошипів або ж електрично керується натисканням кнопки.
 
-Die klassische Anwendung erfolgt mit Fräsmaschinen, wobei die Drehachse des Fräswerkzeugs über einen Elektromotor gedreht wird, während die Bewegung des Fräsers im Raum per Handbedienung mit Kurbeln oder elektrisch gesteuert per Tastendruck erfolgt.
+Якщо фрезерний верстат поєднати з ЧПК (числове програмне керування), то вийде фрезерний верстат з ЧПК. Алгоритм роботи верстату з ЧПК відбувається наступним чином: спершу на комп'ютері генерується код ЧПК за допомогою коду, написаного людиною, або за допомогою 3D-моделей CAD і програмного забезпечення CAD/CAM (докладніше про це нижче). Потім цей код передається на верстат, який повністю автоматично виконує всі рухи відповідно до інструкцій у програмі та виготовляє задану деталь.
 
-Kombiniert man eine Fräsmaschine mit einer CNC-Steuerung (CNC = Computerized Numerical Control - engl. für "rechnergestützte numerische Steuerung", manchmal auch nur "NC" genannt), so handelt es sich um eine CNC-Fräsmaschine - oder umgangssprachlich oft einfach "CNC-Fräse" genannt. Dabei wird zunächst am Computer ein CNC-Code generiert, entweder durch vom Menschen geschriebenen Code oder mithilfe von 3D-CAD-Modellen und CAD/CAM-Software (mehr dazu unten). Dieser NC-Code wird dann an die Maschine übertragen, die gemäß den Anweisungen im Programm vollautomatisiert alle Bewegungen ausführt und das Teil fertigt.
 
 <p align="center">
 <img height="250" src="images/4_CNC_milling_machine.png">
@@ -77,23 +77,22 @@ Kombiniert man eine Fräsmaschine mit einer CNC-Steuerung (CNC = Computerized Nu
 </p>
 
 <p align="center">
-<a href="#s4">[4]</a> <i> CNC-Fräsmaschine (Open Source Hardware) - </i>
-<a href="#s5">[5]</a> <i> Kleine Tisch-CNC-Fräse (Open Source Hardware) - </i>
-<a href="#s6">[6]</a> <i> CNC-Fräsmaschine in einem Fab Lab (Bilder anklicken zum Vergrößern)</i>
+<a href="#s4">[4]</a> <i> Фрезерний верстат з ЧПК (відкрите апаратне забезпечення) – </i>
+<a href="#s5">[5]</a> <i> Невеликий настільний фрезерний верстат з ЧПК (відкрите апаратне забезпечення) – </i>
+<a href="#s6">[6]</a> <i> Фрезерний верстат з ЧПК у фаблабі (клацніть зображення, щоб збільшити) </i>
 </p>
 
 
-Neben den CNC-Fräsen gibt es auch andere CNC-Maschinen, z.B. CNC-Drehmaschinen. In diesen Basislernmodulen liegt der Fokus jedoch auf Maschinen, die typischerweise in Fab Labs genutzt werden, dazu zählen insbesondere CNC-Fräsen.
+Порівняно з іншими типовими цифровими методами виробництва уфаблабах, як 3D-друк або лазерне різання, фрезерування з ЧПК є значно більш вимогливим. В першу чергу це пов’язано з тим, що потрібна велика підготовка, особливо щодо програмного забезпечення, оскільки спочатку потрібно змоделювати складну CAM-програму [докладніше про це нижче](#cam), у якій усі робочі етапи ЧПК визначаються окремо. Це вимагає певних базових знань і, як правило, це трохи складніше, ніж підготовка 3D-принтів або лазерного вирізання. Крім того, слід визначити такі параметри, як швидкість і подача, для цього слід добре знати матеріал та фрезерні інструменти. Слід багато що вивчити з фрезерування з ЧПК, однак цей базовий навчальний модуль охоплює лише основи, які важливі для того, щоб почати займатися фрезеруванням з ЧПК як хобі або у фаблабах.
 
-Im Vergleich zu anderen typischen digitalen Fertigungsmethoden in Fab Labs, etwa 3D-Druck oder Lasercutting, ist CNC-Fräsen deutlich anspruchsvoller. Dies liegt primär daran, dass vor allem softwareseitig viel Vorbereitung notwendig ist, da erst ein aufwendiges CAM-Programm (mehr dazu [unten](#cam)) modelliert werden muss, bei dem man alle CNC-Arbeitsschritte einzeln definiert. Dies erfordert einiges an Vorwissen und ist meist etwas aufwendiger als die Vorbereitung von 3D-Drucken oder Lasercuttings. Zudem muss man Parameter wie Drehzahl und Vorschub definieren, hierfür muss man sich mit Materialien und Fräswerkzeugen auskennen und oft auch etwas berechnen. Zum Thema CNC-Fräsen gibt es sehr viel zu lernen. In diesem Basislernmodul wird jedoch nur auf die wichtigsten Grundlagen eingegangen, die für den Anfang im Hobby- und Fab-Lab-Bereich wichtig sind.
+Перевага фрезерування з ЧПК перед 3D-друком і лазерним різанням полягає в тому, що можна обробляти такі метали, як алюміній або, залежно від обладнання, і сталь. Крім того, можна працювати зі значно товщими дерев’яними пластинами, ніж при лазерному різанні. Ще одна відмінність від лазерного різання полягає у можливості працювати не лише з плоскими предметами, а й з об’ємними формами.
 
-Der Vorteil von CNC-Fräsen gegenüber 3D-Druck und Lasercutting ist, dass man auch Metalle bearbeiten kann, wie etwa Aluminium oder je nach Maschine auch Stahl. Zudem sind deutlich dickere Holzplatten als beim Lasercutting bearbeitbar. Im Gegensatz zu Lasercutting sind zudem nicht nur flache, plattenförmige Objekte, sondern auch dreidimensionale Formen möglich.
 
-## Grundlagen
+## Базові основи
 
-### Materialien
+### Матеріали
 
-Mit CNC-Fräsen in Fab Labs wird vor allem Holz bearbeitet. Je nach Maschine sind auch Aluminium oder Stahl möglich. Eine weitere Möglichkeit bieten Kunststoffe, z.B. Platten aus Recyclingplastik.
+Фрезерні верстати з ЧПК у фаблабах обробляють переважно деревину. Також можна працювати з алюмінієм та сталлю, і з пластмасою, як наприклад, з пластинами з переробленого пластику.
 
 <p align="center">
 <img height="350" src="images/7_CNC_milled_wood_parts_box.png">
@@ -102,8 +101,8 @@ Mit CNC-Fräsen in Fab Labs wird vor allem Holz bearbeitet. Je nach Maschine sin
 
 
 <p align="center">
-<a href="#s7">[7]</a> <i> Holz lässt sich gut mit CNC-Fräsen verarbeiten, z.B. für Teile von Kisten oder Möbeln. - </i>
-<a href="#s8">[8]</a> <i> Manche CNC-Fräsen können auch Aluminium oder sogar Stahl bearbeiten. </i>
+<a href="#s7">[7]</a> <i> Деревину можна добре обробляти фрезерними верстатами з ЧПК, наприклад, окремі деталі ящиків або меблів. – </i>
+<a href="#s8">[8]</a> <i> Деякі фрезерні верстати з ЧПК також можуть обробляти алюміній або навіть сталь. </i>
 </p>
 
 <p align="center">
@@ -114,18 +113,18 @@ Mit CNC-Fräsen in Fab Labs wird vor allem Holz bearbeitet. Je nach Maschine sin
 
 <p align="center">
 <a href="#s9">[9]</a> <i>  - </i>
-<a href="#s10">[10]</a> <i> Viele Kunststoffe lassen sich CNC-fräsen - hier z.B. eine "Precious Plastic"-Platte aus recyceltem HDPE </i>
+<a href="#s10">[10]</a> <i> Багато видів пластику можна фрезерувати за допомогою ЧПК. Приклад: пластикова панель, виготовлена ​​з переробленого HDPE (поліетилен високої щільності) </i>
 </p>
 
 
 
-### Arten von CNC-Fräsmaschinen
+### Види фрезерних верстатів з ЧПК
 
-Die häufigste CNC-Fräsmaschinen-Variante in Fab Labs ist die 3-Achs-Portalfräse. Bei Portalfräsen wird der Fräskopf an einem Querbalken zwischen zwei Ständern geführt. Das Werkstück, z.B. eine Platte, liegt auf einer waagerechten Oberfläche und ist dort festgeschraubt oder eingespannt. Das Fräswerkzeug zeigt stets senkrecht nach unten und kann in drei Raumachsen bewegt werden: X-, Y- und Z-Achse - daher kommt die Bezeichnung "3-Achs-Fräsmaschine". Die Z-Achse bezeichnet in der Regel die senkrechte Achse, also die Bewegung nach oben und unten.
+Найбільш поширені фрезерні верстати з ЧПК у фаблабах – це 3-х осьові портальні фрезерні верстати. У портальних фрезерних верстатів фрезерна головка рухається  на поперечній балці між двома стійками. Виріб, як наприклад, пластина, лежить на горизонтальній поверхні, до якої пригвинчується або затискається. Фрезерний інструмент завжди спрямований вертикально вниз і може переміщатися по трьох просторових осях: осі X, Y і Z – звідси і назва "3-х осьовий фрезерний верстат". Вісь Z зазвичай позначає вертикальну вісь, тобто рух вгору і вниз.
 
-CNC-Fräsmaschinen wurden ursprünglich für die Industrie und Handwerksbetriebe entwickelt und sind relativ teuer. Manche Fab Labs verfügen dennoch über solche teuren Industriemaschinen, andere greifen eher auf kostengünstige Hobbygeräte zurück, von denen es mittlerweile auch viele gibt. Zudem gibt es Bausätze und Anleitungen zum Bau von eigenen CNC-Fräsmaschinen. Dabei wird oft eine handbetriebene Oberfräse eingesetzt und um bewegliche Achsen und eine CNC-Steuerung ergänzt.
+Фрезерні верстати з ЧПК спочатку були розроблені для промислових і ремісничих підприємств і є відносно дорогими. Деякі фаблаби також мають такі дорогі промислові машини, інші, як правило, використовують недороге обладнання. Крім того, існують комплекти з деталями та інструкції для створення власних фрезерних верстатів з ЧПК. Для цього часто використовується фрезер з ручним керуванням, який доповнюється рухомими осями та ЧПК.
 
-Neben 3-Achs-Fräsmaschinen gibt es auch 4- und 5-Achs-Fräsmaschinen. Dabei kommen zusätzlich zu den drei linearen Bewegungsachsen noch ein bis zwei Drehachsen hinzu. Dies wird realisiert, indem sich  entweder das Fräswerkzeug um das Werkstück drehen kann oder indem das eingespannte Werkstück gedreht wird - je nach Bauart der Maschine. Auf diese Weise kann die Fräse auch seitlich oder schräg in das Werkstück hineinarbeiten - damit sind deutlich komplexere Formen möglich. Derartige 4- und 5-Achs-Fräsen finden sich jedoch eher in der Industrie als in Fab Labs.
+Крім 3-х осьових фрезерних верстатів існують також 4-х та 5-и осьові фрезерні верстати. На додаток до трьох осей лінійного руху є також одна або дві осі обертання. Це досягається або обертанням фрезерного інструменту навколо заготовки, або обертанням самої затиснутої заготовки, залежно від типу верстата. Таким чином, фрезерний верстат також може обробляти заготовку збоку або під кутом, тобто, можна працювати зі значно складнішими формами. Однак такі 4-х та 5-ти осьові фрезерні верстати, швидше за все, є лише на великих підприємствах, а не у невеличких виробництвах, якими є фаблаби. 
 
 <p align="center">
 <img height="400" src="images/11_5-axis_CNC_machine.png">
@@ -133,11 +132,12 @@ Neben 3-Achs-Fräsmaschinen gibt es auch 4- und 5-Achs-Fräsmaschinen. Dabei kom
 
 
 <p align="center">
-<a href="#s11">[11]</a> <i> Eine 5-Achs-CNC-Fräse - Das Fräswerkzeug kann sich in drei linearen Achsen bewegen und zusätzlich um zwei Achsen drehen - somit kann auch seitlich und schräg in das Werkstück gefräst werden, wodurch deutlich komplexere Formen als mit 3-Achs-Maschinen herstellbar sind. </i>
+<a href="#s11">[11]</a> <i> 5-ти осьовий фрезерний верстат з ЧПК - фрезерний інструмент може рухатися у трьох лінійних осях, а також обертатися навколо двох осей - це означає, що деталь також можна фрезерувати збоку та під кутом, тобто можна виготовляти значно складніші форми, ніж з 3-х осьовими верстатами. </i>
 </p>
 
 
-Eine Besonderheit im Bereich Fab-Lab- und Maker-Communities stellt die Maslow-CNC-Fräse dar. Die Maslow-CNC ist ein auf Open-Source-Hardware und -Software basierendes Projekt. Ihre Besonderheit ist der Aufbau: Die zu bearbeitende Platte liegt nicht flach und waagerecht, sondern fast senkrecht, leicht angewinkelt. Dadurch ist die Maschine besonders platzsparend. Als Herzstück wird eine handbetriebene Oberfräse eingesetzt. Diese sitzt in einem Gehäuse, welches auf zwei Ketten hängt, die motorgesteuert verlängert und verkürzt werden, sodass sich die Fräse nach links, rechts, oben und unten über die Platte bewegen kann. Zudem wird die Z-Richtung der Fräse angesteuert, also das senkrechte Eintauchen in die Platte.
+Певною особливістю для фаблабів є фрезерний верстат Maslow з ЧПК. Це обладнання базується на устаткуванні та програмному забезпеченні, яке доступне у відкритих джерелах. Унікальністю є його структура: панель, що обробляється, не плоска і горизонтальна, а майже вертикальна й злегка скошена. Це робить верстат особливо компактним. Головною деталлю верстату є ручний фрезер. Він знаходиться в корпусі, що висить на двох ланцюгах. Ці ланцюги можуть бути подовжені або вкорочені за допомогою мотора, тож фреза може рухатися вліво, вправо, вгору над та вниз під пластиною. Крім того, у верстата є вісь Z, тобто вертикальне занурення в пластину.
+
 
 <p align="center">
 <img height="350" src="images/12_Maslow_CNC_machine.png">
@@ -146,22 +146,22 @@ Eine Besonderheit im Bereich Fab-Lab- und Maker-Communities stellt die Maslow-CN
 
 
 <p align="center">
-<a href="#s12">[12]</a> <i> Die Maslow-CNC-Maschine steht leicht angeschrägt, fast senkrecht, was sie sehr platzsparend macht. Eine eigentlich für den Handbetrieb nutzbare Oberfräse hängt an zwei Ketten, die über Motoren verlängert und verkürzt werden - darüber wird die Bewegung der Fräse gesteuert. - </i>
-<a href="#s13">[13]</a> <i> Neben Holz ist auch die Bearbeitung von z.B. Kunststoff möglich (hier: eine "Precious Plastic"-Recyclingkunststoffplatte). </i>
+<a href="#s12">[12]</a> <i> Верстат з ЧПК Maslow трохи нахилений, майже вертикальний, що робить його дуже компактним. Маршрутизатор, який фактично можна використовувати для ручного керування, висить на двох ланцюгах, які подовжуються та вкорочуються двигунами - це контролює рух маршрутизатора. – </i>
+<a href="#s13">[13]</a> <i> Окрім деревини, також можна обробляти пластик (на фото: панель із переробленого пластику «Precious Plastic»). </i>
 </p>
 
 
 
 
-### Komponenten einer CNC-Fräsmaschine
+### Складові фрезерного різака з ЧПК
 
-Die wichtigsten Komponenten sind das Fräswerkzeug mit motorbetriebener Spindel, die geführten und motorgesteuerten Achsen und die CNC-Steuerung, deren Funktionen bereits oben erläutert wurden.
+Найважливішими складовими різака є фрезерний інструмент зі шпинделем, що приводиться в рух двигуном, осі, що керуються двигуном, а також ЧПК, функції яких уже було описано вище.
 
-Als Unterlage auf dem Frästisch wird bei CNC-Fräsen oft eine sogenannte Opferplatte aus Holz oder Kunststoff befestigt. Der Grund liegt darin, dass der Fräser oft auch etwas tiefer als bis zur Unterkante des Werkstücks fräsen muss, um das Teil aus dem Werkstückblock herauszufräsen. Dabei fräst das Werkzeug ein klein wenig in die Opferplatte hinein. Die Opferplatte muss nach einiger Zeit ausgetauscht werden, da die Werkstücke wegen der vielen Rillen irgendwann nicht mehr ganz eben, sondern schief aufliegen und damit nicht mehr genau bearbeitet werden können.
+В якості основи на фрезерному столі часто кріпиться додаткова підставкова пластина з дерева або пластику, так званий жертвенний стіл. Адже щоб вирізати деталь, фреза часто має різати трохи глибше, ніж нижня кромка виробу, тож інструмент трохи врізається в підставкову пластину. Підставкову пластину час від часу слід міняти, адже через велику кількість прорізів заготовка не лежатиме рівно, і тому втрачатиметься точність. 
 
-Manche CNC-Fräsmaschinen verfügen über eine Absaugung. Hierbei werden die Späne direkt am Werkstück abgesaugt und über einen Schlauch in einen Behälter transportiert. Fehlt so eine Absaugung, muss die Arbeitsfläche regelmäßig von Spänen bereinigt werden, z.B. mit einem Staubsauger.
+Деякі фрезерні різаки з ЧПК мають систему витяжки. У такому випадку стружка витягується безпосередньо з заготовки та по шлангу транспортується в контейнер. Якщо немає системи витяжки, робочу поверхню необхідно регулярно очищати від стружки, для цього можна використовувати  в т.ч. пилосос.
+Більш професійні фрезерні різаки з ЧПК мають пристрій, який розпилює змащувально-охолоджувальну рідину на фрезерний інструмент. Це особливо важливо при фрезеруванні металів.
 
-Professionellere CNC-Fräsmaschinen verfügen über eine Vorrichtung, die Schmier- und Kühlmittel auf das Fräswerkzeug spritzt. Dies ist vor allem beim Fräsen von Metallen wichtig.
 
 <p align="center">
 <img height="400" src="images/14_Cutting_fluid_CNC_milling.png">
@@ -169,20 +169,19 @@ Professionellere CNC-Fräsmaschinen verfügen über eine Vorrichtung, die Schmie
 
 
 <p align="center">
-<a href="#s14">[14]</a> <i> Zuführung von Kühlschmiermittel beim Fräsen durch einen Kugelgelenkschlauch  </i>
+<a href="#s14">[14]</a> <i> Подача охолоджуючої рідини через шланг кульового шарніра під час фрезерування </i>
 </p>
 
 
 ### CAM
 
-Vor dem eigentlichen CNC-Fräsen muss zunächst ein digitaler Steuercode erstellt werden, der der Maschine "mitteilt", was sie tun soll.
-Der Beginn hierfür findet in einer CAD/CAM-Software statt. CAD steht für "Computer Aided Design" (engl. für „Computergestütztes Entwerfen“). Mit CAD-Software können also 3D-Modelle von Bauteilen oder Objekten konstruiert bzw. modelliert werden (mehr dazu im [Basislernmodul 3D-Design und CAD](../1_1_3D_design/3D-Design.md)).
+Перед фактичним фрезеруванням з застосуванням ЧПК потрібно спочатку створити цифровий керуючий код, який «вказує» машині, що робити. Починати слід з програмного забезпечення CAD / CAM. Термін CAD (Computer Aided Design) має український відповідник САПР - система автоматизованого проектування і розрахунків, також може зустрічатися абревіатура АСП - автоматизовані системи проектування. За допомогою програмного забезпечення CAD можна створювати або змоделювати 3D-моделі деталей або виробів (докладніше про це в базовому навчальному модулі з 3D-проектування та CAD)(mehr dazu im [Basislernmodul 3D-Design und CAD](../1_1_3D_design/3D-Design.md)).
 
-Auf Basis eines 3D-CAD-Modells wird als nächstes das CAM durchgeführt. CAM steht für "Computer Aided Manufacturing" (engl. für "Computergestützte Fertigung"). Es gibt CAM-Software als eigenständige Programme, oft sind sie jedoch als Modul in ein CAD-Programm integriert - man spricht dann von CAD/CAM-Software.
+Далі CAM виконується на основі 3D CAD моделі. CAM розшифровується як «Computer Aided Manufacturing», інколи можна зустріти український відповідник АСТПВ (автоматизо́вана систе́ма технологі́чної підгото́вки виробни́цтва) або коротко АСВ. Існує програмне забезпечення CAM як незалежна програма, але воно часто інтегроване в програму CAD як модуль - це програмне забезпечення називається CAD/CAM.
 
-Im CAM werden auf Basis eines CAD-Modells verschiedene CNC-Arbeitsschritte definiert, z.B. Taschen, Profile oder Bohrungen. Zudem werden wichtige Parameter wie Drehzahl und Vorschub eingegeben. Details zu all diesen Begriffen finden sich in den nächsten Abschnitten.
+Різні робочі етапи ЧПК визначаються в CAM на основі моделі CAD, наприклад, пази, профілі або отвори. Крім того, вводяться такі важливі параметри, як швидкість і регулювання подачі. Детальну інформацію про всі ці умови можна знайти в наступних розділах.
 
-Im [Basislernmodul 3D-Design und CAD](../1_1_3D_design/3D-Design.md) werden die beiden Softwarelösungen FreeCAD und Autodesk Fusion 360 vorgestellt - beide Programme sind CAD/CAM-Software, können also sowohl zum Modellieren von Bauteilen als auch zum Vorbereiten des CNC-Fräsens dieser Bauteile genutzt werden.
+У [Basislernmodul 3D-Design und CAD](../1_1_3D_design/3D-Design.md) базовому навчальному модулі з 3D дизайну та CAD представлено два програмних рішення – FreeCAD та Autodesk Fusion 360. Обидві програми є програмним забезпеченням CAD/CAM, тому їх можна використовувати як для моделювання деталей, так і для підготовки до фрезерування цих деталей за допомогою ЧПК.
 
 <p align="center">
 <img height="400" src="images/15_CAM_in_FreeCAD_Path_workbench.png">
@@ -190,17 +189,16 @@ Im [Basislernmodul 3D-Design und CAD](../1_1_3D_design/3D-Design.md) werden die 
 
 
 <p align="center">
-<a href="#s15">[15]</a> <i> CAM in der Software FreeCAD: Die roten und grünen Linien zeigen die Pfade, die das Fräswerkzeug nehmen soll - so entsteht aus einem massiven Materialblock das hier dargestellte Bauteil. </i>
+<a href="#s15">[15]</a> <i> CAM у програмному забезпеченні FreeCAD: червоні та зелені лінії показують траєкторії, якими має пройти фрезерний інструмент – таким чином із суцільного матеріалу створюєтся деталь, що зображена на картинці. </i>
 </p>
 
 
 
 
-## Kenngrößen und Einstellungen
+## Параметри та налаштування
 
-
-### Fräswerkzeug-Formen
-Fräswerkzeuge gibt es in vielen verschiedenen Formen, für verschiedene Anwendungen. Die gängigste und im Fab-Lab-Bereich am häufigsten eingesetzte Form ist der Schaftfräser. Der Schaft ist der Teil des Werkzeugs, der über keine Schneiden verfügt und in die Maschine eingespannt wird.
+### Форми фрезерного інструменту
+Фрезерні інструменти мають багато різних типів для різних застосувань. Найпоширенішим типом, який найчастіше використовується у фаблабах, є кінцевá фреза. Стрижень або хвостовик – частина інструменту, яка не має ріжучих країв і затискається у верстаті.
 
 <p align="center">
 <img height="400" src="images/16_Milling_cutter.png">
@@ -208,20 +206,20 @@ Fräswerkzeuge gibt es in vielen verschiedenen Formen, für verschiedene Anwendu
 
 
 <p align="center">
-<a href="#s16">[16]</a> <i> Verschiedene Fräswerkzeuge: Rechts unten ein Radiusschaftfräser mit Rundung an der Spitze. In der Draufsicht links lässt sich gut die Zähnezahl bzw. Anzahl der Schneiden erkennen: oben ein zweischneidiges und unten vierschneidige Fräswerkzeuge. </i>
+<a href="#s16">[16]</a> <i> Різноманітні фрезерні інструменти: праворуч унизу — радіусна кінцева фреза із заокругленим кінчиком. Звверху зліва чітко видно кількість зубів і кількість ріжучих кромок: двостороння фреза вгорі та чотирилезова фреза внизу. </i>
 </p>
 
 
-### Wichtigste Kenngrößen
+### Найважливіші параметри
 
-Die wichtigsten Kenngrößen und Parameter beim CNC-Fräsen sind:
+Найважливіші характеристики та параметри при фрезеруванні з застосуванням ЧПК:
 
-- **Fräsdurchmesser (in Millimeter, mm):** der Durchmesser des Fräswerkzeugs.
-- **Drehzahl (in Umdrehungen pro Minute, U/min):** die Geschwindigkeit, mit der sich das Fräswerkzeug dreht.
-- **Vorschubgeschwindigkeit (in Millimeter pro Minute, mm/min):** die Geschwindigkeit, mit der sich das Fräswerkzeug in horizontaler Richtung bewegt.
-- **Schnitttiefe (auch Zustelltiefe oder Eintauchtiefe genannt) (in Millimeter, mm):** In der Regel beschreibt dies die Tiefe, die das Fräswerkzeug pro Durchgang in das Material eintaucht.
+- **Діаметр фрезерування** (у міліметрах, мм): діаметр фрезерного інструменту.
+- **Швидкість** (в обертах за хвилину, об/хв): швидкість, з якою обертається фрезерний інструмент.
+- **Швидкість подачі** (у міліметрах на хвилину, мм/хв): швидкість, з якою фрезерний інструмент рухається в горизонтальному напрямку.
+- **Глибина різання** (може також називатися глибиною врізання) (у міліметрах, мм): глибина, на яку фрезерний інструмент занурюється в матеріал за один прохід.
 
-Es gibt noch viele weitere einstellbare Parameter, diese vier sind jedoch die wichtigsten und maßgeblichen. Auf die einzelnen Parameter wird in den folgenden Abschnitten noch näher eingegangen.
+Існує багато інших параметрів, які треба налаштовувати, але ці чотири є найбільш важливими і вирішальними. Окремі параметри більш детально розглядаються в наступних розділах.
 
 <p align="center">
 <img height="400" src="images/17_Parameter_beim_CNC_Fraesen.png">
@@ -229,7 +227,7 @@ Es gibt noch viele weitere einstellbare Parameter, diese vier sind jedoch die wi
 
 
 <p align="center">
-<a href="#s17">[17]</a> <i> Die wichtigsten Parameter beim Fräsen. </i>
+<a href="#s17">[17]</a> <i> Найбільш важливі параметри під час фрезування. </i>
 </p>
 
 <p align="center">
@@ -239,31 +237,34 @@ Es gibt noch viele weitere einstellbare Parameter, diese vier sind jedoch die wi
 
 
 <p align="center">
-<a href="#s18">[18]</a> <i> Pfad (grün) zum Fräsen einer Tasche in der CAD/CAM-Software FreeCAD. - </i>
-<a href="#s19">[19]</a> <i> Gleiches Modell in der Seitenansicht: Anhand der grünen Pfadlinien erkennt man die Schnitttiefe - hier beträgt sie 0,3 mm, die Tiefe der Tasche beträgt 2 mm. </i>
+<a href="#s18">[18]</a> <i> Шлях (позначено зеленим кольором) для фрезерування отвору, в програмному забезпеченні CAD/CAM FreeCAD. - </i>
+<a href="#s19">[19]</a> <i> Вид збоку тієї ж моделі: зелені лінії шляху показують глибину різання – вона становить 0,3 мм, глибина отвору - 2 мм </i>
 </p>
 
 
 
-### Fräsdurchmesser
-Fräswerkzeuge gibt es in unterschiedlichen Durchmessern - bei Fab-Lab-Maschinen üblicherweise zwischen drei und zehn Millimetern. Für jedes Fräsvorhaben muss man sich entweder für einen Fräsdurchmesser entscheiden oder das CNC-Vorhaben in mehrere Abschnitte mit unterschiedlichen Durchmessern unterteilen. Dabei muss das Fräswerkzeug im Laufe des Prozesses gewechselt werden, in der Regel von Hand. Manche professionelle Maschinen können auch selbstständig Werkzeuge wechseln, ohne dass eine Person eingreifen muss.
+### Діаметр фрези
 
-Je größer der Fräsdurchmesser, desto mehr Material wird pro Zeit entfernt, d.h. desto schneller läuft die Fertigung ab. Gleichzeitig kann ein Fräsdurchmesser nicht größer als die kleinste zu fräsende Tasche (Vertiefung im Material) sein. Es gilt also, den Fräser so groß wie möglich, aber so klein wie nötig auszuwählen.
+Фрезерні інструменти бувають різних діаметрів, а на верстатах, що доступні для фаблабів, зазвичай від трьох до десяти міліметрів. Для кожного проекту фрезерування необхідно визначити діаметр фрези або розділити проект на кілька частин, відповідно до різних діаметрів. Як правило, фрезерний інструмент потрібно міняти під час процесу вручну. Деяке професійне обладнання також може міняти інструмент автоматично, без людського втручання.
 
-### Ermittlung von Drehzahl, Vorschub und Schnitttiefe
-
-Die Parameter-Einstellungen sind sehr wichtig, da zu hohe oder zu niedrige Drehzahlen oder Vorschubgeschwindigkeiten zu unsauberen Ergebnissen oder im schlimmsten Fall zur Beschädigung der Maschine führen können.
-
-Hat man seinen Fräsdurchmesser gewählt und kennt das zu fräsende Material des Werkstücks, kann man daraus die anderen Parameter berechnen. In Fachbüchern und im Internet (beispielsweise [hier](https://www.sorotec.de/webshop/Datenblaetter/fraeser/schnittwerte.pdf)) finden sich Tabellen und Formeln, zudem finden sich diese üblicherweise vor Ort in der Werkstatt bzw. im Fab Lab. Die berechneten Werte für Drehzahl und Vorschub können in das CAM-Programm eingegeben werden. In gewissem Rahmen kann auch von den Werten abgewichen werden, d.h. man verwendet die berechneten Werte lediglich als Richtwert, dabei sollte man sich aber gut auskennen.
-
-Für die Schnitttiefe wird oft als Richtwert angenommen, dass sie höchstens den Fräsdurchmesser betragen sollte. Um sicher zu gehen, empfehlen sich Schnitttiefen kleiner als der Fräsdurchmesser, z.B. der halbe Durchmesser. Dies ist vor allem beim Fräsen von Metallen wichtig. Hintergrund ist, dass das Fräswerkzeug bei größerer Eintauchtiefe mehr Material pro Zeit schneidet, was Werkzeug und Werkstück stark belastet und zu unsauberen Ergebnissen oder Schäden führen kann. Zudem sind Fräswerkzeuge durch ihre Form auf das Fräsen optimiert, also das Schneiden quer zur Werkzeugachse. Sie können auch ein stückweit bohren, also in Achsrichtung arbeiten, sind jedoch durch ihre Form weniger dafür geeignet. Daher sollte eher in kleinen Schritten eingetaucht und nach jedem Eintauchen zunächst die gesamte zu entfernende Fläche gefräst werden.
+Чим більший діаметр фрези, тим більше матеріалу знімається за певний проміжок часу, тобто тим швидше йде виробництво. При цьому діаметр фрези не може бути більшим за найменший паз майбутньої деталі. Тому важливо вибрати фрезерувальне обладнання якомога більшого розміру, але водночас найменше з необхідних.
 
 
-### Sicherheitshöhe
+### Визначення швидкості, подачі та глибини різання
 
-Es gibt bestimmte Bereiche, in denen das Fräswerkzeug mit einer anderen Geschwindigkeit fährt als in anderen. Oberhalb der Sicherheitshöhe fährt der Fräser relativ schnell, sobald er an der zu fräsenden Stelle am Werkstück angekommen ist, senkt er sich langsam ab und fährt ab da nur noch mit verringerter Geschwindigkeit. Während des Fräsens im Werkstück bewegt er sich mit der Vorschubgeschwindigkeit. Hintergrund ist, dass ein Fräswerkzeug, dass mit sehr hoher Geschwindigkeit in das Material taucht, beschädigt werden oder sogar abbrechen kann, daher müssen die Bewegungen unterhalb der Sicherheitshöhe deutlich langsamer ablaufen als darüber.
+Налаштування параметрів є дуже важливим, оскільки занадто високі чи занадто низькі оберти та швидкості подачі можуть призвести до неточних результатів або, у гіршому випадку, до пошкодження обладнання.
 
-Ab welcher Höhe die Sicherheitshöhe beginnt und mit welcher Geschwindigkeit sich der Fräser oberhalb dieser Höhe bewegen soll, kann in der CAM-Software eingestellt werden.
+Дані про матеріал для фрезерування та діаметр фрези використовуються для розрахунку інших параметрів. Таблиці та формули можна знайти в спеціальних підручниках та в Інтернеті (наприклад, [тут]((https://www.sorotec.de/webshop/Datenblaetter/fraeser/schnittwerte.pdf)), а також зазвичай вони є на виробництвах та у фаблабах. Розраховані значення щодо швидкості обертання та швидкості подачі можна ввести в програму CAM. У певних рамках можна відхилятися від розрахованих значень, тобто ці значення використовуються як контрольні значення, які, щоправда, слід добре пам'ятати.
+
+Контрольне значення глибини різання часто визначається наступним чином: воно не повинно перевищувати діаметр фрези. Ми рекомендуємо виставляти глибину різання меншу за діаметр фрези, наприклад половину діаметра. Це особливо важливо при фрезеруванні металу. Адже при більшій глибині занурення фрезерний інструмент ріже більше матеріалу за прохід, що створює велике навантаження як на інструмент, так і на виріб, і може призвести до неточного виконання фрезерування або навіть до пошкоджень. Фрезерні інструменти оптимізовані для фрезерування, тобто для різання перпендикулярно осі інструменту. Вони також можуть свердлити, тобто працювати в напрямку осі, але менш придатні для цього через свою форму. Тому занурення слід проводити невеликими кроками, і після кожного занурення необхідно відфрезерувати всю поверхню, яку потрібно видалити.
+
+
+### Безпечна висота
+
+На різних етапах роботи фрезерний інструмент рухається з іншою швидкістю. Над безпечною висотою фреза рухається відносно швидко, але як тільки вона досягає заготовки, яку потрібно фрезерувати, вона повільно опускається, а звідти рухається лише зі зниженою швидкістю. Під час фрезерування вона рухається зі швидкістю подачі. Якщо фрезерний інструмент занурюється в матеріал з дуже високою швидкістю, він може бути пошкоджений або навіть зламаний, тому рух нижче безпечної висоти повинен бути значно повільнішим, ніж вище безпечної висоти.
+
+Програмне забезпечення CAM можна використовувати для встановлення точки початку безпечної висоти та швидкості, з якою фреза має рухатися вище цієї висоти.
+
 
 <p align="center">
 <img height="400" src="images/20_FreeCAD_Path_workbench_Visual_reference_for_Depth_properties.png">
@@ -271,20 +272,20 @@ Ab welcher Höhe die Sicherheitshöhe beginnt und mit welcher Geschwindigkeit si
 
 
 <p align="center">
-<a href="#s20">[20]</a> <i> Sicherheitshöhe und einige weitere Parameter, wie sie in der CAD/CAM-Software FreeCAD verwendet werden. Oberhalb der Sicherheitshöhe bewegt sich das Fräswerkzeug ("tool" im Bild) mit erhöhter Geschwindigkeit. Mit "step down" ist hier die Schnitttiefe bezeichnet (mehr zu CAM in FreeCAD: https://wiki.freecad.org/Path_Workbench ). </i>
+<a href="#s20">[20]</a> <i> Безпечна висота та деякі інші параметри, які використовуються в програмному забезпеченні CAD/CAM FreeCAD. Над безпечною висотою фрезерний інструмент («tool») рухається з підвищеною швидкістю. «Крок вниз» («Step Down») позначає тут глибину різання (докладніше про CAM у FreeCAD: https://wiki.freecad.org/Path_Workbench). </i>
 </p>
 
 
 
-### Bearbeitungsarten
+### Режими обробки
 
-Es gibt viele unterschiedliche Bearbeitungsarten, die man in CAM-Systemen als eine sogenannte Operation anlegen kann. Die wichtigsten sind:
+Існує багато режимів обробки, які можна створити в системах CAM. Найбільш важливими є наступні:
 
-- **Profil:** Das Fräswerkzeug fährt die äußere Kontur des zu fertigenden Teils ab, beginnend auf der Oberfläche des Werkstücks. Danach geht es schrittweise - jeweils um die Schnitttiefe - in das Material hinein und fährt das Profil erneut ab. Am Ende ist das Teil nahezu vollständig vom Werkstückblock getrennt und kann entnommen werden. Wichtig ist hier, Haltestege mit einzuplanen - mehr dazu im nächsten Abschnitt.
-- **Tasche:** Eine Tasche stellt eine Vertiefung im Material dar. Ähnlich wie beim Profilfräsen beginnt der Fräsvorgang an der Oberfläche und geht dann schrittweise herunter, je Durchgang um die Schnitttiefe.
-- **Bohrung:** Bohrungen, also kreisrunde Löcher, können mit Bohr- oder Fräswerkzeugen gefertigt werden. Spannt man ein Bohrwerkzeug ein und stellt die CAM-Operation entsprechend als Bohrung ein, wird der Bohrvorgang senkrecht ausgeführt, wie bei einer Bohrmaschine. Verwendet man hingegen ein Fräswerkzeug, ist es wichtig, dass der Fräsdurchmesser kleiner als der Bohrdurchmesser ist und das Fräswerkzeug nicht in einem Durchgang vollständig in das Material geht - ein Fräser sollte nicht zum Bohren verwendet werden. Stattdessen empfiehlt es sich, eine Helixform als Pfad zu verwenden. Alternativ kann eine Operation vom Typ "Tasche" erstellt werden,  sodass stufenweise Kreisflächen gefräst werden - je Stufe um eine Zuschnitttiefe weiter - und somit praktisch eine Bohrung gefräst wird.
+- **Контурна обробка:** Фрезерний інструмент рухається по зовнішньому контуру деталі, починаючи з поверхні. Потім він крок за кроком входить у матеріал, завжди на глибину різання, і також рухається вздовж контуру. Врешті-решт деталь, яку вирізали фрезою, майже повністю відділяється від самого матеріалу. Важливо запланувати наявність крипільних елементів; про це йтиметься у наступному розділі.
+- **Отвір:** Отвір являє собою поглиблення в матеріалі. Подібно до профільного різання, процес фрезерування починається на поверхні, а потім покроково опускається, в залежності від глибини різання.
+- **Свердління:** Свердління, тобто круглі отвори, можна зробити за допомогою свердлильних або фрезерних інструментів. Якщо затиснути свердлильний інструмент і налаштувати операцію CAM для свердління отвору, то процес свердління буде здійснюватися вертикально, як у свердлильного верстата. З іншого боку, якщо використовується фрезерний інструмент, важливо, щоб діаметр фрези був меншим, ніж діаметр свердління, і щоб фрезерний інструмент не входив повністю в матеріал за один прохід - для операції свердління не можна використовувати фрезу. Найкраще використовувати спіральну траєкторію у якості шляху руху. Крім того, можна створити операцію «отвір», щоб круглі поверхні фрезерувалися крок за кроком, тобто кожен крок далі на одну глибину різання; і таким чином буде виконано отвір.
 
-Operationen werden in der CAD/CAM-Software als Pfade (engl. "Path") angelegt und sichtbar gemacht. Anhand der visualisierten Pfade kann man bereits erkennen, welchen Weg das Fräswerkzeug nehmen wird.
+Операції створюються та відображаються в програмному забезпеченні CAD/CAM як шлях руху ("Path"). На підставі зображеного шляху файлу можна побачити, яким шляхом буде рухатися фрезерний інструмент.
 
 <p align="center">
 <img height="350" src="images/21_FreeCAD_Path_workbench_Profile_operation.png">
@@ -293,8 +294,8 @@ Operationen werden in der CAD/CAM-Software als Pfade (engl. "Path") angelegt und
 
 
 <p align="center">
-<a href="#s21">[21]</a> <i> CAM-Operation "Profil": entlang des grünen Pfades wird die äußere Kontur des Bauteils gefräst. - </i>
-<a href="#s22">[22]</a> <i> CAM-Operation "Tasche": Eine Vertiefung im Material, dessen Hohlraum durch den Fräser vollständig entfernt wird, bis der Boden der Tasche (grün) erreicht wird. </i>
+<a href="#s21">[21]</a> <i> Операція CAM «Контурна обробка»: зовнішній контур деталі фрезерується по зеленій траєкторії. – </i>
+<a href="#s22">[22]</a> <i> Операція CAM «Отвір»: поглиблення в матеріалі, яке робить за допомогою фрезування, поки не буде досягнена нижня частина отвору (позначено зеленим кольором). </i>
 </p>
 
 <p align="center">
@@ -304,17 +305,16 @@ Operationen werden in der CAD/CAM-Software als Pfade (engl. "Path") angelegt und
 
 
 <p align="center">
-<a href="#s23">[23]</a> <i> Bauteil in der Software FreeCAD mit mehreren CAM-Operationen (grüne und rote Pfade): Außenkontur und innere Kreiskontur als "Profil" mit Haltestegen, die vier kleinen Bohrungen als "Taschen". - </i>
-<a href="#s24">[24]</a> <i> Nahansicht einer Bohrung des Bauteils: Die Bohrung wird hier nicht als Bohr-Operation, sondern als gefräste Tasche ausgeführt. Der Pfad hat eine Helixform, um das Material langsam und damit schonend für das Fräswerkzeug zu bearbeiten. (Bilder anklicken zum Vergrößern) </i>
+<a href="#s23">[23]</a> <i> Вигляд деталі у програмному забезпеченні FreeCAD із декількома операціями CAM (зелений і червоний шляхи руху): зовнішній контур і контур внутрішнього кола в режимі «контурна обробка» з крипільними елементами, чотири маленькі отвори в режимі «отвір». </i>
+<a href="#s24">[24]</a> <i> Збільшене зображення отвору: було здійснено не свердління, а фрезерування. Шлях руху відбувається має гвинтову форму для того, щоб обробляти матеріал повільно, що є бережливим для фрезерного інструмента. </i>
 </p>
 
 
 
-### Haltestege
+### Крипільні елементи
 
-Wird ein Teil vollständig vom Werkstück getrennt, also ein Profil oder eine äußere Kontur gefräst, sollte man sogenannte Haltestege mit einplanen. Andernfalls könnte sich das gefertigte Teil im letzten Fräsvorgang verdrehen, kippen und mit dem Fräswerkzeug verkeilen. Die Folgen wären, dass das Teil nicht richtig gefertigt wird, im schlimmsten Fall droht ein Schaden an der Maschine.
-
-Haltestege lassen sich im CAM-System einstellen. Im Endergebnis befinden sich die Haltestege am untersten Ende des Werkstücks und sind relativ schmal und flach, sodass sie sich leicht durchtrennen lassen.
+Якщо деталь необхідно повністю відокремити від заготовки, тобто коли контур фрезерується наскрізно, то до планування повинні бути включені так звані кріпильні перетинки. В іншому випадку виготовлену ​​деталь може закрутити, нахилити та заклинити фрезерним інструментом під час останнього проходу фрези. У такому разі деталь буде виготовлена ​​неправильно, а у гіршому випадку існує ризик пошкодження обладнання.
+Параметри крипільних елементів можна налаштовувати в системі CAM. В кінці фрезерування крипільні елементи будуть знаходитися на нижній стороні заготовки, вони  є відносно вузькими та плоскими, через що їх легко відділити від заготовки. 
 
 <p align="center">
 <img height="400" src="images/25_FreeCAD_Path_workbench_simulation_with_holding_tags.png">
@@ -324,7 +324,7 @@ Haltestege lassen sich im CAM-System einstellen. Im Endergebnis befinden sich di
 
 <p align="center">
 <a href="#s25">[25]</a> <i>  - </i>
-<a href="#s26">[26]</a> <i> Haltestege (gelb) in der CAM-Simulationsansicht von FreeCAD </i>
+<a href="#s26">[26]</a> <i> Крипільні елементи (жовтим кольором) у симуляції САМ, зробленій у FreeCAD </i>
 </p>
 
 <p align="center">
@@ -334,29 +334,26 @@ Haltestege lassen sich im CAM-System einstellen. Im Endergebnis befinden sich di
 
 
 <p align="center">
-<a href="#s27">[27]</a> <i> Haltestege in einem CNC-gefrästen Aluminium-Teil. Im linken Bereich ist ein Haltesteg gut sichtbar; rechts sind einige Spanreste, da der Fräser im letzten Schritt nicht tief genug gegangen ist. - </i>
-<a href="#s28">[28]</a> <i> Haltestege in einem Holzbrett, gefräst mit einer Maslow-CNC. (Bilder anklicken zum Vergrößern)</i>
+<a href="#s27">[27]</a> <i> Крипільні елементи у виробі з алюмінію, який було відфрезеровано за допомогою ЧПК. З лівого боку добре видно крипільний елемент; справа є деякі залишки стружки, тому що фреза не зайшла достатньо глибоко під час останнього проходу. – </i>
+<a href="#s28">[28]</a> <i> Крипільний елемент у виробі з дерева, який відфрезеровано за допомогою ЧПК верстата Maslow. </i>
 </p>
 
 
 
-Das Fräswerkzeug nimmt im untersten Bereich des zu fräsenden Profils einen Pfad, bei dem es vor den Stellen, wo die Haltestege vorgesehen sind, ein Stück hochfährt und diesen Teil ausspart, womit die Haltestege übrig bleiben.
-
-Größe und Anzahl der Haltestege sollten so gewählt werden, dass sie das Teil sicher halten können, ansonsten sollten sie so klein wie möglich entworfen werden, damit man sie leicht durchtrennen kann.
-
-Nach abgeschlossenem Fräsvorgang können die Haltestege je nach Material mit unterschiedlichen Methoden durchtrennt werden. Bei Holz kann beispielsweise eine Säge verwendet werden, bei Aluminium funktioniert es mit einer Metallsäge oder auch mit Hammer und Meißel gut. Nach dem Trennen sollten die Säge- oder Bruchstellen mit einer Feile nachbearbeitet werden.
+У найнижчій частині контуру фрезерний інструмент рухається трохи вгору перед місцем, де передбачені кріпильні елементи, і не вирізає цю частину, таким чином залишаючи кріпильні перетинки.
+Ви повинні бути в змозі надійно тримати деталь – це і є визначальним для встановлення розміру та кількості кріпильних елементів. Водночас, вони повинні бути якомога меншими, щоб їх легко можна було відрізати.
+Після завершення процесу фрезерування кріпильні елементи можна розрізати різними методами залежно від матеріалу. Наприклад, для деревини можна використовувати пилку, а для алюмінію — ножівку або молоток і зубило. На останок місце розпилу або зламу слід обробити напилком.
 
 
+## Підготовка та виконання фрезерної роботи з ЧПК
 
-## Vorbereitung und Ablauf eines CNC-Fräs-Auftrags
+### Безпека
 
-### Sicherheit
+Верстати з ЧПК є потенційно небезпечним обладнанням і їх ніколи не можна використовувати без інструкцій і дозволу. Фаблаби зазвичай проводять обов’язковий інструктаж з техніки безпеки, який може відрізнятися в залежності від самого обладнання, тому такий інструктаж не включений в цей базовий підручник.
 
-CNC-Maschinen sind potenziell gefährliche Maschinen und sollten nie ohne Einweisung und Freigabe benutzt werden. Fab Labs bieten in der Regel eine verpflichtende Sicherheitseinweisung an. Die Einzelheiten hierzu sind bei jeder Maschine anders, daher erfolgt in diesem Basislernmodul keine genauere Beschreibung.
+### CAM, симуляція, файл GCODE
 
-### CAM, Simulation, G-Code-Datei
-
-Ein relativ großer Aufwand beim CNC-Fräsen steckt in der Vorbereitung mit der CAM-Software. Hat man alle Operationen und CAM-Pfade definiert, sollte eine Simulation durchgeführt werden. Die meisten CAM-Programme verfügen über eine Simulationsfunktion, bei der der vollständige Fräsvorgang dargestellt wird, ähnlich wie bei einem Video, wobei man während der Simulation die 3D-Ansicht frei drehen kann.
+Відносно великі зусилля при фрезеруванні з ЧПК спрямовані на процес підготовки за допомогою програмного забезпечення CAM. Після визначення всіх операцій та шляхів руху CAM, необхідно виконати симуляцію. Більшість програм CAM мають функцію симуляції, яка показує повний процес фрезерування. Це виглядає як відео, і до того ж ви можете вільно обертати вид 3D під час моделювання.
 
 <p align="center">
 <img height="350" src="images/29_FreeCAD_Path_workbench_CAM_simulation.png">
@@ -364,33 +361,32 @@ Ein relativ großer Aufwand beim CNC-Fräsen steckt in der Vorbereitung mit der 
 
 
 <p align="center">
-<a href="#s29">[29]</a> <i> CAM-Simulationsmodus in FreeCAD: Die grünen und roten Pfade zeigen den Verlaufsweg des Fräswerkzeugs (grau). Zu Beginn der Simulation ist ein massiver, dunkelroter Block zu sehen; während der Simulation kann man beobachten, wie der Fräser (grau) Material entfernt, wodurch die gelben Flächen entstehen. In dieser Momentaufnahme ist das äußere Profil bereits fertig, die Tasche ist gerade mitten in der Bearbeitung. </i>
+<a href="#s29">[29]</a> <i> Режим симуляції CAM у FreeCAD: зелений і червоний шляхи показують шлях фрезерного інструменту (сірий). На початку симуляції можна побачити суцільний темно-червоний блок; під час моделювання ви можете побачити, як різак (сірий) видаляє матеріал, що показано жовтим кольором. На цьому знімку зовнішній контур вже готовий, а отвір якраз обробляється. </i>
 </p>
 
+Моделювання можна проводити на підвищеній швидкості. Під час моделювання можна побачити, коли і звідки видаляється матеріал і як виглядатиме готовий виріб. Якщо все одно будуть виявлені помилки, програму CAM можна змінити; таким чином, можна уникнути дороговартісних помилок під час виробництва.
+Насамкінець слід за допомогою постпроцесора, який зазвичай вбудований в програмне забезпечення, експортувати програму CAM у вигляді файлу GCode. Файл GCode у ЧПК- фрезеруванні ґрунтується на тому ж принципі, що й для 3D-друку. Більше про це можна дізнатися в базовому навчальному модулі з 3D-друку, в розділі GCode. - mehr dazu in dem [Basislernmodul zu 3D-Druck](../2_1_3D_printing/3D-Druck.md), im Abschnitt [G-Code](../2_1_3D_printing/3D-Druck.md#g-code).
 
-Die Simulation kann auch in erhöhter Geschwindigkeit abgespielt werden. Während der Simulation wird sichtbar, wann an welcher Stelle Material abgetragen wird und wie das fertige Teil am Ende aussieht. Fallen noch Fehler auf, kann das CAM-Programm noch nachbearbeitet werden und man spart sich teure Fehler in der Fertigung.
+### Заготовка (виріб)
 
-Abschließend muss das CAM-Programm mithilfe eines Post-Prozessors (üblicherweise in der Software eingebaut) als eine G-Code-Datei exportiert werden. G-Codes beim CNC-Fräsen basieren auf dem gleichen Prinzip wie G-Codes beim 3D-Druck - mehr dazu in dem [Basislernmodul zu 3D-Druck](../2_1_3D_printing/3D-Druck.md), im Abschnitt [G-Code](../2_1_3D_printing/3D-Druck.md#g-code).
+Заготовку слід надійно закріпити на фрезерному столі. У більшості випадків заготовку можна легко пригвинтити до додаткової підставки кількома гвинтами, бажано з потайною головкою, щоб зменшити ризик зіткнення з фрезерним інструментом. Тим не менш, слід постійно слідкувати, щоб різак не потрапив на гвинт. 
+Ще один варіант – затиснути заготовку, якщо фрезерний верстат з ЧПК обладнаний лещатами.
 
-### Werkstück
+### Встановлення нульової точки
 
-Das Werkstück, beispielsweise eine Holzplatte oder ein Metallblock, muss sicher am Frästisch befestigt werden. In den meisten Fällen kann das Werkstück mit einigen Schrauben einfach an die Opferplatte geschraubt werden, vorzugsweise mit Senkkopfschrauben, um die Gefahr von Kollisionen mit dem Fräswerkzeug zu verringern. Dennoch sollte man stets aufpassen, dass die Maschine nicht in die Schraube hineinfräst.
+Управляти верстатами з ЧПК можна за допомогою клавіш зі стрілками, в залежності від моделі на самому пристрої або через клавіатуру підключеного комп'ютера. Це, наприклад, потрібно для зміщення фрези на нульову точку.
 
-Eine weitere Möglichkeit besteht darin, das Werkstück einzuspannen, sofern die CNC-Fräsmaschine über eine Spannvorrichtung verfügt.
+Верстат повинен отримати інформацію про те, де знаходиться початок фрезування, тому слід визначити так звану нульову точку. Існують різні способи як це зробити, наприклад, наближення до нульової точки на поверхні заготовки в той час, як шпиндель обертається. Нульова точка встановлюється через програму керування фрезерного верстата з ЧПК. Таким чином, верстат зберігає координати X, Y і Z цієї точки і запускає програму ЧПК у цій точці.
 
-### Nullpunkt setzen
 
-CNC-Maschinen können über Pfeiltasten - je nach Modell am Gerät selbst oder über die Tastatur eines angeschlossenen Computers - gesteuert werden. Dies kann man beispielsweise zum Anfahren des Nullpunkts nutzen.
+### Процес фрезерування з ЧПК
 
-Der Maschine muss mitgeteilt werden, wo sie mit dem Fräsauftrag beginnen soll, man muss also den sogenannten Nullpunkt definieren. Hierfür gibt es unterschiedliche Methoden, z.B. durch das Anfahren des Nullpunkts an der Werkstückoberfläche bei drehender Spindel (sogenanntes "Ankratzen"). An dieser Stelle wird über die Bedienung der CNC-Fräse der Nullpunkt gesetzt. Die Maschine speichert also die X-, Y- und Z-Koordinaten dieses Punktes ab und wird das CNC-Programm an diesem Punkt starten.
+Після встановлення нульової точки слід передати файл GCODE в систему керування ЧПК верстата за допомогою відповідного програмного забезпечення. Після цього можна розпочинати роботу. Під час фрезерування завжди слід знаходитися поруч, і у разі незвичної поведінки верстата або загрози пошкодження необхідно одразу зупинити процес фрезерування за допомогою програмного забезпечення або вимикача аварійної зупинки.
 
-### Ablauf des CNC-Fräsens
+### Подальша обробка
 
-Ist der Nullpunkt gesetzt, muss zu Beginn eines CNC-Auftrags die G-Code-Datei über eine Steuersoftware an die CNC-Steuerung der Maschine übergeben und der Betrieb gestartet werden. Während des Fräsens sollte man stets in der Nähe bleiben und bei ungewöhnlichem Verhalten oder drohenden Schäden den Fräsvorgang stoppen - über die Steuersoftware oder über den Notausschalter.
+Після завершення фрезування, заготовку або готову деталь можна забрати з верстату. Слід бути особливо обережними з металевими деталями, оскільки існує ризик поранитися гострими краями. Краї слід очистити від задирок та відшліфувати, крім того поверхні теж можна відшліфувати.
 
-### Nachbearbeitung
-
-Nach abgeschlossener Fertigung kann das Werkstück bzw. das gefertigte Teil entnommen werden. Vor allem bei Metallteilen sollte man vorsichtig sein, da wegen der scharfen Kanten Verletzungsgefahr besteht. Die Kanten sollten entgratet und gefeilt werden, zudem können Oberflächen geschliffen werden.
 
 # Інформація про ліцензію
 
