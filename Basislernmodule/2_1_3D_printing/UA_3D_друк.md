@@ -10,7 +10,7 @@ To do:
 
 > Zurück zur [Übersicht Basislernmodule](../../README.md)
 
-# 3D-Druck
+# 3D-друк
 
 ## Зміст
 
