@@ -35,9 +35,9 @@ In diesem Fall heißt dies: Sollten den Leser:innen Fehler auffallen oder Ergän
 
 ## Hintergrund
 
-Die Basislernmodule wurden im Frühjahr 2023 im Auftrag des [Laboratoriums für Fertigungstechnik](https://www.hsu-hh.de/laft/) der Helmut-Schmidt-Universität Hamburg entwickelt. An dem Institut wird u.a. zu digitaler Fertigung, Open Source Hardware und Fab Labs geforscht, zudem betreibt das Institut selbst ein öffentlich zugängliches Fab Lab, das [OpenLab Hamburg](https://openlab-hamburg.de/). Die Universität ist Gründungsmitglied beim [Fab City Hamburg e.V.](https://www.fabcity.hamburg/de/).
+Die Basislernmodule wurden durch Hamburg Innovation GmbH als Open Educational Resource entwickelt und im Rahmen des Projektes TOLOCAR für die Verwendung auf der Webseite [TOLOCAR.org](https://tolocar.org/en/) weiterentwickelt, überarbeitet und um eine englischsprachige sowie ukrainische Version ergänzt (TOLOCAR ist ein von der Bundesregierung @bmz_bund gefördertes und der GIZ umgesetztes Projekt).
 
-Autor der Texte ist Oskar Lidtke, freiberuflicher Ingenieur, Produktdesigner und Dozent, ebenfalls Gründungsmitglied beim Fab City Hamburg e.V. und Betreiber des Projektes [Orcular](https://www.orcular.org/) - für weitere Lizenzinformationen siehe unteren Abschnitt.
+Autor der Texte ist Oskar Lidtke, freiberuflicher Ingenieur, Produktdesigner und Dozent, Gründungsmitglied beim [Fab City Hamburg e.V.](https://www.fabcity.hamburg/de/) und Betreiber des Projektes [Orcular](https://www.orcular.org/) - für weitere Lizenzinformationen siehe unteren Abschnitt.
 
 # Lizenzinformationen
 
