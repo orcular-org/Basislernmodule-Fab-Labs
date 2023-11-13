@@ -3,15 +3,15 @@
 
 ## Тематичний блок 1: 3D-моделі
 
-1. [3D-дизайн](Basislernmodule/1_1_3D_design/3D-Design.md)
-2. [3D-сканування](Basislernmodule/1_2_3D_scanning/3D-Scanning.md)
-3. [Використання 3D-моделей з Інтернету](Basislernmodule/1_3_Using_3D_models_from_the_internet/Verwendung_von_3D_Modellen_aus_dem_Internet.md)
+1. [3D-дизайн](../Basislernmodule/1_1_3D_design/UA_3D_дизайн.md)
+2. [3D-сканування](../Basislernmodule/1_2_3D_scanning/UA_3D_сканування.md)
+3. [Використання 3D-моделей з Інтернету](../Basislernmodule/1_3_Using_3D_models_from_the_internet/UA_Використання_3D-моделей_з_Інтернету.md)
 
 ## Тематичний блок 2: Цифрове виробництво
 
-1. [3D-друк](Basislernmodule/2_1_3D_printing/3D-Druck.md)
-2. [Лазерне різання](Basislernmodule/2_2_Laser_cutting/Lasercutting.md)
-3. [Фрезерування з ЧПК](Basislernmodule/2_3_CNC_milling/CNC-Fraesen.md)
+1. [3D-друк](../Basislernmodule/2_1_3D_printing/UA_3D_друк.md)
+2. [Лазерне різання](../Basislernmodule/2_2_Laser_cutting/UA_Лазерне_різання.md)
+3. [Фрезерування з ЧПК](../Basislernmodule/2_3_CNC_milling/UA_Фрезерування_з_ЧПК.md)
 
 ## Цілі базових навчальних модулів
 
